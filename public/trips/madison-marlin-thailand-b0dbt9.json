@@ -1,0 +1,838 @@
+{
+  "config": {
+    "clientName": "Madison & Marlin",
+    "title": "Thailand Honeymoon",
+    "destination": "Thailand",
+    "dates": "December 8 to 25, 2026",
+    "startDate": "2026-12-08",
+    "endDate": "2026-12-25",
+    "timezone": "Asia/Bangkok",
+    "coverNote": "Madison and Marlin, here is your honeymoon. Eighteen days through Thailand, from the temples of Bangkok to the jungles of Chiang Mai to the islands of the Andaman Sea. Eric at Yaya Asia Travel built every day of this for you. If anything needs to shift, reach out to him directly.",
+    "coverImageUrl": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1400&q=80",
+    "contact": {
+      "whatsapp": "66859026877",
+      "email": "eric@yayaasiatravel.com",
+      "phoneLabel": "Eric"
+    },
+    "mapProvider": "google",
+    "driverPhrase": "กรุณาพาฉันไปที่นี่",
+    "map": {
+      "center": [
+        13.7563,
+        100.5018
+      ],
+      "zoom": 6
+    },
+    "areas": [
+      {
+        "id": "bangkok",
+        "label": "Bangkok",
+        "center": [
+          13.7563,
+          100.5018
+        ],
+        "zoom": 12.5
+      },
+      {
+        "id": "chiang-mai",
+        "label": "Chiang Mai",
+        "center": [
+          18.7883,
+          98.9853
+        ],
+        "zoom": 12.5
+      },
+      {
+        "id": "krabi",
+        "label": "Krabi / Ao Nang",
+        "center": [
+          8.0396,
+          98.8153
+        ],
+        "zoom": 12
+      },
+      {
+        "id": "khao-sok",
+        "label": "Khao Sok",
+        "center": [
+          8.9144,
+          98.5236
+        ],
+        "zoom": 11
+      },
+      {
+        "id": "koh-yao-noi",
+        "label": "Koh Yao Noi",
+        "center": [
+          8.0597,
+          98.5889
+        ],
+        "zoom": 12
+      }
+    ],
+    "categories": [
+      {
+        "id": "sight",
+        "label": "Sights",
+        "color": "#5F7A8C"
+      },
+      {
+        "id": "restaurant",
+        "label": "Food",
+        "color": "#B5654A"
+      },
+      {
+        "id": "activity",
+        "label": "Activities",
+        "color": "#7A9A6A"
+      },
+      {
+        "id": "lodging",
+        "label": "Lodging",
+        "color": "#A8862F"
+      }
+    ]
+  },
+  "days": [
+    {
+      "date": "2026-12-08",
+      "title": "Arrival in Bangkok",
+      "summary": "Land in Bangkok, met by your driver, transferred to your hotel near Lumpini Park."
+    },
+    {
+      "date": "2026-12-09",
+      "title": "Bangkok & Food Tour",
+      "summary": "Private longtail boat on the Chao Praya, Temple of Dawn, Wat Pho, Grand Palace, then a walking food tour through Chinatown."
+    },
+    {
+      "date": "2026-12-10",
+      "title": "Cycling Bangkok's Green Lung",
+      "summary": "Half-day cycling tour through Bangkrachao, Bangkok's green jungle. Temples, Muay Thai gym, local lunch, ferry crossing."
+    },
+    {
+      "date": "2026-12-11",
+      "title": "Ayutthaya & Flight to Chiang Mai",
+      "summary": "Day trip to the ancient capital of Ayutthaya, then afternoon flight to Chiang Mai. Check into your hotel in the old city."
+    },
+    {
+      "date": "2026-12-12",
+      "title": "Trekking Day 1",
+      "summary": "Drive to Mork Fa waterfall, swim, lunch, then trek into the jungle to a Lahu or Karen hill tribe village. Overnight in a wooden hut."
+    },
+    {
+      "date": "2026-12-13",
+      "title": "Trekking Day 2",
+      "summary": "Bamboo rafting down the Mae Tang river, visit a Shan village, elephant camp, then drive back to Chiang Mai."
+    },
+    {
+      "date": "2026-12-14",
+      "title": "Cooking Class with a View",
+      "summary": "Thai cooking class at an organic farm 17km from Chiang Mai. Pick your own ingredients, cook at your own station, eat overlooking the farm."
+    },
+    {
+      "date": "2026-12-15",
+      "title": "Elephant Sanctuary & Zipline",
+      "summary": "Morning at Chiang Mai Elephant Home: feed, bathe, and walk with elephants. Afternoon zipline adventure through the jungle canopy."
+    },
+    {
+      "date": "2026-12-16",
+      "title": "Chiang Mai to Krabi",
+      "summary": "Flight to Krabi in the south. Met at the airport and driven to your resort near Ao Nang beach."
+    },
+    {
+      "date": "2026-12-17",
+      "title": "Hong Islands Snorkeling Sunset",
+      "summary": "Private longtail boat to Hong Island, Hong Lagoon, and Lao Lading (Paradise Island). Snorkeling, swimming, sunset."
+    },
+    {
+      "date": "2026-12-18",
+      "title": "Krabi to Khao Sok & Night Safari",
+      "summary": "Scenic drive to Khao Sok National Park. Check into your treehouse resort, then a guided night safari walk."
+    },
+    {
+      "date": "2026-12-19",
+      "title": "Jungle Cooking Class",
+      "summary": "Learn to cook Thai curry in the jungle. Forage for herbs and plants, collect ingredients, cook a meal together."
+    },
+    {
+      "date": "2026-12-20",
+      "title": "Khao Sok Lake & Floating Resort",
+      "summary": "Longtail boat across the lake to your floating bungalow. Kayaking, cave exploration, surrounded by limestone cliffs."
+    },
+    {
+      "date": "2026-12-21",
+      "title": "Khao Sok Lake Tour Day 2",
+      "summary": "Lake tour, lunch, swimming, kayaking. Optional hike to Cheow Lan viewpoint or cave exploration. Evening boat safari."
+    },
+    {
+      "date": "2026-12-22",
+      "title": "Transfer to Koh Yao Noi",
+      "summary": "Leave the lake, drive to Krabi, then boat to Koh Yao Noi. Check into Paradise Koh Yao Resort."
+    },
+    {
+      "date": "2026-12-23",
+      "title": "Free Day Koh Yao Noi",
+      "summary": "Relax on the island. Beach, resort, optional snorkeling trip."
+    },
+    {
+      "date": "2026-12-24",
+      "title": "Free Day Koh Yao Noi",
+      "summary": "Your last full day in paradise. Beach, relax, optional snorkeling."
+    },
+    {
+      "date": "2026-12-25",
+      "title": "Departure",
+      "summary": "Transfer to the airport for your flight to Bangkok and onward to the USA."
+    }
+  ],
+  "itinerary": [
+    {
+      "id": "d8-arrival",
+      "dayDate": "2026-12-08",
+      "type": "transfer",
+      "status": "confirmed",
+      "title": "Airport pickup to hotel",
+      "subtitle": "Private driver",
+      "startTime": "2026-12-08T14:00:00+07:00",
+      "locationName": "Suvarnabhumi Airport, Bangkok",
+      "personalNote": "Your driver meets you in the arrival hall and takes you straight to the hotel. No need to navigate anything on day one.",
+      "details": {
+        "Pickup": "Arrival hall"
+      },
+      "leadTimeMinutes": 0
+    },
+    {
+      "id": "d8-hotel",
+      "dayDate": "2026-12-08",
+      "type": "lodging",
+      "status": "confirmed",
+      "title": "The AETAS Lumpini",
+      "subtitle": "3 nights, Deluxe room",
+      "address": "1030/4 Rama IV Rd, Thungmahamek, Sator, Bangkok 10120",
+      "lat": 13.7196,
+      "lng": 100.532,
+      "contactName": "Front desk",
+      "contactPhone": "+66 2 618 9555",
+      "checkIn": "2026-12-08",
+      "checkOut": "2026-12-11",
+      "personalNote": "A stylish hotel with contemporary art decor, two minutes from MRT Lumpini station and across from Lumpini Park. You are right in the middle of the city but on a quiet stretch of Rama IV."
+    },
+    {
+      "id": "d9-tour",
+      "dayDate": "2026-12-09",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Bangkok temples and river tour",
+      "subtitle": "Private, 09:00 to 16:00",
+      "startTime": "2026-12-09T09:00:00+07:00",
+      "endTime": "2026-12-09T16:00:00+07:00",
+      "locationName": "Lobby pickup",
+      "personalNote": "Your guide picks you up at 9am. You will take a longtail boat on the Chao Praya through the rural canals, visit the Temple of Dawn, Wat Pho and the reclining Buddha, and the Grand Palace. It is private so you can adjust with the guide.",
+      "details": {
+        "Sites": "Temple of Dawn, Wat Pho, Grand Palace",
+        "Transport": "Private longtail boat"
+      },
+      "leadTimeMinutes": 0
+    },
+    {
+      "id": "d9-foodtour",
+      "dayDate": "2026-12-09",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Chinatown street food walking tour",
+      "subtitle": "18:00, with your guide",
+      "startTime": "2026-12-09T18:00:00+07:00",
+      "locationName": "Chinatown, Bangkok",
+      "personalNote": "Your guide comes back at 6pm to walk you through Chinatown. Every evening it becomes one of the largest street food areas in Thailand. Old Chinese shops, herb pharmacies, and food you will not find anywhere else."
+    },
+    {
+      "id": "d10-cycling",
+      "dayDate": "2026-12-10",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Colors of Bangkok cycling tour",
+      "subtitle": "Half day, Bangkrachao green lung",
+      "startTime": "2026-12-10T08:30:00+07:00",
+      "locationName": "Meeting point at tour office, Rama III Road",
+      "personalNote": "This takes you through the part of Bangkok you would never find on your own. You cross the river by ferry into Bangkrachao, the green lung of the city, and cycle on elevated pathways through coconut palms and banana trees. A 700-year-old temple, a Muay Thai gym, a local lunch of pad thai or kao pad. The pace is relaxed, not a race."
+    },
+    {
+      "id": "d11-ayutthaya",
+      "dayDate": "2026-12-11",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Ayutthaya ancient capital day trip",
+      "subtitle": "08:00 to 16:00, 8 hours",
+      "startTime": "2026-12-11T08:00:00+07:00",
+      "endTime": "2026-12-11T16:00:00+07:00",
+      "locationName": "Ayutthaya, Thailand",
+      "personalNote": "Drive to Ayutthaya, the former capital of the Kingdom of Siam. Ancient temple ruins, a Thai lunch, then you are dropped at the airport for your flight north."
+    },
+    {
+      "id": "d11-flight",
+      "dayDate": "2026-12-11",
+      "type": "flight",
+      "status": "tentative",
+      "title": "Bangkok to Chiang Mai",
+      "subtitle": "Details TBC",
+      "startTime": "2026-12-11T17:00:00+07:00",
+      "endTime": "2026-12-11T18:00:00+07:00",
+      "locationName": "Bangkok (BKK) to Chiang Mai (CNX)",
+      "confirmationCode": "TBC",
+      "personalNote": "Short domestic flight north. You are met at Chiang Mai airport and driven to your hotel in the old city.",
+      "details": {
+        "Flight": "TBC"
+      },
+      "leadTimeMinutes": 90
+    },
+    {
+      "id": "d11-hotel",
+      "dayDate": "2026-12-11",
+      "type": "lodging",
+      "status": "confirmed",
+      "title": "Kodchasri Thani Hotel, Chiang Mai",
+      "subtitle": "1 night, Deluxe room",
+      "address": "54/3 Rajaphakinai Road, T.Phra Singh, Chiang Mai 50200",
+      "lat": 18.7883,
+      "lng": 98.9767,
+      "contactName": "Front desk",
+      "contactPhone": "+66 53 281 950",
+      "checkIn": "2026-12-11",
+      "checkOut": "2026-12-12",
+      "personalNote": "Right in the middle of the historical center of Chiang Mai. You will walk out the door into the old city."
+    },
+    {
+      "id": "d12-trek",
+      "dayDate": "2026-12-12",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Trekking day 1",
+      "subtitle": "08:30, 8hr 45min",
+      "startTime": "2026-12-12T08:30:00+07:00",
+      "endTime": "2026-12-12T17:15:00+07:00",
+      "locationName": "Pickup at hotel lobby",
+      "personalNote": "A 40-minute drive to a market for provisions, then Mork Fa waterfall for a swim. Lunch cooked by your guide, then the trek begins. You can choose a softer route to a Lahu village at 1,200m or a harder route to a Karen village at 1,400m. You sleep in a simple wooden hut at the edge of the village. Dinner is prepared for you. Sit on the deck, listen to the jungle, have a beer."
+    },
+    {
+      "id": "d13-trek",
+      "dayDate": "2026-12-13",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Trekking day 2: bamboo raft and elephants",
+      "subtitle": "Full day, return to Chiang Mai ~17:00",
+      "startTime": "2026-12-13T08:30:00+07:00",
+      "endTime": "2026-12-13T17:00:00+07:00",
+      "locationName": "Hill tribe village to Chiang Mai",
+      "personalNote": "After breakfast, explore the village, then bamboo rafting down the Mae Tang river for about 2 hours to a Shan village. Lunch, then a short drive to an elephant camp where you can feed and walk among the elephants. Drive back to Chiang Mai, arriving around 5pm."
+    },
+    {
+      "id": "d13-hotel",
+      "dayDate": "2026-12-13",
+      "type": "lodging",
+      "status": "confirmed",
+      "title": "Kodchasri Thani Hotel, Chiang Mai",
+      "subtitle": "3 nights, Deluxe room",
+      "address": "54/3 Rajaphakinai Road, T.Phra Singh, Chiang Mai 50200",
+      "lat": 18.7883,
+      "lng": 98.9767,
+      "contactName": "Front desk",
+      "contactPhone": "+66 53 281 950",
+      "checkIn": "2026-12-13",
+      "checkOut": "2026-12-16",
+      "personalNote": "Back at Kodchasri for three more nights. Same hotel, familiar ground now."
+    },
+    {
+      "id": "d14-cooking",
+      "dayDate": "2026-12-14",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Cooking with a View, Chiang Mai",
+      "subtitle": "08:30 to 15:30, 7 hours",
+      "startTime": "2026-12-14T08:30:00+07:00",
+      "endTime": "2026-12-14T15:30:00+07:00",
+      "locationName": "Pickup at hotel lobby",
+      "personalNote": "Driven to a cooking school about 17km from the city, set on an organic farm. You walk the farm, pick fresh herbs and vegetables, then cook at your own station. You eat what you make on a terrace overlooking the fishpond and the mountains beyond."
+    },
+    {
+      "id": "d15-elephant",
+      "dayDate": "2026-12-15",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Elephant Sanctuary and Zipline",
+      "subtitle": "07:30 to 12:00, 4hr 30min",
+      "startTime": "2026-12-15T07:30:00+07:00",
+      "endTime": "2026-12-15T12:00:00+07:00",
+      "locationName": "Pickup at hotel",
+      "personalNote": "A 1.5-hour drive south to Chiang Mai Elephant Home. Change into uniforms, learn about elephant behavior, make vitamin balls, feed them, walk with them, take a mud spa and bathe them in the river. Then after lunch, 26-platform zipline course through the canopy. Back at your hotel by 4:30 to 5pm."
+    },
+    {
+      "id": "d16-flight",
+      "dayDate": "2026-12-16",
+      "type": "flight",
+      "status": "tentative",
+      "title": "Chiang Mai to Krabi",
+      "subtitle": "Details TBC",
+      "startTime": "2026-12-16T09:00:00+07:00",
+      "endTime": "2026-12-16T11:00:00+07:00",
+      "locationName": "Chiang Mai (CNX) to Krabi (KBV)",
+      "confirmationCode": "TBC",
+      "personalNote": "Flight south to Krabi. You are met at the airport and driven to your resort near Ao Nang beach.",
+      "details": {
+        "Flight": "TBC"
+      },
+      "leadTimeMinutes": 90
+    },
+    {
+      "id": "d16-hotel",
+      "dayDate": "2026-12-16",
+      "type": "lodging",
+      "status": "confirmed",
+      "title": "Aonang Princeville Resort",
+      "subtitle": "2 nights, Deluxe room",
+      "address": "164 Moo 2, Ao Nang Beach, Muang, Ao Nang 81180",
+      "lat": 8.0367,
+      "lng": 98.8217,
+      "contactName": "Front desk",
+      "contactPhone": "+66 75 637 971",
+      "checkIn": "2026-12-16",
+      "checkOut": "2026-12-18",
+      "personalNote": "Near the cozy Ao Nang beach. Your base for the Krabi leg."
+    },
+    {
+      "id": "d17-snorkel",
+      "dayDate": "2026-12-17",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Koh Hong islands snorkeling sunset tour",
+      "subtitle": "Private longtail, 14:00 to 18:30",
+      "startTime": "2026-12-17T14:00:00+07:00",
+      "endTime": "2026-12-17T18:30:00+07:00",
+      "locationName": "Ao Nang beach pickup",
+      "personalNote": "A private longtail boat takes you to Hong Island, Hong Lagoon, and Lao Lading (Paradise Island). White sand, snorkeling, swimming, and the day ends with sunset on the water. National park fee of THB 300 per person is not included."
+    },
+    {
+      "id": "d18-transfer",
+      "dayDate": "2026-12-18",
+      "type": "transfer",
+      "status": "confirmed",
+      "title": "Krabi to Khao Sok",
+      "subtitle": "Scenic drive",
+      "startTime": "2026-12-18T09:00:00+07:00",
+      "locationName": "Aonang Princeville to Khao Sok Treehouse",
+      "personalNote": "A beautiful drive to Khao Sok National Park. You arrive at your treehouse resort with time to settle before the night safari."
+    },
+    {
+      "id": "d18-safari",
+      "dayDate": "2026-12-18",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Night safari in Khao Sok",
+      "subtitle": "After dark",
+      "startTime": "2026-12-18T19:00:00+07:00",
+      "locationName": "Khao Sok area",
+      "personalNote": "An experienced guide walks you through the jungle at night. Many animals here are nocturnal. You might see civet cats, slow loris, wild pigs, deer, or even a spotted leopard cat. The fruit farms nearby are where many of them come to forage."
+    },
+    {
+      "id": "d18-treehouse",
+      "dayDate": "2026-12-18",
+      "type": "lodging",
+      "status": "confirmed",
+      "title": "Khao Sok Treehouse",
+      "subtitle": "2 nights",
+      "address": "Khao Sok National Park, Surat Thani",
+      "lat": 8.9144,
+      "lng": 98.5236,
+      "checkIn": "2026-12-18",
+      "checkOut": "2026-12-20",
+      "personalNote": "A romantic treehouse resort inside the national park. You sleep in the trees, surrounded by the oldest evergreen rainforest in the world."
+    },
+    {
+      "id": "d19-cooking",
+      "dayDate": "2026-12-19",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Jungle cooking class",
+      "subtitle": "09:00 or 16:00, your choice",
+      "startTime": "2026-12-19T09:00:00+07:00",
+      "locationName": "Khao Sok Treehouse",
+      "personalNote": "Learn to make a typical Thai curry in the jungle. Forage for herbs and plants, collect ingredients, and cook a meal together in an unforgettable setting. You can choose the morning or afternoon session."
+    },
+    {
+      "id": "d20-lake",
+      "dayDate": "2026-12-20",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Explore Khao Sok: lake and floating bungalow",
+      "subtitle": "2-day excursion",
+      "startTime": "2026-12-20T09:00:00+07:00",
+      "locationName": "Cheow Lan Lake, Khao Sok",
+      "personalNote": "Drive to a huge lake, board a longtail boat, and cross into the national park. Limestone cliffs rising from emerald water. You can tour the lake, explore caves, kayak, and spend the night at a floating bungalow."
+    },
+    {
+      "id": "d20-floating",
+      "dayDate": "2026-12-20",
+      "type": "lodging",
+      "status": "confirmed",
+      "title": "360 Issara floating resort",
+      "subtitle": "2 nights, Superior room",
+      "address": "Cheow Lan Lake, Khao Sok National Park",
+      "lat": 8.93,
+      "lng": 98.56,
+      "checkIn": "2026-12-20",
+      "checkOut": "2026-12-22",
+      "personalNote": "Your room floats on the lake. Wake up to mist on the water and the sound of gibbons in the canopy above."
+    },
+    {
+      "id": "d21-tour",
+      "dayDate": "2026-12-21",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Khao Sok lake tour day 2",
+      "subtitle": "Full day",
+      "startTime": "2026-12-21T09:00:00+07:00",
+      "locationName": "Cheow Lan Lake",
+      "personalNote": "Longtail boat tour of the lake, lunch, swimming, kayaking. In the afternoon, optional hike to the Cheow Lan viewpoint, cave exploration, or a nature trail to Bang Hoi waterfall, depending on weather. Evening boat safari for more wildlife. Dinner of freshly caught fish under the stars."
+    },
+    {
+      "id": "d22-transfer",
+      "dayDate": "2026-12-22",
+      "type": "transfer",
+      "status": "confirmed",
+      "title": "Transfer to Koh Yao Noi",
+      "subtitle": "Lake to boat to island",
+      "startTime": "2026-12-22T09:00:00+07:00",
+      "locationName": "Cheow Lan Lake to Koh Yao Noi",
+      "personalNote": "Leave the lake, drive back to Krabi, then take a boat to the bounty island of Koh Yao Noi. A true paradise in the Andaman Sea."
+    },
+    {
+      "id": "d22-hotel",
+      "dayDate": "2026-12-22",
+      "type": "lodging",
+      "status": "confirmed",
+      "title": "Paradise Koh Yao Resort",
+      "subtitle": "3 nights, Superior room",
+      "address": "24 Moo 4, Koh Yao Noi 82160",
+      "lat": 8.0597,
+      "lng": 98.5889,
+      "contactName": "Front desk",
+      "contactPhone": "+66 76 584 450",
+      "checkIn": "2026-12-22",
+      "checkOut": "2026-12-25",
+      "personalNote": "Your final stop. A resort on a tropical island in the Andaman Sea. Three days to just be here."
+    },
+    {
+      "id": "d23-free",
+      "dayDate": "2026-12-23",
+      "type": "note",
+      "status": "confirmed",
+      "title": "Free day on Koh Yao Noi",
+      "personalNote": "Relax. Beach, resort, maybe a snorkeling trip. This is your honeymoon. No schedule."
+    },
+    {
+      "id": "d24-free",
+      "dayDate": "2026-12-24",
+      "type": "note",
+      "status": "confirmed",
+      "title": "Free day on Koh Yao Noi",
+      "personalNote": "Your last full day in paradise. Same as yesterday. Beach, relax, maybe snorkel."
+    },
+    {
+      "id": "d25-depart",
+      "dayDate": "2026-12-25",
+      "type": "transfer",
+      "status": "confirmed",
+      "title": "Departure",
+      "subtitle": "To airport for flight home",
+      "startTime": "2026-12-25T10:00:00+07:00",
+      "locationName": "Koh Yao Noi to airport",
+      "personalNote": "Driven to the airport for your flight to Bangkok and onward to the USA. Safe travels home."
+    }
+  ],
+  "picks": [
+    {
+      "id": "p-aetas",
+      "name": "The AETAS Lumpini",
+      "category": "lodging",
+      "address": "1030/4 Rama IV Rd, Bangkok 10120",
+      "lat": 13.7196,
+      "lng": 100.532,
+      "description": "Stylish contemporary art decor hotel, 2 minutes from MRT Lumpini, opposite Lumpini Park.",
+      "note": "Your Bangkok base. Two minutes to the subway, across from the park. Easy to get anywhere from here.",
+      "phone": "+66 2 618 9555",
+      "hours": null,
+      "priceLevel": 3,
+      "season": null,
+      "imageUrl": null
+    },
+    {
+      "id": "p-kodchasri",
+      "name": "Kodchasri Thani Hotel",
+      "category": "lodging",
+      "address": "54/3 Rajaphakinai Rd, Chiang Mai 50200",
+      "lat": 18.7883,
+      "lng": 98.9767,
+      "description": "Boutique hotel in the historical center of Chiang Mai's old city.",
+      "note": "Right in the old city walls. Walk out the door and you are in the temple district of Chiang Mai.",
+      "phone": "+66 53 281 950",
+      "hours": null,
+      "priceLevel": 3,
+      "season": null,
+      "imageUrl": null
+    },
+    {
+      "id": "p-aonang",
+      "name": "Aonang Princeville Resort",
+      "category": "lodging",
+      "address": "164 Moo 2, Ao Nang Beach, Ao Nang 81180",
+      "lat": 8.0367,
+      "lng": 98.8217,
+      "description": "Resort near Ao Nang beach in Krabi.",
+      "note": "Your Krabi base. Close to the beach, close to the longtail boats that will take you island hopping.",
+      "phone": "+66 75 637 971",
+      "hours": null,
+      "priceLevel": 3,
+      "season": null,
+      "imageUrl": null
+    },
+    {
+      "id": "p-treehouse",
+      "name": "Khao Sok Treehouse",
+      "category": "lodging",
+      "address": "Khao Sok National Park, Surat Thani",
+      "lat": 8.9144,
+      "lng": 98.5236,
+      "description": "Romantic treehouse resort inside Khao Sok National Park, one of the oldest rainforests on Earth.",
+      "note": "You sleep in the trees inside the national park. The night safari leaves right from here.",
+      "phone": null,
+      "hours": null,
+      "priceLevel": 2,
+      "season": null,
+      "imageUrl": null
+    },
+    {
+      "id": "p-floating",
+      "name": "360 Issara Floating Resort",
+      "category": "lodging",
+      "address": "Cheow Lan Lake, Khao Sok National Park",
+      "lat": 8.93,
+      "lng": 98.56,
+      "description": "Floating bungalows on Cheow Lan Lake, surrounded by limestone cliffs and rainforest.",
+      "note": "Your room floats on the lake. Wake up to mist on emerald water and gibbons calling from the canopy.",
+      "phone": null,
+      "hours": null,
+      "priceLevel": 3,
+      "season": null,
+      "imageUrl": null
+    },
+    {
+      "id": "p-paradise",
+      "name": "Paradise Koh Yao Resort",
+      "category": "lodging",
+      "address": "24 Moo 4, Koh Yao Noi 82160",
+      "lat": 8.0597,
+      "lng": 98.5889,
+      "description": "Island resort on Koh Yao Noi in the Andaman Sea.",
+      "note": "Your final stop. A quiet island paradise. Three days to decompress before you fly home.",
+      "phone": "+66 76 584 450",
+      "hours": null,
+      "priceLevel": 4,
+      "season": null,
+      "imageUrl": null
+    },
+    {
+      "id": "p-watpho",
+      "name": "Wat Pho",
+      "category": "sight",
+      "address": "2 Sanam Chai Rd, Bangkok",
+      "lat": 13.7465,
+      "lng": 100.4931,
+      "description": "Temple of the Reclining Buddha. One of Bangkok's oldest and largest temples.",
+      "note": "The giant reclining Buddha is something you will not forget. Your guide will take you through on day 2.",
+      "phone": null,
+      "hours": "08:00-18:30 daily",
+      "priceLevel": 1,
+      "season": null,
+      "imageUrl": null
+    },
+    {
+      "id": "p-grandpalace",
+      "name": "Grand Palace",
+      "category": "sight",
+      "address": "Na Phra Lan Rd, Bangkok",
+      "lat": 13.75,
+      "lng": 100.4914,
+      "description": "The former royal residence, full of splendor and gold. Home to the Temple of the Emerald Buddha.",
+      "note": "Go with your guide. The scale and detail are hard to take in on your own.",
+      "phone": null,
+      "hours": "08:30-15:30 daily",
+      "priceLevel": 1,
+      "season": null,
+      "imageUrl": null
+    },
+    {
+      "id": "p-templeofdawn",
+      "name": "Temple of Dawn (Wat Arun)",
+      "category": "sight",
+      "address": "158 Wang Doem Rd, Bangkok",
+      "lat": 13.7437,
+      "lng": 100.4889,
+      "description": "Iconic riverside temple with a towering spire, one of Bangkok's most recognizable landmarks.",
+      "note": "You approach it by longtail boat on the Chao Praya. The porcelain detail on the spire is best seen up close.",
+      "phone": null,
+      "hours": "08:00-18:00 daily",
+      "priceLevel": 1,
+      "season": null,
+      "imageUrl": null
+    },
+    {
+      "id": "p-ayutthaya",
+      "name": "Ayutthaya Historical Park",
+      "category": "sight",
+      "address": "Ayutthaya, Thailand",
+      "lat": 14.3692,
+      "lng": 100.5877,
+      "description": "UNESCO World Heritage site. The ruins of the former capital of the Kingdom of Siam.",
+      "note": "Ancient temple ruins scattered across a huge area. Your guide takes you to the best ones.",
+      "phone": null,
+      "hours": null,
+      "priceLevel": 1,
+      "season": null,
+      "imageUrl": null
+    },
+    {
+      "id": "p-bangkrachao",
+      "name": "Bangkrachao (Green Lung)",
+      "category": "sight",
+      "address": "Bangkrachao, Bangkok",
+      "lat": 13.6736,
+      "lng": 100.5697,
+      "description": "16 sq km of green jungle and elevated pathways, the biggest green area near Bangkok.",
+      "note": "You will cycle through this on day 3. Coconut palms, banana trees, a 700-year-old temple, a Muay Thai gym.",
+      "phone": null,
+      "hours": null,
+      "priceLevel": 1,
+      "season": null,
+      "imageUrl": null
+    },
+    {
+      "id": "p-chinatown",
+      "name": "Yaowarat (Chinatown)",
+      "category": "restaurant",
+      "address": "Yaowarat Rd, Bangkok",
+      "lat": 13.7402,
+      "lng": 100.5072,
+      "description": "Every evening this converts into one of the largest street food areas in Thailand.",
+      "note": "Go hungry. Your guide walks you through the oldest part of Bangkok. Chinese herb shops and food stalls everywhere.",
+      "phone": null,
+      "hours": "Best after 18:00",
+      "priceLevel": 1,
+      "season": null,
+      "imageUrl": null
+    },
+    {
+      "id": "p-hongisland",
+      "name": "Hong Island",
+      "category": "sight",
+      "address": "Than Bok Khorani National Park, Krabi",
+      "lat": 8.0597,
+      "lng": 98.6422,
+      "description": "Bounty island with white sand, snorkeling, and a stunning lagoon. Part of a national park.",
+      "note": "Your private longtail boat stops here on day 10. THB 300 national park fee per person, not included.",
+      "phone": null,
+      "hours": null,
+      "priceLevel": 1,
+      "season": "Nov-Apr best",
+      "imageUrl": null
+    },
+    {
+      "id": "p-cheowlan",
+      "name": "Cheow Lan Lake",
+      "category": "sight",
+      "address": "Khao Sok National Park, Surat Thani",
+      "lat": 8.93,
+      "lng": 98.56,
+      "description": "A massive lake inside Khao Sok National Park, surrounded by towering limestone cliffs and rainforest.",
+      "note": "You spend two days here on a floating bungalow. Kayak, swim, take a boat safari at dusk.",
+      "phone": null,
+      "hours": null,
+      "priceLevel": 1,
+      "season": null,
+      "imageUrl": null
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Eric Rosenbaum",
+      "role": "Your travel advisor, Yaya Asia Travel",
+      "phone": "+66 85 902 6877",
+      "note": "Eric built this itinerary. Reach out to him directly if anything needs to move during the trip.",
+      "email": "eric@yayaasiatravel.com"
+    }
+  ],
+  "guideBlocks": [
+    {
+      "heading": "How this trip works",
+      "body": "This is an 18-day honeymoon through Thailand, built by Eric at Yaya Asia Travel. You start in Bangkok for three days, fly north to Chiang Mai for five days of trekking, cooking, and elephants, then fly south to Krabi for islands, jungle, and beach. Most activities are private with a guide who picks you up at your hotel. If anything needs to shift, text Eric directly."
+    },
+    {
+      "heading": "Getting around",
+      "body": "You have private drivers and guides throughout. In Bangkok, the MRT Lumpini subway station is two minutes from your hotel. In Chiang Mai, your hotel is in the old city and most pickups are from the lobby. For the southern leg, transfers between Krabi, Khao Sok, and Koh Yao Noi are by car and boat, arranged for you. For a taxi driver, show them the hotel address in the essentials below."
+    },
+    {
+      "heading": "What to pack",
+      "body": "Light, breathable clothing for Bangkok and the south. A light jacket for Chiang Mai evenings and the trek, where temperatures drop at altitude. Swimwear for waterfalls, elephants, and islands. Sturdy shoes for the trek and cycling. Insect repellent for the jungle. A dry bag for the floating bungalow and island trips. Modest clothing for temples, shoulders and knees covered."
+    },
+    {
+      "heading": "Money",
+      "body": "Thailand uses the Thai Baht (THB). ATMs are everywhere in Bangkok and Chiang Mai. On Koh Yao Noi and at the floating resort, cash is more useful than card. The national park fee for Hong Island is THB 300 per person, paid on site. Budget for tips for guides and drivers, around THB 200 to 500 per day per person."
+    },
+    {
+      "heading": "The trek",
+      "body": "The two-day trek in Chiang Mai is the most physically demanding part of the trip. You choose between a softer route (2.5 hours to a Lahu village at 1,200m) or a harder route (3.5 hours to a Karen village at 1,400m). You sleep in a simple wooden hut. The second day includes 2 hours of bamboo rafting and a visit to an elephant camp. Tell Eric if you have any concerns about the difficulty level."
+    }
+  ],
+  "documents": [],
+  "essentials": [
+    {
+      "label": "Emergency",
+      "value": "191",
+      "phone": "191",
+      "note": "Thai emergency number for police. For medical emergencies, call 1669. For tourist police, call 1155."
+    },
+    {
+      "label": "Tourist Police",
+      "value": "1155",
+      "phone": "1155",
+      "note": "English-speaking tourist police, available 24 hours nationwide."
+    },
+    {
+      "label": "Hospital (Bangkok)",
+      "value": "BNH Hospital",
+      "address": "9/1 Convent Rd, Silom, Bangkok",
+      "phone": "+66 2 022 0700",
+      "lat": 13.7233,
+      "lng": 100.527
+    },
+    {
+      "label": "Hospital (Chiang Mai)",
+      "value": "McCormick Hospital",
+      "address": "137 Sampathanivet Rd, Chiang Mai",
+      "phone": "+66 53 281 171",
+      "lat": 18.797,
+      "lng": 98.984
+    },
+    {
+      "label": "Your hotel in Bangkok, for a taxi driver",
+      "value": "The AETAS Lumpini",
+      "address": "1030/4 Rama IV Rd, Bangkok 10120"
+    },
+    {
+      "label": "US Embassy Bangkok",
+      "value": "US Embassy",
+      "address": "120/22 Wireless Rd, Bangkok",
+      "phone": "+66 2 205 4000",
+      "lat": 13.7477,
+      "lng": 100.5366
+    }
+  ]
+}
