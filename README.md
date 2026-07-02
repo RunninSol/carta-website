@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Carta Website
 
-## Getting Started
+Luxury travel agency site for [travelbycarta.com](https://travelbycarta.com), built from `CARTA_MASTER_BRIEF.md`.
 
-First, run the development server:
+## Stack
+
+- Next.js 14 (App Router)
+- Tailwind CSS + brand design tokens
+- Framer Motion (hero stagger animations)
+- Google Fonts: EB Garamond + Inter
+
+## Development
 
 ```bash
+cd website
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Pages
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Route | Status |
+|-------|--------|
+| `/` | Homepage (complete) |
+| `/how-it-works` | Complete (8-step timeline) |
+| `/the-carta` | Complete (sections, in-your-pocket features, sample entry) |
+| `/services` | Complete (included list, FAQ + FAQ schema) |
+| `/about` | Complete (origin story, WorldVia, starting small) |
+| `/contact` | Complete (Calendly embed + inquiry form) |
 
-## Learn More
+Also ships `sitemap.xml`, `robots.txt`, and TravelAgency JSON-LD.
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Optimized for Vercel:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+```

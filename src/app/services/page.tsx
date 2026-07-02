@@ -1,0 +1,175 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { Footer } from "@/components/Footer";
+import { Navigation } from "@/components/Navigation";
+import { CompassMark } from "@/components/CompassMark";
+import { GoldRule } from "@/components/GoldRule";
+import { FadeIn } from "@/components/FadeIn";
+import { CornerAccents } from "@/components/CornerAccents";
+
+export const metadata: Metadata = {
+  title: "Services",
+  description:
+    "Every trip I plan comes with a dedicated travel advisor, a trip hub built around you, and in-trip support you can text. No fees to you. Tell me where you want to go.",
+};
+
+const included = [
+  "A dedicated travel advisor who picks up the phone and remembers how you travel",
+  "A trip hub built for your specific itinerary, on your phone, no login required",
+  "Hotel bookings through preferred partnerships, often with upgrades and amenity credits unavailable direct",
+  "Restaurant reservations and experiences, including the places that don't take online bookings",
+  "In-trip support you can text. Something goes sideways at midnight in Tokyo, I am the one who fixes it",
+  "A post-trip debrief where I update your profile so the next trip starts further along",
+  "Hotel upgrades and amenity credits at preferred properties whenever the room allows it",
+];
+
+const faqs = [
+  {
+    q: "What does this cost me?",
+    a: "Nothing, for most trips. I am paid by the hotels and partners I book, not by you. You pay for the trip itself. That is the whole arrangement. The reason I can do this well is that I am not trying to upsell you into the property that pays me the most. I am trying to put you in the property that is right for you, because the next trip depends on it.",
+  },
+  {
+    q: "What if I just want the trip hub, without the planning?",
+    a: "The trip hub is built as part of the planning process. I cannot build one that is any good without doing the intake and the work first. That is where the personalization comes from. Every note in the hub exists because I asked you a question and listened to the answer. Skip that part and it is just a prettier PDF, which is the thing I started Carta to get away from.",
+  },
+  {
+    q: "What about corporate or group travel?",
+    a: "I work with companies and clients who have ongoing travel programs. It is a different kind of relationship, more recurring, more volume. If that is you, reach out directly and we will figure out an arrangement that fits how your team actually moves.",
+  },
+  {
+    q: "How do I get started?",
+    a: "Tell me where you want to go. A 20-minute call is enough for me to learn how you travel and for you to learn how I work. If it feels right, we start planning. If it doesn't, no hard feelings. I would rather have the conversation than not.",
+  },
+];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+
+export default function ServicesPage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <Navigation />
+      <main>
+        {/* Hero */}
+        <section className="relative overflow-hidden bg-navy px-6 pb-20 pt-36 md:pb-32">
+          <CornerAccents />
+          <div className="relative z-10 mx-auto max-w-prose text-center">
+            <FadeIn>
+              <CompassMark size={48} variant="gold" className="mx-auto mb-8" />
+              <p className="eyebrow">Services</p>
+              <h1 className="font-display text-[36px] font-light leading-tight text-ivory md:text-[56px]">
+                Every trip includes your trip hub.
+              </h1>
+              <GoldRule wide className="my-8" />
+              <p className="font-display text-lg italic text-ivory/60">
+                I book hotels, restaurants, flights, and experiences. I am
+                paid by the hotels and partners I book, not by you. And every
+                trip comes with a trip hub built around who you are, plus
+                someone you can text when something goes sideways.
+              </p>
+            </FadeIn>
+          </div>
+        </section>
+
+        {/* What's included */}
+        <section className="bg-ivory px-6 py-20 md:py-2xl">
+          <div className="mx-auto max-w-3xl">
+            <FadeIn className="text-center">
+              <p className="eyebrow">Every Client. Every Trip.</p>
+              <h2 className="font-display text-2xl text-navy md:text-[40px]">
+                One standard of service.
+              </h2>
+              <GoldRule wide className="my-8" />
+              <p className="mx-auto max-w-xl text-base text-charcoal">
+                There is no tier system. There is no upgrade package. Every
+                client gets the same thing, because I do not know how to do
+                this job halfway.
+              </p>
+            </FadeIn>
+
+            <FadeIn>
+              <div className="bg-white p-10 shadow-card">
+                <ul className="space-y-5">
+                  {included.map((item) => (
+                    <li
+                      key={item}
+                      className="flex gap-4 text-base text-charcoal"
+                    >
+                      <span className="mt-1 shrink-0 text-gold">·</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </FadeIn>
+          </div>
+        </section>
+
+        {/* WorldVia note */}
+        <section className="bg-warm-bg px-6 py-12">
+          <FadeIn className="mx-auto max-w-prose text-center">
+            <p className="text-sm text-mid-gray">
+              CARTA is affiliated with{" "}
+              <span className="text-charcoal">WorldVia Travel Group</span>.
+              That affiliation is how I get the preferred rates, the room
+              upgrades, and the amenity credits you would not see booking
+              direct. It is also how I have someone to call when a property
+              needs a nudge.
+            </p>
+          </FadeIn>
+        </section>
+
+        {/* FAQ */}
+        <section className="bg-ivory px-6 py-20 md:py-2xl">
+          <div className="mx-auto max-w-prose">
+            <FadeIn>
+              <p className="eyebrow">Questions</p>
+              <h2 className="font-display text-2xl text-navy">
+                The straightforward answers.
+              </h2>
+            </FadeIn>
+
+            <div className="mt-12 space-y-0 divide-y divide-navy/10">
+              {faqs.map((faq) => (
+                <FadeIn key={faq.q} className="py-8">
+                  <h3 className="font-display text-lg text-navy">{faq.q}</h3>
+                  <p className="mt-3 text-base text-charcoal">{faq.a}</p>
+                </FadeIn>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Final CTA */}
+        <section className="relative overflow-hidden bg-navy px-6 py-20 md:py-2xl">
+          <CornerAccents />
+          <FadeIn className="relative z-10 mx-auto max-w-narrow text-center">
+            <h2 className="font-display text-2xl text-ivory md:text-[40px]">
+              Tell me where you want to go.
+            </h2>
+            <p className="mt-6 text-base text-ivory/85">
+              A 20-minute call is enough to know if CARTA is the right fit
+              for how you travel.
+            </p>
+            <GoldRule wide className="my-10" />
+            <Link href="/contact" className="btn-primary">
+              Tell me where you want to go →
+            </Link>
+          </FadeIn>
+        </section>
+      </main>
+      <Footer />
+    </>
+  );
+}
