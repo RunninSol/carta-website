@@ -27,25 +27,25 @@
   "days": [
     { "date": "2026-07-24", "title": "Arrival & Mets Game", "summary": "Red eye into JFK, settle in at Lia's on East 22nd, Mets vs Dodgers at 7:10pm at Citi Field." },
     { "date": "2026-07-25", "title": "Full Day in NYC", "summary": "Rebecca's baby shower at noon at Da Andrea, then explore Chelsea Market, the High Line, and the West Village." },
-    { "date": "2026-07-26", "title": "Departure", "summary": "Morning in the city, afternoon flight home." }
+    { "date": "2026-07-26", "title": "Departure", "summary": "Morning in the city, JetBlue 1523 departs JFK Terminal 5 at 3:15pm." }
   ],
   "itinerary": [
     {
       "id": "d1-flight-in",
       "dayDate": "2026-07-24",
       "type": "flight",
-      "status": "tentative",
-      "title": "Red Eye to New York",
-      "subtitle": "Details TBC | Arriving Friday AM",
-      "startTime": "2026-07-24T07:00:00-04:00",
-      "endTime": "2026-07-24T07:00:00-04:00",
-      "locationName": "LAX to JFK",
-      "confirmationCode": "TBC",
-      "personalNote": "Red eye arriving Friday morning. Once you have the flight details, send them over and I will update this. From JFK, a taxi is a flat $70 plus tip and tolls, about 45 minutes to Lia's. Or take the AirTrain to Jamaica station and the LIRR to Penn Station, then a 10-minute subway on the 1 to 23rd St and a short walk. I would take the taxi. You just flew across the country.",
-      "details": { "From": "Los Angeles (LAX)", "To": "New York JFK", "Class": "TBC", "Passengers": "Madison & Marlin", "Flight": "TBC" },
+      "status": "confirmed",
+      "title": "JetBlue 1524 to New York",
+      "subtitle": "JetBlue | Departing LAX 8:30pm Thu, arriving JFK 5:01am Fri",
+      "startTime": "2026-07-23T20:30:00-07:00",
+      "endTime": "2026-07-24T05:01:00-04:00",
+      "locationName": "LAX Terminal 1 to JFK",
+      "confirmationCode": "B6 1524",
+      "personalNote": "Red eye from LAX Terminal 1 departing Thursday 8:30pm, landing at JFK Friday 5:01am. From JFK, a taxi is a flat $70 plus tip and tolls, about 45 minutes to Lia's. Or take the AirTrain to Jamaica station and the LIRR to Penn Station, then a 10-minute subway on the 1 to 23rd St and a short walk. I would take the taxi. You just flew across the country.",
+      "details": { "From": "Los Angeles (LAX) Terminal 1", "To": "New York JFK", "Airline": "JetBlue", "Passengers": "Madison & Marlin", "Flight": "B6 1524" },
       "documentRefs": [],
       "leadTimeMinutes": 120,
-      "flightNumber": "TBC"
+      "flightNumber": "B61524"
     },
     {
       "id": "d1-lodging",
@@ -94,18 +94,18 @@
       "id": "d3-flight-out",
       "dayDate": "2026-07-26",
       "type": "flight",
-      "status": "tentative",
-      "title": "Flight to Los Angeles",
-      "subtitle": "Details TBC | Sunday afternoon departure",
-      "startTime": "2026-07-26T15:00:00-04:00",
-      "endTime": "2026-07-26T15:00:00-04:00",
-      "locationName": "JFK to LAX",
-      "confirmationCode": "TBC",
-      "personalNote": "Sunday afternoon flight, details TBC. Once you have the booking, send it over. I would leave Lia's by 12:30pm to give yourself plenty of time at JFK. A taxi takes about 45 minutes on a Sunday afternoon.",
-      "details": { "From": "New York JFK", "To": "Los Angeles (LAX)", "Class": "TBC", "Passengers": "Madison & Marlin", "Flight": "TBC" },
+      "status": "confirmed",
+      "title": "JetBlue 1523 to Los Angeles",
+      "subtitle": "JetBlue | Departing JFK 3:15pm, arriving LAX 6:16pm",
+      "startTime": "2026-07-26T15:15:00-04:00",
+      "endTime": "2026-07-26T18:16:00-07:00",
+      "locationName": "JFK Terminal 5 to LAX",
+      "confirmationCode": "B6 1523",
+      "personalNote": "JetBlue flight 1523 departing JFK Terminal 5 at 3:15pm Sunday, landing at LAX at 6:16pm local time. I would leave Lia's by 12:30pm to give yourself plenty of time at JFK. A taxi takes about 45 minutes on a Sunday afternoon.",
+      "details": { "From": "New York JFK Terminal 5", "To": "Los Angeles (LAX)", "Airline": "JetBlue", "Passengers": "Madison & Marlin", "Flight": "B6 1523" },
       "documentRefs": [],
       "leadTimeMinutes": 150,
-      "flightNumber": "TBC"
+      "flightNumber": "B61523"
     }
   ],
   "picks": [
