@@ -1,0 +1,321 @@
+{
+  "config": {
+    "clientName": "Madison & Marlin",
+    "title": "New York City",
+    "destination": "New York City, NY",
+    "dates": "July 24 to 26, 2026",
+    "startDate": "2026-07-24",
+    "endDate": "2026-07-26",
+    "timezone": "America/New_York",
+    "coverNote": "Madison and Marlin, here is your trip hub. Everything is on this page: your flights, where you are staying with Lia, and the spots I picked for you around Gramercy and beyond. Text me if anything needs to move. I will answer.",
+    "coverImageUrl": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=1400&q=80",
+    "contact": {
+      "whatsapp": "13238541678",
+      "email": "gabe@travelbycarta.com",
+      "phoneLabel": "Gabe"
+    },
+    "mapProvider": "google",
+    "driverPhrase": "Can you take me here please?",
+    "map": { "center": [40.7392, -73.9833], "zoom": 13 },
+    "categories": [
+      { "id": "restaurant", "label": "Food", "color": "#B5654A" },
+      { "id": "sight", "label": "Sights", "color": "#5F7A8C" },
+      { "id": "shop", "label": "Shops", "color": "#7A9A6A" },
+      { "id": "hidden", "label": "Hidden Gems", "color": "#A8862F" }
+    ]
+  },
+  "days": [
+    { "date": "2026-07-24", "title": "Arrival & Mets Game", "summary": "Red eye into JFK, settle in at Lia's on East 22nd, Mets vs Dodgers at 7:10pm at Citi Field." },
+    { "date": "2026-07-25", "title": "Full Day in NYC", "summary": "Rebecca's baby shower at noon at Da Andrea, then explore Chelsea Market, the High Line, and the West Village." },
+    { "date": "2026-07-26", "title": "Departure", "summary": "Morning in the city, afternoon flight home." }
+  ],
+  "itinerary": [
+    {
+      "id": "d1-flight-in",
+      "dayDate": "2026-07-24",
+      "type": "flight",
+      "status": "tentative",
+      "title": "Red Eye to New York",
+      "subtitle": "Details TBC | Arriving Friday AM",
+      "startTime": "2026-07-24T07:00:00-04:00",
+      "endTime": "2026-07-24T07:00:00-04:00",
+      "locationName": "LAX to JFK",
+      "confirmationCode": "TBC",
+      "personalNote": "Red eye arriving Friday morning. Once you have the flight details, send them over and I will update this. From JFK, a taxi is a flat $70 plus tip and tolls, about 45 minutes to Lia's. Or take the AirTrain to Jamaica station and the LIRR to Penn Station, then a 10-minute subway on the 1 to 23rd St and a short walk. I would take the taxi. You just flew across the country.",
+      "details": { "From": "Los Angeles (LAX)", "To": "New York JFK", "Class": "TBC", "Passengers": "Madison & Marlin", "Flight": "TBC" },
+      "documentRefs": [],
+      "leadTimeMinutes": 120,
+      "flightNumber": "TBC"
+    },
+    {
+      "id": "d1-lodging",
+      "dayDate": "2026-07-24",
+      "type": "lodging",
+      "status": "confirmed",
+      "title": "Staying with Lia",
+      "address": "160 East 22nd Street, New York, NY 10010",
+      "lat": 40.7392,
+      "lng": -73.9833,
+      "contactName": "Lia",
+      "personalNote": "You are staying with Lia at 160 East 22nd Street, between 3rd Avenue and Lexington Avenue. This is Gramercy/Kips Bay, a great central location. The 6 train is at 23rd St and Park Ave, one block away. The R and W are at 23rd and Broadway. You can walk to the Flatiron Building, Madison Square Park, and Eataly in under 10 minutes."
+    },
+    {
+      "id": "d1-mets-game",
+      "dayDate": "2026-07-24",
+      "type": "event",
+      "status": "confirmed",
+      "title": "Mets vs Dodgers at Citi Field",
+      "subtitle": "7:10 PM first pitch",
+      "startTime": "2026-07-24T19:10:00-04:00",
+      "locationName": "Citi Field, Flushing, Queens",
+      "lat": 40.7571,
+      "lng": -73.8458,
+      "address": "41 Seaver Way, Queens, NY 11368",
+      "personalNote": "Mets hosting the Dodgers at 7:10pm. Walk to the 6 train at 23rd St and Park Ave South, take it to Grand Central-42nd St, transfer to the 7 train to Mets-Willets Point. About 40 minutes door to door. The stadium is right off the platform. Grab a Shake Shack inside the stadium, it is the original recipe.",
+      "details": { "Opponent": "Los Angeles Dodgers", "First pitch": "7:10 PM EDT", "Broadcast": "WPIX", "Venue": "Citi Field" }
+    },
+    {
+      "id": "d2-baby-shower",
+      "dayDate": "2026-07-25",
+      "type": "event",
+      "status": "confirmed",
+      "title": "Rebecca's Baby Shower at Da Andrea",
+      "subtitle": "Noon",
+      "startTime": "2026-07-25T12:00:00-04:00",
+      "locationName": "Da Andrea Chelsea",
+      "lat": 40.7421,
+      "lng": -74.0038,
+      "address": "160 8th Ave, New York, NY 10011",
+      "contactPhone": "+1 212-354-5971",
+      "personalNote": "Rebecca's baby shower at noon at Da Andrea on 8th Ave. This is about a 20-minute walk from Lia's place. Head west on 22nd St all the way to 8th Ave, then north one block. Northern Italian, handmade pasta. A lovely spot for it.",
+      "details": { "Event": "Baby shower", "Host": "Rebecca", "Restaurant": "Da Andrea Chelsea" }
+    },
+    {
+      "id": "d3-flight-out",
+      "dayDate": "2026-07-26",
+      "type": "flight",
+      "status": "tentative",
+      "title": "Flight to Los Angeles",
+      "subtitle": "Details TBC | Sunday afternoon departure",
+      "startTime": "2026-07-26T15:00:00-04:00",
+      "endTime": "2026-07-26T15:00:00-04:00",
+      "locationName": "JFK to LAX",
+      "confirmationCode": "TBC",
+      "personalNote": "Sunday afternoon flight, details TBC. Once you have the booking, send it over. I would leave Lia's by 12:30pm to give yourself plenty of time at JFK. A taxi takes about 45 minutes on a Sunday afternoon.",
+      "details": { "From": "New York JFK", "To": "Los Angeles (LAX)", "Class": "TBC", "Passengers": "Madison & Marlin", "Flight": "TBC" },
+      "documentRefs": [],
+      "leadTimeMinutes": 150,
+      "flightNumber": "TBC"
+    }
+  ],
+  "picks": [
+    {
+      "id": "pick-eataly",
+      "name": "Eataly Flatiron",
+      "category": "shop",
+      "address": "200 5th Ave, New York, NY 10010",
+      "lat": 40.7421,
+      "lng": -73.9887,
+      "description": "Italian marketplace by Mario Batali and Joe Bastianich. Multiple counters: pasta, cheese, gelato, wine, bread. Full restaurants inside. The closest thing to a Bologna food hall in NYC.",
+      "note": "This is a 5-minute walk from Lia's. Go hungry. Grab a focaccia sandwich at the bread counter and a negroni at the bar. Browse the cheese counter. Best in the morning before it gets packed.",
+      "priceLevel": 2,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-gramercy-tavern",
+      "name": "Gramercy Tavern",
+      "category": "restaurant",
+      "address": "42 E 20th St, New York, NY 10003",
+      "lat": 40.7380,
+      "lng": -73.9847,
+      "description": "Danny Meyer's landmark restaurant since 1994. The Tavern Room up front is walk-in only and serves a la carte. The Dining Room in back is tasting menu only. Farm-to-table before that was a term.",
+      "note": "This is 2 blocks from Lia's. The Tavern Room is walk-in, so just show up. Sit at the bar if there is a wait. The seasonal vegetable plate and the burger are both excellent. This is one of the best restaurants in America.",
+      "priceLevel": 3,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-madison-square-park",
+      "name": "Madison Square Park",
+      "category": "sight",
+      "address": "23rd St & Madison Ave, New York, NY 10010",
+      "lat": 40.7414,
+      "lng": -73.9874,
+      "description": "Six-acre park surrounded by the Flatiron Building, Eataly, and the Metropolitan Life tower. Free public art rotations. The original Shake Shack is here.",
+      "note": "Three blocks from Lia's. Grab a ShackBurger from the original Shake Shack stand in the southeast corner of the park and eat it on a bench. That is the perfect New York lunch.",
+      "priceLevel": 1,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-flatiron-building",
+      "name": "The Flatiron Building",
+      "category": "sight",
+      "address": "175 5th Ave, New York, NY 10010",
+      "lat": 40.7411,
+      "lng": -73.9897,
+      "description": "Daniel Burnham's 1902 wedge-shaped landmark. One of the most photographed buildings in the world. The narrow point at 22nd and 5th is iconic.",
+      "note": "Walk past it on your way to Eataly. Stand at the intersection of 23rd, 5th, and Broadway and look up. Best photo spot is from across the street at Madison Square Park.",
+      "priceLevel": 1,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-los-tacos",
+      "name": "Los Tacos No. 1",
+      "category": "restaurant",
+      "address": "75 9th Ave, New York, NY 10011",
+      "lat": 40.7424,
+      "lng": -74.0061,
+      "description": "The original location of what many consider NYC's best tacos. Adobada on housemade tortillas. Counter-service, no seating. Inside Chelsea Market.",
+      "note": "Get the adobada taco on a corn tortilla. This is the best taco in New York and it is $4. Go before noon, the line gets long after 1pm.",
+      "priceLevel": 1,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-shukette",
+      "name": "Shukette",
+      "category": "restaurant",
+      "address": "230 9th Ave, New York, NY 10011",
+      "lat": 40.7454,
+      "lng": -74.0021,
+      "description": "Levantine/Middle Eastern from the team behind Shuka. The Fish In A Cage and joojeh chicken are must-orders. Bread program is exceptional.",
+      "note": "Book two weeks out. If you get in, order the Fish In A Cage and the joojeh chicken for the table. The bread alone is worth the reservation.",
+      "priceLevel": 3,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-chelsea-market",
+      "name": "Chelsea Market",
+      "category": "sight",
+      "address": "75 9th Ave, New York, NY 10011",
+      "lat": 40.7424,
+      "lng": -74.0061,
+      "description": "55+ food vendors in a converted Nabisco factory where Oreos were invented. The single most worthwhile tourist attraction in NYC.",
+      "note": "Go at 11am on a weekday, not 1pm on a Saturday. Walk through, graze, and then take the High Line entrance at 16th St upstairs after.",
+      "priceLevel": 2,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-high-line",
+      "name": "The High Line",
+      "category": "sight",
+      "address": "Gansevoort St to W 34th St, New York, NY",
+      "lat": 40.7400,
+      "lng": -74.0080,
+      "description": "Elevated park on a former freight rail line. Runs from Meatpacking to Hudson Yards. Free, open daily 7am-8pm.",
+      "note": "Enter at 16th St right next to Chelsea Market. Walk north to Hudson Yards, or south to the Whitney. Best in the morning or near sunset.",
+      "priceLevel": 1,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-lindustrie",
+      "name": "L'Industrie Pizzeria",
+      "category": "restaurant",
+      "address": "104 Christopher St, New York, NY 10014",
+      "lat": 40.7330,
+      "lng": -74.0050,
+      "description": "Voted best slice in the USA. Long-fermented sourdough. Burrata slice with sea salt and basil. Fig jam and prosciutto slice.",
+      "note": "Worth the 20-minute walk from Lia's. Get the burrata slice. Expect a line at peak times, go at opening.",
+      "priceLevel": 1,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-cote",
+      "name": "Cote Korean Steakhouse",
+      "category": "restaurant",
+      "address": "16 W 22nd St, New York, NY 10011",
+      "lat": 40.7418,
+      "lng": -73.9935,
+      "description": "Michelin-starred Korean steakhouse. The Butcher's Feast is $82 per person and the best luxury value in NYC steak.",
+      "note": "The Butcher's Feast at $82 per person is the best steak deal in Manhattan. Korean barbecue meets Michelin technique. Book the chef's table if you can.",
+      "priceLevel": 3,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-whitney",
+      "name": "Whitney Museum of American Art",
+      "category": "sight",
+      "address": "99 Gansevoort St, New York, NY 10014",
+      "lat": 40.7395,
+      "lng": -74.0086,
+      "description": "Renzo Piano-designed museum. Best American art collection in the city. Hopper, Basquiat, Warhol. Outdoor terraces with Hudson River views.",
+      "note": "Go Friday evening after 7pm when it is free. Walk the galleries, then out to the terraces for sunset over the Hudson.",
+      "priceLevel": 2,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-faicos",
+      "name": "Faicco's Italian Specialties",
+      "category": "restaurant",
+      "address": "260 Bleecker St, New York, NY 10014",
+      "lat": 40.7305,
+      "lng": -74.0040,
+      "description": "Open since 1900. The best chicken cutlet sandwich in NYC. Italian deli and grocery.",
+      "note": "Get the chicken cutlet sandwich. It is the size of a forearm and it is perfect. Grab some jarred pesto on the way out.",
+      "priceLevel": 1,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-joes-pizza",
+      "name": "Joe's Pizza",
+      "category": "restaurant",
+      "address": "7 Carmine St, New York, NY 10014",
+      "lat": 40.7300,
+      "lng": -74.0025,
+      "description": "The quintessential New York slice since 1975. No frills, perfect plain slice.",
+      "note": "Get a plain slice. Fold it. This is the New York slice you have seen in every movie. It is $4 and it is perfect.",
+      "priceLevel": 1,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-seminary-garden",
+      "name": "General Theological Seminary Gardens",
+      "category": "hidden",
+      "address": "175 9th Ave, New York, NY 10011",
+      "lat": 40.7430,
+      "lng": -74.0040,
+      "description": "Hidden gardens open to the public during daylight. A quiet, cloistered space in the middle of Chelsea. Feels like an Oxford quadrangle.",
+      "note": "Walk through the gate on 9th Ave at 20th St. It is free, it is quiet, and nobody knows it is here. A perfect 10-minute escape.",
+      "priceLevel": 1,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-russ-daughters",
+      "name": "Russ & Daughters",
+      "category": "restaurant",
+      "address": "179 E Houston St, New York, NY 10002",
+      "lat": 40.7258,
+      "lng": -73.9885,
+      "description": "Since 1914. The full appetizing experience: smoked fish, caviar, babka. The classic bagel with lox.",
+      "note": "Go to the original shop on Houston, not the cafe. Stand at the counter. Order the classic: everything bagel, scallion cream cheese, Nova lox, tomato, capers. That is how it has been done since 1914.",
+      "priceLevel": 2,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-shake-shack-original",
+      "name": "Shake Shack (Original)",
+      "category": "restaurant",
+      "address": "Madison Square Park, 23rd St & Madison Ave, New York, NY 10010",
+      "lat": 40.7415,
+      "lng": -73.9879,
+      "description": "The original Shake Shack, opened 2004 in Madison Square Park. The ShackBurger was born here. Outdoor seating in the park.",
+      "note": "This is the one that started it all, 3 blocks from Lia's. The line moves fast. Get a ShackBurger, crinkle fries, and a black and white shake. Eat it on a bench in the park.",
+      "priceLevel": 1,
+      "imageUrl": null
+    }
+  ],
+  "contacts": [
+    { "name": "Gabe", "role": "Your travel advisor", "phone": "+1 323 854 1678", "note": "Text me first. Anything moves, I move it." }
+  ],
+  "guideBlocks": [
+    { "heading": "Getting around", "body": "Everything in this guide is within a 25-minute walk of Lia's apartment on East 22nd Street. Gramercy, the Flatiron District, Chelsea, and the East Village are all walkable. For farther neighborhoods, the subway is $2.90 per ride with a phone tap. The 6 train runs along Park Avenue, one block from the apartment. The R and W run along Broadway at 23rd Street." },
+    { "heading": "From JFK to Lia's", "body": "A taxi from JFK is a flat $70 plus tip and tolls, about 45 minutes. Or take the AirTrain to Jamaica station, then the LIRR to Penn Station, then a 10-minute subway on the 1 to 23rd St and a short walk east. I would take the taxi. You just flew across the country." },
+    { "heading": "Chelsea Market tip", "body": "Go at 11am on a weekday, not 1pm on a Saturday. It gets packed. Walk through, graze at Los Tacos No. 1 and Very Fresh Noodles, then take the High Line entrance at 16th St upstairs after." },
+    { "heading": "The best slice", "body": "L'Industrie on Christopher St is the best pizza in America right now. It is a 20-minute walk from Lia's. Get the burrata slice. Go at opening to avoid the line." }
+  ],
+  "documents": [],
+  "essentials": [
+    { "label": "Emergency", "value": "911", "phone": "911", "note": "Dial 911 for police, fire, or medical emergencies anywhere in NYC." },
+    { "label": "24-hour pharmacy", "value": "CVS Pharmacy", "address": "394 3rd Ave, New York, NY 10016", "phone": "+1 212-889-2400", "lat": 40.7460, "lng": -73.9800 },
+    { "label": "Hospital", "value": "Bellevue Hospital", "address": "462 First Ave, New York, NY 10016", "phone": "+1 212-562-4141", "lat": 40.7408, "lng": -73.9750 },
+    { "label": "Your address, for a taxi driver", "value": "160 East 22nd Street", "address": "160 East 22nd Street, between 3rd Ave and Lexington Ave, New York, NY 10010" }
+  ]
+}

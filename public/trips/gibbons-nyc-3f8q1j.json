@@ -1,0 +1,275 @@
+{
+  "config": {
+    "clientName": "Tyler & Talula Gibbons",
+    "title": "New York City",
+    "destination": "New York City, NY",
+    "dates": "July 24 to 26, 2026",
+    "startDate": "2026-07-24",
+    "endDate": "2026-07-26",
+    "timezone": "America/New_York",
+    "coverNote": "Tyler and Talula, here is your trip hub. Everything is on this page: your flights, your hotel, and the spots I picked for you around Chelsea. Text me if anything needs to move. I will answer.",
+    "coverImageUrl": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=1400&q=80",
+    "contact": {
+      "whatsapp": "13238541678",
+      "email": "gabe@travelbycarta.com",
+      "phoneLabel": "Gabe"
+    },
+    "mapProvider": "google",
+    "driverPhrase": "Can you take me here please?",
+    "map": { "center": [40.7448, -73.9953], "zoom": 13 },
+    "categories": [
+      { "id": "restaurant", "label": "Food", "color": "#B5654A" },
+      { "id": "sight", "label": "Sights", "color": "#5F7A8C" },
+      { "id": "shop", "label": "Shops", "color": "#7A9A6A" },
+      { "id": "hidden", "label": "Hidden Gems", "color": "#A8862F" }
+    ]
+  },
+  "days": [
+    { "date": "2026-07-24", "title": "Arrival & Mets Game", "summary": "Fly in from LAX, settle in at the Motto Chelsea, Mets vs Dodgers at 7:10pm at Citi Field." },
+    { "date": "2026-07-25", "title": "Full Day in NYC", "summary": "Rebecca's baby shower at noon at Da Andrea, then explore Chelsea Market, the High Line, and the West Village." },
+    { "date": "2026-07-26", "title": "Departure", "summary": "Morning in the city, check out by noon, afternoon flight home." }
+  ],
+  "itinerary": [
+    {
+      "id": "d1-flight-in",
+      "dayDate": "2026-07-24",
+      "type": "flight",
+      "status": "confirmed",
+      "title": "Delta 934 to New York",
+      "subtitle": "Delta Comfort | Talula seat 33G, Tyler seat TBC",
+      "startTime": "2026-07-24T06:00:00-07:00",
+      "endTime": "2026-07-24T14:33:00-04:00",
+      "locationName": "LAX to JFK",
+      "confirmationCode": "Delta 934",
+      "personalNote": "Early flight out of LAX. You land at JFK at 2:33pm local time. From JFK, a taxi is a flat $70 plus tip and tolls. Or take the AirTrain to Jamaica station and the LIRR to Penn Station, then a 10-minute subway to the hotel. I would take the taxi. You just flew across the country.",
+      "details": { "From": "Los Angeles (LAX)", "To": "New York JFK", "Class": "Delta Comfort", "Passengers": "Tyler & Talula Gibbons", "Talula seat": "33G", "Tyler seat": "TBC" },
+      "documentRefs": [],
+      "leadTimeMinutes": 120,
+      "flightNumber": "DL934"
+    },
+    {
+      "id": "d1-hotel",
+      "dayDate": "2026-07-24",
+      "type": "lodging",
+      "status": "confirmed",
+      "title": "Motto by Hilton New York City Chelsea",
+      "address": "113 West 24th Street, New York, NY 10001",
+      "lat": 40.7448,
+      "lng": -73.9953,
+      "confirmationCode": "#3473919411",
+      "contactName": "Front desk",
+      "contactPhone": "+1 212-668-8624",
+      "personalNote": "This is a great location for you. You are in the middle of Chelsea, which means you can walk to 30 great restaurants, the High Line, Chelsea Market, and the West Village. Check-in is at 3pm. If you arrive earlier, they will hold your bags."
+    },
+    {
+      "id": "d1-mets-game",
+      "dayDate": "2026-07-24",
+      "type": "event",
+      "status": "confirmed",
+      "title": "Mets vs Dodgers at Citi Field",
+      "subtitle": "7:10 PM first pitch",
+      "startTime": "2026-07-24T19:10:00-04:00",
+      "locationName": "Citi Field, Flushing, Queens",
+      "lat": 40.7571,
+      "lng": -73.8458,
+      "address": "41 Seaver Way, Queens, NY 11368",
+      "personalNote": "Mets hosting the Dodgers at 7:10pm. Citi Field is in Queens, about 35 minutes from the hotel on the 7 train from Times Square-42nd St. Take the 1 train from 23rd St to Times Square, transfer to the 7 to Mets-Willets Point. The stadium is right there. Grab a Shake Shack inside the stadium, it is the original recipe.",
+      "details": { "Opponent": "Los Angeles Dodgers", "First pitch": "7:10 PM EDT", "Broadcast": "WPIX", "Venue": "Citi Field" }
+    },
+    {
+      "id": "d2-baby-shower",
+      "dayDate": "2026-07-25",
+      "type": "event",
+      "status": "confirmed",
+      "title": "Rebecca's Baby Shower at Da Andrea",
+      "subtitle": "Noon",
+      "startTime": "2026-07-25T12:00:00-04:00",
+      "locationName": "Da Andrea Chelsea",
+      "lat": 40.7421,
+      "lng": -74.0038,
+      "address": "160 8th Ave, New York, NY 10011",
+      "contactPhone": "+1 212-354-5971",
+      "personalNote": "Rebecca's baby shower at noon at Da Andrea on 8th Ave. This is a 5-minute walk from the hotel, just head north on 8th Ave. Northern Italian, handmade pasta. A lovely spot for it.",
+      "details": { "Event": "Baby shower", "Host": "Rebecca", "Restaurant": "Da Andrea Chelsea" }
+    },
+    {
+      "id": "d3-flight-out",
+      "dayDate": "2026-07-26",
+      "type": "flight",
+      "status": "confirmed",
+      "title": "Delta 747 to Los Angeles",
+      "subtitle": "Delta Comfort | Talula seat 31B, Tyler seat TBC",
+      "startTime": "2026-07-26T14:05:00-04:00",
+      "endTime": "2026-07-26T17:03:00-07:00",
+      "locationName": "JFK to LAX",
+      "confirmationCode": "Delta 747",
+      "personalNote": "Your flight is at 2:05pm from JFK. I would leave the hotel by 11:30am to give yourself plenty of time. Check out is at noon. Taxi to JFK takes about 45 minutes on a Sunday afternoon.",
+      "details": { "From": "New York JFK", "To": "Los Angeles (LAX)", "Class": "Delta Comfort", "Passengers": "Tyler & Talula Gibbons", "Talula seat": "31B", "Tyler seat": "TBC" },
+      "documentRefs": [],
+      "leadTimeMinutes": 150,
+      "flightNumber": "DL747"
+    }
+  ],
+  "picks": [
+    {
+      "id": "pick-los-tacos",
+      "name": "Los Tacos No. 1",
+      "category": "restaurant",
+      "address": "75 9th Ave, New York, NY 10011",
+      "lat": 40.7424,
+      "lng": -74.0061,
+      "description": "The original location of what many consider NYC's best tacos. Adobada on housemade tortillas. Counter-service, no seating. Inside Chelsea Market.",
+      "note": "Get the adobada taco on a corn tortilla. This is the best taco in New York and it is $4. Go before noon, the line gets long after 1pm.",
+      "priceLevel": 1,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-shukette",
+      "name": "Shukette",
+      "category": "restaurant",
+      "address": "230 9th Ave, New York, NY 10011",
+      "lat": 40.7454,
+      "lng": -74.0021,
+      "description": "Levantine/Middle Eastern from the team behind Shuka. The Fish In A Cage and joojeh chicken are must-orders. Bread program is exceptional.",
+      "note": "Book two weeks out. If you get in, order the Fish In A Cage and the joojeh chicken for the table. The bread alone is worth the reservation.",
+      "priceLevel": 3,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-chelsea-market",
+      "name": "Chelsea Market",
+      "category": "sight",
+      "address": "75 9th Ave, New York, NY 10011",
+      "lat": 40.7424,
+      "lng": -74.0061,
+      "description": "55+ food vendors in a converted Nabisco factory where Oreos were invented. The single most worthwhile tourist attraction in NYC.",
+      "note": "Go at 11am on a weekday, not 1pm on a Saturday. Walk through, graze, and then take the High Line entrance at 16th St upstairs after.",
+      "priceLevel": 2,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-high-line",
+      "name": "The High Line",
+      "category": "sight",
+      "address": "Gansevoort St to W 34th St, New York, NY",
+      "lat": 40.7400,
+      "lng": -74.0080,
+      "description": "Elevated park on a former freight rail line. Runs from Meatpacking to Hudson Yards. Free, open daily 7am-8pm.",
+      "note": "Enter at 16th St right next to Chelsea Market. Walk north to Hudson Yards, or south to the Whitney. Best in the morning or near sunset.",
+      "priceLevel": 1,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-lindustrie",
+      "name": "L'Industrie Pizzeria",
+      "category": "restaurant",
+      "address": "104 Christopher St, New York, NY 10014",
+      "lat": 40.7330,
+      "lng": -74.0050,
+      "description": "Voted best slice in the USA. Long-fermented sourdough. Burrata slice with sea salt and basil. Fig jam and prosciutto slice.",
+      "note": "Worth the 15-minute walk from the hotel. Get the burrata slice. Expect a line at peak times, go at opening.",
+      "priceLevel": 1,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-cote",
+      "name": "Cote Korean Steakhouse",
+      "category": "restaurant",
+      "address": "16 W 22nd St, New York, NY 10011",
+      "lat": 40.7418,
+      "lng": -73.9935,
+      "description": "Michelin-starred Korean steakhouse. The Butcher's Feast is $82 per person and the best luxury value in NYC steak.",
+      "note": "The Butcher's Feast at $82 per person is the best steak deal in Manhattan. Korean barbecue meets Michelin technique. Book the chef's table if you can.",
+      "priceLevel": 3,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-whitney",
+      "name": "Whitney Museum of American Art",
+      "category": "sight",
+      "address": "99 Gansevoort St, New York, NY 10014",
+      "lat": 40.7395,
+      "lng": -74.0086,
+      "description": "Renzo Piano-designed museum. Best American art collection in the city. Hopper, Basquiat, Warhol. Outdoor terraces with Hudson River views.",
+      "note": "Go Friday evening after 7pm when it is free. Walk the galleries, then out to the terraces for sunset over the Hudson.",
+      "priceLevel": 2,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-faicos",
+      "name": "Faicco's Italian Specialties",
+      "category": "restaurant",
+      "address": "260 Bleecker St, New York, NY 10014",
+      "lat": 40.7305,
+      "lng": -74.0040,
+      "description": "Open since 1900. The best chicken cutlet sandwich in NYC. Italian deli and grocery.",
+      "note": "Get the chicken cutlet sandwich. It is the size of a forearm and it is perfect. Grab some jarred pesto on the way out.",
+      "priceLevel": 1,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-joes-pizza",
+      "name": "Joe's Pizza",
+      "category": "restaurant",
+      "address": "7 Carmine St, New York, NY 10014",
+      "lat": 40.7300,
+      "lng": -74.0025,
+      "description": "The quintessential New York slice since 1975. No frills, perfect plain slice.",
+      "note": "Get a plain slice. Fold it. This is the New York slice you have seen in every movie. It is $4 and it is perfect.",
+      "priceLevel": 1,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-seminary-garden",
+      "name": "General Theological Seminary Gardens",
+      "category": "hidden",
+      "address": "175 9th Ave, New York, NY 10011",
+      "lat": 40.7430,
+      "lng": -74.0040,
+      "description": "Hidden gardens open to the public during daylight. A quiet, cloistered space in the middle of Chelsea. Feels like an Oxford quadrangle.",
+      "note": "Walk through the gate on 9th Ave at 20th St. It is free, it is quiet, and nobody knows it is here. A perfect 10-minute escape.",
+      "priceLevel": 1,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-russ-daughters",
+      "name": "Russ & Daughters",
+      "category": "restaurant",
+      "address": "179 E Houston St, New York, NY 10002",
+      "lat": 40.7258,
+      "lng": -73.9885,
+      "description": "Since 1914. The full appetizing experience: smoked fish, caviar, babka. The classic bagel with lox.",
+      "note": "Go to the original shop on Houston, not the cafe. Stand at the counter. Order the classic: everything bagel, scallion cream cheese, Nova lox, tomato, capers. That is how it has been done since 1914.",
+      "priceLevel": 2,
+      "imageUrl": null
+    },
+    {
+      "id": "pick-el-quijote",
+      "name": "El Quijote",
+      "category": "restaurant",
+      "address": "226 W 23rd St, New York, NY 10011",
+      "lat": 40.7440,
+      "lng": -73.9950,
+      "description": "Open since 1930. Patti Smith, Bob Dylan, and Andy Warhol were regulars. Classic Spanish, luxe paella, Basque cheesecake.",
+      "note": "This is in your hotel building. Walk downstairs. Order the paella and the Basque cheesecake. You are eating where Warhol ate.",
+      "priceLevel": 3,
+      "imageUrl": null
+    }
+  ],
+  "contacts": [
+    { "name": "Gabe", "role": "Your travel advisor", "phone": "+1 323 854 1678", "note": "Text me first. Anything moves, I move it." }
+  ],
+  "guideBlocks": [
+    { "heading": "Getting around", "body": "Everything in this guide is within a 25-minute walk of your hotel. Chelsea, the West Village, the Meatpacking District, and Flatiron are all walkable. For farther neighborhoods, the subway is $2.90 per ride with a phone tap. The 1/2/3 lines run along 7th Ave, two blocks from the hotel." },
+    { "heading": "From JFK to your hotel", "body": "A taxi from JFK is a flat $70 plus tip and tolls, about 45 minutes. Or take the AirTrain to Jamaica station, then the LIRR to Penn Station, then a 10-minute subway ride. I would take the taxi. You just flew across the country." },
+    { "heading": "Chelsea Market tip", "body": "Go at 11am on a weekday, not 1pm on a Saturday. It gets packed. Walk through, graze at Los Tacos No. 1 and Very Fresh Noodles, then take the High Line entrance at 16th St upstairs after." },
+    { "heading": "The best slice", "body": "L'Industrie on Christopher St is the best pizza in America right now. It is a 15-minute walk from the hotel. Get the burrata slice. Go at opening to avoid the line." }
+  ],
+  "documents": [],
+  "essentials": [
+    { "label": "Emergency", "value": "911", "phone": "911", "note": "Dial 911 for police, fire, or medical emergencies anywhere in NYC." },
+    { "label": "24-hour pharmacy", "value": "CVS Pharmacy", "address": "247 W 23rd St, New York, NY 10011", "phone": "+1 212-691-4444", "lat": 40.7445, "lng": -73.9935 },
+    { "label": "Hospital", "value": "Lenox Health Greenwich Village", "address": "209 W 14th St, New York, NY 10011", "phone": "+1 212-604-8000", "lat": 40.7375, "lng": -74.0005 },
+    { "label": "Your hotel, for a taxi driver", "value": "Motto by Hilton Chelsea", "address": "113 West 24th Street, New York, NY 10001" }
+  ]
+}

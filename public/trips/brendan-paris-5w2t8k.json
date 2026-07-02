@@ -1,0 +1,1263 @@
+{
+  "config": {
+    "clientName": "Brendan Murphy",
+    "title": "Paris",
+    "destination": "Paris, France",
+    "dates": "October 10 to 15, 2026",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-15",
+    "timezone": "Europe/Paris",
+    "coverNote": "Brendan, five days in Paris built around your 20K on Sunday. Your hotel is sorted, your flights are locked, and every day is mapped out from the Louvre to Versailles to the Ile de la Cite. Every spot below is one I have been to and would go back to. This is your city for the week. Tap anything for directions, metro notes, or my number. If a plan needs to move, I move it. Just text me.",
+    "coverImageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1400&q=80",
+    "contact": {
+      "whatsapp": "13238541678",
+      "email": "gabe@travelbycarta.com",
+      "phoneLabel": "Gabe"
+    },
+    "mapProvider": "google",
+    "driverPhrase": "Pouvez-vous m'emmener ici ?",
+    "map": {
+      "center": [
+        48.8573,
+        2.3554
+      ],
+      "zoom": 12.8
+    },
+    "categories": [
+      {
+        "id": "restaurant",
+        "label": "Food",
+        "color": "#B5654A"
+      },
+      {
+        "id": "cafe",
+        "label": "Cafes and Bakeries",
+        "color": "#D8BE73"
+      },
+      {
+        "id": "bar",
+        "label": "Bars",
+        "color": "#9B6B9E"
+      },
+      {
+        "id": "sight",
+        "label": "Sights",
+        "color": "#5F7A8C"
+      },
+      {
+        "id": "shop",
+        "label": "Shops",
+        "color": "#7A9A6A"
+      }
+    ]
+  },
+  "days": [
+    {
+      "date": "2026-10-09",
+      "title": "Overnight flight",
+      "summary": "UA915 out of Dulles, overnight to Paris."
+    },
+    {
+      "date": "2026-10-10",
+      "title": "Arrival, Montmartre Grape Harvest Festival",
+      "summary": "Land, RER to the city, pick up your race packet, then the Fete des vendanges in Montmartre."
+    },
+    {
+      "date": "2026-10-11",
+      "title": "Race day and the Eiffel Tower",
+      "summary": "20km de Paris in the morning, rest, then the Eiffel Tower at night."
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Museums and the Champs-Elysees",
+      "summary": "Louvre, Tuileries, Orangerie, Orsay, then Arc de Triomphe and shopping."
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Versailles",
+      "summary": "Full day trip to the Chateau de Versailles. Easy night near the hotel."
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Ile de la Cite and the Latin Quarter",
+      "summary": "Notre-Dame, Conciergerie, a Michelin lunch at Baeita, Shakespeare and Company, Pantheon."
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Departure",
+      "summary": "Last morning, butter from La Grande Epicerie, then the airport."
+    }
+  ],
+  "itinerary": [
+    {
+      "id": "flight-iad-cdg",
+      "dayDate": "2026-10-09",
+      "type": "flight",
+      "status": "confirmed",
+      "title": "UA915, IAD to CDG",
+      "subtitle": "United 915, overnight to Paris",
+      "startTime": "2026-10-09T17:55:00-04:00",
+      "endTime": "2026-10-10T07:35:00+02:00",
+      "locationName": "Dulles International (IAD)",
+      "address": "1 Saarinen Cir, Dulles, VA 20166",
+      "lat": 38.9531,
+      "lng": -77.4565,
+      "confirmationCode": "OBCHJS",
+      "personalNote": "Overnight flight. Try to sleep on the plane. You land at 7:35 AM Paris time. Shower and breakfast at the Business Lounge at CDG before heading into the city on the RER.",
+      "details": {
+        "Airline": "United Airlines",
+        "Flight": "UA915",
+        "Departs": "IAD, 5:55 PM ET",
+        "Arrives": "CDG Terminal 1, 7:35 AM CET",
+        "Seats": "5D, 5G",
+        "Confirmation": "OBCHJS",
+        "Passengers": "James Brendan Murphy (JIP36479), Ashland Michaela Murphy (VU645438)"
+      },
+      "documentRefs": [],
+      "sortIndex": 0,
+      "leadTimeMinutes": 150,
+      "flightNumber": "UA915"
+    },
+    {
+      "id": "transfer-cdg-city",
+      "dayDate": "2026-10-10",
+      "type": "transfer",
+      "status": "confirmed",
+      "title": "RER from CDG to the city",
+      "subtitle": "Shower at the Business Lounge first, then RER B into Paris",
+      "startTime": "2026-10-10T09:00:00+02:00",
+      "endTime": "2026-10-10T10:30:00+02:00",
+      "locationName": "Charles de Gaulle (CDG)",
+      "address": "95700 Roissy-en-France",
+      "lat": 49.0097,
+      "lng": 2.5479,
+      "personalNote": "Shower and breakfast at the Business Lounge at CDG before heading in. Take the RER B from CDG to Saint-Michel-Notre-Dame, then transfer to Metro Line 10 toward Boulogne, get off at La Motte-Picquet-Grenelle, transfer to Line 8 toward Balard, one stop to Ecole Militaire. Walk 5 min to the hotel. About 90 minutes total.",
+      "details": {
+        "Mode": "RER B + Metro",
+        "Cost": "~12 EUR",
+        "Duration": "90 min"
+      },
+      "sortIndex": 0
+    },
+    {
+      "id": "lodging-champ-de-mars",
+      "dayDate": "2026-10-10",
+      "type": "lodging",
+      "status": "confirmed",
+      "title": "Hotel du Champ de Mars",
+      "subtitle": "7th arrondissement, your base for the stay",
+      "startTime": "2026-10-10T15:00:00+02:00",
+      "endTime": "2026-10-15T11:00:00+02:00",
+      "locationName": "Hotel du Champ de Mars",
+      "address": "7 Rue du Champ de Mars, 75007 Paris",
+      "lat": 48.8568,
+      "lng": 2.3006,
+      "contactName": "Front desk",
+      "contactPhone": "+33 1 45 51 52 30",
+      "priceLevel": 2,
+      "rating": 4.5,
+      "personalNote": "Have the hotel hold your luggage until check-in at 3 PM. You are two minutes from the Champ de Mars and the Eiffel Tower. Quiet street, small hotel. I asked for a courtyard room if they have one.",
+      "details": {
+        "Check in": "October 10, 3:00 PM",
+        "Check out": "October 15, 11:00 AM",
+        "Nights": "5"
+      },
+      "documentRefs": [],
+      "sortIndex": 1
+    },
+    {
+      "id": "activity-race-packet",
+      "dayDate": "2026-10-10",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Pick up race packet",
+      "subtitle": "Near the hotel, before heading out",
+      "startTime": "2026-10-10T11:00:00+02:00",
+      "endTime": "2026-10-10T12:00:00+02:00",
+      "personalNote": "Pick up your race packet for tomorrow's 20km. Check your bib for your wave time. This should be quick and near the hotel.",
+      "details": {},
+      "sortIndex": 2
+    },
+    {
+      "id": "activity-fete-vendanges",
+      "dayDate": "2026-10-10",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Fete des vendanges de Montmartre",
+      "subtitle": "Grape Harvest Festival around Sacre-Coeur",
+      "startTime": "2026-10-10T13:00:00+02:00",
+      "endTime": "2026-10-10T17:00:00+02:00",
+      "locationName": "Montmartre, around Sacre-Coeur",
+      "address": "Montmartre, 75018 Paris",
+      "lat": 48.8867,
+      "lng": 2.3431,
+      "personalNote": "The Grape Harvest Festival is on the roads surrounding Sacre-Coeur. A celebration of wine, food, and Montmartre's vineyard history. Do the Dome Tour if you have time, last entry is 5 PM. To get there: Walk to Bir-Hakeim (Metro Line 6), about 7-10 min from the hotel. Take Line 6 toward Charles de Gaulle-Etoile, get off at Pasteur. Transfer to Line 12 toward Mairie d'Aubervilliers, get off at Abbesses (closest to Montmartre center, many stairs) or Pigalle (easier exit, flatter walk uphill). About 35-40 min total. Or taxi: 25-40 min, about 20-30 EUR. Just ask for Montmartre / Sacre-Coeur.",
+      "details": {
+        "Transport": "Metro Line 6 to Pasteur, transfer to Line 12 to Abbesses",
+        "Duration": "35-40 min each way",
+        "Dome Tour": "Last entry 5 PM"
+      },
+      "sortIndex": 3,
+      "leadTimeMinutes": 40
+    },
+    {
+      "id": "dining-arrival-evening",
+      "dayDate": "2026-10-10",
+      "type": "dining",
+      "status": "confirmed",
+      "title": "Casual evening near the hotel",
+      "subtitle": "Chapon et la Chocolaterie and La Grande Epicerie",
+      "startTime": "2026-10-10T18:00:00+02:00",
+      "endTime": null,
+      "locationName": "Chapon et la Chocolaterie",
+      "address": "69 Rue de Bac, 75007 Paris",
+      "lat": 48.8553,
+      "lng": 2.3256,
+      "priceLevel": 1,
+      "rating": 4.6,
+      "personalNote": "Casual evening. Stop at Chapon for chocolate mousse, then La Grande Epicerie de Paris for treats. Both are near the hotel. Grab Maison Bordier butter and flavored salts to bring home. Get the butter vacuum-sealed. Easy first night, you will be tired.",
+      "details": {},
+      "sortIndex": 4
+    },
+    {
+      "id": "activity-20k-warmup",
+      "dayDate": "2026-10-11",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Race warmup run",
+      "subtitle": "Easy jog toward the Eiffel Tower",
+      "startTime": "2026-10-11T07:30:00+02:00",
+      "endTime": "2026-10-11T08:30:00+02:00",
+      "locationName": "Champ de Mars",
+      "address": "2 Allée Adrienne Lecouvreur, 75007 Paris",
+      "lat": 48.8562,
+      "lng": 2.2976,
+      "personalNote": "Warm up run toward the Eiffel Tower around 7:30 AM. You are staying five minutes from the start line. Eat a light breakfast, hydrate.",
+      "details": {},
+      "sortIndex": 0
+    },
+    {
+      "id": "activity-20k",
+      "dayDate": "2026-10-11",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "20km de Paris",
+      "subtitle": "Race day",
+      "startTime": "2026-10-11T10:00:00+02:00",
+      "endTime": "2026-10-11T13:00:00+02:00",
+      "locationName": "Pont d'Iena (start line)",
+      "address": "Pont d'Iena, 75007 Paris",
+      "lat": 48.8616,
+      "lng": 2.2966,
+      "personalNote": "The 20km de Paris starts near the Eiffel Tower and loops through Bois de Boulogne. Starts near Pont d'Iena, walking distance from your hotel. Check your bib for your wave time. After the race, find a terrace and drink water and wine in that order.",
+      "details": {
+        "Distance": "20km",
+        "Start": "Pont d'Iena, near Eiffel Tower"
+      },
+      "sortIndex": 1,
+      "leadTimeMinutes": 60
+    },
+    {
+      "id": "dining-race-day-lunch",
+      "dayDate": "2026-10-11",
+      "type": "dining",
+      "status": "idea",
+      "title": "Lunch near the hotel",
+      "subtitle": "Post-race recovery food",
+      "startTime": null,
+      "endTime": null,
+      "personalNote": "Eat near the hotel after the race. Something simple and restorative. The Rue Cler market street is three blocks away and has plenty of options.",
+      "details": {},
+      "sortIndex": 2
+    },
+    {
+      "id": "dining-east-paris",
+      "dayDate": "2026-10-11",
+      "type": "dining",
+      "status": "idea",
+      "title": "Optional: cab to East Paris to eat",
+      "subtitle": "La Rotisserie d'Argent or Bistrot des Tournelles",
+      "startTime": null,
+      "endTime": null,
+      "personalNote": "If you are feeling up to it after resting, grab a cab to East Paris. La Rotisserie d'Argent for the best rotisserie chicken and mashed potatoes in Paris, or Bistrot des Tournelles for the classic bistro experience. Both are worth the cab ride.",
+      "details": {},
+      "sortIndex": 3
+    },
+    {
+      "id": "activity-eiffel-tower",
+      "dayDate": "2026-10-11",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Eiffel Tower tour",
+      "subtitle": "Evening visit, leave time for Trocadero",
+      "startTime": "2026-10-11T18:00:00+02:00",
+      "endTime": "2026-10-11T20:00:00+02:00",
+      "locationName": "Eiffel Tower",
+      "address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+      "lat": 48.8584,
+      "lng": 2.2945,
+      "personalNote": "Eiffel Tower tour in the evening. Leave time for Place du Trocadero and Jardins du Trocadero in front of the Tower, it is the classic view. Tickets go on sale at 6:00 PM Eastern Daylight Time on Monday, August 10, 2026. Set a reminder, they sell out fast.",
+      "details": {
+        "Ticket sale date": "August 10, 2026 at 6:00 PM EDT",
+        "Note": "Set a reminder, tickets sell out fast"
+      },
+      "sortIndex": 4,
+      "leadTimeMinutes": 30
+    },
+    {
+      "id": "activity-louvre-tuileries",
+      "dayDate": "2026-10-12",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Le Louvre and Jardin des Tuileries",
+      "subtitle": "Start at the Louvre, walk through the Tuileries",
+      "startTime": "2026-10-12T09:30:00+02:00",
+      "endTime": "2026-10-12T12:00:00+02:00",
+      "locationName": "Louvre Museum",
+      "address": "Rue de Rivoli, 75001 Paris",
+      "lat": 48.8606,
+      "lng": 2.3376,
+      "personalNote": "Start at the Louvre. Use the Carrousel du Louvre entrance to skip the pyramid line. Then walk through the Jardin des Tuileries toward the Orangerie and Orsay. Do not try to see everything in the Louvre, pick a wing. The Denon Wing has the Mona Lisa and the Apollo Gallery.",
+      "details": {
+        "Secret entrance": "Carrousel du Louvre"
+      },
+      "sortIndex": 0,
+      "leadTimeMinutes": 20
+    },
+    {
+      "id": "activity-orangerie-orsay",
+      "dayDate": "2026-10-12",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Musee de l'Orangerie and Musee d'Orsay",
+      "subtitle": "Continue the museum routine",
+      "startTime": "2026-10-12T12:00:00+02:00",
+      "endTime": "2026-10-12T14:00:00+02:00",
+      "locationName": "Musee de l'Orangerie",
+      "address": "Jardin des Tuileries, 75001 Paris",
+      "lat": 48.8638,
+      "lng": 2.3227,
+      "rating": 4.7,
+      "personalNote": "Orangerie for Monet's Water Lilies in the oval rooms, then Orsay for the Impressionists. Both are in the Tuileries area, easy walking distance from each other. The Orangerie is smaller and more manageable, start there.",
+      "details": {},
+      "sortIndex": 1
+    },
+    {
+      "id": "dining-relais-entrecote",
+      "dayDate": "2026-10-12",
+      "type": "dining",
+      "status": "confirmed",
+      "title": "Lunch, Le Relais de l'Entrecote",
+      "subtitle": "Steak frites, one menu, one sauce",
+      "startTime": "2026-10-12T14:00:00+02:00",
+      "endTime": null,
+      "locationName": "Le Relais de l'Entrecote",
+      "address": "20 Rue Saint-Benoit, 75006 Paris",
+      "lat": 48.854,
+      "lng": 2.3331,
+      "priceLevel": 3,
+      "rating": 4.4,
+      "personalNote": "Steak frites with the secret green sauce. Comes in two servings. There is also a Champs-Elysees location if you prefer to eat closer to your afternoon plans. No menu, just tell them how you want the steak cooked.",
+      "details": {
+        "Locations": "Saint-Germain and Champs-Elysees"
+      },
+      "sortIndex": 2,
+      "leadTimeMinutes": 25
+    },
+    {
+      "id": "activity-arc-triomphe",
+      "dayDate": "2026-10-12",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Arc de Triomphe and Champs-Elysees",
+      "subtitle": "Walk the Champs-Elysees from the Arc",
+      "startTime": "2026-10-12T15:30:00+02:00",
+      "endTime": "2026-10-12T18:00:00+02:00",
+      "locationName": "Arc de Triomphe",
+      "address": "Place Charles de Gaulle, 75008 Paris",
+      "lat": 48.8738,
+      "lng": 2.295,
+      "personalNote": "Walk to Anvers or Abbesses Metro station, take Line 2 direction Porte Dauphine, get off at Charles de Gaulle-Etoile (direct access to the Arc de Triomphe). Walk along the Champs-Elysees from the Arc. Shopping and window shopping. If you need a rain coat or warm layer, Saint-Lazare or Sevres-Lecourbe are good shopping stops.",
+      "details": {
+        "Transport": "Metro Line 2 to Charles de Gaulle-Etoile",
+        "Shopping": "Rain coat or warm layer at Saint-Lazare or Sevres-Lecourbe"
+      },
+      "sortIndex": 3,
+      "leadTimeMinutes": 30
+    },
+    {
+      "id": "activity-versailles",
+      "dayDate": "2026-10-13",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Versailles, full day trip",
+      "subtitle": "Chateau de Versailles and gardens",
+      "startTime": "2026-10-13T09:00:00+02:00",
+      "endTime": "2026-10-13T17:00:00+02:00",
+      "locationName": "Chateau de Versailles",
+      "address": "Place d'Armes, 78000 Versailles",
+      "lat": 48.8049,
+      "lng": 2.1204,
+      "personalNote": "Full day at Versailles. Take the RER C from central Paris to Versailles Chateau Rive Gauche station, about 45 minutes. Get there early to beat the crowds. Do the Hall of Mirrors, the King's Grand Apartment, and the gardens. If you have time, the Marie-Antoinette Estate is worth the walk. Petit Palais is an option if you get back early and want one more museum. To get to Petit Palais: take Line 8 direction Balard.",
+      "details": {
+        "Transport": "RER C to Versailles Chateau Rive Gauche",
+        "Duration": "45 min each way",
+        "Highlights": "Hall of Mirrors, King's Grand Apartment, Gardens, Marie-Antoinette Estate"
+      },
+      "sortIndex": 0,
+      "leadTimeMinutes": 45
+    },
+    {
+      "id": "dining-versailles-evening",
+      "dayDate": "2026-10-13",
+      "type": "dining",
+      "status": "idea",
+      "title": "Casual dinner and rest near the hotel",
+      "subtitle": "Possible spa evening",
+      "startTime": null,
+      "endTime": null,
+      "personalNote": "You will be tired from Versailles. Casual dinner near the hotel, or a spa evening if you want to decompress. Keep it easy.",
+      "details": {},
+      "sortIndex": 1
+    },
+    {
+      "id": "activity-notre-dame",
+      "dayDate": "2026-10-14",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Notre-Dame and Ile de la Cite",
+      "subtitle": "Cathedral, Conciergerie, cross Pont Neuf",
+      "startTime": "2026-10-14T09:30:00+02:00",
+      "endTime": "2026-10-14T12:00:00+02:00",
+      "locationName": "Notre-Dame Cathedral",
+      "address": "6 Parvis Notre-Dame, 75004 Paris",
+      "lat": 48.853,
+      "lng": 2.3499,
+      "personalNote": "Take Line 8 direction Creteil Pointe du Lac, get off at Strasbourg-Saint-Denis. Transfer to Line 4 direction Bagneux, get off at Cite or Saint-Michel-Notre-Dame. Visit Notre-Dame Cathedral, walk around Ile de la Cite, see the Conciergerie (Marie Antoinette's last cell, 13 EUR, about 60 min). Cross Pont Neuf to the Left Bank.",
+      "details": {
+        "Transport": "Line 8 to Strasbourg-Saint-Denis, transfer to Line 4 to Cite",
+        "Conciergerie": "13 EUR, ~60 min, UNESCO site"
+      },
+      "sortIndex": 0,
+      "leadTimeMinutes": 30
+    },
+    {
+      "id": "dining-baeita",
+      "dayDate": "2026-10-14",
+      "type": "dining",
+      "status": "confirmed",
+      "title": "Lunch at Baeita",
+      "subtitle": "Michelin-starred, Latin Quarter",
+      "startTime": "2026-10-14T12:30:00+02:00",
+      "endTime": "2026-10-14T14:30:00+02:00",
+      "locationName": "Baeita",
+      "address": "13 Rue des Fosses Saint-Bernard, 75005 Paris",
+      "lat": 48.846,
+      "lng": 2.352,
+      "priceLevel": 4,
+      "rating": 4.7,
+      "personalNote": "Michelin lunch, plan 1.5 to 2 hours. In the Latin Quarter, a 10-15 min walk from Ile de la Cite. After lunch, walk to Shakespeare and Company, grab snacks from La Maison d'Isabelle and Fromagerie Laurent Dubois. You will need 2 single metro tickets for the day.",
+      "details": {
+        "Duration": "1.5-2 hours",
+        "Walk to Latin Quarter": "10-15 min from Ile de la Cite"
+      },
+      "sortIndex": 1,
+      "leadTimeMinutes": 25
+    },
+    {
+      "id": "activity-pantheon",
+      "dayDate": "2026-10-14",
+      "type": "activity",
+      "status": "confirmed",
+      "title": "Pantheon",
+      "subtitle": "8-10 min walk from the Latin Quarter",
+      "startTime": "2026-10-14T15:00:00+02:00",
+      "endTime": "2026-10-14T16:30:00+02:00",
+      "locationName": "Pantheon",
+      "address": "Place du Pantheon, 75005 Paris",
+      "lat": 48.8462,
+      "lng": 2.3463,
+      "personalNote": "The Pantheon is an 8-10 minute walk from the Latin Quarter. Stunning architecture, Foucault's pendulum hangs inside. The crypt has the tombs of Voltaire, Rousseau, Victor Hugo, and Marie Curie.",
+      "details": {},
+      "sortIndex": 2
+    },
+    {
+      "id": "dining-breizh-odeon",
+      "dayDate": "2026-10-14",
+      "type": "dining",
+      "status": "confirmed",
+      "title": "Breizh Cafe Odeon or La Crepe Autrement",
+      "subtitle": "Crepes, then Chapon if room",
+      "startTime": "2026-10-14T18:00:00+02:00",
+      "endTime": null,
+      "locationName": "Breizh Cafe Odeon",
+      "address": "1 Rue de l'Odeon, 75006 Paris",
+      "lat": 48.8517,
+      "lng": 2.3392,
+      "priceLevel": 2,
+      "rating": 4.4,
+      "personalNote": "Breizh Cafe for the best crepes in Paris, or La Crepe Autrement nearby. Stop at Chapon et la Chocolaterie if you have room for mousse. To get home: Walk to Odeon Metro station, take Line 10 (direction Boulogne-Pont de Saint-Cloud) to La Motte-Picquet-Grenelle (about 8 stops), transfer to Line 8 (direction Balard), one stop to Ecole Militaire, walk 5 min to the hotel.",
+      "details": {
+        "Transport home": "Line 10 from Odeon to La Motte-Picquet-Grenelle, transfer to Line 8 to Ecole Militaire",
+        "Metro tickets": "2 single tickets needed"
+      },
+      "sortIndex": 3,
+      "leadTimeMinutes": 25
+    },
+    {
+      "id": "dining-last-morning",
+      "dayDate": "2026-10-15",
+      "type": "dining",
+      "status": "idea",
+      "title": "Last morning, anything you missed",
+      "subtitle": "Trocadero, butter from La Grande Epicerie",
+      "startTime": "2026-10-15T07:00:00+02:00",
+      "endTime": null,
+      "personalNote": "If there is anything you did not get to or want to see again, maybe Trocadero. Get butter vacuum-sealed from La Grande Epicerie and flavored salts. The point is to not leave Paris without one last croissant and the Bordier butter.",
+      "details": {},
+      "sortIndex": 0
+    },
+    {
+      "id": "transfer-hotel-cdg",
+      "dayDate": "2026-10-15",
+      "type": "transfer",
+      "status": "confirmed",
+      "title": "Head to CDG",
+      "subtitle": "9 AM departure, lounge lunch at the airport",
+      "startTime": "2026-10-15T09:00:00+02:00",
+      "endTime": "2026-10-15T10:30:00+02:00",
+      "locationName": "Hotel du Champ de Mars",
+      "address": "7 Rue du Champ de Mars, 75007 Paris",
+      "lat": 48.8568,
+      "lng": 2.3006,
+      "personalNote": "Head to the airport at 9 AM. Have the hotel call a taxi the night before. Flat fare from the Left Bank is 55 EUR. Lounge lunch at CDG before the flight.",
+      "details": {
+        "Mode": "Taxi",
+        "Flat fare": "55 EUR",
+        "Duration": "45-60 min"
+      },
+      "sortIndex": 1
+    },
+    {
+      "id": "flight-cdg-iad",
+      "dayDate": "2026-10-15",
+      "type": "flight",
+      "status": "confirmed",
+      "title": "UA914, CDG to IAD",
+      "subtitle": "United 914, home",
+      "startTime": "2026-10-15T12:45:00+02:00",
+      "endTime": "2026-10-15T15:15:00-04:00",
+      "locationName": "Charles de Gaulle (CDG)",
+      "address": "95700 Roissy-en-France",
+      "lat": 49.0097,
+      "lng": 2.5479,
+      "confirmationCode": "OBCHJS",
+      "personalNote": "Flight out at 12:45 PM. Seats 2D and 2G, same confirmation as the outbound. Lounge lunch before boarding. Grab a final espresso at the terminal.",
+      "details": {
+        "Airline": "United Airlines",
+        "Flight": "UA914",
+        "Departs": "CDG Terminal 1, 12:45 PM CET",
+        "Arrives": "IAD, 3:15 PM ET",
+        "Seats": "2D, 2G",
+        "Confirmation": "OBCHJS",
+        "Passengers": "James Brendan Murphy (JIP36479), Ashland Michaela Murphy (VU645438)"
+      },
+      "documentRefs": [],
+      "sortIndex": 2,
+      "leadTimeMinutes": 150,
+      "flightNumber": "UA914"
+    }
+  ],
+  "picks": [
+    {
+      "id": "pick-paul-bert",
+      "name": "Le Bistrot Paul Bert",
+      "category": "restaurant",
+      "subtitle": "The bistro to know",
+      "address": "18 Rue Paul Bert, 75011 Paris",
+      "lat": 48.8523,
+      "lng": 2.3829,
+      "phone": "+33 1 43 72 24 01",
+      "priceLevel": 3,
+      "rating": 4.5,
+      "note": "The definitive Paris bistro. Loud, bustling, and the steak frites is as good as it gets. The menu is on chalkboards. Get the steak au poivre and the creme caramel. If you want a table, text me and I will try."
+    },
+    {
+      "id": "pick-maison-isabelle",
+      "name": "La Maison d'Isabelle",
+      "category": "cafe",
+      "subtitle": "Best croissant in Paris",
+      "address": "47 Boulevard Saint-Germain, 75005 Paris",
+      "lat": 48.8499,
+      "lng": 2.3488,
+      "priceLevel": 1,
+      "rating": 4.6,
+      "note": "Won best butter croissant in Paris and it earns it. Flaky on the outside, honeycomb interior, technically perfect. Go early before the line forms."
+    },
+    {
+      "id": "pick-mamiche",
+      "name": "Mamiche",
+      "category": "cafe",
+      "subtitle": "Modern bakery, the babka",
+      "address": "45 Rue Condorcet, 75009 Paris",
+      "lat": 48.8804,
+      "lng": 2.3395,
+      "priceLevel": 1,
+      "rating": 4.6,
+      "note": "Hip modern bakery that has taken Paris by storm. The pain au chocolat is perfectly laminated, but the babka is the sleeper hit. Grab a few for the plane."
+    },
+    {
+      "id": "pick-tout-autour",
+      "name": "Tout Autour du Pain",
+      "category": "cafe",
+      "subtitle": "Best baguette in the Marais",
+      "address": "134 Rue de Turenne, 75003 Paris",
+      "lat": 48.8635,
+      "lng": 2.3638,
+      "priceLevel": 1,
+      "rating": 4.5,
+      "note": "Renowned for having some of the best baguettes in the city. Perfectly crisp crust, soft and airy inside. Grab one and build a picnic with cheese and charcuterie."
+    },
+    {
+      "id": "pick-paris-by-mouth",
+      "name": "Paris by Mouth Food Tour",
+      "category": "sight",
+      "subtitle": "The gold standard food tour",
+      "address": "North Marais (meeting points vary)",
+      "lat": 48.8628,
+      "lng": 2.36,
+      "priceLevel": 4,
+      "rating": 4.8,
+      "note": "The best food tour in Paris. They take you to the top cheese, bread, chocolate, and wine shops with an expert guide. Come hungry. This is a volume play."
+    },
+    {
+      "id": "pick-kodawari-yokocho",
+      "name": "Kodawari Ramen (Yokocho)",
+      "category": "restaurant",
+      "subtitle": "Best ramen outside Japan",
+      "address": "29 Rue Mazarine, 75006 Paris",
+      "lat": 48.8542,
+      "lng": 2.3382,
+      "priceLevel": 2,
+      "rating": 4.5,
+      "note": "Walking in feels like teleporting to a Japanese alleyway. The interior is immersive, the ramen is profound. Get the kurogoma (black sesame). Expect a queue."
+    },
+    {
+      "id": "pick-kodawari-tsukiji",
+      "name": "Kodawari Ramen (Tsukiji)",
+      "category": "restaurant",
+      "subtitle": "Styled like Tsukiji Fish Market",
+      "address": "12 Rue de Richelieu, 75001 Paris",
+      "lat": 48.8637,
+      "lng": 2.3363,
+      "priceLevel": 2,
+      "rating": 4.5,
+      "note": "Second location, designed to look exactly like the old Tsukiji Fish Market in Tokyo. Fish-based broths are the move here. Obsessive attention to detail."
+    },
+    {
+      "id": "pick-chapon",
+      "name": "Chapon et la Chocolaterie",
+      "category": "cafe",
+      "subtitle": "Chocolate mousse bar",
+      "address": "69 Rue de Bac, 75007 Paris",
+      "lat": 48.8553,
+      "lng": 2.3256,
+      "priceLevel": 1,
+      "rating": 4.6,
+      "note": "A counter with large bowls of 10 different kinds of chocolate mousse from different single-origin beans. They pile your choice into a cone. Get three scoops. This is near your hotel."
+    },
+    {
+      "id": "pick-chez-janou",
+      "name": "Chez Janou",
+      "category": "restaurant",
+      "subtitle": "Bottomless chocolate mousse",
+      "address": "2 Rue Roger Verlomme, 75003 Paris",
+      "lat": 48.8566,
+      "lng": 2.3653,
+      "phone": "+33 1 42 72 28 41",
+      "priceLevel": 2,
+      "rating": 4.4,
+      "note": "Boisterous Provencal bistro tucked away in the Marais. Legendary for its bottomless chocolate mousse served from a giant communal bowl. They leave the bowl at the table. Great after the race."
+    },
+    {
+      "id": "pick-breizh-cafe",
+      "name": "Breizh Cafe (Odeon)",
+      "category": "restaurant",
+      "subtitle": "Best crepes in Paris",
+      "address": "1 Rue de l'Odeon, 75006 Paris",
+      "lat": 48.8517,
+      "lng": 2.3392,
+      "priceLevel": 2,
+      "rating": 4.4,
+      "note": "Widely considered the best crepes and galettes in Paris. Pair your savory buckwheat galette with an artisanal cider. Great late at night."
+    },
+    {
+      "id": "pick-enfants-marche",
+      "name": "Les Enfants du Marche",
+      "category": "restaurant",
+      "subtitle": "Counter seating inside a market",
+      "address": "39 Rue de Bretagne, 75003 Paris",
+      "lat": 48.8627,
+      "lng": 2.3615,
+      "priceLevel": 2,
+      "rating": 4.4,
+      "note": "High-energy counter-seating spot inside the Marche des Enfants Rouges. Ingredients sourced from the stalls around them. Get whatever is on the chalkboard. Go for lunch."
+    },
+    {
+      "id": "pick-bistrot-tournelles",
+      "name": "Bistrot des Tournelles",
+      "category": "restaurant",
+      "subtitle": "The Paris bistro in your mind",
+      "address": "6 Rue des Tournelles, 75004 Paris",
+      "lat": 48.8545,
+      "lng": 2.3664,
+      "priceLevel": 2,
+      "rating": 4.4,
+      "note": "When you picture a Paris bistro in your mind, this is it. Nearly 100 years old, timeless classics, not trying to be trendy. The croque monsieur is perfect."
+    },
+    {
+      "id": "pick-relais-entrecote",
+      "name": "Le Relais de l'Entrecote",
+      "category": "restaurant",
+      "subtitle": "One menu, one sauce",
+      "address": "20 Rue Saint-Benoit, 75006 Paris",
+      "lat": 48.854,
+      "lng": 2.3331,
+      "priceLevel": 3,
+      "rating": 4.4,
+      "note": "Famous for having one main course: steak frites with their secret greenish garlicky sauce. Comes in two servings. Line is long but moves fast. You do not need a menu."
+    },
+    {
+      "id": "pick-epicure",
+      "name": "Epicure at Le Bristol",
+      "category": "restaurant",
+      "subtitle": "Three Michelin stars",
+      "address": "112 Rue du Faubourg Saint-Honore, 75008 Paris",
+      "lat": 48.8718,
+      "lng": 2.3142,
+      "phone": "+33 1 53 43 43 00",
+      "priceLevel": 4,
+      "rating": 4.8,
+      "note": "The only 3-Michelin star on this list. Located in Le Bristol hotel. Formal, elegant, roughly 1k per person. The macaroni stuffed with black truffle, artichoke, and duck foie gras is the MVP. If you want the splurge meal, this is it."
+    },
+    {
+      "id": "pick-le-meurice",
+      "name": "Le Meurice Alain Ducasse",
+      "category": "cafe",
+      "subtitle": "Breakfast at a palace hotel",
+      "address": "228 Rue de Rivoli, 75001 Paris",
+      "lat": 48.8655,
+      "lng": 2.3283,
+      "priceLevel": 4,
+      "rating": 4.6,
+      "note": "Michelin-starred heavyweight, but the pro move is breakfast. The parlor room is modeled after the Salon de la Paix at Versailles. The basket of pastries is elite. You feel like you won something just sitting in the chair."
+    },
+    {
+      "id": "pick-ritz-comptoir",
+      "name": "Ritz Paris Le Comptoir",
+      "category": "cafe",
+      "subtitle": "Pastries at the Ritz",
+      "address": "38 Rue Cambon, 75001 Paris",
+      "lat": 48.8683,
+      "lng": 2.3284,
+      "priceLevel": 3,
+      "rating": 4.5,
+      "note": "Located in one of the most extravagant hotels in the world on Place Vendome. Pastries created by top-tier pastry chefs. The madeleine has elite pedigree. Luxury in a bite."
+    },
+    {
+      "id": "pick-cedric-grolet",
+      "name": "Cedric Grolet Opera",
+      "category": "cafe",
+      "subtitle": "Pastries that look like fruit",
+      "address": "35 Avenue de l'Opera, 75002 Paris",
+      "lat": 48.8672,
+      "lng": 2.3326,
+      "priceLevel": 3,
+      "rating": 4.6,
+      "note": "Cedric Grolet is a master. His pastries look exactly like the fruit they are flavored with. Trompe-oeil artistry that tastes as good as it looks. The Opera location is busy, try to go early."
+    },
+    {
+      "id": "pick-louvre-secret",
+      "name": "Louvre Secret Entrance",
+      "category": "sight",
+      "subtitle": "Skip the pyramid line",
+      "address": "Carrousel du Louvre, 99 Rue de Rivoli, 75001 Paris",
+      "lat": 48.862,
+      "lng": 2.3331,
+      "priceLevel": 1,
+      "rating": 4.5,
+      "note": "To save yourself a huge amount of time, enter the Louvre through the Carrousel du Louvre shopping mall. It takes you down through the mall and spits you out right under the pyramid, bypassing the main crowds. This is a cheat code."
+    },
+    {
+      "id": "pick-shakespeare-co",
+      "name": "Shakespeare and Company",
+      "category": "sight",
+      "subtitle": "Historic English-language bookstore",
+      "address": "37 Rue de la Bucherie, 75005 Paris",
+      "lat": 48.8525,
+      "lng": 2.3472,
+      "priceLevel": 1,
+      "rating": 4.6,
+      "note": "Historic bookstore with an indescribable atmosphere. Smells like old books. Go upstairs where the reading room is and the crowds thin. Get the tote bag."
+    },
+    {
+      "id": "pick-bachir",
+      "name": "Glace Bachir",
+      "category": "cafe",
+      "subtitle": "Lebanese ice cream in Montmartre",
+      "address": "58 Rue des Abbesses, 75018 Paris",
+      "lat": 48.8848,
+      "lng": 2.3385,
+      "priceLevel": 1,
+      "rating": 4.5,
+      "note": "Famous Lebanese ice cream shop. Pistachio-coated cones with a unique slightly chewy texture. A big yum. Pair with a Montmartre walk."
+    },
+    {
+      "id": "pick-petit-vendome",
+      "name": "Le Petit Vendome",
+      "category": "restaurant",
+      "subtitle": "Classic Parisian sandwiches",
+      "address": "8 Rue des Capucines, 75002 Paris",
+      "lat": 48.869,
+      "lng": 2.328,
+      "priceLevel": 1,
+      "rating": 4.4,
+      "note": "The spot for classic Parisian sandwiches. Crispy baguette, high-quality ham, butter, cheese. Simple, unpretentious, perfectly executed. The jambon-beurre. Ground and pound."
+    },
+    {
+      "id": "pick-caractere-cochon",
+      "name": "Caractere de Cochon",
+      "category": "restaurant",
+      "subtitle": "Best sandwiches in the city",
+      "address": "42 Rue Charlot, 75003 Paris",
+      "lat": 48.8624,
+      "lng": 2.3619,
+      "priceLevel": 1,
+      "rating": 4.6,
+      "note": "My favorite sandwich spot in the city. They specialize in cured meats. Incredibly flavorful, great grab-and-go in the Marais. This is my QB1, I am starting it every week."
+    },
+    {
+      "id": "pick-maison-verot",
+      "name": "Maison Verot",
+      "category": "shop",
+      "subtitle": "World-class charcuterie",
+      "address": "38 Rue de Bretagne, 75003 Paris",
+      "lat": 48.8625,
+      "lng": 2.3617,
+      "priceLevel": 2,
+      "rating": 4.6,
+      "note": "World-class charcuterie, right across from Caractere de Cochon. Grab fresh sliced Jambon de Paris here, then cheese and baguette elsewhere for a park picnic."
+    },
+    {
+      "id": "pick-musee-orangerie",
+      "name": "Musee de l'Orangerie",
+      "category": "sight",
+      "subtitle": "Monet's Water Lilies",
+      "address": "Jardin des Tuileries, 75001 Paris",
+      "lat": 48.8638,
+      "lng": 2.3227,
+      "priceLevel": 1,
+      "rating": 4.7,
+      "note": "Home to Monet's famous Water Lilies. The oval rooms were designed specifically for these massive immersive paintings. Smaller and more manageable than the Louvre. Sit with them for ten minutes."
+    },
+    {
+      "id": "pick-petit-palais",
+      "name": "Petit Palais",
+      "category": "sight",
+      "subtitle": "Free museum with a garden",
+      "address": "Avenue Winston Churchill, 75008 Paris",
+      "lat": 48.866,
+      "lng": 2.3146,
+      "priceLevel": 1,
+      "rating": 4.5,
+      "note": "Stunning architectural gem built for the 1900 Exposition. Houses the City of Paris Museum of Fine Arts. The interior courtyard garden is beautiful and free to enter."
+    },
+    {
+      "id": "pick-las-du-fallafel",
+      "name": "L'As du Fallafel",
+      "category": "restaurant",
+      "subtitle": "Legendary falafel, Marais",
+      "address": "34 Rue des Rosiers, 75004 Paris",
+      "lat": 48.8574,
+      "lng": 2.3592,
+      "priceLevel": 1,
+      "rating": 4.5,
+      "note": "Located in the historic Jewish quarter of the Marais. Legendary for a reason. Arguably the best falafel sandwich you will ever have. The line is long but trust the process. Great post-race food."
+    },
+    {
+      "id": "pick-fromagerie-dubois",
+      "name": "Fromagerie Laurent Dubois",
+      "category": "shop",
+      "subtitle": "MOF cheesemonger",
+      "address": "47 Ter Boulevard Saint-Germain, 75005 Paris",
+      "lat": 48.8498,
+      "lng": 2.347,
+      "priceLevel": 2,
+      "rating": 4.7,
+      "note": "Laurent Dubois is a Meilleur Ouvrier de France, the highest craftsman distinction. The selection and aging of the cheeses here is unparalleled. Get the aged Comte."
+    },
+    {
+      "id": "pick-grande-epicerie",
+      "name": "La Grande Epicerie de Paris",
+      "category": "shop",
+      "subtitle": "Food lover's paradise",
+      "address": "38 Rue de Sevres, 75007 Paris",
+      "lat": 48.8512,
+      "lng": 2.3253,
+      "priceLevel": 2,
+      "rating": 4.5,
+      "note": "Giant specialty grocery store, a food lover's paradise. They vacuum seal products for travel. You must buy 3-4 sticks of Maison Bordier butter to bring home. It is the best butter on earth and unavailable in the US."
+    },
+    {
+      "id": "pick-rotisserie-argent",
+      "name": "La Rotisserie d'Argent",
+      "category": "restaurant",
+      "subtitle": "Best rotisserie chicken in Paris",
+      "address": "19 Quai de la Tournelle, 75005 Paris",
+      "lat": 48.8499,
+      "lng": 2.3556,
+      "priceLevel": 2,
+      "rating": 4.5,
+      "note": "The best rotisserie chicken and mashed potatoes I have ever had. Hearty, heartfelt, homecooked style. You will wish you had seconds. If you do not order the mashed potatoes, you are missing the point."
+    },
+    {
+      "id": "pick-candelaria",
+      "name": "Candelaria",
+      "category": "bar",
+      "subtitle": "Hidden bar behind a taqueria",
+      "address": "52 Rue de Saintonge, 75003 Paris",
+      "lat": 48.8637,
+      "lng": 2.3637,
+      "priceLevel": 2,
+      "rating": 4.4,
+      "note": "Walk through the little taco place and the cocktail bar is through the door at the back. Order tacos first, then go through. In the Marais, close to everything, good late."
+    },
+    {
+      "id": "pick-little-red-door",
+      "name": "Little Red Door",
+      "category": "bar",
+      "subtitle": "One of the best bars in the world",
+      "address": "60 Rue Charlot, 75003 Paris",
+      "lat": 48.8633,
+      "lng": 2.3649,
+      "priceLevel": 3,
+      "rating": 4.5,
+      "note": "One of the best bars in the world and it does not act like it. No menu fuss, tell them what you are in the mood for. Walk here from anywhere in the Marais."
+    },
+    {
+      "id": "pick-marche-aligre",
+      "name": "Marche d'Aligre",
+      "category": "sight",
+      "subtitle": "The best food market in Paris",
+      "address": "Place d'Aligre, 75012 Paris",
+      "lat": 48.8497,
+      "lng": 2.3847,
+      "priceLevel": 1,
+      "rating": 4.5,
+      "note": "The best food market in Paris, indoor and outdoor. Covered market with produce, cheese, charcuterie, and a North African spice section. Less touristy than other markets. Go in the morning."
+    },
+    {
+      "id": "pick-musee-carnavalet",
+      "name": "Musee Carnavalet",
+      "category": "sight",
+      "subtitle": "Paris history museum with a secret garden",
+      "address": "23 Rue de Sevigne, 75003 Paris",
+      "lat": 48.8574,
+      "lng": 2.3615,
+      "priceLevel": 1,
+      "rating": 4.5,
+      "note": "The museum of Paris history, recently renovated. Free permanent collection. The garden cafe is a locals' secret, quiet, shady, and utterly charming. Feels like stepping into a Proust novel."
+    },
+    {
+      "id": "pick-promenade-plantee",
+      "name": "Promenade Plantee",
+      "category": "sight",
+      "subtitle": "Elevated park, the original High Line",
+      "address": "Avenue Daumesnil, 75012 Paris",
+      "lat": 48.8528,
+      "lng": 2.3839,
+      "priceLevel": 1,
+      "rating": 4.5,
+      "note": "Elevated park on an old railway viaduct. This inspired NYC's High Line. Three miles of walking above the streets, lined with trees and gardens. Start near Bastille and walk east. Great for a pre-race shakeout."
+    },
+    {
+      "id": "pick-passage-panoramas",
+      "name": "Passage des Panoramas",
+      "category": "shop",
+      "subtitle": "Oldest covered passage in Paris",
+      "address": "11 Boulevard Montmartre, 75002 Paris",
+      "lat": 48.8714,
+      "lng": 2.3405,
+      "priceLevel": 2,
+      "rating": 4.4,
+      "note": "The oldest covered passage in Paris, opened in 1799. Hidden shopping arcade with a Champagne bar called Canard et Champagne. Perfect for a rainy day."
+    },
+    {
+      "id": "pick-galerie-vivienne",
+      "name": "Galerie Vivienne",
+      "category": "shop",
+      "subtitle": "Most beautiful covered passage",
+      "address": "4 Rue des Petits Champs, 75002 Paris",
+      "lat": 48.8679,
+      "lng": 2.3385,
+      "priceLevel": 2,
+      "rating": 4.5,
+      "note": "Built in 1826, mosaic floor by the same designer who did Opera Garnier. High-end boutiques, antique bookshops, fine jewelry. A cut above the other passages. Go on a rainy day."
+    },
+    {
+      "id": "pick-atelier-lumieres",
+      "name": "Atelier des Lumieres",
+      "category": "sight",
+      "subtitle": "Immersive digital art",
+      "address": "38 Rue Saint-Maur, 75011 Paris",
+      "lat": 48.8658,
+      "lng": 2.3793,
+      "priceLevel": 2,
+      "rating": 4.6,
+      "note": "Immersive digital art experience. Van Gogh, Klimt projected floor-to-ceiling in a former foundry. Air-conditioned, excellent for a hot or rainy day. If you have done the big museums, do this."
+    },
+    {
+      "id": "pick-place-des-vosges",
+      "name": "Place des Vosges",
+      "category": "sight",
+      "subtitle": "The most beautiful square in Paris",
+      "address": "Place des Vosges, 75004 Paris",
+      "lat": 48.8562,
+      "lng": 2.3617,
+      "priceLevel": 1,
+      "rating": 4.7,
+      "note": "The oldest planned square in Paris, built in 1612. Perfect symmetry, red brick facades, covered arcades. Victor Hugo lived at number 6. Best for a picnic or afternoon relax after walking the Marais."
+    },
+    {
+      "id": "pick-eiffel-tower",
+      "name": "Eiffel Tower",
+      "category": "sight",
+      "subtitle": "The one you cannot skip",
+      "address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+      "lat": 48.8584,
+      "lng": 2.2945,
+      "priceLevel": 1,
+      "rating": 4.7,
+      "note": "Walking distance from your hotel. Go in the evening for the best light. Tickets go on sale August 10 at 6 PM EDT, set a reminder. Afterward, walk to Place du Trocadero for the classic view."
+    },
+    {
+      "id": "pick-trocadero",
+      "name": "Place du Trocadero and Jardins",
+      "category": "sight",
+      "subtitle": "The classic Eiffel Tower view",
+      "address": "Place du Trocadero, 75016 Paris",
+      "lat": 48.8615,
+      "lng": 2.2893,
+      "priceLevel": 1,
+      "rating": 4.6,
+      "note": "The best view of the Eiffel Tower, hands down. The jardins in front are where everyone takes the photo. Go at sunset if you can. Five minutes from your hotel via Metro Line 6."
+    },
+    {
+      "id": "pick-notre-dame",
+      "name": "Notre-Dame Cathedral",
+      "category": "sight",
+      "subtitle": "Reopened and worth the visit",
+      "address": "6 Parvis Notre-Dame, 75004 Paris",
+      "lat": 48.853,
+      "lng": 2.3499,
+      "priceLevel": 1,
+      "rating": 4.7,
+      "note": "Notre-Dame has reopened. Walk around Ile de la Cite while you are here. Cross Pont Neuf to the Left Bank for the Latin Quarter."
+    },
+    {
+      "id": "pick-conciergerie",
+      "name": "Conciergerie",
+      "category": "sight",
+      "subtitle": "Marie Antoinette's last cell",
+      "address": "2 Boulevard du Palais, 75001 Paris",
+      "lat": 48.8556,
+      "lng": 2.3459,
+      "priceLevel": 1,
+      "rating": 4.4,
+      "note": "UNESCO site, 13 EUR, about 60 minutes. Marie Antoinette's last cell is here. Comes with an iPad self-guided tour. Good add-on to Sainte-Chapelle, same island."
+    },
+    {
+      "id": "pick-pantheon",
+      "name": "Pantheon",
+      "category": "sight",
+      "subtitle": "Foucault's pendulum and the great tombs",
+      "address": "Place du Pantheon, 75005 Paris",
+      "lat": 48.8462,
+      "lng": 2.3463,
+      "priceLevel": 1,
+      "rating": 4.6,
+      "note": "Stunning architecture. Foucault's pendulum hangs inside. The crypt has the tombs of Voltaire, Rousseau, Victor Hugo, and Marie Curie. 8-10 min walk from the Latin Quarter."
+    },
+    {
+      "id": "pick-arc-triomphe",
+      "name": "Arc de Triomphe",
+      "category": "sight",
+      "subtitle": "Best view in Paris from the top",
+      "address": "Place Charles de Gaulle, 75008 Paris",
+      "lat": 48.8738,
+      "lng": 2.295,
+      "priceLevel": 1,
+      "rating": 4.7,
+      "note": "Climb to the top for the best panoramic view in Paris, better than the Eiffel Tower because the Eiffel Tower is in the view. Take Metro Line 2 to Charles de Gaulle-Etoile, direct access."
+    },
+    {
+      "id": "pick-musee-orsay",
+      "name": "Musee d'Orsay",
+      "category": "sight",
+      "subtitle": "Impressionists in a train station",
+      "address": "Esplanade Valery Giscard d'Estaing, 75007 Paris",
+      "lat": 48.86,
+      "lng": 2.3266,
+      "priceLevel": 1,
+      "rating": 4.8,
+      "note": "The Impressionist collection here is world-class. Housed in a former train station. Go up to the fifth floor first for the Impressionists before the rooms fill. The clock window is the photo everyone wants."
+    },
+    {
+      "id": "pick-jardin-tuileries",
+      "name": "Jardin des Tuileries",
+      "category": "sight",
+      "subtitle": "Walk from the Louvre to the Orangerie",
+      "address": "Place de la Concorde, 75001 Paris",
+      "lat": 48.8635,
+      "lng": 2.3295,
+      "priceLevel": 1,
+      "rating": 4.6,
+      "note": "The gardens between the Louvre and Place de la Concorde. Walk through on your way from the Louvre to the Orangerie. Beautiful in October, the leaves are turning."
+    },
+    {
+      "id": "pick-versailles",
+      "name": "Chateau de Versailles",
+      "category": "sight",
+      "subtitle": "Full day trip, Hall of Mirrors",
+      "address": "Place d'Armes, 78000 Versailles",
+      "lat": 48.8049,
+      "lng": 2.1204,
+      "priceLevel": 2,
+      "rating": 4.7,
+      "note": "RER C from central Paris, about 45 minutes. Get there early to beat the crowds. Hall of Mirrors, King's Grand Apartment, the gardens, and the Marie-Antoinette Estate. A full day."
+    },
+    {
+      "id": "pick-musee-rodin",
+      "name": "Musee Rodin",
+      "category": "sight",
+      "subtitle": "Sculpture garden and The Thinker",
+      "address": "77 Rue de Varenne, 75007 Paris",
+      "lat": 48.8551,
+      "lng": 2.3156,
+      "priceLevel": 1,
+      "rating": 4.7,
+      "note": "If you have time, the Rodin Museum is near your hotel in the 7th. The sculpture garden alone is worth the visit. The Thinker is here. Quiet, beautiful, uncrowded."
+    },
+    {
+      "id": "pick-baeita",
+      "name": "Baeita",
+      "category": "restaurant",
+      "subtitle": "Michelin-starred, Latin Quarter",
+      "address": "13 Rue des Fosses Saint-Bernard, 75005 Paris",
+      "lat": 48.846,
+      "lng": 2.352,
+      "priceLevel": 4,
+      "rating": 4.7,
+      "note": "Michelin lunch, plan 1.5 to 2 hours. In the Latin Quarter, a 10-15 min walk from Ile de la Cite. The kind of meal that resets your day. Book ahead."
+    },
+    {
+      "id": "pick-la-crepe-autrement",
+      "name": "La Crepe Autrement",
+      "category": "restaurant",
+      "subtitle": "Crepes near Odeon",
+      "address": "16 Rue des Canettes, 75006 Paris",
+      "lat": 48.8535,
+      "lng": 2.333,
+      "priceLevel": 2,
+      "rating": 4.4,
+      "note": "A great crepe alternative near Breizh Cafe in the Odeon area. If Breizh is packed, walk here. Same neighborhood, same quality."
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-gabe",
+      "name": "Gabe",
+      "role": "Your travel advisor",
+      "phone": "+1 323 854 1678",
+      "note": "Anything at all, any hour you are awake. If a plan needs to move, I move it. Text me first."
+    },
+    {
+      "id": "contact-hotel",
+      "name": "Hotel du Champ de Mars",
+      "role": "Front desk",
+      "phone": "+33 1 45 51 52 30",
+      "note": "Bag storage before check-in and after check-out. Concierge for anything in the 7th."
+    }
+  ],
+  "guideBlocks": [
+    {
+      "heading": "Your neighborhood, the 7th",
+      "body": "You are in the 7th arrondissement, two minutes from the Champ de Mars and the Eiffel Tower. It is residential, quiet at night, and full of good bakeries and small bistros. The Rue Cler market street is three blocks away and is one of the best food streets in Paris. The Eiffel Tower sparkles on the hour after sunset, every hour. You can see it from the Champ de Mars."
+    },
+    {
+      "heading": "Getting around",
+      "body": "Walk first. This is a walking city and your week is built that way. For longer hops, the metro is fast and cheap. The closest station to your hotel is Ecole Militaire on line 8. Skip taxis at rush hour, the metro will beat them. For the airport, the official taxi flat fare from the Left Bank is 55 euros."
+    },
+    {
+      "heading": "Race day logistics",
+      "body": "The 20km de Paris starts near the Eiffel Tower, which is walking distance from your hotel. Check your bib for your wave time. Metro lines 6 and 9 both serve the start area. Arrive early, there will be thousands of runners. The race finishes near where it starts, so you can walk back to the hotel to shower and eat."
+    },
+    {
+      "heading": "A few honest notes",
+      "body": "Lunch runs late and dinner later. 8:30 PM is a normal dinner time in Paris. Say bonjour when you walk into any shop, it changes everything. Tap to pay works almost everywhere. Tip is already in the bill; round up if the meal was great. If a bistro has a chalkboard menu and a handwritten wine list, you are in the right place."
+    }
+  ],
+  "documents": [],
+  "essentials": [
+    {
+      "id": "ess-emergency",
+      "label": "Emergency",
+      "value": "112",
+      "phone": "112",
+      "note": "Works anywhere in Europe, English spoken. For medical only, 15 connects you to SAMU."
+    },
+    {
+      "id": "ess-pharmacy",
+      "label": "24-hour pharmacy",
+      "value": "Pharmacie des Champs",
+      "address": "84 Avenue des Champs-Elysees, 75008 Paris",
+      "phone": "+33 1 45 62 02 41",
+      "lat": 48.8718,
+      "lng": 2.302,
+      "note": "Open around the clock. Closest late-night option to your side of the river."
+    },
+    {
+      "id": "ess-hospital",
+      "label": "Hospital",
+      "value": "Hotel-Dieu",
+      "address": "1 Parvis Notre-Dame, 75004 Paris",
+      "phone": "+33 1 42 34 82 34",
+      "lat": 48.8543,
+      "lng": 2.348,
+      "note": "Central public hospital with an emergency department."
+    },
+    {
+      "id": "ess-embassy",
+      "label": "US Embassy",
+      "value": "Embassy of the United States",
+      "address": "2 Avenue Gabriel, 75008 Paris",
+      "phone": "+33 1 43 12 22 22",
+      "lat": 48.8672,
+      "lng": 2.3204,
+      "note": "Lost passport or anything consular. Call before you go."
+    },
+    {
+      "id": "ess-gabe",
+      "label": "Me",
+      "value": "Gabe",
+      "phone": "+1 323 854 1678",
+      "note": "Whatever it is, text me first. I have handled worse."
+    },
+    {
+      "id": "ess-hotel",
+      "label": "Your hotel, for a taxi driver",
+      "value": "Hotel du Champ de Mars",
+      "address": "7 Rue du Champ de Mars, 75007 Paris"
+    }
+  ]
+}

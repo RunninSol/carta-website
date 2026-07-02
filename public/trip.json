@@ -1,0 +1,498 @@
+{
+ "config": {
+  "clientName": "Aspen & Warner",
+  "title": "Paris",
+  "destination": "Paris, France",
+  "dates": "October 8 to 11, 2026",
+  "startDate": "2026-10-08",
+  "endDate": "2026-10-11",
+  "timezone": "Europe/Paris",
+  "coverNote": "Four days, Right Bank base, the kind of Paris you do not get from a guidebook. I have your dinners locked, your museum sorted, and a short list of places I would actually send my own friends to. Everything below is yours; tap anything for the details. If a plan needs to move, I move it. Just text me.",
+  "coverImageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1400&q=80",
+  "contact": {
+   "whatsapp": "13238541678",
+   "email": "gabe@travelbycarta.com",
+   "phoneLabel": "Gabe"
+  },
+  "mapProvider": "google",
+  "driverPhrase": "Pouvez-vous m'emmener ici ?",
+  "map": {
+   "center": [
+    48.8573,
+    2.3554
+   ],
+   "zoom": 12.8
+  },
+  "categories": [
+   {
+    "id": "restaurant",
+    "label": "Food",
+    "color": "#B5654A"
+   },
+   {
+    "id": "bar",
+    "label": "Bars",
+    "color": "#9B6B9E"
+   },
+   {
+    "id": "sight",
+    "label": "Sights",
+    "color": "#5F7A8C"
+   },
+   {
+    "id": "shop",
+    "label": "Shops",
+    "color": "#7A9A6A"
+   }
+  ]
+ },
+ "days": [
+  {
+   "date": "2026-10-08",
+   "title": "Arrival, the Marais",
+   "summary": "Land, settle in, easy first night close to the hotel. No alarms."
+  },
+  {
+   "date": "2026-10-09",
+   "title": "Left Bank day",
+   "summary": "Pastry, the Orsay, and the dinner I am most excited about."
+  },
+  {
+   "date": "2026-10-10",
+   "title": "Your day, lightly held",
+   "summary": "I left this open on purpose. A couple of ideas, nothing you have to do."
+  },
+  {
+   "date": "2026-10-11",
+   "title": "Departure",
+   "summary": "One last croissant, then the car to CDG."
+  }
+ ],
+ "itinerary": [
+  {
+   "id": "flight-jfk-cdg",
+   "dayDate": "2026-10-08",
+   "type": "flight",
+   "status": "confirmed",
+   "title": "JFK to CDG",
+   "subtitle": "Air France 23",
+   "startTime": "2026-10-07T19:30:00-04:00",
+   "endTime": "2026-10-08T08:45:00+02:00",
+   "locationName": "Charles de Gaulle (CDG)",
+   "address": "95700 Roissy-en-France",
+   "lat": 49.0097,
+   "lng": 2.5479,
+   "confirmationCode": "AF7QL2",
+   "contactName": null,
+   "contactPhone": null,
+   "priceLevel": null,
+   "rating": null,
+   "personalNote": "Overnight flight, you land at 8:45. Sleep on the plane if you can; the day is easy on purpose.",
+   "details": {
+    "Airline": "Air France",
+    "Flight": "AF23",
+    "Departs": "JFK Terminal 1, 7:30 PM",
+    "Arrives": "CDG Terminal 2E, 8:45 AM",
+    "Seats": "4A, 4B"
+   },
+   "documentRefs": [
+    "doc-af23"
+   ],
+   "sortIndex": 0,
+   "leadTimeMinutes": 150
+  },
+  {
+   "id": "transfer-cdg-hotel",
+   "dayDate": "2026-10-08",
+   "type": "transfer",
+   "status": "confirmed",
+   "title": "Airport car to the hotel",
+   "subtitle": "Private driver, meets you at arrivals",
+   "startTime": "2026-10-08T09:15:00+02:00",
+   "endTime": "2026-10-08T10:15:00+02:00",
+   "locationName": "CDG Terminal 2E arrivals",
+   "address": "95700 Roissy-en-France",
+   "lat": 49.0097,
+   "lng": 2.5479,
+   "confirmationCode": "DRV-1102",
+   "contactName": "Karim",
+   "contactPhone": "+33 6 12 34 56 78",
+   "personalNote": "Karim will be past customs holding a sign with your name. He knows the hotel. If your bags are slow, text him; he waits.",
+   "details": {
+    "Mode": "Private car",
+    "Pickup": "CDG Terminal 2E arrivals",
+    "Dropoff": "Hotel Bourg Tibourg",
+    "Driver": "Karim",
+    "Vehicle": "Black Mercedes V-Class"
+   },
+   "sortIndex": 1
+  },
+  {
+   "id": "lodging-bourg-tibourg",
+   "dayDate": "2026-10-08",
+   "type": "lodging",
+   "status": "confirmed",
+   "title": "Hotel Bourg Tibourg",
+   "subtitle": "Marais, your base for the stay",
+   "startTime": "2026-10-08T15:00:00+02:00",
+   "endTime": "2026-10-11T11:00:00+02:00",
+   "locationName": "Hotel Bourg Tibourg",
+   "address": "19 Rue du Bourg Tibourg, 75004 Paris",
+   "lat": 48.8573,
+   "lng": 2.3554,
+   "confirmationCode": "HBT-44821",
+   "contactName": "Front desk",
+   "contactPhone": "+33 1 42 78 47 39",
+   "priceLevel": 3,
+   "rating": 4.5,
+   "personalNote": "Small, dark, romantic, exactly your speed. Room is held under my account; check-in is 3 but they will store your bags from the morning. I asked for the quiet courtyard side and they came through.",
+   "details": {
+    "Check in": "October 8",
+    "Check out": "October 11",
+    "Room": "Deluxe, courtyard side",
+    "Nights": "3"
+   },
+   "documentRefs": [
+    "doc-hbt"
+   ],
+   "sortIndex": 2
+  },
+  {
+   "id": "dining-petit-vendome",
+   "dayDate": "2026-10-08",
+   "type": "dining",
+   "status": "confirmed",
+   "title": "Dinner, Le Petit Vendome",
+   "subtitle": "Easy first night, walk from the hotel",
+   "startTime": "2026-10-08T20:00:00+02:00",
+   "endTime": null,
+   "locationName": "Le Petit Vendome",
+   "address": "8 Rue des Capucines, 75002 Paris",
+   "lat": 48.8696,
+   "lng": 2.3299,
+   "confirmationCode": null,
+   "contactName": null,
+   "contactPhone": "+33 1 42 61 05 88",
+   "priceLevel": 2,
+   "rating": 4.4,
+   "personalNote": "No reservation needed and that is the point on a jet-lagged night. Get the jambon-beurre at the bar; crispy baguette, good ham, butter, that is the whole trick. Glass of red, early night.",
+   "details": {
+    "Party": "2"
+   },
+   "sortIndex": 3,
+   "leadTimeMinutes": 25
+  },
+  {
+   "id": "dining-maison-isabelle",
+   "dayDate": "2026-10-09",
+   "type": "dining",
+   "status": "confirmed",
+   "title": "Breakfast, La Maison d'Isabelle",
+   "subtitle": "The croissant stop",
+   "startTime": "2026-10-09T09:00:00+02:00",
+   "endTime": null,
+   "locationName": "La Maison d'Isabelle",
+   "address": "47 Boulevard Saint-Germain, 75005 Paris",
+   "lat": 48.8499,
+   "lng": 2.3488,
+   "priceLevel": 1,
+   "rating": 4.6,
+   "personalNote": "Won best butter croissant in Paris and it earns it. Go early, it gets a line. Eat it on the walk to the Orsay; it is fifteen minutes along the river.",
+   "details": {
+    "Party": "2"
+   },
+   "sortIndex": 0,
+   "leadTimeMinutes": 25
+  },
+  {
+   "id": "activity-orsay",
+   "dayDate": "2026-10-09",
+   "type": "activity",
+   "status": "confirmed",
+   "title": "Musee d'Orsay, skip the line",
+   "subtitle": "Timed entry, I hold the tickets",
+   "startTime": "2026-10-09T10:30:00+02:00",
+   "endTime": "2026-10-09T12:30:00+02:00",
+   "locationName": "Musee d'Orsay",
+   "address": "Esplanade Valery Giscard d'Estaing, 75007 Paris",
+   "lat": 48.86,
+   "lng": 2.3266,
+   "confirmationCode": "ORS-77310",
+   "rating": 4.7,
+   "personalNote": "Your entry is 10:30, go straight to the priority line and show the QR in your documents. Go up to the fifth floor first for the Impressionists before the rooms fill. The clock window is the photo everyone wants; it is on the way out.",
+   "details": {
+    "Duration": "2 hours",
+    "Meet at": "Priority entrance, Porte C",
+    "Entry": "10:30 AM"
+   },
+   "documentRefs": [
+    "doc-orsay"
+   ],
+   "sortIndex": 1,
+   "leadTimeMinutes": 20
+  },
+  {
+   "id": "dining-septime",
+   "dayDate": "2026-10-09",
+   "type": "dining",
+   "status": "confirmed",
+   "title": "Dinner, Septime",
+   "subtitle": "The one I pulled strings for",
+   "startTime": "2026-10-09T20:30:00+02:00",
+   "endTime": null,
+   "locationName": "Septime",
+   "address": "80 Rue de Charonne, 75011 Paris",
+   "lat": 48.853,
+   "lng": 2.3795,
+   "confirmationCode": "SEP-2030-1009",
+   "contactName": "Ask for Claire",
+   "contactPhone": "+33 1 43 67 38 29",
+   "priceLevel": 4,
+   "rating": 4.6,
+   "personalNote": "This books out months ahead and your table is at 8:30 under my name. Do the tasting menu and let them pour the pairing; trust the room. Tell Claire I sent you. This is the splurge meal of the trip and it is worth it.",
+   "details": {
+    "Party": "2",
+    "Dress": "Smart casual"
+   },
+   "sortIndex": 2,
+   "leadTimeMinutes": 25
+  },
+  {
+   "id": "dining-little-red-door",
+   "dayDate": "2026-10-09",
+   "type": "dining",
+   "status": "confirmed",
+   "title": "Nightcap, Little Red Door",
+   "subtitle": "Cocktails after dinner, ten minutes from Septime",
+   "startTime": "2026-10-09T22:30:00+02:00",
+   "endTime": null,
+   "locationName": "Little Red Door",
+   "address": "60 Rue Charlot, 75003 Paris",
+   "lat": 48.8633,
+   "lng": 2.3649,
+   "priceLevel": 3,
+   "rating": 4.5,
+   "personalNote": "One of the best bars in the world and it does not act like it. No menu fuss, tell them what you are in the mood for. Walk here from Septime; it is a nice one back toward the Marais.",
+   "details": {
+    "Party": "2"
+   },
+   "sortIndex": 3,
+   "leadTimeMinutes": 25
+  },
+  {
+   "id": "note-open-day",
+   "dayDate": "2026-10-10",
+   "type": "note",
+   "status": "confirmed",
+   "title": "Slow morning, no plans",
+   "subtitle": "On purpose",
+   "startTime": null,
+   "endTime": null,
+   "personalNote": "Best Paris days are the unplanned ones. Sleep in, get coffee, wander. The recommendations below are if you want them, not a checklist. If you decide you want a dinner tonight, text me by 4 and I will get you in somewhere good.",
+   "details": {},
+   "sortIndex": 0
+  },
+  {
+   "id": "dining-mamiche",
+   "dayDate": "2026-10-11",
+   "type": "dining",
+   "status": "confirmed",
+   "title": "Last croissant, Mamiche",
+   "subtitle": "Quick stop before the car",
+   "startTime": "2026-10-11T08:30:00+02:00",
+   "endTime": null,
+   "locationName": "Mamiche",
+   "address": "45 Rue Condorcet, 75009 Paris",
+   "lat": 48.8801,
+   "lng": 2.3417,
+   "priceLevel": 1,
+   "rating": 4.6,
+   "personalNote": "Modern bakery, the babka is the move if it is out. Grab a few for the plane. It is a small detour but worth it for the last taste of the trip.",
+   "details": {
+    "Party": "2"
+   },
+   "sortIndex": 0,
+   "leadTimeMinutes": 25
+  },
+  {
+   "id": "transfer-hotel-cdg",
+   "dayDate": "2026-10-11",
+   "type": "transfer",
+   "status": "confirmed",
+   "title": "Car to CDG",
+   "subtitle": "Karim again",
+   "startTime": "2026-10-11T11:30:00+02:00",
+   "endTime": "2026-10-11T12:30:00+02:00",
+   "locationName": "Hotel Bourg Tibourg",
+   "address": "19 Rue du Bourg Tibourg, 75004 Paris",
+   "lat": 48.8573,
+   "lng": 2.3554,
+   "confirmationCode": "DRV-1188",
+   "contactName": "Karim",
+   "contactPhone": "+33 6 12 34 56 78",
+   "personalNote": "Karim picks you up at the hotel at 11:30, plenty of time for your afternoon flight. He tracks the traffic; if he wants to leave ten minutes early he has a reason.",
+   "details": {
+    "Mode": "Private car",
+    "Pickup": "Hotel Bourg Tibourg",
+    "Dropoff": "CDG Terminal 2E departures",
+    "Driver": "Karim",
+    "Vehicle": "Black Mercedes V-Class"
+   },
+   "sortIndex": 1
+  }
+ ],
+ "picks": [
+  {
+   "id": "pick-paul-bert",
+   "name": "Le Bistrot Paul Bert",
+   "category": "restaurant",
+   "subtitle": "The bistro to know",
+   "address": "18 Rue Paul Bert, 75011 Paris",
+   "lat": 48.8523,
+   "lng": 2.3829,
+   "phone": "+33 1 43 72 24 01",
+   "priceLevel": 3,
+   "rating": 4.5,
+   "note": "The definitive Paris bistro. Loud, bustling, and the steak frites is as good as it gets. If you want a second night out, this is where I would go. Tell me and I will get the table; they hold a few for me."
+  },
+  {
+   "id": "pick-enfants-rouges",
+   "name": "Marche des Enfants Rouges",
+   "category": "sight",
+   "subtitle": "Lunch, market style",
+   "address": "39 Rue de Bretagne, 75003 Paris",
+   "lat": 48.8629,
+   "lng": 2.3626,
+   "priceLevel": 2,
+   "rating": 4.3,
+   "note": "Oldest covered market in Paris, five minutes from the hotel. Go hungry, walk a lap, then pick a stall. The Moroccan one is the one with the line for a reason. Good move on your open day."
+  },
+  {
+   "id": "pick-shakespeare",
+   "name": "Shakespeare and Company",
+   "category": "shop",
+   "subtitle": "The bookshop, Left Bank",
+   "address": "37 Rue de la Bucherie, 75005 Paris",
+   "lat": 48.8526,
+   "lng": 2.3471,
+   "priceLevel": 1,
+   "rating": 4.6,
+   "note": "Tourist famous, still worth it. Go upstairs where the reading room is and the crowds thin. Pair it with the croissant walk; it is around the corner from the river path to the Orsay."
+  },
+  {
+   "id": "pick-candelaria",
+   "name": "Candelaria",
+   "category": "bar",
+   "subtitle": "Hidden cocktail bar behind a taqueria",
+   "address": "52 Rue de Saintonge, 75003 Paris",
+   "lat": 48.8637,
+   "lng": 2.3637,
+   "priceLevel": 2,
+   "rating": 4.4,
+   "note": "Walk through the little taco place and the bar is through the door at the back. Order tacos first, then go through. In the Marais, close to the hotel, good late."
+  }
+ ],
+ "contacts": [
+  {
+   "id": "contact-gabe",
+   "name": "Gabe",
+   "role": "Your direct line",
+   "phone": "+13238541678",
+   "note": "Anything at all, any hour you are awake. If a plan needs to move, I move it."
+  },
+  {
+   "id": "contact-karim",
+   "name": "Karim",
+   "role": "Driver",
+   "phone": "+33 6 12 34 56 78",
+   "note": "Both airport transfers. Text him if your bags are slow."
+  },
+  {
+   "id": "contact-hotel",
+   "name": "Hotel Bourg Tibourg",
+   "role": "Front desk",
+   "phone": "+33 1 42 78 47 39",
+   "note": "Bag storage before check-in, concierge for anything in the Marais."
+  }
+ ],
+ "guideBlocks": [
+  {
+   "heading": "Your neighborhood, the Marais",
+   "body": "You are in the 4th, the heart of the Marais. It is walkable, full of small shops and good bars, and central enough that most of the trip is on foot. Head north for the quieter, cooler upper Marais; south for the river in ten minutes."
+  },
+  {
+   "heading": "Getting around",
+   "body": "Walk first; this is a walking city and your week is built that way. For longer hops use the metro, it is fast and cheap. Skip taxis at rush hour, the metro will beat them. I have a driver on call for the airport runs and anything you do not want to figure out."
+  },
+  {
+   "heading": "A few honest notes",
+   "body": "Lunch runs late and dinner later; 8:30 is normal. Say bonjour when you walk into a shop, it changes everything. Tap to pay works almost everywhere. Tip is already in the bill; round up if the meal was great."
+  }
+ ],
+ "documents": [
+  {
+   "id": "doc-af23",
+   "label": "Air France boarding passes, JFK to CDG",
+   "fileUrl": "demo/af23-boarding-passes.pdf",
+   "mime": "application/pdf"
+  },
+  {
+   "id": "doc-hbt",
+   "label": "Hotel Bourg Tibourg confirmation",
+   "fileUrl": "demo/hbt-confirmation.pdf",
+   "mime": "application/pdf"
+  },
+  {
+   "id": "doc-orsay",
+   "label": "Musee d'Orsay timed entry QR",
+   "fileUrl": "demo/orsay-entry.pdf",
+   "mime": "application/pdf"
+  }
+ ],
+ "essentials": [
+  {
+   "id": "ess-emergency",
+   "label": "Emergency",
+   "value": "112",
+   "phone": "112",
+   "note": "Works anywhere in Europe, English spoken. For medical only, 15 connects you to SAMU."
+  },
+  {
+   "id": "ess-pharmacy",
+   "label": "24-hour pharmacy",
+   "value": "Pharmacie Les Champs",
+   "address": "84 Avenue des Champs-Elysees, 75008 Paris",
+   "phone": "+33 1 45 62 02 41",
+   "lat": 48.8718,
+   "lng": 2.302,
+   "note": "Open around the clock. Closest late-night option to your side of the river."
+  },
+  {
+   "id": "ess-hospital",
+   "label": "Hospital",
+   "value": "Hotel-Dieu",
+   "address": "1 Parvis Notre-Dame, 75004 Paris",
+   "phone": "+33 1 42 34 82 34",
+   "lat": 48.8543,
+   "lng": 2.348,
+   "note": "Central public hospital with an emergency department."
+  },
+  {
+   "id": "ess-embassy",
+   "label": "US Embassy",
+   "value": "Embassy of the United States",
+   "address": "2 Avenue Gabriel, 75008 Paris",
+   "phone": "+33 1 43 12 22 22",
+   "lat": 48.8672,
+   "lng": 2.3204,
+   "note": "Lost passport or anything consular. Call before you go."
+  },
+  {
+   "id": "ess-gabe",
+   "label": "Me",
+   "value": "Gabe",
+   "phone": "+1 323 854 1678",
+   "note": "Whatever it is, text me first. I have handled worse."
+  }
+ ]
+}

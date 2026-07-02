@@ -1,0 +1,93 @@
+{
+  "config": {
+    "clientName": "CLIENT NAME",
+    "title": "CITY",
+    "destination": "CITY, COUNTRY",
+    "dates": "MONTH D to D, YYYY",
+    "startDate": "2026-01-01",
+    "endDate": "2026-01-04",
+    "timezone": "Europe/Paris",
+    "coverNote": "Write this in first person, warm, specific. What you booked, what you would tell them, and that they can text you if a plan needs to move.",
+    "coverImageUrl": null,
+    "contact": {
+      "whatsapp": "13238541678",
+      "email": "gabe@travelbycarta.com",
+      "phoneLabel": "Gabe"
+    },
+    "mapProvider": "google",
+    "driverPhrase": "Pouvez-vous m'emmener ici ?",
+    "map": { "center": [48.8573, 2.3554], "zoom": 12.8 },
+    "categories": [
+      { "id": "restaurant", "label": "Food", "color": "#B5654A" },
+      { "id": "bar", "label": "Bars", "color": "#9B6B9E" },
+      { "id": "sight", "label": "Sights", "color": "#5F7A8C" },
+      { "id": "shop", "label": "Shops", "color": "#7A9A6A" }
+    ]
+  },
+  "days": [
+    { "date": "2026-01-01", "title": "Arrival", "summary": "Land, settle in, easy dinner nearby." }
+  ],
+  "itinerary": [
+    {
+      "id": "d1-flight-in",
+      "dayDate": "2026-01-01",
+      "type": "flight",
+      "status": "confirmed",
+      "title": "Flight to CITY",
+      "subtitle": "AIRLINE 123, seat 4A",
+      "startTime": "2026-01-01T09:00:00+01:00",
+      "endTime": "2026-01-01T12:00:00+01:00",
+      "locationName": "AIRPORT",
+      "confirmationCode": "ABC123",
+      "personalNote": "Your note here, first person.",
+      "details": { "Terminal": "2E", "Baggage": "1 checked" },
+      "documentRefs": [],
+      "leadTimeMinutes": 150,
+      "flightNumber": "AF123"
+    },
+    {
+      "id": "d1-hotel",
+      "dayDate": "2026-01-01",
+      "type": "lodging",
+      "status": "confirmed",
+      "title": "HOTEL NAME",
+      "address": "STREET, CITY",
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "confirmationCode": "XYZ789",
+      "contactName": "Front desk",
+      "contactPhone": "+33 1 00 00 00 00",
+      "personalNote": "Why you picked this hotel for them."
+    }
+  ],
+  "picks": [
+    {
+      "id": "pick-example",
+      "name": "PLACE NAME",
+      "category": "restaurant",
+      "address": "STREET, CITY",
+      "lat": 48.8523,
+      "lng": 2.3829,
+      "description": "What it is, in your words.",
+      "note": "What I would tell you. First person, specific.",
+      "phone": "+33 1 00 00 00 00",
+      "hours": "Tue-Sat 12:00-22:00",
+      "priceLevel": 2,
+      "season": null,
+      "imageUrl": null
+    }
+  ],
+  "contacts": [
+    { "name": "Gabe", "role": "Your travel advisor", "phone": "+1 323 854 1678", "note": "Text me first. Anything moves, I move it." }
+  ],
+  "guideBlocks": [
+    { "heading": "Getting around", "body": "Short trip-wide note in your voice." }
+  ],
+  "documents": [],
+  "essentials": [
+    { "label": "Emergency", "value": "112", "phone": "112", "note": "Local emergency number and what to say." },
+    { "label": "24-hour pharmacy", "value": "PHARMACY NAME", "address": "STREET, CITY", "phone": "+00 0 00 00 00 00", "lat": 48.8718, "lng": 2.302 },
+    { "label": "Hospital", "value": "HOSPITAL NAME", "address": "STREET, CITY", "phone": "+00 0 00 00 00 00", "lat": 48.8543, "lng": 2.348 },
+    { "label": "Your hotel, for a taxi driver", "value": "HOTEL NAME", "address": "STREET, CITY" }
+  ]
+}
