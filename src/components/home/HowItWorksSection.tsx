@@ -11,7 +11,7 @@ const steps = [
   {
     num: "02",
     title: "I build your trip",
-    body: "I handle the research, the bookings, the reservations. Hotels through preferred partnerships, restaurants with confirmed tables. You review and confirm. I handle the rest.",
+    body: "I do the research, the bookings, the reservations. Hotels through preferred partnerships, restaurants with confirmed tables. You review and approve, and I take care of the rest.",
   },
   {
     num: "03",

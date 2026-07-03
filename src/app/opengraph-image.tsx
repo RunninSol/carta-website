@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Carta · Luxury Travel, Precisely Made";
+export const alt = "Carta · The expert who impresses you with care";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -62,7 +62,7 @@ export default function OpengraphImage() {
             fontStyle: "italic",
           }}
         >
-          Luxury Travel, Precisely Made
+          The expert who impresses you with care
         </div>
       </div>
     ),

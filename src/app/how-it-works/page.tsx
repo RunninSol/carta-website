@@ -11,7 +11,7 @@ import { TimelineRail } from "@/components/TimelineRail";
 export const metadata: Metadata = {
   title: "How It Works",
   description:
-    "From discovery call to post-trip debrief. Here is exactly what working with Carta looks like, step by step.",
+    "From discovery call to post-trip debrief. Here's exactly what working with Carta looks like, step by step.",
 };
 
 const steps = [
@@ -40,14 +40,14 @@ const steps = [
     num: "04",
     title: "Accommodation & Booking",
     duration: "1 to 2 weeks",
-    body: "I work with preferred hotel partnerships: Aman, Four Seasons, Rosewood, Relais and Chateaux. The right room at the right rate, often with upgrades and amenity credits you cannot get booking direct.",
+    body: "I work with preferred hotel partnerships: Aman, Four Seasons, Rosewood, Relais and Chateaux. The right room at the right rate, often with upgrades and amenity credits you can't get booking direct.",
     side: "right",
   },
   {
     num: "05",
     title: "Building Your Trip Hub",
     duration: "1 week",
-    body: "I start wide and cut hard: remove the generic, add the insider. I verify what is still open, attempt reservations, and write my own notes on every entry. The result reads like a friend who lives there wrote it for you.",
+    body: "I start wide and cut hard: remove the generic, add the insider. I verify what's still open, attempt reservations, and write my own notes on every entry. The result reads like a friend who lives there wrote it for you.",
     side: "left",
   },
   {
@@ -61,7 +61,7 @@ const steps = [
     num: "07",
     title: "In-Trip Support",
     duration: "Your entire trip",
-    body: "Text me, I answer. You call, I pick up. Something goes wrong at midnight in Tokyo, I am the one who fixes it. Response hours are agreed at onboarding, based on your itinerary.",
+    body: "Text me, I answer. You call, I pick up. Something goes wrong at midnight in Tokyo, I'm the one who fixes it. We agree on response hours at onboarding, based on your itinerary.",
     side: "left",
   },
   {
@@ -100,7 +100,7 @@ export default function HowItWorksPage() {
               </h1>
               <GoldRule wide className="my-8" />
               <p className="font-display text-lg italic text-ivory/60">
-                Here is exactly what working with Carta looks like.
+                Here&apos;s exactly what working with Carta looks like.
               </p>
             </FadeIn>
           </div>

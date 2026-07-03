@@ -28,7 +28,7 @@ const sections = [
   {
     num: "02",
     title: "Today",
-    desc: "Open the app on a trip day and it lands on that day, with an Up Next banner for whatever is coming and a leave-by time so you are never rushing to a table I worked to get you.",
+    desc: "Open the app on a trip day and it lands on that day, with an Up Next banner for whatever is coming and a leave-by time so you're never rushing to a table I worked to get you.",
   },
   {
     num: "03",
@@ -76,7 +76,7 @@ const pocketFeatures = [
   },
   {
     title: "Live flight status",
-    desc: "Every flight in your itinerary links to live tracking. Delays, gates, the lot, without opening another app.",
+    desc: "Every flight in your itinerary links to live tracking. Delays, gates, all of it, without opening another app.",
   },
   {
     title: "Make it yours",
@@ -177,7 +177,7 @@ export default function TheCartaPage() {
               <p className="mx-auto mt-6 max-w-xl text-base text-charcoal">
                 A trip hub earns its place on the worst travel day, not the
                 best one. Dead battery bars, a driver who doesn&apos;t speak
-                English, a gate change at midnight. It is built for that.
+                English, a gate change at midnight. It&apos;s built for that.
               </p>
             </FadeIn>
 
@@ -280,7 +280,7 @@ export default function TheCartaPage() {
               <div className="my-5 h-px w-full bg-ivory/10" />
 
               <p className="text-[10px] uppercase tracking-[0.15em] text-gold/60">
-                Specialist note
+                A note from Gabe
               </p>
               <p className="mt-3 font-display text-base italic leading-relaxed text-ivory/80">
                 &ldquo;Table for two. Ask for Claire when you arrive, she runs

@@ -51,8 +51,8 @@ export default function Essentials({
             <span className="sheet-kicker">Essentials</span>
             <h2 className="sheet-title">If you need something</h2>
             <p className="sheet-subtitle">
-              Saved here so you are not searching in the moment. And you can
-              always text me.
+              Saved here so you&apos;re not searching in the moment. And you
+              can always text me.
             </p>
           </div>
 

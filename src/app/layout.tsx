@@ -21,11 +21,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://travelbycarta.com"),
   title: {
-    default: "Carta · Travel, precisely made",
+    default: "Carta · The expert who impresses you with care",
     template: "%s | Carta",
   },
   description:
-    "Carta is a travel advisory built around you. Every client gets a trip hub with their restaurants, hotels, and contacts on their phone. And they get me, directly.",
+    "I'm a travel advisor. Every client gets a trip hub with their restaurants, hotels, and contacts on their phone. And they get me, directly.",
   keywords: [
     "travel advisor",
     "personal travel concierge",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     "trip hub",
   ],
   openGraph: {
-    title: "Carta · Travel, precisely made",
+    title: "Carta · The expert who impresses you with care",
     description:
       "A travel advisor who builds a trip hub for every client. Your restaurants, your hotels, your schedule, my personal notes. On your phone. And you get me, directly.",
     siteName: "Carta",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Carta · Travel, precisely made",
+    title: "Carta · The expert who impresses you with care",
     description:
       "A travel advisor who builds a trip hub for every client. Built around you, not the average traveler.",
   },
@@ -64,7 +64,7 @@ const jsonLd = {
   legalName: "Travel By Carta LLC",
   url: "https://travelbycarta.com",
   logo: "https://travelbycarta.com/brand/logo_mark_gold_on_navy_512px.png",
-  slogan: "Travel, precisely made",
+  slogan: "The expert who impresses you with care",
   description:
     "A travel advisory built around you. Every client gets a trip hub with their reservations, restaurants, and documents on their phone, and a direct line to their advisor.",
   email: "gabe@travelbycarta.com",

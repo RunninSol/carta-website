@@ -22,7 +22,7 @@ const fadeUp = {
   },
 };
 
-const HEADLINE = "The expert who impresses you with care.".split(" ");
+const HEADLINE = "Who are you when you travel?".split(" ");
 
 export function HeroSection() {
   const reduced = useReducedMotion();
@@ -90,9 +90,10 @@ export function HeroSection() {
           transition={{ delay: 0.65 }}
           className="max-w-lg font-body text-base font-normal leading-[1.6] text-ivory/85"
         >
-          I&apos;m a travel advisor. I build a trip hub for every client:
-          their restaurants, their hotels, their contacts, my personal notes.
-          On their phone. And they get me, directly.
+          Every trip I build starts with that question. I&apos;m a travel
+          advisor, and every client gets a trip hub: their restaurants, their
+          hotels, their contacts, my personal notes. On their phone. And they
+          get me, directly.
         </motion.p>
 
         <motion.div

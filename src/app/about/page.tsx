@@ -12,7 +12,7 @@ import { CornerAccents } from "@/components/CornerAccents";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "I named it Carta because it means maps. A travel advisor built around one person who picks up the phone, remembers what time you like to eat dinner, and gets it right.",
+    "I named it Carta because it means maps. A travel advisor who picks up the phone, remembers what time you like to eat dinner, and gets it right.",
 };
 
 export default function AboutPage() {
@@ -130,8 +130,8 @@ export default function AboutPage() {
                   beyond the trip itself.
                 </p>
                 <p>
-                  But that is not the whole story, and it is not what makes
-                  this different. Every client also gets a trip hub. A private,
+                  But that&apos;s not the whole story, and it&apos;s not what
+                  makes this different. Every client also gets a trip hub. A private,
                   phone-friendly guide built for their specific trip. Every
                   reservation, every contact, every neighborhood mapped around
                   what they actually care about. My personal notes on each day.
@@ -140,12 +140,12 @@ export default function AboutPage() {
                 </p>
                 <p>
                   And you get me. Directly. You text me, I answer. You call me,
-                  I pick up. Something goes wrong at midnight in Tokyo, I am the
-                  one who fixes it.
+                  I pick up. Something goes wrong at midnight in Tokyo,
+                  I&apos;m the one who fixes it.
                 </p>
                 <p>
                   The Ritz Paris costs $2,200 a night. Le Grand Mazarin costs
-                  $650. I have put clients in both and watched them have
+                  $650. I&apos;ve put clients in both and watched them have
                   completely different, completely perfect trips, because the
                   right hotel has nothing to do with the price tag. The Ritz is
                   for someone who wants old-world glamour, Place Vendome, the
@@ -172,16 +172,16 @@ export default function AboutPage() {
                 Carta is affiliated with WorldVia Travel Group, one of the
                 leading host travel networks in the United States. That gives
                 my clients access to preferred hotel rates, upgrade programs,
-                and supplier relationships that are not available through direct
-                booking.
+                and supplier relationships that aren&apos;t available through
+                direct booking.
               </p>
               <p>
                 WorldVia partnerships include Aman, Four Seasons, Rosewood, and
                 Relais &amp; Chateaux, among others. When you book through
                 Carta, you often receive room upgrades, amenity credits, and
-                early check-in that simply are not available to the public. I
-                use every one of those levers, quietly, in the background,
-                while you are at dinner.
+                early check-in that simply aren&apos;t available to the public.
+                I use every one of those levers, quietly, in the background,
+                while you&apos;re at dinner.
               </p>
             </div>
             <div className="mt-8 flex items-center gap-4">
@@ -206,17 +206,17 @@ export default function AboutPage() {
           <FadeIn className="relative z-10 mx-auto max-w-narrow text-center">
             <CompassMark size={40} variant="gold" className="mx-auto mb-8" />
             <h2 className="font-display text-2xl text-ivory md:text-[40px]">
-              I am starting small. On purpose.
+              I&apos;m starting small. On purpose.
             </h2>
             <div className="prose-carta mx-auto mt-8 max-w-md text-base text-ivory/85">
               <p>
                 The value of Carta is in the relationship and the quality of the
-                trip hub itself. Those do not scale by accident. I will grow
-                when I can grow without compromising either.
+                trip hub itself. Those don&apos;t scale by accident. I&apos;ll
+                grow when I can grow without compromising either.
               </p>
               <p>
                 Right now I work with a deliberately small number of clients. If
-                that sounds like what you are looking for, the first step is a
+                that sounds like what you&apos;re looking for, the first step is a
                 twenty-minute call. No pressure, no pitch. Just a conversation
                 about where you want to go.
               </p>
