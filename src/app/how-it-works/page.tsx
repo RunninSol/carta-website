@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/Navigation";
 import { GoldRule } from "@/components/GoldRule";
 import { FadeIn } from "@/components/FadeIn";
 import { CornerAccents } from "@/components/CornerAccents";
+import { TimelineRail } from "@/components/TimelineRail";
 
 export const metadata: Metadata = {
   title: "How It Works",
@@ -75,9 +77,20 @@ export default function HowItWorksPage() {
   return (
     <>
       <Navigation />
-      <main>
+      <main id="main">
         {/* Hero */}
         <section className="relative overflow-hidden bg-navy px-6 pb-20 pt-36 md:pb-32">
+          <Image
+            src="/photos/in-transit.jpg"
+            alt=""
+            aria-hidden
+            fill
+            className="object-cover opacity-30"
+          />
+          <div
+            className="absolute inset-0 bg-gradient-to-b from-navy/50 via-navy/60 to-navy"
+            aria-hidden
+          />
           <CornerAccents />
           <div className="relative z-10 mx-auto max-w-prose text-center">
             <FadeIn>
@@ -97,15 +110,12 @@ export default function HowItWorksPage() {
         <section className="bg-ivory px-6 py-20 md:py-2xl">
           <div className="mx-auto max-w-5xl">
             {/* Desktop: alternating left/right. Mobile: stacked */}
-            <div className="relative">
-              {/* Center line (desktop only) */}
-              <div className="absolute left-1/2 top-0 hidden h-full w-px -translate-x-1/2 bg-gold/20 lg:block" />
-
-              <div className="space-y-16 lg:space-y-0">
+            <TimelineRail>
+              <div className="space-y-14 lg:space-y-0">
                 {steps.map((step, i) => (
                   <FadeIn key={step.num}>
                     <div
-                      className={`relative grid lg:grid-cols-2 lg:gap-16 lg:py-12 ${
+                      className={`relative grid lg:grid-cols-2 lg:gap-16 lg:py-7 ${
                         i % 2 === 1 ? "lg:[direction:rtl]" : ""
                       }`}
                     >
@@ -121,7 +131,7 @@ export default function HowItWorksPage() {
                         <h2 className="mt-2 font-display text-xl text-navy">
                           {step.title}
                         </h2>
-                        <p className="mt-1 text-[9px] uppercase tracking-[0.2em] text-gold/70">
+                        <p className="mt-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-gold-deep">
                           {step.duration}
                         </p>
                         <GoldRule
@@ -141,7 +151,7 @@ export default function HowItWorksPage() {
                   </FadeIn>
                 ))}
               </div>
-            </div>
+            </TimelineRail>
           </div>
         </section>
 
@@ -156,6 +166,26 @@ export default function HowItWorksPage() {
               The process ends with your trip hub: a private digital guide built
               for this trip, for you. Not a template. Not a PDF. A named guide
               written around who you are.
+            </p>
+            <div className="mx-auto mt-12 grid max-w-lg grid-cols-3 gap-4">
+              {[
+                ["/editorial/paris.png", "Carta chart of Paris"],
+                ["/editorial/tokyo.png", "Carta chart of Tokyo"],
+                ["/editorial/amalfi.png", "Carta chart of the Amalfi Coast"],
+              ].map(([src, alt]) => (
+                <Image
+                  key={src}
+                  src={src}
+                  alt={alt}
+                  width={1200}
+                  height={1500}
+                  sizes="(max-width: 640px) 33vw, 170px"
+                  className="h-auto w-full shadow-card"
+                />
+              ))}
+            </div>
+            <p className="mt-4 text-[11px] uppercase tracking-[0.18em] text-mid-gray">
+              From the Carta chart series &middot; every trip starts as a map
             </p>
             <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <Link href="/the-carta" className="btn-secondary">

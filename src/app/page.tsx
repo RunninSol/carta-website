@@ -2,6 +2,7 @@ import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/Navigation";
 import { AppShowcaseSection } from "@/components/home/AppShowcaseSection";
 import { BrandStorySection } from "@/components/home/BrandStorySection";
+import { EditorialSection } from "@/components/home/EditorialSection";
 import { FinalCtaSection } from "@/components/home/FinalCtaSection";
 import { HeroSection } from "@/components/home/HeroSection";
 import { HowItWorksSection } from "@/components/home/HowItWorksSection";
@@ -13,10 +14,11 @@ export default function HomePage() {
   return (
     <>
       <Navigation />
-      <main>
+      <main id="main">
         <HeroSection />
         <ProblemSection />
         <HowItWorksSection />
+        <EditorialSection />
         <AppShowcaseSection />
         <TestimonialsSection />
         <ServicesSection />

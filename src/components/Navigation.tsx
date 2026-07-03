@@ -2,7 +2,9 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { motion, useScroll, useSpring } from "framer-motion";
 
 const navLinks = [
   { href: "/how-it-works", label: "How It Works" },
@@ -14,6 +16,13 @@ const navLinks = [
 export function Navigation() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+  const { scrollYProgress } = useScroll();
+  const progress = useSpring(scrollYProgress, {
+    stiffness: 120,
+    damping: 30,
+    restDelta: 0.001,
+  });
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 48);
@@ -41,6 +50,7 @@ export function Navigation() {
             href="/"
             className="flex items-center gap-3"
             onClick={() => setMenuOpen(false)}
+            aria-label="Carta home"
           >
             <Image
               src="/brand/lockup_h_ivory_transparent.png"
@@ -54,15 +64,24 @@ export function Navigation() {
           </Link>
 
           <nav className="hidden items-center gap-8 md:flex">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-xs font-medium uppercase tracking-[0.15em] text-ivory/70 transition-colors hover:text-ivory"
-              >
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((link) => {
+              const active = pathname === link.href;
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  aria-current={active ? "page" : undefined}
+                  className={`relative text-xs font-medium uppercase tracking-[0.15em] transition-colors ${
+                    active ? "text-gold" : "text-ivory/70 hover:text-ivory"
+                  }`}
+                >
+                  {link.label}
+                  {active && (
+                    <span className="absolute -bottom-2 left-0 right-0 h-px bg-gold/70" />
+                  )}
+                </Link>
+              );
+            })}
             <Link href="/contact" className="btn-primary py-3">
               Book a Call
             </Link>
@@ -86,6 +105,17 @@ export function Navigation() {
             />
           </button>
         </div>
+
+        {/* Scroll progress hairline */}
+        <motion.div
+          aria-hidden
+          className="absolute bottom-0 left-0 right-0 h-[1.5px] origin-left"
+          style={{
+            scaleX: progress,
+            background:
+              "linear-gradient(to right, #C9A84C, #D8BE73, #C9A84C)",
+          }}
+        />
       </header>
 
       {/* Mobile overlay */}
@@ -99,7 +129,9 @@ export function Navigation() {
             <Link
               key={link.href}
               href={link.href}
-              className="font-display text-xl text-ivory"
+              className={`font-display text-xl ${
+                pathname === link.href ? "text-gold" : "text-ivory"
+              }`}
               onClick={() => setMenuOpen(false)}
             >
               {link.label}

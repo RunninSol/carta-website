@@ -26,7 +26,10 @@ export function ServicesSection() {
             <ul className="space-y-lg">
               {features.map((f) => (
                 <li key={f} className="flex gap-base text-base text-charcoal">
-                  <span className="mt-1 shrink-0 text-gold">&middot;</span>
+                  <span
+                    className="mt-[0.65em] h-[1.5px] w-4 shrink-0 bg-gold"
+                    aria-hidden
+                  />
                   <span>{f}</span>
                 </li>
               ))}
@@ -37,9 +40,9 @@ export function ServicesSection() {
         <p className="mt-2xl text-center">
           <Link
             href="/services"
-            className="font-display text-md italic text-navy transition-colors hover:text-gold"
+            className="text-xs font-semibold uppercase tracking-[0.18em] text-gold-deep transition-colors hover:text-gold"
           >
-            How the pricing works
+            How the pricing works &rarr;
           </Link>
         </p>
       </FadeIn>

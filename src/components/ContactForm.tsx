@@ -154,30 +154,41 @@ export function ContactForm() {
         />
       </div>
 
-      <div>
-        <label
-          htmlFor="source"
-          className="mb-sm block text-xs font-semibold uppercase tracking-[0.2em] text-mid-gray"
-        >
+      <fieldset>
+        <legend className="mb-sm block text-xs font-semibold uppercase tracking-[0.2em] text-mid-gray">
           How did you hear about me?
-        </label>
-        <select
-          id="source"
-          name="source"
-          value={form.source}
-          onChange={handleChange}
-          className="w-full border border-navy/20 bg-white px-4 py-3 text-sm text-charcoal outline-none transition-colors focus:border-gold"
-        >
-          <option value="">Select one</option>
-          <option value="referral">A friend or colleague</option>
-          <option value="instagram">Instagram</option>
-          <option value="threads">Threads</option>
-          <option value="google">Google search</option>
-          <option value="worldvia">WorldVia</option>
-          <option value="press">Press or media</option>
-          <option value="other">Other</option>
-        </select>
-      </div>
+        </legend>
+        <div className="flex flex-wrap gap-2">
+          {[
+            ["referral", "A friend or colleague"],
+            ["instagram", "Instagram"],
+            ["threads", "Threads"],
+            ["google", "Google search"],
+            ["worldvia", "WorldVia"],
+            ["press", "Press or media"],
+            ["other", "Other"],
+          ].map(([value, label]) => (
+            <button
+              key={value}
+              type="button"
+              onClick={() =>
+                setForm((prev) => ({
+                  ...prev,
+                  source: prev.source === value ? "" : value,
+                }))
+              }
+              aria-pressed={form.source === value}
+              className={`rounded-sm border px-3.5 py-2 text-sm transition-colors ${
+                form.source === value
+                  ? "border-gold bg-navy text-ivory"
+                  : "border-navy/20 bg-white text-charcoal hover:border-gold"
+              }`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      </fieldset>
 
       {/* Honeypot */}
       <div className="absolute left-[-9999px]" aria-hidden="true">

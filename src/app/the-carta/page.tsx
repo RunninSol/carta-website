@@ -5,7 +5,13 @@ import { Navigation } from "@/components/Navigation";
 import { CompassMark } from "@/components/CompassMark";
 import { GoldRule } from "@/components/GoldRule";
 import { FadeIn } from "@/components/FadeIn";
+import Image from "next/image";
 import { AppMockup } from "@/components/AppMockup";
+import { StrikeThrough } from "@/components/StrikeThrough";
+
+const DEMO_TRIP_URL =
+  process.env.NEXT_PUBLIC_DEMO_TRIP_URL ||
+  "https://www.travelbycarta.com/aspen-paris-8f3k29q7";
 
 export const metadata: Metadata = {
   title: "The Carta",
@@ -113,7 +119,7 @@ export default function TheCartaPage() {
   return (
     <>
       <Navigation />
-      <main>
+      <main id="main">
         {/* Hero */}
         <section className="bg-ivory px-6 pb-20 pt-36 md:pb-32">
           <div className="mx-auto max-w-prose text-center">
@@ -189,6 +195,29 @@ export default function TheCartaPage() {
           </div>
         </section>
 
+        {/* Midnight band */}
+        <section className="relative overflow-hidden">
+          <div className="relative h-[380px] md:h-[480px]">
+            <Image
+              src="/photos/midnight-help.jpg"
+              alt="Hands holding a glowing phone in the back seat of a taxi at night, rain-blurred city lights outside"
+              fill
+              sizes="100vw"
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-navy/55" aria-hidden />
+            <FadeIn className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
+              <blockquote className="max-w-2xl font-display text-md italic leading-[1.5] text-ivory md:text-lg">
+                &ldquo;Something goes wrong at midnight in Tokyo, I&apos;m the
+                one who fixes it.&rdquo;
+              </blockquote>
+              <p className="mt-6 text-[11px] font-semibold uppercase tracking-[0.2em] text-gold">
+                Gabe &middot; one tap away, inside your trip hub
+              </p>
+            </FadeIn>
+          </div>
+        </section>
+
         {/* The difference */}
         <section className="bg-ivory px-6 py-20 md:py-2xl">
           <div className="mx-auto max-w-3xl">
@@ -202,10 +231,10 @@ export default function TheCartaPage() {
             <FadeIn className="mt-12">
               {/* Header row */}
               <div className="grid grid-cols-2 border-b border-navy/10 pb-4">
-                <p className="text-[9px] uppercase tracking-[0.2em] text-mid-gray">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-mid-gray">
                   Generic travel app
                 </p>
-                <p className="text-[9px] uppercase tracking-[0.2em] text-gold/80">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-gold-deep">
                   Your trip hub
                 </p>
               </div>
@@ -215,8 +244,8 @@ export default function TheCartaPage() {
                   key={row.generic}
                   className="grid grid-cols-2 border-b border-navy/8 py-5"
                 >
-                  <p className="pr-4 text-sm text-mid-gray line-through decoration-mid-gray/40">
-                    {row.generic}
+                  <p className="pr-4 text-sm text-mid-gray">
+                    <StrikeThrough>{row.generic}</StrikeThrough>
                   </p>
                   <p className="text-sm font-medium text-navy">{row.carta}</p>
                 </div>
@@ -295,9 +324,22 @@ export default function TheCartaPage() {
               working anyway.
             </p>
             <GoldRule wide className="my-10" />
-            <Link href="/contact" className="btn-secondary">
-              Tell me where you want to go →
-            </Link>
+            <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+              <a
+                href={DEMO_TRIP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary"
+              >
+                Explore a sample trip hub
+              </a>
+              <Link
+                href="/contact"
+                className="text-xs font-semibold uppercase tracking-[0.18em] text-navy transition-colors hover:text-gold"
+              >
+                Tell me where you want to go &rarr;
+              </Link>
+            </div>
           </FadeIn>
         </section>
       </main>

@@ -1,4 +1,7 @@
+import { existsSync } from "node:fs";
+import path from "node:path";
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/Navigation";
 import { CompassMark } from "@/components/CompassMark";
@@ -16,7 +19,7 @@ export default function AboutPage() {
   return (
     <>
       <Navigation />
-      <main>
+      <main id="main">
         {/* Hero */}
         <section className="relative overflow-hidden bg-ivory px-6 pb-20 pt-36 md:pb-32">
           <div className="mx-auto max-w-prose text-center">
@@ -71,24 +74,40 @@ export default function AboutPage() {
             </FadeIn>
 
             <FadeIn>
-              {/* Founder card */}
+              {/* Founder card: atelier photo when available, chart art until then */}
               <div className="relative">
-                <div
-                  className="aspect-[3/4] w-full bg-navy/8 flex items-end p-8"
-                  style={{ background: "linear-gradient(160deg, #EDEBE4 0%, #E0DDD5 100%)" }}
-                >
-                  <div className="border-l-2 border-gold pl-6">
-                    <p className="font-display text-lg italic text-navy/70">
-                      &ldquo;The more specific the recommendation, the more
-                      trusted the source. I built a company on that
-                      truth.&rdquo;
-                    </p>
-                    <p className="mt-4 text-[9px] uppercase tracking-[0.2em] text-gold/70">
-                      Gabe, Founder, Carta
-                    </p>
-                  </div>
+                {existsSync(
+                  path.join(process.cwd(), "public", "photos", "atelier.jpg")
+                ) ? (
+                  <Image
+                    src="/photos/atelier.jpg"
+                    alt="A travel advisor's desk at evening: an open notebook, an unrolled map of Paris, warm lamp light"
+                    width={1250}
+                    height={768}
+                    sizes="(max-width: 1024px) 100vw, 45vw"
+                    className="h-auto w-full shadow-card"
+                  />
+                ) : (
+                  <Image
+                    src="/editorial/paris.png"
+                    alt="Carta chart of Paris: avenues radiating from a gold étoile"
+                    width={1200}
+                    height={1500}
+                    sizes="(max-width: 1024px) 100vw, 45vw"
+                    className="h-auto w-full shadow-card"
+                  />
+                )}
+                <div className="mt-6 border-l-2 border-gold pl-6">
+                  <p className="font-display text-lg italic text-navy/70">
+                    &ldquo;The more specific the recommendation, the more
+                    trusted the source. I built a company on that
+                    truth.&rdquo;
+                  </p>
+                  <p className="mt-4 text-[11px] uppercase tracking-[0.2em] text-gold-deep">
+                    Gabe, Founder, Carta
+                  </p>
                 </div>
-                <div className="absolute -bottom-3 -right-3 h-full w-full border border-gold/20 -z-10" />
+                <div className="absolute -bottom-3 -right-3 -z-10 h-full w-full border border-gold/20" />
               </div>
             </FadeIn>
           </div>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/Navigation";
@@ -33,6 +34,10 @@ const faqs = [
     a: "The trip hub is built as part of the planning process. I cannot build one that is any good without doing the intake and the work first. That is where the personalization comes from. Every note in the hub exists because I asked you a question and listened to the answer. Skip that part and it is just a prettier PDF, which is the thing I started Carta to get away from.",
   },
   {
+    q: "Who is behind Carta?",
+    a: "Me, Gabe. And behind me, WorldVia Travel Group, one of the leading host travel networks in the United States. That affiliation is how I get the preferred rates, the room upgrades, and the amenity credits you would not see booking direct. It is also how I have someone to call when a property needs a nudge.",
+  },
+  {
     q: "What about corporate or group travel?",
     a: "I work with companies and clients who have ongoing travel programs. It is a different kind of relationship, more recurring, more volume. If that is you, reach out directly and we will figure out an arrangement that fits how your team actually moves.",
   },
@@ -60,7 +65,7 @@ export default function ServicesPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <Navigation />
-      <main>
+      <main id="main">
         {/* Hero */}
         <section className="relative overflow-hidden bg-navy px-6 pb-20 pt-36 md:pb-32">
           <CornerAccents />
@@ -106,7 +111,10 @@ export default function ServicesPage() {
                       key={item}
                       className="flex gap-4 text-base text-charcoal"
                     >
-                      <span className="mt-1 shrink-0 text-gold">·</span>
+                      <span
+                        className="mt-[0.65em] h-[1.5px] w-4 shrink-0 bg-gold"
+                        aria-hidden
+                      />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -114,20 +122,6 @@ export default function ServicesPage() {
               </div>
             </FadeIn>
           </div>
-        </section>
-
-        {/* WorldVia note */}
-        <section className="bg-warm-bg px-6 py-12">
-          <FadeIn className="mx-auto max-w-prose text-center">
-            <p className="text-sm text-mid-gray">
-              CARTA is affiliated with{" "}
-              <span className="text-charcoal">WorldVia Travel Group</span>.
-              That affiliation is how I get the preferred rates, the room
-              upgrades, and the amenity credits you would not see booking
-              direct. It is also how I have someone to call when a property
-              needs a nudge.
-            </p>
-          </FadeIn>
         </section>
 
         {/* FAQ */}
@@ -153,6 +147,17 @@ export default function ServicesPage() {
 
         {/* Final CTA */}
         <section className="relative overflow-hidden bg-navy px-6 py-20 md:py-2xl">
+          <Image
+            src="/photos/arrival.jpg"
+            alt=""
+            aria-hidden
+            fill
+            className="object-cover opacity-25"
+          />
+          <div
+            className="absolute inset-0 bg-gradient-to-b from-navy/60 via-navy/70 to-navy/90"
+            aria-hidden
+          />
           <CornerAccents />
           <FadeIn className="relative z-10 mx-auto max-w-narrow text-center">
             <h2 className="font-display text-2xl text-ivory md:text-[40px]">

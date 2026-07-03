@@ -1,6 +1,10 @@
 import { AppMockup } from "../AppMockup";
 import { FadeIn } from "../FadeIn";
 
+const DEMO_TRIP_URL =
+  process.env.NEXT_PUBLIC_DEMO_TRIP_URL ||
+  "https://www.travelbycarta.com/aspen-paris-8f3k29q7";
+
 const features = [
   "Every reservation, every contact, every document, in one place",
   "My personal notes on each day, each restaurant",
@@ -33,11 +37,27 @@ export function AppShowcaseSection() {
           <ul className="mt-xl space-y-sm text-sm text-charcoal">
             {features.map((f) => (
               <li key={f} className="flex gap-base">
-                <span className="mt-1 text-gold">&middot;</span>
+                <span
+                  className="mt-[0.6em] h-[1.5px] w-4 shrink-0 bg-gold"
+                  aria-hidden
+                />
                 <span>{f}</span>
               </li>
             ))}
           </ul>
+          <div className="mt-xl flex flex-wrap items-center gap-6">
+            <a
+              href={DEMO_TRIP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary"
+            >
+              Explore a sample trip hub
+            </a>
+            <span className="text-xs uppercase tracking-[0.15em] text-mid-gray">
+              A real one, built for Paris
+            </span>
+          </div>
         </FadeIn>
 
         <FadeIn className="lg:justify-self-end">

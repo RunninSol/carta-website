@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { EB_Garamond, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const ebgaramond = EB_Garamond({
@@ -88,10 +89,19 @@ export default function RootLayout({
     <html lang="en" className={`${ebgaramond.variable} ${inter.variable}`}>
       <body className="font-body">
         <script
+          dangerouslySetInnerHTML={{
+            __html: "document.documentElement.classList.add('js')",
+          }}
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <a href="#main" className="skip-link">
+          Skip to content
+        </a>
         {children}
+        <Analytics />
       </body>
     </html>
   );

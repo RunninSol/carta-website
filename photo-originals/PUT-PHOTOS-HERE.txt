@@ -1,0 +1,18 @@
+Drop the generated photos in this folder with these exact names
+(see website/PHOTO-PROMPTS.md for the prompts and sizes):
+
+Required (homepage destination band appears once all three exist):
+  paris.jpg
+  tokyo.jpg
+  amalfi.jpg
+
+Recommended (About page swaps this in automatically):
+  atelier.jpg
+
+Optional (Claude will place these by hand):
+  in-transit.jpg
+  midnight-help.jpg
+  arrival.jpg
+
+Then rebuild: npm run build
+This file can be deleted anytime; it does nothing.

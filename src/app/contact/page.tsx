@@ -21,7 +21,7 @@ export default function ContactPage() {
   return (
     <>
       <Navigation />
-      <main>
+      <main id="main">
         {/* Header */}
         <section className="bg-warm-bg px-6 pb-16 pt-36">
           <FadeIn className="mx-auto max-w-prose text-center">
@@ -118,6 +118,23 @@ export default function ContactPage() {
                   Book your discovery call
                 </h2>
                 <CalendlyEmbed url={CALENDLY_URL} />
+                <p className="mt-4 text-xs text-mid-gray">
+                  Calendar not loading? Email{" "}
+                  <a
+                    href="mailto:gabe@travelbycarta.com"
+                    className="text-navy underline decoration-gold/50 underline-offset-2 hover:text-gold"
+                  >
+                    gabe@travelbycarta.com
+                  </a>{" "}
+                  or call{" "}
+                  <a
+                    href="tel:+13238541678"
+                    className="text-navy underline decoration-gold/50 underline-offset-2 hover:text-gold"
+                  >
+                    (323) 854-1678
+                  </a>{" "}
+                  and I&apos;ll set the time myself.
+                </p>
               </div>
             </FadeIn>
           </div>
