@@ -238,6 +238,61 @@ export const destinationPages: SeoContentPage[] = [
     ],
     related: ["amalfi-coast", "paris", "tokyo"],
   },
+  {
+    slug: "amsterdam",
+    kind: "destination",
+    eyebrow: "Amsterdam travel advisor",
+    title: "Amsterdam rewards the traveler who knows where to look.",
+    seoTitle: "Amsterdam Travel Advisor",
+    description:
+      "Amsterdam travel advisor page for hotel choice, private canal access, Indonesian rijsttafel, after-hours museums, and trip hub planning.",
+    intro:
+      "Amsterdam in 2026 is not loud luxury. It is old-world canal houses, hidden hofjes, the best Indonesian food outside Jakarta, and after-hours access to the Rijksmuseum and Van Gogh. The compact scale means less transit and more immersion. The job is choosing the right base and the experiences that actually fit the client.",
+    bestFor: [
+      "Culture and design travelers who want understated elegance",
+      "Food-focused clients drawn to the Dutch-Indonesian legacy and Michelin dining",
+      "Couples who want private canal boats, secret courtyards, and museums without crowds",
+    ],
+    timing:
+      "Late September through late October is the cleanest window: golden light on the gable stones, cultural season in full swing, fewer crowds than summer, and better hotel availability. Spring brings tulips but also peak tourism.",
+    hotelLogic:
+      "Waldorf Astoria is the Forbes 5-Star canal palace choice. Conservatorium delivers design and Museumplein access. Pulitzer feels most like real canal houses with a secret garden. The Dylan is intimate boutique scale with Vinkeles. The choice should solve the emotional shape of the trip.",
+    foodLogic:
+      "The Indonesian rijsttafel is the signature experience, with Blue Pepper as the definitive fine-dining version. Budi gives the more modern Indonesian degustation. Michelin rooms like Spectrum and Vinkeles matter, but so do chef spots and natural wine rooms like Cafe de Klepel.",
+    avoid:
+      "I would be careful with standard timed-entry Anne Frank House, Red Light District walking tours, Keukenhof in peak tulip season, the Heineken Experience, and Dam Square crowds. Private after-hours access or a Jordaan walk with a local historian are the versions worth doing.",
+    cartaTake:
+      "When I plan Amsterdam, I am usually asking what kind of quiet the client wants. A private salon boat on the Herengracht at golden hour, a hidden hofje at dusk, or a rijsttafel that feels like it belongs to them. The city gives more when you know where to look.",
+    highlights: [
+      {
+        title: "Hotel choice solves the trip shape",
+        body: "Waldorf for legacy and service. Conservatorium for design and museums. Pulitzer for authentic canal-house character. The Dylan for intimate romance. The wrong base makes every day harder.",
+      },
+      {
+        title: "Private access changes the museums",
+        body: "After-hours at the Rijksmuseum or Van Gogh is the difference between queuing in a crowd and having the Gallery of Honour to yourself.",
+      },
+      {
+        title: "Indonesian food is the hidden strength",
+        body: "Blue Pepper and Budi make rijsttafel and modern Indonesian one of the clearest reasons to choose Amsterdam over another European city.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "4 nights",
+        body: "One strong base, one private canal experience, one after-hours museum, one rijsttafel dinner, and time to walk the Nine Streets and Jordaan.",
+      },
+      {
+        title: "6 nights",
+        body: "Enough time for a full museum day, multiple food experiences, Amsterdam-Noord by ferry, and one deliberately loose day on the canals.",
+      },
+      {
+        title: "Return trip",
+        body: "Skip the obvious circuit. Focus on hofjes, private guides, chef counters, and the neighborhoods most visitors never reach.",
+      },
+    ],
+    related: ["paris", "tokyo", "amalfi-coast"],
+  },
 ];
 
 export const itineraryPages: SeoContentPage[] = [
