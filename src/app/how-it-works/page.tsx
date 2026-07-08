@@ -6,71 +6,43 @@ import { Navigation } from "@/components/Navigation";
 import { GoldRule } from "@/components/GoldRule";
 import { FadeIn } from "@/components/FadeIn";
 import { CornerAccents } from "@/components/CornerAccents";
-import { TimelineRail } from "@/components/TimelineRail";
+import { GuidedTripHubSection } from "@/components/home/GuidedTripHubSection";
 
 export const metadata: Metadata = {
   title: "How It Works",
   description:
-    "From discovery call to post-trip debrief. Here's exactly what working with Carta looks like, step by step.",
+    "From first call to trip hub delivery and in-trip support. See exactly what working with Carta looks like.",
 };
 
 const steps = [
   {
-    num: "01",
-    title: "Discovery Call",
-    duration: "20 minutes",
-    body: "I learn how you travel. Cuisine preferences, accommodation style, pace, interests, budget posture, past trips you loved and the ones that disappointed. The more detail, the better your trip hub.",
-    side: "left",
+    title: "You tell me who you are when you travel",
+    body: "We talk through pace, hotels, restaurants, budget posture, past trips you loved, and the trips that missed. The point is not to fill out a form. The point is to understand you.",
   },
   {
-    num: "02",
-    title: "Intake Profile",
-    duration: "At your pace",
-    body: "You complete a detailed profile form. Dietary needs, companion preferences, airline status, accessibility requirements. This lives in your file and gets sharper with every trip we take together.",
-    side: "right",
+    title: "I design the trip and make the calls",
+    body: "I choose the hotel logic, map the days, work the reservations, and remove the generic. Nothing gets booked until the plan makes sense to you.",
   },
   {
-    num: "03",
-    title: "Trip Design",
-    duration: "3 to 5 days",
-    body: "I build the trip structure. Routing, accommodation, signature experiences. You review and approve before anything is booked. Nothing happens until you say yes.",
-    side: "left",
+    title: "The trip hub arrives before you leave",
+    body: "Two weeks before departure, you get a private link with the trip on your phone: every reservation, every contact, every document, and my notes.",
   },
   {
-    num: "04",
-    title: "Accommodation & Booking",
-    duration: "1 to 2 weeks",
-    body: "I work with preferred hotel partnerships: Aman, Four Seasons, Rosewood, Relais and Chateaux. The right room at the right rate, often with upgrades and amenity credits you can't get booking direct.",
-    side: "right",
+    title: "You text me when something changes",
+    body: "Flights move. Restaurants run late. A museum closes a room. You are not alone with a PDF. You have the person who built the trip.",
   },
   {
-    num: "05",
-    title: "Building Your Trip Hub",
-    duration: "1 week",
-    body: "I start wide and cut hard: remove the generic, add the insider. I verify what's still open, attempt reservations, and write my own notes on every entry. The result reads like a friend who lives there wrote it for you.",
-    side: "left",
+    title: "The next trip starts smarter",
+    body: "Afterward, I ask what worked and what missed. Your profile gets sharper, and the next trip starts further along.",
   },
-  {
-    num: "06",
-    title: "Delivery",
-    duration: "T-14 days",
-    body: "Two weeks before departure, your trip hub arrives. A private link, no login, no download. Open it on your phone the night before you leave.",
-    side: "right",
-  },
-  {
-    num: "07",
-    title: "In-Trip Support",
-    duration: "Your entire trip",
-    body: "Text me, I answer. You call, I pick up. Something goes wrong at midnight in Tokyo, I'm the one who fixes it. We agree on response hours at onboarding, based on your itinerary.",
-    side: "left",
-  },
-  {
-    num: "08",
-    title: "Post-Trip Debrief",
-    duration: "15 minutes",
-    body: "I want to know what was right and what missed. Every debrief makes the next trip better. This is how the relationship improves over time, and how your trip hub gets more yours each time.",
-    side: "right",
-  },
+];
+
+const checkpoints = [
+  "Hotel shortlist and booking path",
+  "Restaurant and experience plan",
+  "Trip hub with maps, documents, and notes",
+  "Calendar-ready schedule",
+  "Direct support from Gabe while traveling",
 ];
 
 export default function HowItWorksPage() {
@@ -78,7 +50,6 @@ export default function HowItWorksPage() {
     <>
       <Navigation />
       <main id="main">
-        {/* Hero */}
         <section className="relative overflow-hidden bg-navy px-6 pb-20 pt-36 md:pb-32">
           <Image
             src="/photos/in-transit.jpg"
@@ -94,108 +65,95 @@ export default function HowItWorksPage() {
           <CornerAccents />
           <div className="relative z-10 mx-auto max-w-prose text-center">
             <FadeIn>
-              <p className="eyebrow">The Carta Method</p>
+              <p className="eyebrow">How it works</p>
               <h1 className="font-display text-[36px] font-light leading-tight text-ivory md:text-[60px]">
-                From our first call to your last night.
+                The work starts before the booking and continues while you travel.
               </h1>
               <GoldRule wide className="my-8" />
-              <p className="font-display text-lg italic text-ivory/60">
-                Here&apos;s exactly what working with Carta looks like.
+              <p className="font-display text-lg italic text-ivory/65">
+                The trip hub is the visible part. The calls, judgment, and
+                follow-through are what make it useful.
               </p>
             </FadeIn>
           </div>
         </section>
 
-        {/* Timeline */}
         <section className="bg-ivory px-6 py-20 md:py-2xl">
           <div className="mx-auto max-w-5xl">
-            {/* Desktop: alternating left/right. Mobile: stacked */}
-            <TimelineRail>
-              <div className="space-y-14 lg:space-y-0">
-                {steps.map((step, i) => (
-                  <FadeIn key={step.num}>
-                    <div
-                      className={`relative grid lg:grid-cols-2 lg:gap-16 lg:py-7 ${
-                        i % 2 === 1 ? "lg:[direction:rtl]" : ""
-                      }`}
-                    >
-                      {/* Content */}
-                      <div
-                        className={`lg:[direction:ltr] ${
-                          i % 2 === 0
-                            ? "lg:pr-12 lg:text-right"
-                            : "lg:pl-12 lg:text-left"
-                        }`}
-                      >
-                        <p className="font-display text-4xl text-gold">{step.num}</p>
-                        <h2 className="mt-2 font-display text-xl text-navy">
-                          {step.title}
-                        </h2>
-                        <p className="mt-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-gold-deep">
-                          {step.duration}
-                        </p>
-                        <GoldRule
-                          className={`my-5 w-10 ${
-                            i % 2 === 0 ? "lg:ml-auto" : ""
-                          }`}
-                        />
-                        <p className="text-base text-charcoal">{step.body}</p>
-                      </div>
+            <FadeIn className="mx-auto max-w-prose text-center">
+              <h2 className="font-display text-2xl text-navy md:text-[44px]">
+                Five parts. One relationship.
+              </h2>
+              <p className="mt-6 text-base text-charcoal">
+                This is not a handoff from one department to another. You work
+                with me from the first question to the last night of the trip.
+              </p>
+            </FadeIn>
 
-                      {/* Center dot (desktop only) */}
-                      <div className="absolute left-1/2 top-1/2 hidden h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full border border-gold bg-ivory lg:block" />
-
-                      {/* Spacer column */}
-                      <div className="hidden lg:block" />
+            <div className="mt-2xl divide-y divide-navy/10 border-y border-navy/10">
+              {steps.map((step, index) => (
+                <FadeIn key={step.title} className="py-lg">
+                  <article className="grid gap-5 md:grid-cols-[120px_1fr] md:items-start">
+                    <p className="font-display text-xl text-gold/70">
+                      {String(index + 1).padStart(2, "0")}
+                    </p>
+                    <div>
+                      <h3 className="font-display text-lg text-navy">
+                        {step.title}
+                      </h3>
+                      <p className="mt-3 text-base text-charcoal">{step.body}</p>
                     </div>
-                  </FadeIn>
-                ))}
-              </div>
-            </TimelineRail>
+                  </article>
+                </FadeIn>
+              ))}
+            </div>
           </div>
         </section>
 
-        {/* Bridge to next page */}
+        <section className="grain bg-navy px-6 py-20 text-ivory md:py-2xl">
+          <FadeIn className="mx-auto max-w-7xl">
+            <div className="grid gap-2xl lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
+              <div>
+                <h2 className="font-display text-2xl md:text-[44px]">
+                  What you should have before wheels up.
+                </h2>
+                <p className="mt-6 text-base text-ivory/72">
+                  If I have done the job well, the trip feels calm before it
+                  starts. You know where things are. You know who to text. You
+                  know what is next.
+                </p>
+              </div>
+              <div className="grid gap-base sm:grid-cols-2">
+                {checkpoints.map((item) => (
+                  <div key={item} className="border border-gold/35 bg-ivory/5 p-base">
+                    <p className="text-sm text-ivory/82">{item}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </FadeIn>
+        </section>
+
+        <GuidedTripHubSection />
+
         <section className="bg-warm-bg px-6 py-20">
           <FadeIn className="mx-auto max-w-prose text-center">
-            <p className="eyebrow">What you receive</p>
             <h2 className="font-display text-2xl text-navy">
-              See what a trip hub looks like.
+              The next step is simple.
             </h2>
             <p className="mt-6 text-base text-charcoal">
-              The process ends with your trip hub: a private digital guide built
-              for this trip, for you. Not a template. Not a PDF. A named guide
-              written around who you are.
-            </p>
-            <div className="mx-auto mt-12 grid max-w-lg grid-cols-3 gap-4">
-              {[
-                ["/editorial/paris.png", "Carta chart of Paris"],
-                ["/editorial/tokyo.png", "Carta chart of Tokyo"],
-                ["/editorial/amalfi.png", "Carta chart of the Amalfi Coast"],
-              ].map(([src, alt]) => (
-                <Image
-                  key={src}
-                  src={src}
-                  alt={alt}
-                  width={1200}
-                  height={1500}
-                  sizes="(max-width: 640px) 33vw, 170px"
-                  className="h-auto w-full shadow-card"
-                />
-              ))}
-            </div>
-            <p className="mt-4 text-[11px] uppercase tracking-[0.18em] text-mid-gray">
-              From the Carta chart series &middot; every trip starts as a map
+              Tell me where you want to go. I will ask a few honest questions,
+              and we will know quickly whether Carta is the right fit.
             </p>
             <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-              <Link href="/the-carta" className="btn-secondary">
-                See what a trip hub looks like
+              <Link href="/contact" className="btn-secondary">
+                Tell me where you want to go
               </Link>
               <Link
-                href="/contact"
+                href="/the-carta"
                 className="text-[11px] uppercase tracking-[0.15em] text-navy transition-colors hover:text-gold"
               >
-                Book a Discovery Call
+                See the trip hub
               </Link>
             </div>
           </FadeIn>
