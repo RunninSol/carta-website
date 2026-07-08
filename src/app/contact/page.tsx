@@ -10,45 +10,76 @@ import { CalendlyEmbed } from "@/components/CalendlyEmbed";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Book a 20-minute discovery call with Gabe at Carta. No commitment. I'll figure out with you whether it's the right fit.",
+    "Tell Gabe where you want to go. Start with a sample trip hub, a short discovery call, or a written note.",
 };
 
 const CALENDLY_URL =
   process.env.NEXT_PUBLIC_CALENDLY_URL ||
   "https://calendly.com/travelbycarta/discovery-call";
 
+const DEMO_TRIP_URL =
+  process.env.NEXT_PUBLIC_DEMO_TRIP_URL ||
+  "https://www.travelbycarta.com/aspen-paris-8f3k29q7";
+
+const prompts = [
+  "Where are you thinking about going?",
+  "Who is traveling with you?",
+  "What usually makes a trip feel right?",
+  "What do you not want to deal with yourself?",
+];
+
 export default function ContactPage() {
   return (
     <>
       <Navigation />
       <main id="main">
-        {/* Header */}
         <section className="bg-warm-bg px-6 pb-16 pt-36">
           <FadeIn className="mx-auto max-w-prose text-center">
             <CompassMark size={40} variant="navy" className="mx-auto mb-6" />
-            <p className="eyebrow">Book a Call</p>
+            <p className="eyebrow">Start here</p>
             <h1 className="font-display text-[36px] font-light leading-tight text-navy md:text-[52px]">
-              Let&apos;s find out if Carta is right for you.
+              Tell me where you want to go.
             </h1>
             <GoldRule wide className="my-8" />
+            <p className="text-base text-charcoal">
+              A call is useful, but it is not the only way to start. If you want
+              to look around first, open the sample trip hub. If you already know
+              what you need, send me the note.
+            </p>
+            <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+              <a
+                href={DEMO_TRIP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary"
+              >
+                Open the sample trip hub
+              </a>
+              <a
+                href="mailto:gabe@travelbycarta.com"
+                className="text-xs font-semibold uppercase tracking-[0.18em] text-gold-deep transition-colors hover:text-gold"
+              >
+                Email Gabe
+              </a>
+            </div>
           </FadeIn>
         </section>
 
-        {/* Two-column layout */}
         <section className="bg-warm-bg px-6 pb-16">
-          <div className="mx-auto grid max-w-6xl gap-16 lg:grid-cols-2 lg:gap-24">
-            {/* Left: context */}
+          <div className="mx-auto grid max-w-6xl gap-16 lg:grid-cols-[0.9fr_1.1fr] lg:gap-24">
             <FadeIn>
               <div className="lg:pt-2">
-                <p className="text-base text-charcoal">
-                  A discovery call takes about twenty minutes. I&apos;ll ask
-                  about your upcoming trips, how you like to travel, and what
-                  you&apos;re looking for that you haven&apos;t found yet.
-                </p>
-                <p className="mt-4 text-base text-charcoal">
-                  No commitment and no pitch. If it isn&apos;t a fit, I&apos;ll
-                  tell you straight.
-                </p>
+                <h2 className="font-display text-2xl text-navy">
+                  Before we talk, I am usually trying to answer four questions.
+                </h2>
+                <div className="mt-8 space-y-4">
+                  {prompts.map((prompt) => (
+                    <div key={prompt} className="flex gap-4 text-base text-charcoal">
+                      <span className="mt-[0.65em] h-[1.5px] w-4 shrink-0 bg-gold" />
+                      <p>{prompt}</p>
+                    </div>
+                  ))}
+                </div>
 
                 <div className="mt-12 space-y-6">
                   <div className="flex items-start gap-4">
@@ -94,12 +125,10 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                {/* Pull quote */}
                 <div className="mt-14 border-l-2 border-gold pl-6">
                   <p className="font-display text-lg italic text-navy/70">
-                    &ldquo;I&apos;d rather lose a call than book one that
-                    isn&apos;t a fit. So I&apos;ll ask honest questions, and
-                    I&apos;ll give you honest answers.&rdquo;
+                    &ldquo;I&apos;d rather lose a call than book one that isn&apos;t a fit.
+                    So I&apos;ll ask honest questions, and I&apos;ll give you honest answers.&rdquo;
                   </p>
                   <p className="mt-3 text-[9px] uppercase tracking-[0.2em] text-gold/60">
                     Gabe, Carta
@@ -108,7 +137,6 @@ export default function ContactPage() {
               </div>
             </FadeIn>
 
-            {/* Right: Calendly booking */}
             <FadeIn>
               <div className="bg-ivory p-6 shadow-card md:p-8">
                 <p className="mb-2 text-[9px] uppercase tracking-[0.25em] text-mid-gray">
@@ -140,7 +168,6 @@ export default function ContactPage() {
           </div>
         </section>
 
-        {/* Divider: or send a note */}
         <section className="bg-warm-bg px-6 pb-6">
           <FadeIn className="mx-auto flex max-w-6xl items-center gap-6">
             <div className="h-px flex-1 bg-navy/10" />
@@ -151,7 +178,6 @@ export default function ContactPage() {
           </FadeIn>
         </section>
 
-        {/* Inquiry form */}
         <section className="bg-warm-bg px-6 pb-24">
           <FadeIn className="mx-auto max-w-3xl">
             <div className="relative bg-ivory p-8 shadow-card md:p-10">
@@ -159,15 +185,14 @@ export default function ContactPage() {
                 Tell me about you
               </p>
               <p className="mb-8 text-sm text-charcoal">
-                Prefer to write first? Tell me about your next trip and
-                I&apos;ll be in touch to set up a time.
+                Prefer to write first? Tell me about your next trip and I&apos;ll be
+                in touch to set up a time.
               </p>
               <ContactForm />
             </div>
           </FadeIn>
         </section>
 
-        {/* Bottom note */}
         <section className="bg-ivory px-6 py-12">
           <FadeIn className="mx-auto max-w-prose text-center">
             <p className="text-sm text-mid-gray">

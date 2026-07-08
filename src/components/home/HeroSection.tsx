@@ -13,6 +13,10 @@ const HeroGlobe = dynamic(
   { ssr: false }
 );
 
+const DEMO_TRIP_URL =
+  process.env.NEXT_PUBLIC_DEMO_TRIP_URL ||
+  "https://www.travelbycarta.com/aspen-paris-8f3k29q7";
+
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
   visible: {
@@ -28,7 +32,7 @@ export function HeroSection() {
   const reduced = useReducedMotion();
 
   return (
-    <section className="grain relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-navy px-6 pb-20 pt-24 text-center">
+    <section className="grain relative flex min-h-[100dvh] flex-col items-center justify-center overflow-hidden bg-navy px-6 pb-20 pt-24 text-center">
       <CornerAccents />
       <HeroGlobe />
 
@@ -101,17 +105,22 @@ export function HeroSection() {
           animate="visible"
           variants={fadeUp}
           transition={{ delay: 0.8 }}
+          className="mt-10 flex flex-wrap items-center justify-center gap-4"
         >
-          <Link href="/contact" className="btn-primary mt-10">
+          <a
+            href={DEMO_TRIP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary border-gold bg-gold text-navy hover:bg-gold-soft"
+          >
+            Open a sample trip hub
+          </a>
+          <Link href="/contact" className="btn-primary">
             Tell me where you want to go
           </Link>
         </motion.div>
       </div>
 
-      <div
-        className="scroll-indicator absolute bottom-10 left-1/2 h-12 w-px -translate-x-1/2 bg-ivory/30"
-        aria-hidden
-      />
     </section>
   );
 }
