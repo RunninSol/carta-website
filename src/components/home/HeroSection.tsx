@@ -121,10 +121,6 @@ export function HeroSection() {
         </motion.div>
       </div>
 
-      <div
-        className="scroll-indicator absolute bottom-10 left-1/2 h-12 w-px -translate-x-1/2 bg-ivory/30"
-        aria-hidden
-      />
     </section>
   );
 }
