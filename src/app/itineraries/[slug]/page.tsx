@@ -1,0 +1,80 @@
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { SeoGuidePage } from "@/components/seo/SeoGuidePage";
+import { getItineraryPage, itineraryPages } from "@/content/seoPages";
+
+const BASE = "https://www.travelbycarta.com";
+
+export function generateStaticParams() {
+  return itineraryPages.map((page) => ({ slug: page.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const page = getItineraryPage(slug);
+
+  if (!page) {
+    return { title: "Itinerary not found", robots: { index: false, follow: false } };
+  }
+
+  const url = `/itineraries/${page.slug}`;
+
+  return {
+    title: page.seoTitle,
+    description: page.description,
+    alternates: { canonical: url },
+    openGraph: {
+      title: page.seoTitle,
+      description: page.description,
+      url,
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: page.seoTitle,
+      description: page.description,
+    },
+  };
+}
+
+export default async function ItineraryGuidePage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const page = getItineraryPage(slug);
+
+  if (!page) notFound();
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: page.seoTitle,
+    description: page.description,
+    url: `${BASE}/itineraries/${page.slug}`,
+    author: { "@type": "Person", name: "Gabe Rozavski" },
+    publisher: {
+      "@type": "Organization",
+      name: "Carta",
+      logo: {
+        "@type": "ImageObject",
+        url: `${BASE}/brand/logo_mark_gold_on_navy_512px.png`,
+      },
+    },
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <SeoGuidePage page={page} />
+    </>
+  );
+}

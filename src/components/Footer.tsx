@@ -9,6 +9,8 @@ const footerLinks = [
   { href: "/services", label: "Services" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
+  { href: "/destinations", label: "Destinations" },
+  { href: "/itineraries/honeymoon-itinerary", label: "Honeymoons" },
 ];
 
 export function Footer() {
