@@ -12,6 +12,13 @@ export const metadata: Metadata = {
   title: "How It Works",
   description:
     "From first call to trip hub delivery and in-trip support. See exactly what working with Carta looks like.",
+  alternates: { canonical: "/how-it-works" },
+  openGraph: {
+    title: "How It Works | Carta",
+    description:
+      "From first call to trip hub delivery and in-trip support. See exactly what working with Carta looks like.",
+    url: "/how-it-works",
+  },
 };
 
 const steps = [

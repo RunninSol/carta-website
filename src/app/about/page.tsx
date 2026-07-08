@@ -14,6 +14,13 @@ export const metadata: Metadata = {
   title: "About",
   description:
     "Carta is Gabe Rozavski's travel advisory. A person who picks up the phone, remembers how you travel, and builds the trip around you.",
+  alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About | Carta",
+    description:
+      "Carta is Gabe Rozavski's travel advisory. A person who picks up the phone, remembers how you travel, and builds the trip around you.",
+    url: "/about",
+  },
 };
 
 const principles = [

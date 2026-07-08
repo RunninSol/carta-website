@@ -11,6 +11,13 @@ export const metadata: Metadata = {
   title: "Contact",
   description:
     "Tell Gabe where you want to go. Start with a sample trip hub, a short discovery call, or a written note.",
+  alternates: { canonical: "/contact" },
+  openGraph: {
+    title: "Contact | Carta",
+    description:
+      "Tell Gabe where you want to go. Start with a sample trip hub, a short discovery call, or a written note.",
+    url: "/contact",
+  },
 };
 
 const CALENDLY_URL =

@@ -13,6 +13,13 @@ export const metadata: Metadata = {
   title: "Services",
   description:
     "What Carta includes: travel advisory, preferred hotel booking, restaurant and experience planning, a private trip hub, and direct support from Gabe.",
+  alternates: { canonical: "/services" },
+  openGraph: {
+    title: "Services | Carta",
+    description:
+      "Travel advisory, preferred hotel booking, restaurant and experience planning, a private trip hub, and direct support from Gabe.",
+    url: "/services",
+  },
 };
 
 const included = [

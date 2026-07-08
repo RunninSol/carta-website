@@ -48,11 +48,12 @@ export async function generateMetadata({
     ? `${config.destination ?? config.title ?? "Your trip"} · ${config.dates}. Your private trip hub, built for you by Carta.`
     : `${config.destination ?? config.title ?? "Your trip"}. Your private trip hub, built for you by Carta.`;
 
-  const url = `https://travelbycarta.com/${slug}`;
+  const url = `https://www.travelbycarta.com/${slug}`;
 
   return {
     title: ogTitle,
     description: ogDescription,
+    alternates: { canonical: `/${slug}` },
     openGraph: {
       title: ogTitle,
       description: ogDescription,

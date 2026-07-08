@@ -17,6 +17,13 @@ export const metadata: Metadata = {
   title: "Trip Hub",
   description:
     "Carta trip hubs are private phone-friendly guides with itinerary, map, documents, personal notes, and direct support from Gabe.",
+  alternates: { canonical: "/the-carta" },
+  openGraph: {
+    title: "Trip Hub | Carta",
+    description:
+      "Carta trip hubs are private phone-friendly guides with itinerary, map, documents, personal notes, and direct support from Gabe.",
+    url: "/the-carta",
+  },
 };
 
 const moments = [
