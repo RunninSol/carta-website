@@ -1,6 +1,7 @@
 import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/Navigation";
 import { AppShowcaseSection } from "@/components/home/AppShowcaseSection";
+import { BeforeAfterSection } from "@/components/home/BeforeAfterSection";
 import { BrandStorySection } from "@/components/home/BrandStorySection";
 import { EditorialSection } from "@/components/home/EditorialSection";
 import { FinalCtaSection } from "@/components/home/FinalCtaSection";
@@ -17,6 +18,7 @@ export default function HomePage() {
       <main id="main">
         <HeroSection />
         <ProblemSection />
+        <BeforeAfterSection />
         <HowItWorksSection />
         <EditorialSection />
         <AppShowcaseSection />
