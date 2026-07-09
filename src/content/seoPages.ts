@@ -293,6 +293,62 @@ export const destinationPages: SeoContentPage[] = [
     ],
     related: ["paris", "tokyo", "amalfi-coast"],
   },
+
+  {
+    slug: "bali",
+    kind: "destination",
+    eyebrow: "Bali travel advisor",
+    title: "Bali works best when the chaos is edited out.",
+    seoTitle: "Bali Travel Advisor",
+    description:
+      "Bali travel advisor guidance for private villas, Ubud and beach split stays, wellness, food, surf, timing, and trip hub planning.",
+    intro:
+      "Bali is not pristine isolation. It is jungle, surf coast, temples, private villas, serious food, traffic, crowds, and moments of real spiritual depth. The better trip does not pretend the busy parts are not there. It builds around the right bases, early starts, private guiding, and meals that make the island feel specific.",
+    bestFor: [
+      "Couples who want villa privacy, wellness, food, and a beach or jungle rhythm",
+      "Families and multigenerational trips that need resort service with private-villa space",
+      "Travelers who want spiritual and cultural access without the performative wellness circuit",
+    ],
+    timing:
+      "April through October is the main dry-season window, with June and September as the cleaner sweet spots. July and August bring stronger weather but heavier crowds. The wet season can still work for villa rates and slower pacing, but I would be careful with Christmas and New Year.",
+    hotelLogic:
+      "Four Seasons Sayan solves the jungle and river version of Bali. Four Seasons Jimbaran solves beachfront ease for families. Amandari is the quieter connoisseur choice near Ubud. Bulgari and Alila Uluwatu are cliffside and design-forward. Capella Ubud is theatrical jungle romance. Amankila and the east coast are the answer when the client wants a quieter Bali.",
+    foodLogic:
+      "The food plan should not be only tasting menus. Locavore NXT, Kaum, Sangsaka, Room4Dessert, and Mozaic can anchor the refined side, but Bali also needs babi guling, nasi campur, Jimbaran seafood, a private in-villa Balinese feast, and newer 2026 finds in Pererenan, Tabanan, Bedugul, and Ubud.",
+    avoid:
+      "I would be careful with Tanah Lot at sunset, Tegallalang at midday, Ubud Monkey Forest, Kuta and Legian, staged swing photos, and the café circuit built more for the photo than the meal. Many famous Bali stops are only good at the right hour, with the right guide, or not at all.",
+    cartaTake:
+      "When I plan Bali, I am editing for calm. Dawn temple instead of midday crowd. Jatiluwih instead of the swing line. A villa dinner instead of another car ride through traffic. That is the part that makes Bali feel personal instead of overrun.",
+    highlights: [
+      {
+        title: "Base choice is the whole strategy",
+        body: "Ubud gives jungle, wellness, temples, and rice terraces. Jimbaran gives family-friendly beach ease. Seminyak and Umalas give dining and villa infrastructure. Uluwatu gives cliffs and surf. East Bali gives quiet.",
+      },
+      {
+        title: "Private villas are Bali's strength",
+        body: "The island's staffed-villa ecosystem is unusually deep. For the right client, a villa with chef, driver, and selective resort access can beat a standard hotel stay.",
+      },
+      {
+        title: "The best experiences happen early",
+        body: "Temple blessings, rice walks, surf sessions, market visits, and waterfall stops all improve before the crowds and heat arrive. Bali rewards morning discipline.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "5 nights",
+        body: "Choose one base and keep it clean: Ubud for wellness and culture, Jimbaran for beach and family ease, or Uluwatu for surf and cliffs.",
+      },
+      {
+        title: "7 nights",
+        body: "A jungle and beach split works well: Ubud or Sayan first, then Jimbaran, Seminyak, or Uluwatu. Limit transfers and plan around traffic.",
+      },
+      {
+        title: "Villa trip",
+        body: "Use the villa as the anchor, then add a private chef dinner, dawn temple, one serious restaurant, one rice terrace or east-coast day, and a driver who knows the timing.",
+      },
+    ],
+    related: ["maldives", "tokyo", "honeymoon-itinerary"],
+  },
 ];
 
 export const itineraryPages: SeoContentPage[] = [
