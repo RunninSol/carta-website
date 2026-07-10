@@ -349,6 +349,62 @@ export const destinationPages: SeoContentPage[] = [
     ],
     related: ["maldives", "tokyo", "honeymoon-itinerary"],
   },
+  {
+    slug: "bangkok",
+    kind: "destination",
+    eyebrow: "Bangkok travel advisor",
+    title: "Bangkok is at its best when the river, food, and timing all work together.",
+    seoTitle: "Bangkok Travel Advisor",
+    description:
+      "Bangkok travel advisor guidance for riverside hotels, private canal days, Michelin dining, street food, timing, and trip hub planning.",
+    intro:
+      "Bangkok can be a serene riverside hotel stay, a late-night noodle crawl, a private longtail boat through the canals, or a serious dining trip built around Sorn, Jay Fai, and the places locals still love. The city works when the plan respects heat, traffic, reservations, and the difference between spectacle and texture.",
+    bestFor: [
+      "Food-focused travelers who want street stalls, Thai-Chinese institutions, and fine dining in one trip",
+      "Couples and families who want a polished riverside base with private guiding",
+      "Repeat Southeast Asia travelers who want Bangkok beyond malls, tuk-tuks, and peak-hour temples",
+    ],
+    timing:
+      "November through February is the cleanest weather window, with lower humidity and easier walking. March through June can be hot and smoggy, while July through October brings rain and better hotel value. I like November, December, or February when the client wants Bangkok to feel energetic without being too punishing.",
+    hotelLogic:
+      "The Mandarin Oriental is the heritage stay, with the Author's Lounge, Bamboo Bar, and a deep sense of old Bangkok on the river. Capella is the contemporary sanctuary where every room faces the Chao Phraya. The Siam is the private, art-collector answer for travelers who value quiet and character over central convenience. A split stay can make sense when the trip needs both history and calm.",
+    foodLogic:
+      "Bangkok food planning should stretch from the $3 bowl to the near-impossible reservation. Sorn, Côte at Capella, Baan Tepa, Sühring, Gaa, Jay Fai, Wattana Panich, Rung Rueng Pork Noodles, and the original Somboon Seafood all tell different parts of the city. The point is not to chase every famous name. The point is to choose the meals that make Bangkok feel specific.",
+    avoid:
+      "I would avoid building the trip around Khao San Road, tourist floating markets like Damnoen Saduak, tuk-tuks as real transport, and the Grand Palace at peak heat. Asiatique and Chatuchak can work selectively, but only with the right expectation and timing. Bangkok punishes generic sightseeing more than almost any city.",
+    cartaTake:
+      "When I plan Bangkok, I am usually protecting the rhythm: river in the morning, air-conditioning when the heat peaks, one serious meal, one local food stop, and a trip hub that keeps addresses, reservation notes, and driver instructions close. That is how the city becomes generous instead of overwhelming.",
+    highlights: [
+      {
+        title: "The river is the planning spine",
+        body: "Mandarin Oriental, Capella, Four Seasons, The Peninsula, and The Siam all make different versions of Bangkok possible. Private boats and hotel shuttles can solve traffic while making the transfer feel like part of the trip.",
+      },
+      {
+        title: "The food range is the reason to go",
+        body: "A Bangkok trip can move from Sorn's three-star Southern Thai tasting menu to Jay Fai's crab omelette, Wattana Panich's half-century beef soup, and late-night moo ping in Silom. That range is the city.",
+      },
+      {
+        title: "Hidden Bangkok is quieter and better paced",
+        body: "Talat Noi, Song Wat Road, Khlong Bang Luang, Bang Krachao, Ari, MOCA, and Rama 4 food institutions give the trip texture without making every day a fight through the same tourist crush.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use one riverside base, one private canal morning, one temple window at opening, one anchor dinner, and one local food crawl. Keep the middle of the day light.",
+      },
+      {
+        title: "5 nights",
+        body: "Enough time for the big river hotels, Talat Noi or Song Wat, a private food guide, one fine-dining reservation, and a slower Thonburi or Bang Krachao half-day.",
+      },
+      {
+        title: "Bangkok plus islands or Angkor",
+        body: "Bangkok works beautifully as the polished city opening before a beach or cultural extension, but the arrival and departure days need to be clean because traffic and heat spend energy quickly.",
+      },
+    ],
+    related: ["tokyo", "bali", "maldives"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
