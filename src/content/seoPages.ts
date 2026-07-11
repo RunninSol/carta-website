@@ -405,6 +405,62 @@ export const destinationPages: SeoContentPage[] = [
     related: ["tokyo", "bali", "maldives"],
   },
 
+  {
+    slug: "barcelona",
+    kind: "destination",
+    eyebrow: "Barcelona travel advisor",
+    title: "Barcelona is best when you leave room for the real city.",
+    seoTitle: "Barcelona Travel Advisor",
+    description:
+      "Barcelona travel advisor guidance for hotel choice, Catalan food, Gaudi timing, day trips, respectful pacing, and private trip hub planning.",
+    intro:
+      "Barcelona can be Sagrada Familia light, a private guide through Modernisme, a serious Catalan dinner, vermouth in Gracia, or a day that leaves the city for Montserrat, Penedes, Priorat, Girona, or the Costa Brava. The better trip is not about seeing more. It is about avoiding the tourist spine long enough to feel the Barcelona locals still care about.",
+    bestFor: [
+      "Couples who want architecture, food, wine, and Mediterranean energy without the generic checklist",
+      "Food-focused travelers choosing between Disfrutar, Catalan bistros, natural wine bars, and market-adjacent meals",
+      "Spain or Catalonia trips that use Barcelona as a base for Montserrat, Penedes, Girona, Priorat, or the Costa Brava",
+    ],
+    timing:
+      "Late April through June and September through October are the cleanest windows, with warm weather and better pacing than peak summer. July and August bring heat, crowds, and higher rates. November through February can work well for cultural trips, fewer crowds, and easier access to the famous rooms.",
+    hotelLogic:
+      "Mandarin Oriental and Majestic solve the Passeig de Gracia luxury base. Hotel Arts is the beachfront and marina answer. Cotton House, Almanac, and The Barcelona EDITION give more design and neighborhood texture. The Wittmore, Hotel Boutique Mirlo, and Primero Primera are quieter choices for clients who want privacy or a more residential Barcelona.",
+    foodLogic:
+      "The food plan should not be a tapas and paella checklist. Barcelona is Catalan, and that means pa amb tomaquet, fideua, arroz negro, bomba de la Barceloneta, butifarra amb mongetes, calçots in season, bacalla a la llauna, vermouth, cava, and low-intervention wine. Disfrutar, Lasarte, ABaC, and Cocina Hermanos Torres matter, but so do La Sosenga, Bar Canyi, Bo de Bernat, Bar Puntal, Bar Super, Bar Cañete, and Can Paixano.",
+    avoid:
+      "I would be careful with Las Ramblas, photo-menu restaurants near major squares, Park Guell expectations, La Pedrera if the client only has time for one Gaudi house, Barceloneta beach as a beach day, Boqueria after midmorning, and Airbnb in pressured neighborhoods. Most Barcelona mistakes come from staying too long on the same tourist corridor.",
+    cartaTake:
+      "When I plan Barcelona, I am usually trying to protect the real texture of the city. See Sagrada Familia at the right hour, then move the meals into Gracia, Sant Antoni, Santa Caterina, Poblenou, El Born, or Sarria. Learn the Catalan dishes before you sit down. Use the trip hub for timing, reservation notes, driver instructions, and the little warnings that keep a beautiful city from feeling overrun.",
+    highlights: [
+      {
+        title: "The icons need timing",
+        body: "Sagrada Familia, Casa Batllo, Palau de la Musica Catalana, and Montserrat can all deliver, but only when the entry time, guide, and crowd strategy are right. The interior of Sagrada Familia matters more than the tower add-on.",
+      },
+      {
+        title: "Catalan food is the better brief",
+        body: "I would rather tell a client what to order than send them hunting for generic tapas. Arroz negro, fideua, bombas, calçots, bacalla, vermouth, cava, and natural wine make the meals feel anchored to Barcelona.",
+      },
+      {
+        title: "Barcelona is a base, not just a city break",
+        body: "Penedes is about 30 minutes away for cava. Girona is about 40 minutes by high-speed train. Montserrat, Priorat, and the Costa Brava can turn the trip into a Catalonia itinerary instead of a crowded long weekend.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use one central hotel base, one Gaudi morning, one El Born or Gracia evening, one serious meal, one market-adjacent lunch, and no more than one major sight per day.",
+      },
+      {
+        title: "5 nights",
+        body: "Add a private guide, a Penedes or Montserrat day, stronger restaurant planning, and time in Santa Caterina, Sant Antoni, Poblenou, or Sarria away from the busiest center.",
+      },
+      {
+        title: "Barcelona plus Catalonia",
+        body: "Use Barcelona for architecture, bars, and restaurants, then build out to Girona, Priorat, Penedes, Costa Brava, or Montserrat depending on whether the client cares most about food, wine, coast, or landscape.",
+      },
+    ],
+    related: ["paris", "amalfi-coast", "amsterdam"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
