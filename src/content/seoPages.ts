@@ -461,6 +461,62 @@ export const destinationPages: SeoContentPage[] = [
     related: ["paris", "amalfi-coast", "amsterdam"],
   },
 
+  {
+    slug: "bordeaux",
+    kind: "destination",
+    eyebrow: "Bordeaux travel advisor",
+    title: "Bordeaux is for travelers who want the wine trip to have a point of view.",
+    seoTitle: "Bordeaux Travel Advisor",
+    description:
+      "Bordeaux travel advisor guidance for wine-focused trips, hotel base logic, Medoc, Saint-Emilion, Graves, dining, timing, and private trip hub planning.",
+    intro:
+      "Bordeaux is the French wine capital, but the better trip is not just a string of tastings. It is the right city base, the right vineyard days, the right restaurant rhythm, and enough time to understand why the region feels different from Paris or the Riviera.",
+    bestFor: [
+      "Wine-focused travelers who want Bordeaux, Medoc, Saint-Emilion, and Graves planned with intention",
+      "Food travelers who want a refined French city break with Atlantic influence and local produce",
+      "Couples who want substance, architecture, wine country, and a calmer alternative to flashier French trips",
+    ],
+    timing:
+      "The research file frames Bordeaux as a refined city break with easy access to surrounding wine regions. I would build timing around vineyard access, restaurant openings, and whether the client wants the city itself or the vineyard days to be the center of gravity.",
+    hotelLogic:
+      "The hotel question starts with base strategy. Stay in Bordeaux when the trip needs restaurants, historic architecture, and easier movement. Shift part of the trip toward the vineyards only when the client wants the wine country itself to slow the pace down.",
+    foodLogic:
+      "The research points to a sophisticated food scene shaped by regional produce, Atlantic influence, and a growing natural wine movement. I would use meals to make Bordeaux feel local, not just as filler between chateaux visits.",
+    avoid:
+      "I would not plan Bordeaux as a generic wine checklist. Too many tastings in too many directions can turn the region into logistics. The better version chooses Medoc, Saint-Emilion, or Graves for a reason, then leaves room for the city to breathe.",
+    cartaTake:
+      "When I plan Bordeaux, I am thinking about restraint. One smart city base, one or two wine regions that actually match the client, and a trip hub that keeps tastings, drivers, restaurant notes, and timing in one place. That is how a wine trip becomes personal instead of repetitive.",
+    highlights: [
+      {
+        title: "Wine regions need a reason",
+        body: "Medoc, Saint-Emilion, and Graves are named in the research as the key access points. The value is not seeing all of them. The value is choosing the ones that fit the trip.",
+      },
+      {
+        title: "Bordeaux is a city break too",
+        body: "Historic architecture, revitalized neighborhoods, restaurants, and natural wine give the trip more texture than vineyard visits alone.",
+      },
+      {
+        title: "Substance over spectacle",
+        body: "The research describes Bordeaux as less flashy than Paris or the Riviera. That is the appeal for the right traveler: wine depth, food, and a calmer French rhythm.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use Bordeaux as the base, add one focused vineyard day, one strong city dinner, and enough walking time for the architecture and revitalized center.",
+      },
+      {
+        title: "5 nights",
+        body: "Build two wine-region days, usually with different purposes, then protect one day for the city, food, and a slower natural-wine or neighborhood layer.",
+      },
+      {
+        title: "Paris plus Bordeaux",
+        body: "Use Paris for museums, shopping, and major restaurants, then let Bordeaux become the quieter wine and food counterpoint instead of trying to make it compete.",
+      },
+    ],
+    related: ["paris", "barcelona", "amsterdam"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
