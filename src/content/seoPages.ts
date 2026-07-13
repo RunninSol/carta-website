@@ -576,6 +576,62 @@ export const destinationPages: SeoContentPage[] = [
     related: ["paris", "maldives", "bordeaux"],
   },
 
+  {
+    slug: "busan",
+    kind: "destination",
+    eyebrow: "Busan travel advisor",
+    title: "Busan is Korea's ocean city, and it deserves more than a side trip.",
+    seoTitle: "Busan Travel Advisor",
+    description:
+      "Busan travel advisor guidance for Haeundae hotels, seafood markets, Michelin dining, coastal temples, Seoul connections, and private trip hub planning.",
+    intro:
+      "Busan is the coastal counterpoint to Seoul: beaches below high-rise hotels, mountain temples, raw seafood culture, the Gwangan Bridge at night, and a food identity built from the ocean, the port, and post-war Korea. The better trip does not treat it as a quick add-on. It gives Busan enough room to feel like itself.",
+    bestFor: [
+      "Korea trips that pair Seoul's pace with ocean, seafood, and a slower coastal rhythm",
+      "Food-focused travelers who want Jagalchi Market, dwaeji gukbap, milmyeon, Michelin dining, and street food in one city",
+      "Couples and families who want beachfront hotels, private guiding, and a trip hub that keeps the city easy to use",
+    ],
+    timing:
+      "Spring and autumn are the easiest windows, with April through May and September through November giving better walking weather. October adds the Busan International Film Festival, which can be a reason to go if hotels and restaurants are planned early. July and August bring beach energy, humidity, monsoon risk, and Haeundae crowds. Winter can be quiet and good value, with empty beaches and milder cold than Seoul.",
+    hotelLogic:
+      "Haeundae is the default base for most clients because the luxury hotels, beach, restaurants, and Haeridan-gil cafes cluster together. Signiel Busan is the wow-factor choice in LCT Tower with ocean balconies and the high-floor pool. Park Hyatt Busan is quieter and more design-driven, with Gwangan Bridge views from Marine City. Westin Josun and Grand Josun solve direct beachfront convenience, while Ananti Hilton in Gijang is for a resort-style stay away from the city center.",
+    foodLogic:
+      "Busan food should start with the sea and then move outward. Jagalchi Market is the defining experience: choose the fish downstairs and eat it prepared upstairs. Hapcheon Gukbapjip introduces dwaeji gukbap, Naeho Naengmyeon explains milmyeon, BIFF Square gives ssiat hotteok for KRW 1,500 to 2,000, and Mori, Fiotto, and Palette show why Michelin's arrival in Busan matters.",
+    avoid:
+      "I would be careful with Haeundae Beach at peak summer, Gamcheon Culture Village at midday, Seomyeon nightlife for luxury travelers, and Busan Tower as a daytime priority. The better version is Haeundae at sunrise, Huinnyeoul Culture Village on Yeongdo instead of the crowd crush, Gwangalli for bridge-view drinks, and coastal timing that avoids turning the city into a traffic loop.",
+    cartaTake:
+      "When I plan Busan, I am usually using it to make Korea breathe. Seoul gives the intensity. Busan gives the ocean, the fish market, the temple on the rocks, the bridge at night, and a hotel room where the sea is part of the day. The trip hub matters here because the best Busan is spread out, and the difference is knowing when to go, what to order, and when to stop moving.",
+    highlights: [
+      {
+        title: "Use Busan as Seoul's coastal counterpart",
+        body: "The KTX connects Seoul and Busan in about 2.5 hours, which makes a two-city Korea trip feel natural. Busan should not be the leftovers after Seoul. It needs its own food, coast, and hotel rhythm.",
+      },
+      {
+        title: "The food identity is the reason to go",
+        body: "Dwaeji gukbap, milmyeon, ssiat hotteok, Jagalchi seafood, Japanese-influenced counters, and Busan's new Michelin scene make the city more specific than a generic beach extension.",
+      },
+      {
+        title: "Haeundae is convenient, but Yeongdo adds texture",
+        body: "Most clients should sleep in Haeundae or Marine City, then use Yeongdo for Huinnyeoul Culture Village, Jeoryeong Coastal Walk, Taejongdae, and Momos Coffee. That is where Busan starts to feel less obvious.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use Haeundae as the base, add Jagalchi and BIFF Square, one temple or coastal morning, one Gwangalli night, and one anchor dinner such as Mori, Palette, or Park Hyatt's Dining Room.",
+      },
+      {
+        title: "5 nights",
+        body: "Enough time for Haeundae, Nampo markets, Haedong Yonggungsa, the Sky Capsule, Yeongdo, Spa Land, and one private yacht or bridge-view evening without rushing every cross-city move.",
+      },
+      {
+        title: "Seoul plus Busan",
+        body: "Start with Seoul for palaces, culture, shopping, and high-density dining, then take the KTX south for seafood, beaches, and a calmer finish. First class on KTX is worth considering for comfort.",
+      },
+    ],
+    related: ["tokyo", "bangkok", "bali"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
