@@ -516,6 +516,65 @@ export const destinationPages: SeoContentPage[] = [
     ],
     related: ["paris", "barcelona", "amsterdam"],
   },
+  {
+    slug: "egypt",
+    kind: "destination",
+    eyebrow: "Egypt travel advisor",
+    title: "Egypt is not hard because of the sights. It is hard because of everything around them.",
+    seoTitle: "Egypt Travel Advisor",
+    description:
+      "Egypt travel advisor guidance for Cairo, Giza, the Grand Egyptian Museum, Luxor, Aswan, Nile cruises, Red Sea extensions, hotels, food, and trip hub planning.",
+    intro:
+      "Egypt has one of the highest payoffs in travel, but it is not a destination I would leave to chance. Cairo traffic, Giza logistics, temple heat, tipping, guides, boats, and early starts all shape the trip as much as the pyramids do. The work is making the wonder easier to feel.",
+    bestFor: [
+      "History-focused travelers who want the pyramids, GEM, Luxor, Aswan, and Abu Simbel handled properly",
+      "Couples and families who want private guiding, smooth transfers, and a calmer Nile rhythm",
+      "Travelers who want a phone-friendly trip hub with hotels, guides, food stops, and logistics in one place",
+    ],
+    timing:
+      "October through April is the cleanest window for Cairo, Luxor, Aswan, and the Nile because the heat is easier to manage. February and March are especially strong for temple-heavy trips. Summer can work for heat-tolerant clients, but the itinerary has to start early and protect recovery time.",
+    hotelLogic:
+      "Mena House solves the pyramid-view fantasy for Giza and GEM. Four Seasons Nile Plaza or St. Regis Cairo solve a more central Nile city base. In Luxor, I would choose between heritage, convenience, and West Bank quiet. In Aswan, Old Cataract can be the emotional finale if the room and expectations are right. On the Nile, the boat is not just transport. It is the pacing device.",
+    foodLogic:
+      "Cairo food should be specific, not random. Khufu's or 139 Pavilion can turn a Giza day into a meal with purpose. Abou El Sid, Le Pacha 1901, Crimson, and Naguib Mahfouz Cafe solve different Cairo nights. Koshary Abou Tarek and Zooba give two very different ways into Egyptian staples.",
+    avoid:
+      "I would avoid building Egypt as a self-guided checklist. Giza without a guide, rushed Nile cruises, forced shopping stops, too many tombs in one morning, and a Red Sea add-on squeezed into a short trip all make Egypt feel harder than it needs to be.",
+    cartaTake:
+      "When I plan Egypt, I am really planning the hour before and after each famous thing. Who meets you at the airport, where the driver is, when the guide starts, where lunch is, what to skip when the heat hits, and who you text if something moves. That is what turns Egypt from exhausting into extraordinary.",
+    highlights: [
+      {
+        title: "The Grand Egyptian Museum changes the Cairo plan",
+        body: "The GEM now belongs at the center of the Cairo and Giza conversation, not as an extra stop. I would pair it carefully with the pyramids so the museum gets real attention instead of leftover energy.",
+      },
+      {
+        title: "Luxor needs restraint",
+        body: "Valley of the Kings, Karnak, Luxor Temple, Medinet Habu, Dendera, and Abydos can make the trip. They can also flatten it if every day becomes a race. Fewer sites with a better guide usually wins.",
+      },
+      {
+        title: "The Nile segment should slow the trip down",
+        body: "A dahabiya or smaller high-service vessel can make Egypt feel human again after Cairo and Luxor. The right boat matters because it controls the rhythm, not just the room.",
+      },
+      {
+        title: "I built a sample Egypt trip hub",
+        body: "The public sample Carta is live at /egypt-carta-yovgmg. It shows the kind of phone-friendly guide I would build around Egypt: hotels, sights, food, guide notes, essentials, and power details in one place.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "7 nights",
+        body: "Cairo and Giza, Luxor, Aswan, and Abu Simbel. It is efficient and history-first, but I would not pretend it is soft.",
+      },
+      {
+        title: "9 to 10 nights",
+        body: "Cairo and Giza, then Luxor to Aswan by dahabiya or small Nile vessel, with a final Cairo buffer if flights require it. This is the best first Egypt shape for most clients.",
+      },
+      {
+        title: "12 to 14 nights",
+        body: "Add Red Sea or desert decompression after the cultural spine. This is where Egypt starts to feel spacious instead of impressive but tiring.",
+      },
+    ],
+    related: ["paris", "maldives", "bordeaux"],
+  },
 
 ];
 

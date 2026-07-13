@@ -81,7 +81,8 @@
     { "name": "Gabe", "role": "Your travel advisor", "phone": "+1 323 854 1678", "note": "Text me first. Anything moves, I move it." }
   ],
   "guideBlocks": [
-    { "heading": "Getting around", "body": "Short trip-wide note in your voice." }
+    { "heading": "Getting around", "body": "Short trip-wide note in your voice." },
+    { "heading": "Power and plug compatibility", "body": "Before you pack, check the outlet type, voltage, and whether you need a plug adapter or voltage converter for this destination. Most modern phones, laptops, and camera chargers are dual-voltage, but hair tools and specialty devices are often not. I would confirm the plug type for the country and pack one compact universal adapter in your carry-on." }
   ],
   "documents": [],
   "essentials": [
