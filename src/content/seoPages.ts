@@ -632,6 +632,62 @@ export const destinationPages: SeoContentPage[] = [
     related: ["tokyo", "bangkok", "bali"],
   },
 
+  {
+    slug: "budapest",
+    kind: "destination",
+    eyebrow: "Budapest travel advisor",
+    title: "Budapest is not a cheaper Vienna. It is its own kind of beautiful.",
+    seoTitle: "Budapest Travel Advisor",
+    description:
+      "Budapest travel advisor guidance for central Pest hotels, thermal baths, Hungarian wine, Michelin dining, Danube timing, and private trip hub planning.",
+    intro:
+      "Budapest works when it is planned with restraint. The city can be Parliament at blue hour, a thermal bath at the right time, a Hungarian wine dinner, a grand Pest hotel, or a quieter Buda evening that most first visits miss. The mistake is treating it like a checklist. The better version has rhythm.",
+    bestFor: [
+      "Couples who want architecture, baths, food, wine, and a high-value European city break",
+      "First Central Europe trips that pair Budapest with Vienna, Prague, or a Danube extension",
+      "Travelers who want a trip hub with hotel logic, bath timing, restaurant notes, and local warnings in one place",
+    ],
+    timing:
+      "Late April through early June and September through early October are the cleanest windows for walking, baths, river views, and restaurant pacing. July and August can be hot and crowded. The research file cites a 2026 Reddit trip report where heat around 101 degrees changed the shape of the days.",
+    hotelLogic:
+      "For most first visits, I would base in central Pest rather than choosing Buda only because it looks quieter. Four Seasons Gresham Palace is the classic Danube-facing stay. Dorothea Hotel and Matild Palace add newer central luxury energy. Aria Hotel works for a more boutique base, while Hotel Rum is useful for food-focused travelers because Salt is in the building.",
+    foodLogic:
+      "The food plan should move between Hungarian comfort, modern dining, and wine. Stand25 Bisztro and Porcz es Bistro are strong local leads for Hungarian cooking, while Salt, Borkonyha Winekitchen, MAK by Mizsseyani, Tati, Szaletly, N28 Wine and Kitchen, Stand, Costes, Babel, and Rumour by Racz Jeno show the higher-end side of the city. Hungarian wine is the sleeper angle.",
+    avoid:
+      "I would be careful with midday Fisherman's Bastion, random tourist menus in the central corridors, generic dinner cruises, New York Cafe as a food recommendation rather than an interiors stop, and ruin bars as the whole nightlife plan. Budapest gets much better when the famous pieces are timed and edited.",
+    cartaTake:
+      "When I plan Budapest, I am usually protecting the contrast. A palace hotel, a bathhouse, a Danube view, a real Hungarian bistro, and one wine-forward dinner can all belong in the same trip. The job is knowing when to go grand and when to let the city stay a little gritty.",
+    highlights: [
+      {
+        title: "Use central Pest as the first base",
+        body: "The research points to central Pest for most travelers because restaurants, hotels, cafes, Parliament, the Opera, and evening movement are easier from there. Buda can be lovely, but it should solve a specific quiet or view problem.",
+      },
+      {
+        title: "Treat the baths as culture, not filler",
+        body: "Szechenyi is the icon, Gellert is the Art Nouveau beauty, and Rudas is more atmospheric. The right bath depends on the client, the time of day, renovation status, and whether the trip needs social energy or calm.",
+      },
+      {
+        title: "Let Hungarian wine carry one night",
+        body: "Tokaj, volcanic whites, Kekfrankos, Kadarka, and the city's wine-bar layer make Budapest more interesting than a simple sightseeing weekend. Borkonyha and N28 are useful anchors because the food and wine logic connect.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use one central Pest base, one Castle District morning, one bath session, one Danube dusk moment, one Hungarian wine dinner, and one curated District VII or beer stop without overbuilding the days.",
+      },
+      {
+        title: "5 nights",
+        body: "Add a second bath with a different personality, Bartok Bela ut or Gellert-side Buda, House of Music or City Park, and either Szentendre or Etyek wine country if the transfer logic is clean.",
+      },
+      {
+        title: "Budapest plus Central Europe",
+        body: "Budapest pairs naturally with Vienna or Prague, but I would not let it become the cheaper add-on. Give it enough room for baths, wine, food, and the Danube at dusk so it feels like its own chapter.",
+      },
+    ],
+    related: ["paris", "amsterdam", "bordeaux"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
