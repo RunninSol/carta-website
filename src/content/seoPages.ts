@@ -688,6 +688,62 @@ export const destinationPages: SeoContentPage[] = [
     related: ["paris", "amsterdam", "bordeaux"],
   },
 
+  {
+    slug: "cape-town",
+    kind: "destination",
+    eyebrow: "Cape Town travel advisor",
+    title: "Cape Town works when the mountain, coast, wine, and timing are planned together.",
+    seoTitle: "Cape Town Travel Advisor",
+    description:
+      "Cape Town travel advisor guidance for luxury hotels, Cape Winelands, restaurants, private guiding, safety, timing, and trip hub planning.",
+    intro:
+      "Cape Town can be Atlantic views from Bantry Bay, a garden hotel below Table Mountain, a private Cape Peninsula day, serious restaurants, or wine country within an hour of the city. The better trip does not treat those pieces as a checklist. It chooses the right base, protects the timing, and keeps movement sensible.",
+    bestFor: [
+      "Couples and families who want Cape Town paired with wine country, coast, or safari",
+      "Food and wine travelers choosing between Constantia, Stellenbosch, Franschhoek, and the city",
+      "Active luxury travelers who want Table Mountain, beaches, art, restaurants, and private guides handled cleanly",
+    ],
+    timing:
+      "November through March is best for beaches, Cape Point, and outdoor dining, with the highest rates and crowds. April, May, September, and October are useful shoulder months for wine, walking, and calmer pacing. June through August is cooler and wetter, but it brings whale season and lower rates.",
+    hotelLogic:
+      "Ellerman House is the private Bantry Bay benchmark with art, wine, and quiet. The Silo is the design-forward V&A Waterfront stay above Zeitz MOCAA. Mount Nelson gives gardens, heritage, and family-friendly space below Table Mountain. Cape Grace, now under Bvlgari, solves marina convenience in a quieter corner of the Waterfront. Cellars-Hohenort matters more when Constantia wine access is part of the plan.",
+    foodLogic:
+      "Cape Town food planning should move between seafood, Cape Malay cooking, serious tasting menus, and wine bars. La Colombe, FYN, Salsify, Galjoen, Farro, Tannin, The Melting Pot, The Happy Uncles, Biesmiellah, Noon Gun Tea Room, and Chefs Warehouse at Tintswalo all solve different parts of the city. The Winelands layer adds Delaire Graff, Jordan, Babylonstoren, Waterkloof, Creation, and La Petite Colombe.",
+    avoid:
+      "I would be careful with the V&A Waterfront as a shopping plan, Camps Bay beach at peak summer, the Franschhoek Wine Tram for clients who need privacy, Table Mountain Cableway at midday, group Bo-Kaap photo walks, and Long Street after dark. Cape Town is beautiful, but safety and timing are not side notes.",
+    cartaTake:
+      "When I plan Cape Town, I am usually deciding what should feel effortless. The mountain, the coast, the wine, the restaurant, the driver, the guide, the adapter in the bag, and the note about where not to walk after dark. That is the difference between a spectacular city and a trip that asks too much from the traveler.",
+    highlights: [
+      {
+        title: "Hotel base changes the whole trip",
+        body: "Bantry Bay gives quiet and sunset views. The Waterfront gives access and museums. Gardens gives heritage and space. Constantia turns wine into part of the daily rhythm instead of a long excursion.",
+      },
+      {
+        title: "Cape Town pairs naturally with wine and safari",
+        body: "The research frames Cape Town plus Sabi Sands or Phinda as a classic coast and bush shape. Franschhoek or Stellenbosch can also work as the decompression chapter after the city.",
+      },
+      {
+        title: "Private guiding is not just polish",
+        body: "For Table Mountain, Bo-Kaap, Cape Point, the Winelands, and evening movement, the right guide or driver improves safety, pacing, and access. It also keeps the day from turning into logistics.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "4 nights",
+        body: "Use one city base, one Table Mountain or art morning, one Cape Peninsula day, one Constantia or major restaurant evening, and enough time for the coastline to breathe.",
+      },
+      {
+        title: "6 nights",
+        body: "Split the focus between Cape Town and the Winelands, with Ellerman House, Mount Nelson, The Silo, or Cape Grace in the city and Franschhoek, Stellenbosch, or Constantia chosen for the wine chapter.",
+      },
+      {
+        title: "Cape Town plus safari",
+        body: "Use Cape Town for food, art, coast, and wine before or after Sabi Sands or Phinda. The trip works best when transfers, recovery time, and the first safari night are protected.",
+      },
+    ],
+    related: ["bali", "maldives", "bordeaux"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
