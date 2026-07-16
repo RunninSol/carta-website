@@ -2,9 +2,20 @@ import Link from "next/link";
 import { CompassMark } from "@/components/CompassMark";
 import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/Navigation";
-import type { SeoContentPage } from "@/content/seoPages";
+import { allSeoPages, type SeoContentPage } from "@/content/seoPages";
 
 export function SeoGuidePage({ page }: { page: SeoContentPage }) {
+  const curatedSlugs = page.related ?? [];
+  const curatedSlugSet = new Set(curatedSlugs);
+  const relatedPages = [
+    ...curatedSlugs
+      .map((slug) => allSeoPages.find((candidate) => candidate.slug === slug))
+      .filter((candidate): candidate is SeoContentPage => Boolean(candidate)),
+    ...allSeoPages.filter(
+      (candidate) => candidate.slug !== page.slug && !curatedSlugSet.has(candidate.slug),
+    ),
+  ];
+
   return (
     <>
       <Navigation />
@@ -112,20 +123,26 @@ export function SeoGuidePage({ page }: { page: SeoContentPage }) {
           <div className="mx-auto max-w-6xl rounded-sm border border-navy/10 bg-ivory p-lg shadow-card md:p-xl">
             <p className="eyebrow">Related planning pages</p>
             <div className="mt-md flex flex-wrap gap-3">
-              {page.related.map((slug) => (
+              {relatedPages.map((relatedPage) => (
                 <Link
-                  key={slug}
-                  href={slug === "honeymoon-itinerary" ? `/itineraries/${slug}` : `/destinations/${slug}`}
+                  key={`${relatedPage.kind}-${relatedPage.slug}`}
+                  href={`/${relatedPage.kind === "itinerary" ? "itineraries" : "destinations"}/${relatedPage.slug}`}
                   className="rounded-full border border-navy/15 px-4 py-2 text-sm text-navy transition hover:border-gold hover:text-gold"
                 >
-                  {slug.replaceAll("-", " ")}
+                  {relatedPage.seoTitle}
                 </Link>
               ))}
               <Link
-                href="/itineraries/honeymoon-itinerary"
+                href="/destinations"
                 className="rounded-full border border-navy/15 px-4 py-2 text-sm text-navy transition hover:border-gold hover:text-gold"
               >
-                honeymoon itinerary
+                All destination guides
+              </Link>
+              <Link
+                href="/itineraries"
+                className="rounded-full border border-navy/15 px-4 py-2 text-sm text-navy transition hover:border-gold hover:text-gold"
+              >
+                All itinerary guides
               </Link>
             </div>
           </div>

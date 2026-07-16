@@ -14,7 +14,7 @@ export type SeoContentPage = {
   cartaTake: string;
   highlights: Array<{ title: string; body: string }>;
   tripShapes: Array<{ title: string; body: string }>;
-  related: string[];
+  related?: string[];
 };
 
 export const destinationPages: SeoContentPage[] = [
@@ -126,7 +126,7 @@ export const destinationPages: SeoContentPage[] = [
         body: "Book Tokyo around arrival energy and train timing. The hotel should make the next move easy.",
       },
     ],
-    related: ["paris", "kyoto", "maldives"],
+    related: ["paris", "busan", "maldives"],
   },
   {
     slug: "amalfi-coast",
