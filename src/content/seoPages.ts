@@ -744,6 +744,62 @@ export const destinationPages: SeoContentPage[] = [
     related: ["bali", "maldives", "bordeaux"],
   },
 
+  {
+    slug: "copenhagen",
+    kind: "destination",
+    eyebrow: "Copenhagen travel advisor",
+    title: "Copenhagen is a taste-level city, not a checklist city.",
+    seoTitle: "Copenhagen Travel Advisor",
+    description:
+      "Copenhagen travel advisor guidance for hotel choice, Michelin dining, bakeries, harbor life, design neighborhoods, and private trip hub planning.",
+    intro:
+      "Copenhagen works best when it is planned around food, design, water, and neighborhood rhythm. The luxury is not only Geranium, Kadeau, Jordnær, or Alchemist. It is also a morning bun by the harbor, a ferry instead of a taxi, a smørrebrød lunch with schnapps, and a city that feels built around daily life.",
+    bestFor: [
+      "Design-minded travelers who want a walkable city with excellent food and clean logistics",
+      "Couples and urban honeymooners who want restaurants, water, architecture, and quieter style",
+      "Food travelers choosing between Michelin dining, bakeries, seafood, smørrebrød, and natural wine",
+    ],
+    timing:
+      "Late May through September is the strongest window for harbor swimming, outdoor dining, biking, long daylight, and waterfront neighborhoods like Refshaleøen and Nordhavn. September is especially good for an adult city break. January through March can still work for design shopping, bakeries, saunas, restaurants, and low crowds, but it is a moodier version of the city.",
+    hotelLogic:
+      "Hotel d'Angleterre solves the classic luxury stay on Kongens Nytorv. Nimb is the Tivoli romance and family answer. Hotel Sanders is the intimate design-forward choice for couples. Villa Copenhagen and Nobis give larger, polished city stays, while Hotel Ottilia or a Frederiksberg base can make sense for repeat visitors who want a more residential rhythm. The right base depends on whether the trip is about first-timer ease, restaurant access, or living more like a local for a few days.",
+    foodLogic:
+      "I would not make Copenhagen all tasting menus. One serious reservation can be perfect, but the city needs range: Schønnemann, Palægade, Aamanns 1921, Selma, or Møntergade for smørrebrød, Hart Bakery or Coffee Collective in the morning, Fiskebar or another seafood night in Vesterbro, and one casual hot dog, shawarma, wine bar, or bodega stop so the trip does not become a status exercise.",
+    avoid:
+      "I would be careful with making Nyhavn, the Little Mermaid, and Tivoli the whole trip. Nyhavn is better early or as a quick drink, the Little Mermaid should be folded into a waterside walk if it matters at all, and Tivoli is strongest at dusk. I also would not plan every dinner around Michelin stars, because that misses the city Copenhageners actually live in.",
+    cartaTake:
+      "When I plan Copenhagen, I am usually protecting the rhythm. One major booking, one neighborhood walk, one water moment, one bakery or smørrebrød stop, and enough space for the city to feel calm. That is the version I love: precise, stylish, and still human.",
+    highlights: [
+      {
+        title: "Food is broader than the star list",
+        body: "Copenhagen has 31 Michelin stars across 21 restaurants in the research file, including Geranium, Kadeau, Jordnær, Alchemist, Koan, AOC, and JATAK. That matters, but so do Hart Bakery, Coffee Collective, Fiskebar, Schønnemann, Palægade, Aamanns, Selma, and the simple morning bun with butter and cheese.",
+      },
+      {
+        title: "The water changes the plan",
+        body: "Canal boats, harbor ferries, Nordhavn baths, Christianshavn canals, Opera Park, La Banchina, Reffen, and Refshaleøen make Copenhagen feel like a waterfront city rather than a museum circuit.",
+      },
+      {
+        title: "Neighborhoods do the real work",
+        body: "Indre By is useful for first-timers, but Vesterbro, Nørrebro, Christianshavn, Refshaleøen, Frederiksberg, and Nordhavn are where the trip gets texture. I would rather build around those areas than keep circling the same postcard streets.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use one central or design-forward base, one smørrebrød lunch, one bakery morning, one harbor or canal moment, one Vesterbro or Nørrebro evening, and one serious dinner if the client wants it.",
+      },
+      {
+        title: "5 nights",
+        body: "Add Louisiana Museum, Kronborg if history matters, Nordhavn or CopenHill for contemporary architecture, and a more relaxed food rhythm that mixes Michelin, seafood, bakeries, and wine.",
+      },
+      {
+        title: "Copenhagen plus the region",
+        body: "Use four nights in Copenhagen, then add the north coast, Humlebæk or Helsingør, Malmö, Skåne, or rural Denmark only if the transfers support a softer Nordic summer trip.",
+      },
+    ],
+    related: ["amsterdam", "paris", "budapest"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
