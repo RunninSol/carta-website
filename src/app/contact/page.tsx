@@ -69,6 +69,16 @@ export default function ContactPage() {
                 Email Gabe
               </a>
             </div>
+            <p className="mt-7 text-xs text-mid-gray">
+              Already working with me?{" "}
+              <a
+                href="/intake"
+                className="text-navy underline decoration-gold/60 underline-offset-4 transition-colors hover:text-gold-deep"
+              >
+                Complete your client intake
+              </a>
+              .
+            </p>
           </FadeIn>
         </section>
 
