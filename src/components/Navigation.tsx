@@ -11,6 +11,7 @@ const navLinks = [
   { href: "/the-carta", label: "Trip Hub" },
   { href: "/services", label: "Services" },
   { href: "/about", label: "About" },
+  { href: "/intake", label: "Client Intake" },
 ];
 
 export function Navigation() {
@@ -63,7 +64,7 @@ export function Navigation() {
             />
           </Link>
 
-          <nav className="hidden items-center gap-8 md:flex">
+          <nav className="hidden items-center gap-8 lg:flex">
             {navLinks.map((link) => {
               const active = pathname === link.href;
               return (
@@ -89,7 +90,7 @@ export function Navigation() {
 
           <button
             type="button"
-            className="flex flex-col gap-1.5 md:hidden"
+            className="flex flex-col gap-1.5 lg:hidden"
             aria-label={menuOpen ? "Close menu" : "Open menu"}
             aria-expanded={menuOpen}
             onClick={() => setMenuOpen(!menuOpen)}
@@ -120,7 +121,7 @@ export function Navigation() {
 
       {/* Mobile overlay */}
       <div
-        className={`fixed inset-0 z-40 flex flex-col items-center justify-center bg-navy transition-opacity duration-300 md:hidden ${
+        className={`fixed inset-0 z-40 flex flex-col items-center justify-center bg-navy transition-opacity duration-300 lg:hidden ${
           menuOpen ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"
         }`}
       >
