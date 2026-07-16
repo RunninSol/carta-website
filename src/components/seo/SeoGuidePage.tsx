@@ -72,7 +72,7 @@ export function SeoGuidePage({ page }: { page: SeoContentPage }) {
             <div className="mt-xl grid gap-lg md:grid-cols-3">
               {page.highlights.map((highlight) => (
                 <article key={highlight.title} className="rounded-sm border border-navy/10 bg-ivory p-lg shadow-card">
-                  <h2 className="font-display text-2xl text-navy">{highlight.title}</h2>
+                  <h2 className="font-display text-lg leading-tight text-navy">{highlight.title}</h2>
                   <p className="mt-md text-base leading-relaxed text-charcoal/70">
                     {highlight.body}
                   </p>
