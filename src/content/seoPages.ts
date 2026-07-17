@@ -800,6 +800,63 @@ export const destinationPages: SeoContentPage[] = [
     related: ["amsterdam", "paris", "budapest"],
   },
 
+  {
+    slug: "british-virgin-islands",
+    kind: "destination",
+    eyebrow: "British Virgin Islands travel advisor",
+    title: "The British Virgin Islands work best when the water leads the plan.",
+    seoTitle: "British Virgin Islands Travel Advisor",
+    description:
+      "British Virgin Islands travel advisor guidance for Virgin Gorda, Tortola, Anegada, Jost Van Dyke, private islands, sailing, hotels, restaurants, transfers, and trip hub planning.",
+    intro:
+      "The British Virgin Islands are not one resort island. They are a water-first archipelago, and the best trips are built around boats, coves, private islands, Virgin Gorda beaches, Anegada lobster, Jost Van Dyke beach bars, and a base plan that keeps ferries and sea conditions from owning the vacation.",
+    bestFor: [
+      "Couples and families who want clear water, sailing, privacy, and a softer island rhythm",
+      "Honeymoons that need a polished land base with one or two days on the water",
+      "Private-island, villa, and yacht clients who want the trip designed around access, not just hotel rank",
+    ],
+    timing:
+      "December through April is the cleanest weather window and the highest-demand season. May and early June can work well for flexible clients who want softer demand before hurricane risk becomes the main planning issue. I am careful with August through October because closures, storms, ferry changes, and insurance terms can change the whole trip.",
+    hotelLogic:
+      "Rosewood Little Dix Bay is the safest classic luxury anchor for a first BVI trip. North Sound is the yacht and villa layer, with Oil Nut Bay, Bitter End Yacht Club, Saba Rock, and private boat access changing the feel of the stay. Necker, Moskito, Guana, Peter Island, The Aerial, and villa estates are the high-privacy layer. Tortola is useful for arrivals, yacht starts, food texture, and transit, but it is not the only luxury beach answer for most clients.",
+    foodLogic:
+      "BVI food planning works by route rather than by a city-style restaurant list. I would use Crandell's Pastry Plus for local Tortola breakfast context, Good Moon Farm for produce and farm-to-table texture, CocoMaya or Sugar Mill for Virgin Gorda polish, Soggy Dollar and Foxy's as Jost rituals, and Anegada for lobster at places like Lobster Trap, Cow Wreck, or The Wonky Dog. The point is not to pretend this is a dining capital. The point is to make each island meal fit the day around it.",
+    avoid:
+      "Do not plan the BVI like St. Barths or Turks and Caicos. Too many island moves, The Baths at peak hours, a rushed Anegada day trip, late-arrival ferry dependence, and a North Sound plan without confirmed boat access can turn a beautiful destination into logistics. I would rather build two anchors and one excellent water day than make the trip prove it visited every island.",
+    cartaTake:
+      "When I plan the BVI, I am usually asking whether the client wants a resort, a yacht, a villa, or an island. That answer matters more than a hotel ranking. If the transfers feel effortless, the place feels magic. If the transfers are loose, even a gorgeous room can feel like work.",
+    highlights: [
+      {
+        title: "Virgin Gorda is the first-timer anchor",
+        body: "The Baths, Devil's Bay, Savannah Bay, Little Dix Bay, Spanish Town, and North Sound give the strongest mix of beach, scenery, hotel quality, and boat access for most first BVI trips.",
+      },
+      {
+        title: "The private-island layer is real",
+        body: "Necker, Moskito, Guana, Peter Island, The Aerial, Oil Nut Bay, and villa estates make the BVI unusually strong for privacy, buyouts, multi-family groups, and clients who want control over the environment.",
+      },
+      {
+        title: "Anegada changes the texture",
+        body: "Anegada is the low coral outlier, with lobster, reefs, empty-beach feeling, flamingos, and a very different pace from the volcanic islands. It is better as an overnight or carefully planned boat day than a rushed checkbox.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use one Virgin Gorda or North Sound base, go early to The Baths and Devil's Bay, add Savannah Bay or Spring Bay, then use one private boat day instead of trying to change islands every night.",
+      },
+      {
+        title: "5 nights",
+        body: "Build a land base plus water rhythm: Virgin Gorda or North Sound for beaches and hotel time, one Jost or Tortola food and farm day, and enough buffer that ferries, weather, and restaurant hours do not crowd the trip.",
+      },
+      {
+        title: "7 nights",
+        body: "Combine Rosewood Little Dix Bay, North Sound, or a private-island base with a crewed yacht segment, Anegada lobster night, and a final decompression stay. This is where the BVI starts to feel different from a standard Caribbean resort week.",
+      },
+    ],
+    related: ["maldives", "bali", "amalfi-coast"],
+  },
+
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
