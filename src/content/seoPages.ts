@@ -855,6 +855,61 @@ export const destinationPages: SeoContentPage[] = [
     ],
     related: ["maldives", "bali", "amalfi-coast"],
   },
+  {
+    slug: "anegada",
+    kind: "destination",
+    eyebrow: "Anegada travel advisor",
+    title: "Anegada works only when the itinerary stops moving.",
+    seoTitle: "Anegada Travel Advisor",
+    description:
+      "Anegada travel advisor guidance for BVI yacht itineraries, lobster nights, reef access, simple beach stays, ferries, weather, and trip hub planning.",
+    intro:
+      "Anegada is the BVI's low coral outlier: north-shore beaches, Horseshoe Reef, lobster dinners, conch history, and a pace that is easy to ruin by rushing. It belongs in the trip when the route gives it enough space.",
+    bestFor: [
+      "BVI yacht trips that can spare one or two nights without making the route feel tight",
+      "Beach-first travelers who understand that Anegada is simple, remote, and weather-dependent",
+      "Clients who want a lobster night, reef day, and quiet contrast to the busier BVI stops",
+    ],
+    timing:
+      "Anegada needs same-week sea-state and ferry verification. Late December through February can bring stronger Christmas winds, which may make the crossing rougher even in the drier season. I treat the island as a plan-with-conditions stop, not a fixed trophy stop.",
+    hotelLogic:
+      "This is not a polished resort island. Anegada Beach Club fits rustic beach bungalows and watersports. Loblolly Beach Cottages work for beach-first simplicity. Anegada Reef Hotel is practical near Setting Point. The right question is whether the client wants the island's simplicity, not whether the property has a luxury label.",
+    foodLogic:
+      "Lobster is the ritual, but it should not become the whole plan. The Lobster Trap, Potter's by the Sea, Anegada Reef Hotel, Cow Wreck, Big Bamboo, Wonky Dog, and Anegada Beach Club are dinner or beach-meal candidates to verify by season, reservation time, advance lobster order, transport, and payment.",
+    avoid:
+      "I avoid adding Anegada to a short first-time BVI charter by default. A five-day route can turn the island into a crossing, a rushed dinner, and a weather problem. If the trip cannot give Anegada a real beach day, I would rather omit it cleanly.",
+    cartaTake:
+      "When I use Anegada, I use it for contrast. Arrive, slow down, choose the lobster dinner, wake up on the north coast, and let the island be quiet. That is the version worth planning around.",
+    highlights: [
+      {
+        title: "Stay long enough for the island to work",
+        body: "One night is the minimum viable yacht stop. Two nights is the better recommendation: arrival and lobster dinner, then a full Cow Wreck or Loblolly beach day before departure.",
+      },
+      {
+        title: "Treat reef access as guided, current, and conditional",
+        body: "Horseshoe Reef and the wreck history are part of Anegada's appeal, but they are also why casual reef promises are wrong. Use qualified operators, current conditions, and charter-company rules.",
+      },
+      {
+        title: "Plan the small logistics early",
+        body: "Island transport, advance lobster orders, cash and card backup, seasonal openings, air-conditioning, power, connectivity, and the return plan all matter more here than they do on easier BVI stops.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "One night",
+        body: "Daylight arrival, confirmed transport, early lobster order, sunset dinner, and a north-shore beach window the next morning before a weather-aware departure.",
+      },
+      {
+        title: "Two nights",
+        body: "The recommended shape: Setting Point arrival dinner, a full Cow Wreck or Loblolly day, and a guided reef, conch, or flexible beach morning before leaving.",
+      },
+      {
+        title: "Inside a BVI week",
+        body: "Use Anegada only when the BVI route still has slack. If the week is already packed with Norman, Cooper, Virgin Gorda, Jost, and North Sound, Anegada may be the thing to save for another trip.",
+      },
+    ],
+    related: ["british-virgin-islands", "maldives", "bali"],
+  },
 
 
 ];
