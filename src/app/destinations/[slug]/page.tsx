@@ -32,11 +32,15 @@ export async function generateMetadata({
       description: page.description,
       url,
       type: "article",
+      ...(page.photos?.[0]
+        ? { images: [{ url: page.photos[0].src, alt: page.photos[0].alt }] }
+        : {}),
     },
     twitter: {
       card: "summary_large_image",
       title: page.seoTitle,
       description: page.description,
+      ...(page.photos?.[0] ? { images: [page.photos[0].src] } : {}),
     },
   };
 }
@@ -57,6 +61,9 @@ export default async function DestinationGuidePage({
     headline: page.seoTitle,
     description: page.description,
     url: `${BASE}/destinations/${page.slug}`,
+    ...(page.photos?.length
+      ? { image: page.photos.map((photo) => `${BASE}${photo.src}`) }
+      : {}),
     author: { "@type": "Person", name: "Gabe Rozavski" },
     publisher: {
       "@type": "Organization",

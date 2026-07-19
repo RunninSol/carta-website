@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { CompassMark } from "@/components/CompassMark";
 import { Footer } from "@/components/Footer";
@@ -43,6 +44,28 @@ export function SeoGuidePage({ page }: { page: SeoContentPage }) {
           </div>
         </section>
 
+        {page.photos?.[0] && (
+          <figure className="relative h-[52vh] min-h-[360px] overflow-hidden bg-navy md:h-[68vh]">
+            <Image
+              src={page.photos[0].src}
+              alt={page.photos[0].alt}
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover"
+            />
+            <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/90 to-transparent px-6 pb-6 pt-20 text-sm text-ivory/85 lg:px-10">
+              <span>{page.photos[0].caption}</span>
+              <span className="ml-2 text-ivory/55">
+                Photo:{" "}
+                <a href={page.photos[0].creditUrl} className="underline underline-offset-2">
+                  {page.photos[0].credit}
+                </a>
+              </span>
+            </figcaption>
+          </figure>
+        )}
+
         <section className="px-6 py-2xl lg:px-10 lg:py-3xl">
           <div className="mx-auto grid max-w-6xl gap-xl lg:grid-cols-[0.9fr_1.1fr]">
             <div className="rounded-sm border border-navy/10 bg-ivory p-lg shadow-card">
@@ -76,6 +99,45 @@ export function SeoGuidePage({ page }: { page: SeoContentPage }) {
             </div>
           </div>
         </section>
+
+        {page.photos && page.photos.length > 1 && (
+          <section className="bg-ivory px-6 py-2xl lg:px-10 lg:py-3xl">
+            <div className="mx-auto max-w-6xl">
+              <p className="eyebrow text-center">A closer look</p>
+              <div className="mt-xl grid auto-rows-[260px] gap-4 md:grid-cols-2 lg:grid-cols-3">
+                {page.photos.slice(1).map((photo, index) => (
+                  <figure
+                    key={photo.src}
+                    className={`group relative overflow-hidden bg-navy ${
+                      index === 0 ? "md:row-span-2 lg:col-span-2" : ""
+                    }`}
+                  >
+                    <Image
+                      src={photo.src}
+                      alt={photo.alt}
+                      fill
+                      sizes={
+                        index === 0
+                          ? "(min-width: 1024px) 66vw, 100vw"
+                          : "(min-width: 1024px) 33vw, 50vw"
+                      }
+                      className="object-cover transition duration-700 group-hover:scale-[1.02]"
+                    />
+                    <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/90 to-transparent px-5 pb-5 pt-16 text-sm text-ivory/90">
+                      <span>{photo.caption}</span>
+                      <span className="ml-2 text-ivory/55">
+                        Photo:{" "}
+                        <a href={photo.creditUrl} className="underline underline-offset-2">
+                          {photo.credit}
+                        </a>
+                      </span>
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         <section className="px-6 py-2xl lg:px-10 lg:py-3xl">
           <div className="mx-auto max-w-6xl">

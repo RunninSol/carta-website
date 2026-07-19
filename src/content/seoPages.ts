@@ -14,6 +14,13 @@ export type SeoContentPage = {
   cartaTake: string;
   highlights: Array<{ title: string; body: string }>;
   tripShapes: Array<{ title: string; body: string }>;
+  photos?: Array<{
+    src: string;
+    alt: string;
+    caption: string;
+    credit: string;
+    creditUrl: string;
+  }>;
   related?: string[];
 };
 
@@ -912,6 +919,105 @@ export const destinationPages: SeoContentPage[] = [
   },
 
 
+  {
+    slug: "belize",
+    kind: "destination",
+    eyebrow: "Belize travel advisor",
+    title: "Belize works best when the reef and rainforest share the trip.",
+    seoTitle: "Belize Travel Advisor",
+    description:
+      "Belize travel advisor guidance for pairing Cayo with Ambergris Caye, Placencia, or Hopkins, plus reef days, hotels, food, and honest Blue Hole advice.",
+    intro:
+      "Belize is not one long beach stay. Its advantage is the combination: the barrier reef, caves and Maya sites in Cayo, Garifuna culture around Hopkins, cacao country in Toledo, and small lodges where the place still feels close. The smartest first trip usually chooses two of those worlds and gives each one enough time.",
+    bestFor: [
+      "Divers and snorkelers who care more about reef access than a wide resort beach",
+      "Couples and families who want rainforest, archaeology, wildlife, and water in one country",
+      "Travelers who value intimate lodges and cultural depth more than shopping or polished nightlife",
+    ],
+    timing:
+      "December through May is generally the drier window, but reef departures, cave access, small-aircraft flights, and sargassum can change week by week. I keep the key water day movable and reconfirm marine conditions close to travel rather than pretending a seasonal average can promise a perfect beach.",
+    hotelLogic:
+      "The hotel should solve the base. Blancaneaux Lodge, Gaia Riverlodge, Chaa Creek, and Ka'ana make Cayo feel deliberate. Matachica and Victoria House suit different versions of Ambergris Caye. Hamanasi links reef and rainforest from Hopkins, while Turtle Inn, Naia, and Itz'ana make Placencia a stronger coast-and-village base. Cayo Espanto and Royal Belize are privacy plays, not substitutes for seeing the country.",
+    foodLogic:
+      "Belizean food changes with the route. San Ignacio is useful for inland Belizean cooking, Hopkins for Garifuna dishes such as hudut and sere, Placencia for Creole cooking and seafood, and San Pedro for the widest restaurant choice. I would rather build around culture, the day's catch, and seafood seasons than default to the most expensive resort dining room.",
+    avoid:
+      "I would not sell the Great Blue Hole as mandatory, promise a Maldives-style beach, or squeeze Cayo, multiple cayes, Hopkins, and Placencia into one week. The scenic flight often explains the Blue Hole better for non-divers, while Hol Chan, Turneffe, Glover's Reef, or Lighthouse Reef shallows can deliver the richer marine-life day.",
+    cartaTake:
+      "For a first Belize trip, I usually start with three nights in Cayo and four on one coast or caye. That gives the caves, Maya sites, jungle, and reef enough room to feel like parts of one country instead of a series of transfers. The choice of that second base is where the trip becomes personal.",
+    highlights: [
+      {
+        title: "Choose the second base by the trip you want",
+        body: "Ambergris Caye gives reef access, restaurant depth, and energy. Caye Caulker is more casual. Placencia balances village, beach, reef, and inland access. Hopkins adds the strongest Garifuna layer.",
+      },
+      {
+        title: "Treat the Blue Hole as a choice",
+        body: "Qualified divers may value the deep geology and expedition. Non-divers often understand its scale best from the air, while shallower reef sites usually offer more color and marine life.",
+      },
+      {
+        title: "Protect the reef day",
+        body: "Wind, rain, sea state, and operator decisions can move departures. Keep one water day flexible and build a land-based fallback that still feels like Belize.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Choose one base, either Cayo or a caye. Two bases in three nights spend too much of the trip on movement.",
+      },
+      {
+        title: "5 nights",
+        body: "Pair two nights in Cayo with three on Ambergris Caye, Caye Caulker, Placencia, or Hopkins. Pick one coast, not several.",
+      },
+      {
+        title: "7 nights",
+        body: "Three nights in Cayo and four nights on one coast or caye is the cleanest first-trip shape, with one reef day left movable for weather.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/belize/barrier-reef.webp",
+        alt: "Aerial view of the Belize Barrier Reef running beside the coast",
+        caption: "Belize makes the most sense as a reef-and-rainforest country, not a beach-only escape.",
+        credit: "Ian Morton, CC BY 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Belize_Barrier_Reef_Aerial_Looking_North.jpg",
+      },
+      {
+        src: "/photos/destinations/belize/great-blue-hole.webp",
+        alt: "Aerial view of the Great Blue Hole with a small boat crossing the water",
+        caption: "The Great Blue Hole is a geological icon, but it is not automatically the best marine-life day.",
+        credit: "U.S. Geological Survey, public domain",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Great_Blue_Hole.jpg",
+      },
+      {
+        src: "/photos/destinations/belize/xunantunich.webp",
+        alt: "El Castillo rising above the green grounds at Xunantunich in Belize",
+        caption: "Xunantunich gives a Cayo stay historical weight beyond the caves and jungle.",
+        credit: "Denis Barthel, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Xunantunich_Belize_1_19.jpg",
+      },
+      {
+        src: "/photos/destinations/belize/caye-caulker.webp",
+        alt: "Aerial view of turquoise water and the settlement on Caye Caulker",
+        caption: "Caye Caulker is the casual, smaller-scale caye choice, with a different service ceiling from Ambergris.",
+        credit: "dronepicr, CC BY 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Caye_Caulker_Belize_aerial_(20688990128).jpg",
+      },
+      {
+        src: "/photos/destinations/belize/placencia.webp",
+        alt: "Palm trees, loungers, and calm water on a beach in Placencia, Belize",
+        caption: "Placencia works when village life, reef access, and inland days all need to fit one base.",
+        credit: "Jim McIntosh, CC0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Placencia_Belize,_December_2021_-_The_Beach.jpg",
+      },
+      {
+        src: "/photos/destinations/belize/cockscomb-waterfall.webp",
+        alt: "Waterfall and dark swimming pool in the rainforest at Cockscomb Basin",
+        caption: "Cockscomb Basin is a reminder that a coast stay can still include a serious rainforest day.",
+        credit: "Cephas, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Cockscomb_Basin_Wildlife_Sanctuary_21.JPG",
+      },
+    ],
+    related: ["british-virgin-islands", "bali", "cape-town"],
+  },
 ];
 
 export const itineraryPages: SeoContentPage[] = [
