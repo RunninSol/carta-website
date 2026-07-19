@@ -21,31 +21,8 @@ export function SeoGuidePage({ page }: { page: SeoContentPage }) {
     <>
       <Navigation />
       <main id="main" className="bg-warm-bg">
-        <section className="navy-gradient grain px-6 pb-2xl pt-32 text-ivory lg:px-10 lg:pb-3xl">
-          <div className="relative z-10 mx-auto max-w-5xl text-center">
-            <div className="mb-lg flex justify-center">
-              <CompassMark size={64} variant="gold" />
-            </div>
-            <p className="eyebrow">{page.eyebrow}</p>
-            <h1 className="font-display text-4xl leading-tight md:text-6xl">
-              {page.title}
-            </h1>
-            <p className="mx-auto mt-lg max-w-3xl text-lg leading-relaxed text-ivory/75 md:text-xl">
-              {page.intro}
-            </p>
-            <div className="mt-xl flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <Link href="/contact" className="btn-primary">
-                Tell me where you want to go
-              </Link>
-              <Link href="/the-carta" className="text-sm uppercase tracking-[0.18em] text-ivory/70 transition hover:text-ivory">
-                See the trip hub
-              </Link>
-            </div>
-          </div>
-        </section>
-
-        {page.photos?.[0] && (
-          <figure className="relative h-[52vh] min-h-[360px] overflow-hidden bg-navy md:h-[68vh]">
+        {page.photos?.[0] ? (
+          <section className="relative flex min-h-[92svh] items-end overflow-hidden bg-navy px-6 pb-xl pt-36 text-ivory lg:px-10 lg:pb-2xl">
             <Image
               src={page.photos[0].src}
               alt={page.photos[0].alt}
@@ -54,16 +31,61 @@ export function SeoGuidePage({ page }: { page: SeoContentPage }) {
               sizes="100vw"
               className="object-cover"
             />
-            <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/90 to-transparent px-6 pb-6 pt-20 text-sm text-ivory/85 lg:px-10">
-              <span>{page.photos[0].caption}</span>
-              <span className="ml-2 text-ivory/55">
-                Photo:{" "}
-                <a href={page.photos[0].creditUrl} className="underline underline-offset-2">
-                  {page.photos[0].credit}
-                </a>
-              </span>
-            </figcaption>
-          </figure>
+            <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(15,30,60,0.96)_0%,rgba(15,30,60,0.82)_42%,rgba(15,30,60,0.24)_78%,rgba(15,30,60,0.38)_100%)]" />
+            <div className="absolute inset-0 bg-gradient-to-t from-navy/80 via-transparent to-navy/25" />
+            <div className="relative z-10 mx-auto w-full max-w-6xl pb-16">
+              <div className="max-w-3xl">
+                <div className="mb-lg">
+                  <CompassMark size={56} variant="gold" />
+                </div>
+                <p className="eyebrow">{page.eyebrow}</p>
+                <div className="mb-lg mt-md h-[1.5px] w-16 bg-gold" />
+                <h1 className="font-display text-4xl leading-tight md:text-6xl">
+                  {page.title}
+                </h1>
+                <p className="mt-lg max-w-2xl text-base leading-relaxed text-ivory/80 md:text-md">
+                  {page.intro}
+                </p>
+                <div className="mt-xl flex flex-col items-start gap-4 sm:flex-row sm:items-center">
+                  <Link href="/contact" className="btn-primary">
+                    Tell me where you want to go
+                  </Link>
+                  <Link href="/the-carta" className="text-sm uppercase tracking-[0.18em] text-ivory/75 transition hover:text-ivory">
+                    See the trip hub
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <p className="absolute bottom-5 right-6 z-10 max-w-sm text-right text-xs leading-relaxed text-ivory/65 lg:right-10">
+              {page.photos[0].caption}{" "}
+              <a href={page.photos[0].creditUrl} className="underline underline-offset-2">
+                Photo: {page.photos[0].credit}
+              </a>
+            </p>
+          </section>
+        ) : (
+          <section className="navy-gradient grain px-6 pb-2xl pt-32 text-ivory lg:px-10 lg:pb-3xl">
+            <div className="relative z-10 mx-auto max-w-5xl text-center">
+              <div className="mb-lg flex justify-center">
+                <CompassMark size={64} variant="gold" />
+              </div>
+              <p className="eyebrow">{page.eyebrow}</p>
+              <h1 className="font-display text-4xl leading-tight md:text-6xl">
+                {page.title}
+              </h1>
+              <p className="mx-auto mt-lg max-w-3xl text-lg leading-relaxed text-ivory/75 md:text-xl">
+                {page.intro}
+              </p>
+              <div className="mt-xl flex flex-col items-center justify-center gap-4 sm:flex-row">
+                <Link href="/contact" className="btn-primary">
+                  Tell me where you want to go
+                </Link>
+                <Link href="/the-carta" className="text-sm uppercase tracking-[0.18em] text-ivory/70 transition hover:text-ivory">
+                  See the trip hub
+                </Link>
+              </div>
+            </div>
+          </section>
         )}
 
         <section className="px-6 py-2xl lg:px-10 lg:py-3xl">
