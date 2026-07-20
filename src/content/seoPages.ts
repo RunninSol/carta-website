@@ -1018,6 +1018,106 @@ export const destinationPages: SeoContentPage[] = [
     ],
     related: ["british-virgin-islands", "bali", "cape-town"],
   },
+  {
+    slug: "berlin",
+    kind: "destination",
+    eyebrow: "Berlin travel advisor",
+    title: "Berlin gets better when the plan leaves Mitte.",
+    seoTitle: "Berlin Travel Advisor",
+    description:
+      "Berlin travel advisor guidance for neighborhood-led planning, design hotels, serious restaurants, cultural timing, and a private trip hub.",
+    intro:
+      "Berlin is a city of layers: Museum Island and the Brandenburg Gate, Kreuzberg and Neukölln food nights, bunker history, Staatsoper performances, adaptive-reuse hotels, and long afternoons beside canals or on a former airfield. The better trip respects those contrasts instead of forcing the city into a two-day landmark checklist.",
+    bestFor: [
+      "Food and culture travelers who want history, restaurants, art, and music in one city",
+      "Couples choosing between formal Mitte hotels and more local design-led bases",
+      "Repeat Europe travelers who prefer neighborhood texture to nonstop landmark touring",
+    ],
+    timing:
+      "May through June and September through October give the cleanest balance of walking weather, culture, and neighborhood life. Winter can be excellent for museums, dining, concerts, and clubs, but it is a grayer and more indoor version of Berlin. In every season, I cluster the days by area because the city is more spread out than the map first suggests.",
+    hotelLogic:
+      "Hotel Adlon, The Ritz-Carlton, and Waldorf Astoria solve formal polish and familiar service. Chateau Royal, Telegraphenamt, Orania.Berlin, Das Stue, and Wilmina give more art, architecture, or neighborhood character. The right choice starts with the version of Berlin the traveler wants outside the lobby, not a generic ranking.",
+    foodLogic:
+      "Berlin food is spread across the city. Restaurant Tim Raue and Tulus Lotrek can anchor Kreuzberg, CODA and Hallmann & Klee pull a serious dinner into Neukölln, and Kantstrasse adds an Asian food route near the City West hotels. Currywurst, döner, bakeries, markets, and casual neighborhood stops belong beside the tasting menus because that range is part of the city's identity.",
+    avoid:
+      "I would not build the trip around random meals near Alexanderplatz, a two-day monument sprint, Checkpoint Charlie as a standalone photo stop, or a promised club entry. Mustafa's Gemüse Kebap may be worth the queue for the right traveler, but it should never be the only lunch plan. Berlin rewards context, alternatives, and enough time to change course.",
+    cartaTake:
+      "When I plan Berlin, I am usually balancing polish with the city people actually came to feel. A landmark morning can lead to a Kreuzberg dinner, a Charlottenburg hotel can open the door to Kantstrasse, and a museum day can end at the Philharmonie. The trip hub keeps those neighborhoods, reservations, transit notes, and backup plans close when the city starts to sprawl.",
+    highlights: [
+      {
+        title: "Plan by neighborhood, not by monument",
+        body: "Mitte handles much of the first-time history, while Kreuzberg, Neukölln, Charlottenburg, Prenzlauer Berg, and Friedrichshain give the food and local rhythm. Grouping the days geographically protects time and energy.",
+      },
+      {
+        title: "Use hotel choice to set the tone",
+        body: "Adlon is the iconic Brandenburg Gate address. Orania puts the traveler inside Kreuzberg. Wilmina pairs former-prison architecture with Lovis and City West access. These stays create different trips before the itinerary begins.",
+      },
+      {
+        title: "Give history a guide and a reason",
+        body: "Museum Island, the Wall, East Side Gallery, underground history, and Potsdam become more meaningful with political and historical context. I would rather plan one strong guided block than stack photo stops without a story.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use one well-chosen base, one Mitte history day, one Wall or underground-history block, one Kreuzberg or Neukölln dinner, and either Charlottenburg, Prenzlauer Berg, or a concert for contrast.",
+      },
+      {
+        title: "5 nights",
+        body: "Add Potsdam, a deeper contemporary-art block, Kantstrasse food, one serious dining night, and a warm-weather canal, park, lake, or market window without rushing the neighborhoods.",
+      },
+      {
+        title: "7 nights",
+        body: "Let Berlin breathe across history, food, art, music, and local days. Use the extra time for Potsdam or the lakes, a flexible gallery afternoon, and evenings that do not all depend on a hard reservation.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/berlin/brandenburg-gate.webp",
+        alt: "Brandenburg Gate illuminated at night on Pariser Platz in Berlin",
+        caption: "The Brandenburg Gate belongs in the first-time Berlin story, but it should open the trip rather than define all of it.",
+        credit: "Thomas Wolf, CC BY-SA 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_nachts_2012-07.jpg",
+      },
+      {
+        src: "/photos/destinations/berlin/museum-island.webp",
+        alt: "Aerial view of Berlin's Museum Island with the River Spree and TV Tower",
+        caption: "Museum Island anchors the historic center, with the neighborhoods beyond it supplying the trip's second layer.",
+        credit: "Kasa Fue, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Museumsinsel_Berlin_Juli_2021_1_(cropped).jpg",
+      },
+      {
+        src: "/photos/destinations/berlin/east-side-gallery.webp",
+        alt: "Thierry Noir's colorful mural figures along Berlin's East Side Gallery",
+        caption: "The East Side Gallery works best with Wall and Cold War context, not as an isolated photo stop.",
+        credit: "Paul VanDerWerf, CC BY 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:East_Side_Gallery_-_Thierry_Noir_-_2011.jpg",
+      },
+      {
+        src: "/photos/destinations/berlin/currywurst.webp",
+        alt: "Berlin currywurst served with crinkle-cut fries and mayonnaise",
+        caption: "Currywurst is one part of a food city that also runs through Turkish Kreuzberg, Kantstrasse, and serious tasting menus.",
+        credit: "Anagoria, CC BY 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:2017-06-07_Berliner_Currywurst_anagoria.jpg",
+      },
+      {
+        src: "/photos/destinations/berlin/charlottenburg-palace.webp",
+        alt: "Aerial view of Charlottenburg Palace and its formal gardens in Berlin",
+        caption: "Charlottenburg and City West can be an intentional base, not a second choice after Mitte.",
+        credit: "KK nationsonline, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Schloss-Charlottenburg-from-above.jpg",
+      },
+      {
+        src: "/photos/destinations/berlin/landwehr-canal.webp",
+        alt: "Landwehr Canal in Kreuzberg with trees, a red train, and the city beyond",
+        caption: "The Landwehr Canal shows the softer neighborhood rhythm that a landmark-only Berlin itinerary misses.",
+        credit: "A.Savin, CC BY-SA 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Landwehrkanal_in_B-Kreuzberg_07-2014.jpg",
+      },
+    ],
+    related: ["copenhagen", "amsterdam", "budapest"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
