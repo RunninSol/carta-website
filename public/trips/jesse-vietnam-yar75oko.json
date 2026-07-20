@@ -1,0 +1,613 @@
+{
+  "config": {
+    "clientName": "Jesse",
+    "title": "Vietnam, three rhythms",
+    "destination": "Hanoi · Hoi An · Ho Chi Minh City",
+    "dates": "February 20 to March 7, 2027 planning proxy",
+    "startDate": "2027-02-20",
+    "endDate": "2027-03-07",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "coverNote": "I built this as a value-conscious first trip through Vietnam: enough history to understand the country, enough food to make each city memorable, and enough open time that it never feels like a checklist. Nothing here is represented as booked. The 2027 dates and rates are a transparent planning proxy for the 2028 trip you requested, and I will reprice every component before anything is reserved.",
+    "coverImageUrl": "/trips/assets/jesse-vietnam-yar75oko/hoian.jpg",
+    "contact": {
+      "whatsapp": "13238541678",
+      "email": "gabe@travelbycarta.com",
+      "phoneLabel": "Gabe"
+    },
+    "mapProvider": "google",
+    "driverPhrase": "Làm ơn đưa tôi đến đây.",
+    "map": {
+      "center": [
+        16.7,
+        106.3
+      ],
+      "zoom": 5.4
+    },
+    "areas": [
+      {
+        "id": "hanoi",
+        "label": "Hanoi",
+        "center": [
+          21.0285,
+          105.8542
+        ],
+        "zoom": 12.6
+      },
+      {
+        "id": "hoian",
+        "label": "Hoi An",
+        "center": [
+          15.8794,
+          108.335
+        ],
+        "zoom": 12.6
+      },
+      {
+        "id": "saigon",
+        "label": "Saigon",
+        "center": [
+          10.7769,
+          106.7009
+        ],
+        "zoom": 12.4
+      }
+    ],
+    "categories": [
+      {
+        "id": "restaurant",
+        "label": "Food",
+        "color": "#B5654A"
+      },
+      {
+        "id": "cafe",
+        "label": "Coffee",
+        "color": "#A1795B"
+      },
+      {
+        "id": "museum",
+        "label": "History & art",
+        "color": "#5F7A8C"
+      },
+      {
+        "id": "sight",
+        "label": "Sights",
+        "color": "#7A9A6A"
+      }
+    ]
+  },
+  "days": [
+    {
+      "date": "2027-02-20",
+      "title": "Fly to Vietnam",
+      "summary": "Depart IAD at 11:50 AM on the live planning itinerary."
+    },
+    {
+      "date": "2027-02-21",
+      "title": "Arrive in Hanoi",
+      "summary": "Private transfer, check in, and keep the first evening deliberately light."
+    },
+    {
+      "date": "2027-02-22",
+      "title": "Old Quarter and food",
+      "summary": "A guided walk through Hanoi's historic core with a serious street-food introduction."
+    },
+    {
+      "date": "2027-02-23",
+      "title": "Ideas and memory",
+      "summary": "Temple of Literature, Hoa Lo, and the Vietnamese Women's Museum."
+    },
+    {
+      "date": "2027-02-24",
+      "title": "Art and living culture",
+      "summary": "Fine Arts Museum, a focused architecture or craft walk, and an open evening."
+    },
+    {
+      "date": "2027-02-25",
+      "title": "Hanoi to Hoi An",
+      "summary": "Fly to Da Nang, transfer to Hoi An, and take a first slow loop through Ancient Town."
+    },
+    {
+      "date": "2027-02-26",
+      "title": "My Son before the buses",
+      "summary": "Early private guide to the Cham sanctuary, with the afternoon protected."
+    },
+    {
+      "date": "2027-02-27",
+      "title": "Market to table",
+      "summary": "Morning market and cooking experience, then pool, tailor, spa, or café time."
+    },
+    {
+      "date": "2027-02-28",
+      "title": "Choose your pace",
+      "summary": "Countryside and Tra Que, or a completely unscheduled day."
+    },
+    {
+      "date": "2027-03-01",
+      "title": "Hoi An to Saigon",
+      "summary": "Fly to Ho Chi Minh City, settle in, then a rooftop drink and easy dinner."
+    },
+    {
+      "date": "2027-03-02",
+      "title": "The twentieth century",
+      "summary": "Reunification Palace and War Remnants Museum with contextual guidance."
+    },
+    {
+      "date": "2027-03-03",
+      "title": "Chợ Lớn and street food",
+      "summary": "Chinatown temples and markets, then an evening tasting route."
+    },
+    {
+      "date": "2027-03-04",
+      "title": "Art, design, and dinner",
+      "summary": "Fine Arts Museum, independent galleries, and a chef-led dinner."
+    },
+    {
+      "date": "2027-03-05",
+      "title": "One open day",
+      "summary": "Optional Cu Chi, optional Mekong, or stay in the city for a slow final day."
+    },
+    {
+      "date": "2027-03-06",
+      "title": "Begin the trip home",
+      "summary": "Late checkout if available, fly Saigon to Hanoi, then connect to IAD."
+    },
+    {
+      "date": "2027-03-07",
+      "title": "Arrive home",
+      "summary": "Land at IAD at 9:50 AM on the live planning itinerary."
+    }
+  ],
+  "itinerary": [
+    {
+      "id": "air-out",
+      "dayDate": "2027-02-20",
+      "type": "flight",
+      "status": "idea",
+      "title": "IAD to Hanoi via Seoul",
+      "documentRefs": [
+        "proposal"
+      ],
+      "subtitle": "Korean Air / Delta planning itinerary · $1,306 per adult round trip",
+      "startTime": "2027-02-20T11:50:00-05:00",
+      "endTime": "2027-02-21T21:45:00+07:00",
+      "locationName": "Washington Dulles International Airport",
+      "details": {
+        "Duration": "21h 55m",
+        "Connection": "1h 05m at ICN",
+        "Status": "Live 2027 shopping snapshot, not held"
+      },
+      "personalNote": "I chose IAD because it keeps the long-haul on a practical one-ticket itinerary."
+    },
+    {
+      "id": "hanoi-hotel",
+      "dayDate": "2027-02-21",
+      "type": "lodging",
+      "status": "idea",
+      "title": "Hanoi Tirant Hotel",
+      "documentRefs": [
+        "proposal"
+      ],
+      "subtitle": "$102 per night live display · 4 nights",
+      "locationName": "Old Quarter, Hanoi",
+      "lat": 21.0339,
+      "lng": 105.8514,
+      "personalNote": "My balanced Hanoi pick: central, polished, and good value without paying for resort facilities in a city stay.",
+      "details": {
+        "Planning total": "$408 before taxes and room-level terms",
+        "Alternatives": "Hanoi Fiesta $74; Lotte Hanoi $165"
+      }
+    },
+    {
+      "id": "hanoi-food",
+      "dayDate": "2027-02-22",
+      "type": "activity",
+      "status": "idea",
+      "title": "Private Old Quarter food walk",
+      "documentRefs": [
+        "proposal"
+      ],
+      "locationName": "Hanoi Old Quarter",
+      "lat": 21.0337,
+      "lng": 105.85,
+      "personalNote": "This is one of the two experiences I would lock early. A strong guide matters more than collecting a long restaurant list."
+    },
+    {
+      "id": "temple",
+      "dayDate": "2027-02-23",
+      "type": "activity",
+      "status": "idea",
+      "title": "Temple of Literature",
+      "documentRefs": [
+        "proposal"
+      ],
+      "lat": 21.0287903,
+      "lng": 105.8359533,
+      "locationName": "Temple of Literature"
+    },
+    {
+      "id": "women",
+      "dayDate": "2027-02-23",
+      "type": "activity",
+      "status": "idea",
+      "title": "Vietnamese Women's Museum",
+      "documentRefs": [
+        "proposal"
+      ],
+      "lat": 21.0233506,
+      "lng": 105.8515958,
+      "locationName": "Vietnamese Women's Museum"
+    },
+    {
+      "id": "han-dad",
+      "dayDate": "2027-02-25",
+      "type": "flight",
+      "status": "idea",
+      "title": "Hanoi to Da Nang",
+      "documentRefs": [
+        "proposal"
+      ],
+      "subtitle": "Nonstop domestic flight · exact schedule to be selected",
+      "locationName": "Noi Bai International Airport",
+      "details": {
+        "Planning allowance": "Included in $360 to $520 domestic-flight range for two with checked bags"
+      }
+    },
+    {
+      "id": "hoian-hotel",
+      "dayDate": "2027-02-25",
+      "type": "lodging",
+      "status": "idea",
+      "title": "La Siesta Hoi An Resort & Spa",
+      "documentRefs": [
+        "proposal"
+      ],
+      "subtitle": "$111 per night live display · 4 nights",
+      "locationName": "Hoi An",
+      "lat": 15.892,
+      "lng": 108.3236,
+      "personalNote": "This is where I would take the resort upgrade. It changes the middle of the trip without distorting the budget.",
+      "details": {
+        "Planning total": "$444 before taxes and room-level terms",
+        "Alternatives": "Little Oasis $76; Hoi An Historic $106"
+      }
+    },
+    {
+      "id": "myson",
+      "dayDate": "2027-02-26",
+      "type": "activity",
+      "status": "idea",
+      "title": "Private early visit to My Son Sanctuary",
+      "documentRefs": [
+        "proposal"
+      ],
+      "locationName": "My Son Sanctuary",
+      "lat": 15.774,
+      "lng": 108.1242,
+      "personalNote": "Go early, before the larger tour groups and the strongest heat."
+    },
+    {
+      "id": "cooking",
+      "dayDate": "2027-02-27",
+      "type": "activity",
+      "status": "idea",
+      "title": "Hoi An market and cooking experience",
+      "documentRefs": [
+        "proposal"
+      ],
+      "locationName": "Hoi An Central Market",
+      "lat": 15.8755,
+      "lng": 108.332,
+      "personalNote": "I would choose a small class that treats the market as part of the lesson, not a photo stop."
+    },
+    {
+      "id": "dad-sgn",
+      "dayDate": "2027-03-01",
+      "type": "flight",
+      "status": "idea",
+      "title": "Da Nang to Ho Chi Minh City",
+      "documentRefs": [
+        "proposal"
+      ],
+      "subtitle": "Nonstop domestic flight · exact schedule to be selected",
+      "locationName": "Da Nang International Airport"
+    },
+    {
+      "id": "saigon-hotel",
+      "dayDate": "2027-03-01",
+      "type": "lodging",
+      "status": "idea",
+      "title": "Mai House Saigon Hotel",
+      "documentRefs": [
+        "proposal"
+      ],
+      "subtitle": "$144 per night live display · 5 nights",
+      "locationName": "District 3, Ho Chi Minh City",
+      "lat": 10.782,
+      "lng": 106.6905,
+      "personalNote": "A proper five-star finish without trophy-hotel pricing.",
+      "details": {
+        "Planning total": "$720 before taxes and room-level terms",
+        "Alternatives": "T-Ritz $96; La Siesta Premium $181"
+      }
+    },
+    {
+      "id": "palace",
+      "dayDate": "2027-03-02",
+      "type": "activity",
+      "status": "idea",
+      "title": "Reunification Palace",
+      "documentRefs": [
+        "proposal"
+      ],
+      "locationName": "Reunification Palace",
+      "lat": 10.7770348,
+      "lng": 106.695488
+    },
+    {
+      "id": "war",
+      "dayDate": "2027-03-02",
+      "type": "activity",
+      "status": "idea",
+      "title": "War Remnants Museum",
+      "documentRefs": [
+        "proposal"
+      ],
+      "locationName": "War Remnants Museum",
+      "lat": 10.7793647,
+      "lng": 106.6922806
+    },
+    {
+      "id": "finearts",
+      "dayDate": "2027-03-04",
+      "type": "activity",
+      "status": "idea",
+      "title": "Ho Chi Minh City Museum of Fine Arts",
+      "documentRefs": [
+        "proposal"
+      ],
+      "locationName": "Ho Chi Minh City Museum of Fine Arts",
+      "lat": 10.769596,
+      "lng": 106.69927
+    },
+    {
+      "id": "sgn-han",
+      "dayDate": "2027-03-06",
+      "type": "flight",
+      "status": "idea",
+      "title": "Ho Chi Minh City to Hanoi",
+      "documentRefs": [
+        "proposal"
+      ],
+      "subtitle": "Same-day positioning flight for the international connection",
+      "locationName": "Tan Son Nhat International Airport",
+      "personalNote": "I would protect a long same-airport buffer in Hanoi and book this on a dependable schedule."
+    },
+    {
+      "id": "air-home",
+      "dayDate": "2027-03-06",
+      "type": "flight",
+      "status": "idea",
+      "title": "Hanoi to IAD via Seoul",
+      "documentRefs": [
+        "proposal"
+      ],
+      "subtitle": "Asiana / Korean Air planning itinerary",
+      "startTime": "2027-03-06T23:50:00+07:00",
+      "endTime": "2027-03-07T09:50:00-05:00",
+      "locationName": "Noi Bai International Airport",
+      "flightNumber": "KE93",
+      "details": {
+        "Duration": "22h 00m",
+        "Connection": "4h 30m at ICN",
+        "Long-haul segment": "KE93 ICN to IAD"
+      }
+    }
+  ],
+  "picks": [
+    {
+      "id": "temple-literature",
+      "name": "Temple of Literature",
+      "category": "museum",
+      "area": "hanoi",
+      "lat": 21.0287903,
+      "lng": 105.8359533,
+      "description": "Vietnam's first national university and one of Hanoi's clearest windows into Confucian scholarly culture.",
+      "note": "Go with a guide or read before you arrive. The symbolism rewards context."
+    },
+    {
+      "id": "womens-museum",
+      "name": "Vietnamese Women's Museum",
+      "category": "museum",
+      "area": "hanoi",
+      "lat": 21.0233506,
+      "lng": 105.8515958,
+      "description": "An unusually strong social-history museum centered on women's lives, family, work, and conflict.",
+      "note": "I would not skip this. It adds human texture that the larger state sites cannot."
+    },
+    {
+      "id": "cha-ca",
+      "name": "Chả Cá Thăng Long",
+      "category": "restaurant",
+      "area": "hanoi",
+      "lat": 21.032965,
+      "lng": 105.8461226,
+      "description": "Turmeric-marinated fish cooked with dill and scallions at the table.",
+      "note": "Order the house specialty and arrive hungry."
+    },
+    {
+      "id": "oldtown",
+      "name": "Hoi An Ancient Town",
+      "category": "sight",
+      "area": "hoian",
+      "lat": 15.8779509,
+      "lng": 108.3239898,
+      "description": "A preserved trading-port core of merchant houses, assembly halls, temples, and river streets.",
+      "note": "Walk it once early and once after dark. The mood changes completely."
+    },
+    {
+      "id": "morning-glory",
+      "name": "Morning Glory Original",
+      "category": "restaurant",
+      "area": "hoian",
+      "lat": 15.8766175,
+      "lng": 108.3276628,
+      "description": "A polished introduction to central Vietnamese regional dishes.",
+      "note": "Useful for the first night when you want range without a complicated decision."
+    },
+    {
+      "id": "madam-khanh",
+      "name": "Madam Khanh, the Bánh Mì Queen",
+      "category": "restaurant",
+      "area": "hoian",
+      "lat": 15.8806334,
+      "lng": 108.3279134,
+      "description": "A famous, fast-moving bánh mì stop near the Ancient Town.",
+      "note": "Treat it as a snack or light lunch, not a ceremonial meal."
+    },
+    {
+      "id": "nu-eatery",
+      "name": "Nữ Eatery",
+      "category": "restaurant",
+      "area": "hoian",
+      "lat": 15.8774492,
+      "lng": 108.3256438,
+      "description": "Small, modern Vietnamese plates close to the Japanese Covered Bridge.",
+      "note": "A good counterpoint to the traditional restaurants on the route."
+    },
+    {
+      "id": "palace-pick",
+      "name": "Reunification Palace",
+      "category": "museum",
+      "area": "saigon",
+      "lat": 10.7770348,
+      "lng": 106.695488,
+      "description": "A preserved modernist government complex tied directly to the end of the Vietnam War.",
+      "note": "The rooms make more sense with a guide who can explain the building as well as the politics."
+    },
+    {
+      "id": "war-pick",
+      "name": "War Remnants Museum",
+      "category": "museum",
+      "area": "saigon",
+      "lat": 10.7793647,
+      "lng": 106.6922806,
+      "description": "A powerful and intentionally Vietnamese presentation of wartime experience.",
+      "note": "Give it time, then leave space afterward. This is not a quick photo stop."
+    },
+    {
+      "id": "finearts-pick",
+      "name": "Ho Chi Minh City Museum of Fine Arts",
+      "category": "museum",
+      "area": "saigon",
+      "lat": 10.769596,
+      "lng": 106.69927,
+      "description": "Vietnamese art in a striking colonial-era building near the center.",
+      "note": "Pair it with contemporary gallery stops so the art story does not end in the museum."
+    },
+    {
+      "id": "anan",
+      "name": "Ănăn Saigon",
+      "category": "restaurant",
+      "area": "saigon",
+      "lat": 10.7718032,
+      "lng": 106.7029748,
+      "description": "Contemporary Vietnamese cooking above a traditional market district.",
+      "note": "This is one of the two dinners I would reserve before the trip."
+    },
+    {
+      "id": "workshop",
+      "name": "The Workshop Coffee",
+      "category": "cafe",
+      "area": "saigon",
+      "lat": 10.7734061,
+      "lng": 106.7055391,
+      "description": "A specialty-coffee room above the city center's street noise.",
+      "note": "Use it as a deliberate mid-afternoon reset."
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Gabe",
+      "role": "Your travel advisor",
+      "phone": "+1 323 854 1678",
+      "note": "Text me first. If the plan needs to move, I will help move it."
+    }
+  ],
+  "guideBlocks": [
+    {
+      "heading": "What is and is not booked",
+      "body": "This is a researched planning itinerary. Every flight, room, guide, transfer, ticket, restaurant, price, and cancellation policy remains pending until you approve it and I send a booking confirmation."
+    },
+    {
+      "heading": "Why IAD, not DCA",
+      "body": "IAD offers the practical one-ticket transpacific options. Starting at DCA would add a domestic positioning leg and more failure points without improving the long-haul fare enough to justify it."
+    },
+    {
+      "heading": "2028 pricing method",
+      "body": "2028 airfare is not yet in the normal public sales window. I priced exact February 20 to March 6, 2027 inventory as a same-season proxy. The hub shows the planning floor, not a bookable 2028 quote."
+    },
+    {
+      "heading": "Getting around",
+      "body": "Use private airport transfers on arrival days. In Hanoi and Saigon, Grab is the simplest everyday option. In Hoi An, walk the Ancient Town and use a car for My Son, the countryside, and Da Nang airport."
+    },
+    {
+      "heading": "Power and outlets",
+      "body": "Vietnam uses 220V. Outlets commonly accept Type A, C, and sometimes F plugs. Phones and laptops are usually dual voltage, but check hair tools. Pack one compact universal adapter per traveler and keep a charging brick in your carry-on."
+    },
+    {
+      "heading": "Food pacing",
+      "body": "I would prebook one serious food guide in Hanoi, one cooking experience in Hoi An, and two destination dinners in Saigon. The rest should stay flexible enough for a guide or hotel to make a current local call."
+    }
+  ],
+  "documents": [
+    {
+      "id": "proposal",
+      "label": "Vietnam private proposal",
+      "fileUrl": "/trips/docs/jesse-gauthier-vietnam-proposal.pdf",
+      "mime": "application/pdf"
+    }
+  ],
+  "essentials": [
+    {
+      "id": "e-police",
+      "label": "Police",
+      "value": "113",
+      "phone": "113",
+      "note": "Vietnam police emergency number."
+    },
+    {
+      "id": "e-fire",
+      "label": "Fire",
+      "value": "114",
+      "phone": "114",
+      "note": "Vietnam fire emergency number."
+    },
+    {
+      "id": "e-ambulance",
+      "label": "Ambulance",
+      "value": "115",
+      "phone": "115",
+      "note": "Vietnam medical emergency number."
+    },
+    {
+      "id": "e-embassy",
+      "label": "U.S. Embassy Hanoi",
+      "value": "U.S. Embassy Hanoi",
+      "address": "7 Lang Ha Street, Hanoi",
+      "phone": "+84 24 3850 5000",
+      "lat": 21.0201,
+      "lng": 105.8144,
+      "note": "Reconfirm emergency contact procedures before travel."
+    },
+    {
+      "id": "e-consulate",
+      "label": "U.S. Consulate Ho Chi Minh City",
+      "value": "U.S. Consulate General",
+      "address": "4 Le Duan Boulevard, District 1, Ho Chi Minh City",
+      "phone": "+84 28 3520 4200",
+      "lat": 10.7853,
+      "lng": 106.7004,
+      "note": "Reconfirm emergency contact procedures before travel."
+    }
+  ]
+}
