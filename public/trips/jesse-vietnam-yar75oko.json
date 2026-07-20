@@ -7,8 +7,8 @@
     "startDate": "2027-02-20",
     "endDate": "2027-03-07",
     "timezone": "Asia/Ho_Chi_Minh",
-    "coverNote": "I built this as a value-conscious first trip through Vietnam: enough history to understand the country, enough food to make each city memorable, and enough open time that it never feels like a checklist. Nothing here is represented as booked. The 2027 dates and rates are a transparent planning proxy for the 2028 trip you requested, and I will reprice every component before anything is reserved.",
-    "coverImageUrl": "/trips/assets/jesse-vietnam-yar75oko/hoian.jpg",
+    "coverNote": "I built this as a food-first trip through Vietnam, with Hanoi's disciplined northern flavors, Hoi An's market and trading-port cooking, and Saigon's street-level abundance giving the route its shape. The hotels protect value and recovery time, while the meals, guides, and markets carry the story. Nothing here is represented as booked. The 2027 dates and rates are a transparent planning proxy for the 2028 trip you requested, and I will reprice and reconfirm every component before anything is reserved.",
+    "coverImageUrl": "https://www.travelbycarta.com/trips/assets/jesse-vietnam-yar75oko/hoian.jpg",
     "contact": {
       "whatsapp": "13238541678",
       "email": "gabe@travelbycarta.com",
@@ -176,7 +176,8 @@
         "Connection": "1h 05m at ICN",
         "Status": "Live 2027 shopping snapshot, not held"
       },
-      "personalNote": "I chose IAD because it keeps the long-haul on a practical one-ticket itinerary."
+      "personalNote": "I chose IAD because it keeps the long-haul on a practical one-ticket itinerary.",
+      "sortIndex": 40
     },
     {
       "id": "hanoi-hotel",
@@ -195,7 +196,9 @@
       "details": {
         "Planning total": "$408 before taxes and room-level terms",
         "Alternatives": "Hanoi Fiesta $74; Lotte Hanoi $165"
-      }
+      },
+      "sortIndex": 40,
+      "address": "36-38 Gia Ngư, Hoàn Kiếm, Hanoi"
     },
     {
       "id": "hanoi-food",
@@ -209,7 +212,8 @@
       "locationName": "Hanoi Old Quarter",
       "lat": 21.0337,
       "lng": 105.85,
-      "personalNote": "This is one of the two experiences I would lock early. A strong guide matters more than collecting a long restaurant list."
+      "personalNote": "This is one of the two experiences I would lock early. A strong guide matters more than collecting a long restaurant list.",
+      "sortIndex": 40
     },
     {
       "id": "temple",
@@ -222,7 +226,8 @@
       ],
       "lat": 21.0287903,
       "lng": 105.8359533,
-      "locationName": "Temple of Literature"
+      "locationName": "Temple of Literature",
+      "sortIndex": 40
     },
     {
       "id": "women",
@@ -235,7 +240,40 @@
       ],
       "lat": 21.0233506,
       "lng": 105.8515958,
-      "locationName": "Vietnamese Women's Museum"
+      "locationName": "Vietnamese Women's Museum",
+      "sortIndex": 40
+    },
+    {
+      "id": "tam-vi-dinner",
+      "dayDate": "2027-02-23",
+      "type": "dining",
+      "status": "idea",
+      "title": "Tầm Vị dinner",
+      "subtitle": "Priority reservation · polished northern Vietnamese cooking",
+      "locationName": "Tầm Vị",
+      "lat": 21.0290938,
+      "lng": 105.8395084,
+      "personalNote": "The composed dinner after a history-heavy day. I would reserve this once 2028 inventory opens.",
+      "documentRefs": [
+        "proposal"
+      ],
+      "sortIndex": 80
+    },
+    {
+      "id": "cha-ca-dinner",
+      "dayDate": "2027-02-24",
+      "type": "dining",
+      "status": "idea",
+      "title": "Chả Cá Thăng Long",
+      "subtitle": "Focused final Hanoi dinner",
+      "locationName": "Chả Cá Thăng Long",
+      "lat": 21.032965,
+      "lng": 105.8461226,
+      "personalNote": "A single-dish specialist is the right final note for Hanoi.",
+      "documentRefs": [
+        "proposal"
+      ],
+      "sortIndex": 80
     },
     {
       "id": "han-dad",
@@ -250,7 +288,8 @@
       "locationName": "Noi Bai International Airport",
       "details": {
         "Planning allowance": "Included in $360 to $520 domestic-flight range for two with checked bags"
-      }
+      },
+      "sortIndex": 40
     },
     {
       "id": "hoian-hotel",
@@ -269,7 +308,25 @@
       "details": {
         "Planning total": "$444 before taxes and room-level terms",
         "Alternatives": "Little Oasis $76; Hoi An Historic $106"
-      }
+      },
+      "sortIndex": 40,
+      "address": "132 Hùng Vương, Thanh Hà, Hoi An"
+    },
+    {
+      "id": "morning-glory-dinner",
+      "dayDate": "2027-02-25",
+      "type": "dining",
+      "status": "idea",
+      "title": "Morning Glory Original",
+      "subtitle": "Priority reservation · first-night central Vietnamese survey",
+      "locationName": "Morning Glory Original",
+      "lat": 15.8766175,
+      "lng": 108.3276628,
+      "personalNote": "Easy enough after the transfer, specific enough to begin Hoi An properly.",
+      "documentRefs": [
+        "proposal"
+      ],
+      "sortIndex": 80
     },
     {
       "id": "myson",
@@ -283,7 +340,24 @@
       "locationName": "My Son Sanctuary",
       "lat": 15.774,
       "lng": 108.1242,
-      "personalNote": "Go early, before the larger tour groups and the strongest heat."
+      "personalNote": "Go early, before the larger tour groups and the strongest heat.",
+      "sortIndex": 40
+    },
+    {
+      "id": "cao-lau-lunch",
+      "dayDate": "2027-02-26",
+      "type": "dining",
+      "status": "idea",
+      "title": "Cao Lầu Thanh lunch",
+      "subtitle": "Family-run specialty stop after My Son",
+      "locationName": "Cao Lầu Thanh",
+      "lat": 15.8816934,
+      "lng": 108.3283862,
+      "personalNote": "Go early enough that the day's noodles are still available.",
+      "documentRefs": [
+        "proposal"
+      ],
+      "sortIndex": 50
     },
     {
       "id": "cooking",
@@ -297,7 +371,8 @@
       "locationName": "Hoi An Central Market",
       "lat": 15.8755,
       "lng": 108.332,
-      "personalNote": "I would choose a small class that treats the market as part of the lesson, not a photo stop."
+      "personalNote": "I would choose a small class that treats the market as part of the lesson, not a photo stop.",
+      "sortIndex": 40
     },
     {
       "id": "dad-sgn",
@@ -309,7 +384,8 @@
         "proposal"
       ],
       "subtitle": "Nonstop domestic flight · exact schedule to be selected",
-      "locationName": "Da Nang International Airport"
+      "locationName": "Da Nang International Airport",
+      "sortIndex": 40
     },
     {
       "id": "saigon-hotel",
@@ -328,7 +404,25 @@
       "details": {
         "Planning total": "$720 before taxes and room-level terms",
         "Alternatives": "T-Ritz $96; La Siesta Premium $181"
-      }
+      },
+      "sortIndex": 40,
+      "address": "1-3-5 Ngô Thời Nhiệm, District 3, Ho Chi Minh City"
+    },
+    {
+      "id": "banh-xeo-dinner",
+      "dayDate": "2027-03-01",
+      "type": "dining",
+      "status": "idea",
+      "title": "Bánh Xèo 46A",
+      "subtitle": "Casual first Saigon dinner",
+      "locationName": "Bánh Xèo 46A",
+      "lat": 10.7901,
+      "lng": 106.6917,
+      "personalNote": "A crisp, hands-on dinner that does not ask too much after the flight.",
+      "documentRefs": [
+        "proposal"
+      ],
+      "sortIndex": 80
     },
     {
       "id": "palace",
@@ -341,7 +435,8 @@
       ],
       "locationName": "Reunification Palace",
       "lat": 10.7770348,
-      "lng": 106.695488
+      "lng": 106.695488,
+      "sortIndex": 40
     },
     {
       "id": "war",
@@ -354,7 +449,24 @@
       ],
       "locationName": "War Remnants Museum",
       "lat": 10.7793647,
-      "lng": 106.6922806
+      "lng": 106.6922806,
+      "sortIndex": 40
+    },
+    {
+      "id": "saigon-tasting",
+      "dayDate": "2027-03-03",
+      "type": "activity",
+      "status": "idea",
+      "title": "Private Saigon evening tasting route",
+      "subtitle": "Four food stops plus one drink · driver-guided",
+      "locationName": "Ho Chi Minh City",
+      "lat": 10.775,
+      "lng": 106.699,
+      "personalNote": "The guide should build the route around ốc, bò lá lốt, and a dish not already covered in Hanoi or Hoi An.",
+      "documentRefs": [
+        "proposal"
+      ],
+      "sortIndex": 80
     },
     {
       "id": "finearts",
@@ -367,20 +479,40 @@
       ],
       "locationName": "Ho Chi Minh City Museum of Fine Arts",
       "lat": 10.769596,
-      "lng": 106.69927
+      "lng": 106.69927,
+      "sortIndex": 40
     },
     {
-      "id": "sgn-han",
-      "dayDate": "2027-03-06",
-      "type": "flight",
+      "id": "anan-dinner",
+      "dayDate": "2027-03-04",
+      "type": "dining",
       "status": "idea",
-      "title": "Ho Chi Minh City to Hanoi",
+      "title": "Ănăn Saigon",
+      "subtitle": "Priority reservation · trip-closing dinner",
+      "locationName": "Ănăn Saigon",
+      "lat": 10.7718032,
+      "lng": 106.7029748,
+      "personalNote": "The serious table at the end of the trip, after Jesse has enough context to appreciate what the kitchen is changing.",
       "documentRefs": [
         "proposal"
       ],
-      "subtitle": "Same-day positioning flight for the international connection",
-      "locationName": "Tan Son Nhat International Airport",
-      "personalNote": "I would protect a long same-airport buffer in Hanoi and book this on a dependable schedule."
+      "sortIndex": 80
+    },
+    {
+      "id": "pho-minh-breakfast",
+      "dayDate": "2027-03-05",
+      "type": "dining",
+      "status": "idea",
+      "title": "Phở Minh breakfast",
+      "subtitle": "Southern phở comparison",
+      "locationName": "Phở Minh",
+      "lat": 10.7701815,
+      "lng": 106.7027968,
+      "personalNote": "Finish the north-versus-south noodle comparison, then leave the rest of the day open.",
+      "documentRefs": [
+        "proposal"
+      ],
+      "sortIndex": 10
     },
     {
       "id": "air-home",
@@ -400,10 +532,259 @@
         "Duration": "22h 00m",
         "Connection": "4h 30m at ICN",
         "Long-haul segment": "KE93 ICN to IAD"
-      }
+      },
+      "sortIndex": 40
+    },
+    {
+      "id": "sgn-han",
+      "dayDate": "2027-03-06",
+      "type": "flight",
+      "status": "idea",
+      "title": "Ho Chi Minh City to Hanoi",
+      "documentRefs": [
+        "proposal"
+      ],
+      "subtitle": "Same-day positioning flight for the international connection",
+      "locationName": "Tan Son Nhat International Airport",
+      "personalNote": "I would protect a long same-airport buffer in Hanoi and book this on a dependable schedule.",
+      "sortIndex": 40
     }
   ],
   "picks": [
+    {
+      "id": "pho-gia-truyen",
+      "name": "Phở Gia Truyền Bát Đàn",
+      "category": "restaurant",
+      "area": "hanoi",
+      "address": "49 Bát Đàn, Hoàn Kiếm, Hanoi",
+      "lat": 21.033991,
+      "lng": 105.846083,
+      "description": "A classic northern phở specialist known for a clear, beef-forward broth.",
+      "note": "Go early for breakfast, accept the queue, and order rare beef or brisket. This is the baseline bowl for comparing northern and southern phở.",
+      "priceLevel": 1,
+      "hours": "Reconfirm before travel"
+    },
+    {
+      "id": "bun-cha-huong-lien",
+      "name": "Bún Chả Hương Liên",
+      "category": "restaurant",
+      "area": "hanoi",
+      "address": "24 Lê Văn Hưu, Hai Bà Trưng, Hanoi",
+      "lat": 21.0180504,
+      "lng": 105.8538843,
+      "description": "Charcoal pork patties and slices served with rice noodles, herbs, and dipping broth.",
+      "note": "A 2026 MICHELIN selection and a useful guided lunch stop. Expect fame and crowds, but the dish still explains Hanoi clearly.",
+      "priceLevel": 1,
+      "hours": "Reconfirm before travel"
+    },
+    {
+      "id": "cha-ca",
+      "name": "Chả Cá Thăng Long",
+      "category": "restaurant",
+      "area": "hanoi",
+      "address": "2D Đường Thành, Hoàn Kiếm, Hanoi",
+      "lat": 21.032965,
+      "lng": 105.8461226,
+      "description": "Turmeric-marinated fish cooked at the table with dill and scallions.",
+      "note": "Make this a focused dinner. Order the house specialty, use the herbs generously, and skip extra dishes unless still hungry.",
+      "priceLevel": 2,
+      "hours": "Reconfirm before travel"
+    },
+    {
+      "id": "cafe-giang",
+      "name": "Café Giảng",
+      "category": "cafe",
+      "area": "hanoi",
+      "address": "39 Nguyễn Hữu Huân, Hoàn Kiếm, Hanoi",
+      "lat": 21.033606,
+      "lng": 105.8546223,
+      "description": "The historic home of Hanoi's custard-like egg coffee.",
+      "note": "Use this as a short afternoon reset, not a full café meal. The original Old Quarter address is the one I would choose.",
+      "priceLevel": 1,
+      "hours": "Reconfirm before travel"
+    },
+    {
+      "id": "tam-vi",
+      "name": "Tầm Vị",
+      "category": "restaurant",
+      "area": "hanoi",
+      "address": "4B Yên Thế, Văn Miếu, Hanoi",
+      "lat": 21.0290938,
+      "lng": 105.8395084,
+      "description": "A polished northern Vietnamese table in a calm, traditional setting.",
+      "note": "One of the three reservations I would prioritize. It gives Jesse a composed counterpoint to the street-level meals.",
+      "priceLevel": 3,
+      "hours": "Reservation priority; reconfirm before travel"
+    },
+    {
+      "id": "che-95",
+      "name": "Chè 95",
+      "category": "restaurant",
+      "area": "hanoi",
+      "address": "95 Hàng Bạc, Hoàn Kiếm, Hanoi",
+      "lat": 21.0338602,
+      "lng": 105.8521422,
+      "description": "A quick Old Quarter stop for chè and other Vietnamese sweet soups.",
+      "note": "Treat this as dessert during the food walk. Ask the guide which bowl is strongest that day.",
+      "priceLevel": 1,
+      "hours": "Reconfirm before travel"
+    },
+    {
+      "id": "cao-lau-thanh",
+      "name": "Cao Lầu Thanh",
+      "category": "restaurant",
+      "area": "hoian",
+      "address": "26 Thái Phiên, Hoi An",
+      "lat": 15.8816934,
+      "lng": 108.3283862,
+      "description": "A long-running family specialist for Hoi An's chewy cao lầu noodles.",
+      "note": "Go for an early lunch before the day's batch is gone. Order cao lầu and resist turning it into a long meal.",
+      "priceLevel": 1,
+      "hours": "Go early; reconfirm before travel"
+    },
+    {
+      "id": "white-rose",
+      "name": "White Rose Restaurant",
+      "category": "restaurant",
+      "area": "hoian",
+      "address": "533 Hai Bà Trưng, Hoi An",
+      "lat": 15.8913,
+      "lng": 108.3264,
+      "description": "The family restaurant associated with Hoi An's translucent white rose dumplings.",
+      "note": "Order the dumplings as a focused snack or share them before another meal. This is about a local specialty, not atmosphere.",
+      "priceLevel": 1,
+      "hours": "Reconfirm before travel"
+    },
+    {
+      "id": "com-ga-ba-buoi",
+      "name": "Cơm Gà Bà Buội",
+      "category": "restaurant",
+      "area": "hoian",
+      "address": "22 Phan Chu Trinh, Hoi An",
+      "lat": 15.8796,
+      "lng": 108.3294,
+      "description": "A decades-old family specialist for Hoi An chicken rice with herbs and bright fish sauce.",
+      "note": "Best as a light lunch. If the queue is severe, the guide can substitute a current local chicken-rice specialist rather than forcing it.",
+      "priceLevel": 1,
+      "hours": "Queue likely; reconfirm before travel"
+    },
+    {
+      "id": "mi-quang-di-hat",
+      "name": "Mì Quảng Dì Hát",
+      "category": "restaurant",
+      "area": "hoian",
+      "address": "6 Phan Châu Trinh, Hoi An",
+      "lat": 15.8784778,
+      "lng": 108.3272742,
+      "description": "A local bowl of mì Quảng with turmeric noodles, herbs, broth, and rice cracker.",
+      "note": "Use this as the central-Vietnam noodle comparison. Go earlier in the day and let the available protein guide the order.",
+      "priceLevel": 1,
+      "hours": "Morning or early lunch; reconfirm before travel"
+    },
+    {
+      "id": "morning-glory",
+      "name": "Morning Glory Original",
+      "category": "restaurant",
+      "area": "hoian",
+      "address": "106 Nguyễn Thái Học, Hoi An",
+      "lat": 15.8766175,
+      "lng": 108.3276628,
+      "description": "A polished survey of central Vietnamese home and street dishes.",
+      "note": "The right first-night dinner after the flight and transfer. Reserve it, order regionally, and keep the evening easy.",
+      "priceLevel": 2,
+      "hours": "Reservation priority; reconfirm before travel"
+    },
+    {
+      "id": "madam-khanh",
+      "name": "Madam Khánh, the Bánh Mì Queen",
+      "category": "restaurant",
+      "area": "hoian",
+      "address": "115 Trần Cao Vân, Hoi An",
+      "lat": 15.8806334,
+      "lng": 108.3279134,
+      "description": "A fast-moving bánh mì counter with a layered house combination.",
+      "note": "Treat it as a snack or light lunch between walks. It should not displace the cooking morning or the noodle specialists.",
+      "priceLevel": 1,
+      "hours": "Reconfirm before travel"
+    },
+    {
+      "id": "com-tam-ba-ghien",
+      "name": "Cơm Tấm Ba Ghiền",
+      "category": "restaurant",
+      "area": "saigon",
+      "address": "84 Đặng Văn Ngữ, Phú Nhuận, Ho Chi Minh City",
+      "lat": 10.7921753,
+      "lng": 106.667854,
+      "description": "A 2026 MICHELIN Bib Gourmand for broken rice and an exceptionally large grilled pork chop.",
+      "note": "Go for an early lunch and share if the chop is as large as expected. This is a destination meal outside the central districts.",
+      "priceLevel": 1,
+      "hours": "Queue likely; reconfirm before travel"
+    },
+    {
+      "id": "banh-xeo-46a",
+      "name": "Bánh Xèo 46A",
+      "category": "restaurant",
+      "area": "saigon",
+      "address": "46A Đinh Công Tráng, District 1, Ho Chi Minh City",
+      "lat": 10.7901,
+      "lng": 106.6917,
+      "description": "A 2026 MICHELIN Bib Gourmand for crisp turmeric pancakes with pork, shrimp, and herbs.",
+      "note": "A relaxed first-night dinner. Let the staff show the wrapping technique and do not over-order before the pancakes arrive.",
+      "priceLevel": 1,
+      "hours": "Walk-in; reconfirm before travel"
+    },
+    {
+      "id": "pho-minh",
+      "name": "Phở Minh",
+      "category": "restaurant",
+      "area": "saigon",
+      "address": "63/3 Pasteur, District 1, Ho Chi Minh City",
+      "lat": 10.7701815,
+      "lng": 106.7027968,
+      "description": "A traditional Saigon phở shop serving beef noodle soup since 1945.",
+      "note": "Breakfast here completes the north-versus-south phở comparison. Go early and order the cut of beef you preferred in Hanoi.",
+      "priceLevel": 1,
+      "hours": "Breakfast; reconfirm before travel"
+    },
+    {
+      "id": "oc-dao",
+      "name": "Ốc Đào",
+      "category": "restaurant",
+      "area": "saigon",
+      "address": "Hẻm 212B Nguyễn Trãi, District 1, Ho Chi Minh City",
+      "lat": 10.7652,
+      "lng": 106.6848,
+      "description": "A neighborhood seafood specialist for snails, clams, crab, garlic, and tamarind sauces.",
+      "note": "Best with the private tasting guide, who can control the order and explain sauces, shells, and pacing.",
+      "priceLevel": 2,
+      "hours": "Guide-led; reconfirm before travel"
+    },
+    {
+      "id": "co-lieng",
+      "name": "Cô Liêng",
+      "category": "restaurant",
+      "area": "saigon",
+      "address": "321 Võ Văn Tần, District 3, Ho Chi Minh City",
+      "lat": 10.7727,
+      "lng": 106.6815,
+      "description": "A casual specialist for bò lá lốt rolled with herbs and rice paper.",
+      "note": "Use it as one stop on the tasting route, not a standalone formal dinner. The guide should confirm the strongest branch and current service.",
+      "priceLevel": 1,
+      "hours": "Guide-led; reconfirm before travel"
+    },
+    {
+      "id": "anan",
+      "name": "Ănăn Saigon",
+      "category": "restaurant",
+      "area": "saigon",
+      "address": "89 Tôn Thất Đạm, District 1, Ho Chi Minh City",
+      "lat": 10.7718032,
+      "lng": 106.7029748,
+      "description": "MICHELIN-starred contemporary Vietnamese cooking above a traditional market district.",
+      "note": "The trip-closing reservation. Choose tasting or à la carte based on the final menu, and protect the evening from other plans.",
+      "priceLevel": 3,
+      "hours": "Reservation priority; reconfirm before travel"
+    },
     {
       "id": "temple-literature",
       "name": "Temple of Literature",
@@ -425,16 +806,6 @@
       "note": "I would not skip this. It adds human texture that the larger state sites cannot."
     },
     {
-      "id": "cha-ca",
-      "name": "Chả Cá Thăng Long",
-      "category": "restaurant",
-      "area": "hanoi",
-      "lat": 21.032965,
-      "lng": 105.8461226,
-      "description": "Turmeric-marinated fish cooked with dill and scallions at the table.",
-      "note": "Order the house specialty and arrive hungry."
-    },
-    {
       "id": "oldtown",
       "name": "Hoi An Ancient Town",
       "category": "sight",
@@ -443,36 +814,6 @@
       "lng": 108.3239898,
       "description": "A preserved trading-port core of merchant houses, assembly halls, temples, and river streets.",
       "note": "Walk it once early and once after dark. The mood changes completely."
-    },
-    {
-      "id": "morning-glory",
-      "name": "Morning Glory Original",
-      "category": "restaurant",
-      "area": "hoian",
-      "lat": 15.8766175,
-      "lng": 108.3276628,
-      "description": "A polished introduction to central Vietnamese regional dishes.",
-      "note": "Useful for the first night when you want range without a complicated decision."
-    },
-    {
-      "id": "madam-khanh",
-      "name": "Madam Khanh, the Bánh Mì Queen",
-      "category": "restaurant",
-      "area": "hoian",
-      "lat": 15.8806334,
-      "lng": 108.3279134,
-      "description": "A famous, fast-moving bánh mì stop near the Ancient Town.",
-      "note": "Treat it as a snack or light lunch, not a ceremonial meal."
-    },
-    {
-      "id": "nu-eatery",
-      "name": "Nữ Eatery",
-      "category": "restaurant",
-      "area": "hoian",
-      "lat": 15.8774492,
-      "lng": 108.3256438,
-      "description": "Small, modern Vietnamese plates close to the Japanese Covered Bridge.",
-      "note": "A good counterpoint to the traditional restaurants on the route."
     },
     {
       "id": "palace-pick",
@@ -505,16 +846,6 @@
       "note": "Pair it with contemporary gallery stops so the art story does not end in the museum."
     },
     {
-      "id": "anan",
-      "name": "Ănăn Saigon",
-      "category": "restaurant",
-      "area": "saigon",
-      "lat": 10.7718032,
-      "lng": 106.7029748,
-      "description": "Contemporary Vietnamese cooking above a traditional market district.",
-      "note": "This is one of the two dinners I would reserve before the trip."
-    },
-    {
       "id": "workshop",
       "name": "The Workshop Coffee",
       "category": "cafe",
@@ -523,6 +854,50 @@
       "lng": 106.7055391,
       "description": "A specialty-coffee room above the city center's street noise.",
       "note": "Use it as a deliberate mid-afternoon reset."
+    },
+    {
+      "id": "hoa-lo",
+      "name": "Hoa Lo Prison Relic",
+      "category": "museum",
+      "area": "hanoi",
+      "address": "1 Hỏa Lò, Hoàn Kiếm, Hanoi",
+      "lat": 21.0253,
+      "lng": 105.8464,
+      "description": "A layered site covering French colonial imprisonment and the later American-war story.",
+      "note": "Use a guide or audio context, and pair it with the Women's Museum rather than another heavy site."
+    },
+    {
+      "id": "hanoi-fine-arts",
+      "name": "Vietnam National Fine Arts Museum",
+      "category": "museum",
+      "area": "hanoi",
+      "address": "66 Nguyễn Thái Học, Ba Đình, Hanoi",
+      "lat": 21.0306,
+      "lng": 105.8371,
+      "description": "Vietnamese art from antiquity through modern periods in a former colonial school.",
+      "note": "Focus on lacquer, folk traditions, and twentieth-century work. Two deliberate hours are enough."
+    },
+    {
+      "id": "my-son-pick",
+      "name": "My Son Sanctuary",
+      "category": "sight",
+      "area": "hoian",
+      "address": "Duy Phú, Quảng Nam",
+      "lat": 15.774,
+      "lng": 108.1242,
+      "description": "A UNESCO-listed Cham temple complex in a green valley west of Hoi An.",
+      "note": "Go early with a private guide. The history matters more than adding another stop on the return drive."
+    },
+    {
+      "id": "tra-que",
+      "name": "Trà Quế Vegetable Village",
+      "category": "sight",
+      "area": "hoian",
+      "address": "Trà Quế, Hoi An",
+      "lat": 15.9065,
+      "lng": 108.3378,
+      "description": "A working garden village supplying herbs and vegetables to Hoi An kitchens.",
+      "note": "Keep it optional. It works only if Jesse wants a quiet countryside morning after the cooking class."
     }
   ],
   "contacts": [
@@ -556,7 +931,15 @@
     },
     {
       "heading": "Food pacing",
-      "body": "I would prebook one serious food guide in Hanoi, one cooking experience in Hoi An, and two destination dinners in Saigon. The rest should stay flexible enough for a guide or hotel to make a current local call."
+      "body": "I would prebook the Hanoi food guide, the Hoi An market-to-table cooking morning, the Saigon tasting route, and three dinners: Tầm Vị, Morning Glory Original, and Ănăn Saigon. The specialist noodle, rice, dessert, and seafood stops stay flexible and are reconfirmed close to travel."
+    },
+    {
+      "heading": "How to use the food map",
+      "body": "The map holds 18 researched food anchors, but it is not a checklist. Each city has one guided experience, one or two priority reservations, and flexible specialists for breakfast, lunch, snacks, and market evenings. If hours, hygiene, or quality change before 2028, I will replace the stop rather than force the old name."
+    },
+    {
+      "heading": "Food budget",
+      "body": "Plan $1,100 to $1,500 for two across the trip. That supports street food, regional specialists, the three reservation dinners, coffee and drinks, while leaving room to change the mix once 2028 menus and prices are available."
     }
   ],
   "documents": [
@@ -608,6 +991,42 @@
       "lat": 10.7853,
       "lng": 106.7004,
       "note": "Reconfirm emergency contact procedures before travel."
+    },
+    {
+      "id": "e-emergency",
+      "label": "Emergency",
+      "value": "Police 113 · Fire 114 · Ambulance 115",
+      "note": "Use the dedicated numbers above. Ask the hotel or guide to help communicate the location in Vietnamese."
+    },
+    {
+      "id": "e-hanoi-clinic",
+      "label": "Hospital and international clinic · Hanoi",
+      "value": "Family Medical Practice Hanoi",
+      "address": "298 I Kim Mã Road, Vạn Phúc Compound, Ba Đình, Hanoi",
+      "phone": "+84 24 3843 0748",
+      "note": "24/7 international-standard clinic. Reconfirm the location and number before travel."
+    },
+    {
+      "id": "e-hoian-hospital",
+      "label": "Hospital · Hoi An",
+      "value": "Hoi An Pacific General Hospital",
+      "address": "6 Phan Đình Phùng, Hoi An",
+      "note": "Private multi-specialty hospital with an international-patient service. Reconfirm before travel."
+    },
+    {
+      "id": "e-saigon-clinic",
+      "label": "Hospital and international clinic · Saigon",
+      "value": "Family Medical Practice, Diamond Plaza",
+      "address": "34 Lê Duẩn, District 1, Ho Chi Minh City",
+      "phone": "+84 28 3822 7848",
+      "note": "Central international clinic. Reconfirm 24/7 coverage and contact details before travel."
+    },
+    {
+      "id": "e-pharmacy",
+      "label": "Pharmacy",
+      "value": "Pharmacity",
+      "phone": "1800 6821",
+      "note": "A nationwide pharmacy chain. Ask the hotel to identify the nearest open branch and bring prescriptions in original packaging."
     }
   ]
 }
