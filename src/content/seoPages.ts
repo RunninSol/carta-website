@@ -1118,6 +1118,117 @@ export const destinationPages: SeoContentPage[] = [
     related: ["copenhagen", "amsterdam", "budapest"],
   },
 
+  {
+    slug: "dubai",
+    kind: "destination",
+    eyebrow: "Dubai travel advisor",
+    title: "Dubai gets more interesting when the skyline is only one part of the story.",
+    seoTitle: "Dubai Travel Advisor",
+    description:
+      "Dubai travel advisor guidance for hotel bases, desert timing, Old Dubai, restaurants, honest sightseeing, and private trip hub planning.",
+    intro:
+      "Dubai is a split-screen city. One side is the skyline, beach resorts, private pools, and reservation-driven dining rooms. The other is Dubai Creek, Al Fahidi, Deira, Alserkal Avenue, desert conservation, and a food culture shaped by Indian, Pakistani, Afghan, East African, and Levantine communities. A strong trip uses both sides without turning either one into a performance.",
+    bestFor: [
+      "Couples and families who want beach, city, desert, and serious dining in one trip",
+      "Food-focused travelers who want Michelin tasting menus and immigrant-led neighborhood meals",
+      "First-time visitors who want the famous skyline edited into a more textured Dubai plan",
+    ],
+    timing:
+      "November through March brings the easiest weather for beaches, outdoor dining, creek walks, and the desert, with peak hotel demand and higher rates. October and April can offer a useful balance of warmth and value. From May through September, heat above 95 degrees changes the plan, so outdoor time belongs early or late and the middle of the day needs a pool, spa, museum, or long lunch.",
+    hotelLogic:
+      "The base should solve the trip. Atlantis The Royal is a large, food-driven Palm resort with a social scene. Jumeirah Marsa Al Arab gives a newer beach stay beside Burj Al Arab. One&Only One Za'abeel is the architectural city choice with strong dining but no beach. Four Seasons Jumeirah Beach and One&Only Royal Mirage offer more classic resort rhythms, while Al Seef Heritage Hotel places the creek and older city at the door. A city-and-beach split can work, but only when the extra move earns its place.",
+    foodLogic:
+      "Dubai's dining story now runs from Trèsind Studio and FZN, both awarded three Michelin stars in the 2025 guide, to Kinoya, Manāo, Sufret Maryam, Moonrise, and the inexpensive food routes around Deira, Al Barsha, and International City. One tasting menu can anchor the trip. The more revealing day may pair an abra crossing and spice souk with Afghan bread, Pakistani pulao, East African barbecue, or Palestinian-Jordanian cooking, using a driver and verified map pins.",
+    avoid:
+      "The main mistake is making Downtown, Dubai Mall, Marina, and generic desert packages the whole trip. Burj Khalifa can be worth seeing, but The View at the Palm may explain the city's geography better. Mass-market dune bashing often means a convoy and crowded buffet camp. A private conservation-led desert morning, Al Fahidi and the creek, or Alserkal Avenue usually adds more texture. Regional security, airline operations, and official travel guidance also need fresh checks at booking and before departure.",
+    cartaTake:
+      "I would plan Dubai around controlled contrast. Start with the hotel that fits the client's version of the city, then protect one old-Dubai morning, one private desert window, one major dinner, and one neighborhood food route. The skyline still belongs in the trip. It just should not be the only thing the traveler remembers.",
+    highlights: [
+      {
+        title: "Choose the base before choosing the sights",
+        body: "Palm Jumeirah works best for travelers who plan to use the resort. Jumeirah Beach balances sand with city access. DIFC and One Za'abeel suit food, architecture, and business-meets-pleasure. Creek and Al Seef create a more cultural stay. Traffic makes those distinctions real.",
+      },
+      {
+        title: "Use food to connect both Dubais",
+        body: "Trèsind Studio, FZN, Row on 45, Smoked Room, Manāo, Kinoya, and Moonrise show the reservation-driven city. Deira, Al Barsha, and International City reveal the immigrant food culture that gives Dubai much of its everyday flavor.",
+      },
+      {
+        title: "Build the desert around timing and conservation",
+        body: "A sunrise or private conservation-reserve experience avoids the evening convoy pattern and leaves the rest of the day open for the pool, spa, or a serious dinner. Desert access should feel deliberate, not like a package-line obligation.",
+      },
+      {
+        title: "Let Old Dubai and Alserkal break the checklist",
+        body: "Al Fahidi, an abra across Dubai Creek, Deira's souks, and Alserkal Avenue add architecture, trade, art, and daily life to a trip that can otherwise feel built entirely around new landmarks.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use one city or beach base, one early creek and Al Fahidi morning, one private desert window, one skyline view, and one anchor dinner. Keep the geography tight.",
+      },
+      {
+        title: "5 nights",
+        body: "Add a neighborhood food route, Alserkal Avenue, a real pool or beach day, and enough time for two different restaurant moods without stacking cross-city drives.",
+      },
+      {
+        title: "7 nights",
+        body: "Consider a city-and-beach split or a desert overnight, with one loose recovery day. Hatta can fit active travelers, but the 90-minute drive needs to serve a clear purpose.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/dubai/skyline.webp",
+        alt: "Burj Khalifa rising above the Dubai skyline at sunset",
+        caption: "The skyline is Dubai's first impression. The better itinerary gives it context rather than making it the whole trip.",
+        credit: "imran shahabuddin, CC BY 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_(worlds_tallest_building)_and_the_Dubai_skyline_(25781049892).jpg",
+      },
+      {
+        src: "/photos/destinations/dubai/creek-abra.webp",
+        alt: "Traditional wooden abra crossing Dubai Creek in Old Dubai",
+        caption: "An abra across Dubai Creek connects Al Fahidi and Deira while restoring a human scale to the city.",
+        credit: "selmaperictuzla, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Abra_at_Dubai_Creek_(_Old_Dubai_).jpg",
+      },
+      {
+        src: "/photos/destinations/dubai/al-fahidi.webp",
+        alt: "Traditional wind towers and earth-toned buildings in Al Fahidi, Dubai",
+        caption: "Al Fahidi adds wind-tower architecture and old-city texture before the heat and crowds build.",
+        credit: "Delta.jpg, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Al_Fahidi_Historical_Neighbourhood,_Dubai.jpg",
+      },
+      {
+        src: "/photos/destinations/dubai/desert-oryx.webp",
+        alt: "Arabian oryx walking among dunes and trees in Dubai Desert Conservation Reserve",
+        caption: "A conservation-led desert experience changes the emphasis from dune-bashing spectacle to landscape and wildlife.",
+        credit: "Sobiarahim, CC BY 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:A_herd_of_Arabian_Oryx_in_Dubai_Desert_Conservation_Reserve_Picture_02.jpg",
+      },
+      {
+        src: "/photos/destinations/dubai/alserkal-avenue.webp",
+        alt: "Contemporary art district walkway at Alserkal Avenue in Dubai",
+        caption: "Alserkal Avenue is the contemporary-art counterpoint to the city's malls and landmark circuit.",
+        credit: "Fuzheado, CC0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Dubai_Alserkal_Avenue_2024-11-17.jpg",
+      },
+      {
+        src: "/photos/destinations/dubai/spice-souk.webp",
+        alt: "Colorful dried flowers, herbs, and spices displayed at Dubai Spice Souk",
+        caption: "Deira's spice souk belongs in a creek morning, ideally before the busiest part of the day.",
+        credit: "Frodlekis, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Colourful_spices_in_Dubai_Spice_Souk_2018.jpg",
+      },
+      {
+        src: "/photos/destinations/dubai/burj-al-arab.webp",
+        alt: "Burj Al Arab hotel seen across the water from Jumeirah Beach",
+        caption: "Burj Al Arab remains the icon, while newer Jumeirah beach hotels offer a more contemporary version of the same coastline.",
+        credit: "Aleksandar Pasaric, CC0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Burj_Al_Arab_and_the_beach_(Pexels_823696).jpg",
+      },
+    ],
+    related: ["bangkok", "maldives", "egypt"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
