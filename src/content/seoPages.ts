@@ -1229,6 +1229,110 @@ export const destinationPages: SeoContentPage[] = [
     related: ["bangkok", "maldives", "egypt"],
   },
 
+  {
+    slug: "florence",
+    kind: "destination",
+    eyebrow: "Florence travel advisor",
+    title: "Florence gets better when the art, food, and neighborhoods have room to breathe.",
+    seoTitle: "Florence Travel Advisor",
+    description:
+      "Florence travel advisor guidance for hotel bases, Uffizi timing, Oltrarno food, Tuscan wine days, honest crowd strategy, and trip hub planning.",
+    intro:
+      "Florence concentrates the Uffizi, Brunelleschi's dome, Medici history, artisan workshops, bistecca, and the Arno into a city small enough to cross on foot. That compactness is the gift and the trap. The better trip protects the major art, then moves into Oltrarno, Santo Spirito, gardens, markets, and the hill above the city before the center starts to feel like a queue.",
+    bestFor: [
+      "Art and history travelers who want the Renaissance explained rather than checked off",
+      "Couples choosing between a central palazzo, an Oltrarno base, and a hilltop retreat",
+      "Food and wine travelers who want trattorias, bistecca, markets, and Chianti planned with judgment",
+    ],
+    timing:
+      "April through June and September through October are the strongest windows for walking, gardens, wine country, and milder temperatures. July and August bring heat and heavy demand, so I protect early museum entries, hill or garden downtime, and fewer cross-city obligations. Winter can be quiet and atmospheric, but seasonal restaurant and shop closures need a fresh check.",
+    hotelLogic:
+      "The hotel should solve the rhythm. Four Seasons Hotel Firenze gives a private garden and resort-like calm on the eastern edge of the center. Hotel Savoy puts the Duomo and Piazza della Signoria within an easy walk. Belmond Villa San Michele and Il Salviatino trade doorstep access for Fiesole views and relief from the center. Santo Spirito and Oltrarno suit travelers who care more about the evening neighborhood than absolute museum proximity.",
+    foodLogic:
+      "Florence needs more than one famous steak and a viral sandwich. Trattoria Da Burde, La Vecchia Bettola, Cammillo, Sostanza, Le Volpi e l'Uva, Enoteca Spontanea, Forno Becagli, Semel, and Sant'Ambrogio Market give the plan range. Bistecca alla fiorentina should be ordered by weight and expected rare. All'Antico Vinaio can be good, but the central queue should not own a meal.",
+    avoid:
+      "I would not stack the Uffizi, Accademia, Duomo complex, and Palazzo Pitti into one exhausting day. I also avoid photo-menu restaurants beside the major sights, San Lorenzo's exterior souvenir and imitation-leather stalls, Mercato Centrale framed as a secret local find, and Piazzale Michelangelo at the busiest part of the day. Timing and a five-minute walk away from the tourist spine solve a surprising amount.",
+    cartaTake:
+      "When I plan Florence, I am deciding when the city should feel monumental and when it should feel lived in. The Uffizi can have the serious morning. Santo Spirito can have the evening. A garden, a small workshop, or a glass of Chianti can hold the space between them. That balance is what keeps Florence from becoming one beautiful room after another.",
+    highlights: [
+      {
+        title: "Protect the art mornings",
+        body: "Use the first entry or a carefully guided window for the Uffizi and Accademia. The Opera del Duomo Museum often explains Brunelleschi, Ghiberti, and the cathedral complex better than a rushed cathedral-interior stop.",
+      },
+      {
+        title: "Cross the Arno for the evening",
+        body: "Santo Spirito, San Frediano, and the wider Oltrarno give Florence a more residential rhythm, with trattorias, wine bars, workshops, and fewer reasons to orbit the Duomo after dark.",
+      },
+      {
+        title: "Use the hills as a reset",
+        body: "Fiesole, Villa San Michele, Il Salviatino, Bardini Garden, Boboli, and San Miniato al Monte create space around the dense historic center. The hill layer can be a hotel strategy, a half-day, or simply the right sunset.",
+      },
+      {
+        title: "Choose the famous food selectively",
+        body: "Bistecca belongs in the trip when the restaurant, appetite, and rare preparation all fit. Mercato Centrale is useful, All'Antico Vinaio is context, and Sant'Ambrogio, Forno Becagli, Semel, or a real neighborhood trattoria often make the more revealing meal.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use one walkable base, one protected Uffizi or Accademia morning, the Duomo complex, one Oltrarno evening, one serious Tuscan meal, and a garden or hill view instead of another museum sprint.",
+      },
+      {
+        title: "5 nights",
+        body: "Add artisan workshops, Palazzo Pitti or the Bargello, Sant'Ambrogio, a slower Santo Spirito day, and one private-driver Chianti Classico route built around two contrasting estates rather than nonstop tastings.",
+      },
+      {
+        title: "7 nights",
+        body: "Split the emotional shape between the center and a Fiesole or countryside base, or keep Florence as the anchor and add carefully chosen wine, garden, and Tuscan town days without changing hotels too often.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/florence/ponte-vecchio-sunset.webp",
+        alt: "Ponte Vecchio crossing the Arno at sunset beneath Florence's historic skyline",
+        caption: "The Arno and Ponte Vecchio make the strongest first impression near sunset, after the busiest crossing hours begin to ease.",
+        credit: "Daniel Lu, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_at_sunset_from_Piazzale_Michelangelo_Florence_2023_dllu.jpg",
+      },
+      {
+        src: "/photos/destinations/florence/florence-skyline.webp",
+        alt: "Florence skyline with Brunelleschi's dome and Palazzo Vecchio above terracotta roofs",
+        caption: "Florence compresses the Duomo, Palazzo Vecchio, the Arno, and the surrounding hills into a remarkably walkable center.",
+        credit: "Peter Glyn, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Florence_Skyline.jpeg",
+      },
+      {
+        src: "/photos/destinations/florence/uffizi-gallery.webp",
+        alt: "Painted ceiling and sculpture-lined corridor inside the Uffizi Gallery in Florence",
+        caption: "The Uffizi deserves a protected morning, not the leftover hour after several other major sights.",
+        credit: "Diego Delso, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Galer%C3%ADa_Uffizi,_Florencia,_Italia,_2022-09-18,_DD_65-67_HDR.jpg",
+      },
+      {
+        src: "/photos/destinations/florence/boboli-gardens.webp",
+        alt: "Shaded gravel path and clipped greenery in Florence's Boboli Gardens",
+        caption: "Boboli and Bardini give the dense museum city a necessary garden interval, especially in spring and early summer.",
+        credit: "Armin Kleiner, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Florence,_Giardino_di_Boboli_2.jpg",
+      },
+      {
+        src: "/photos/destinations/florence/bistecca-fiorentina.webp",
+        alt: "Raw bone-in bistecca alla fiorentina displayed with Tuscan vegetables in Florence",
+        caption: "A real bistecca alla fiorentina is a thick bone-in cut ordered by weight and served rare, so the restaurant fit matters before the plate arrives.",
+        credit: "Thomas Oboe Lee, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Bistecca_alla_Fiorentina_@_Firenze_03.jpg",
+      },
+      {
+        src: "/photos/destinations/florence/santo-spirito.webp",
+        alt: "Narrow stone-lined Via Santo Spirito in Florence's Oltrarno neighborhood",
+        caption: "Santo Spirito and the wider Oltrarno are where the evening can shift from monument traffic to workshops, wine bars, and neighborhood tables.",
+        credit: "Francesco Bini, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Via_Santo_Spirito_veduta_verso_piazza_nazario_sauro.jpg",
+      },
+    ],
+    related: ["amalfi-coast", "paris", "bordeaux"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
