@@ -3,10 +3,34 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Jackson's Barbados Stay Proposal",
+  title: "Jackson's Month in Barbados",
   description:
-    "A private Carta comparison of all-inclusive resorts and beachside homes in Barbados for May 2027.",
+    "Three all-inclusive resorts, five beachside homes, and the real cost after food for Jackson's May 2027 stay in Barbados.",
+  alternates: { canonical: "/proposals/jackson-barbados-5m8k2" },
   robots: { index: false, follow: false, nocache: true },
+  openGraph: {
+    title: "Jackson's Month in Barbados",
+    description:
+      "Three all-inclusive resorts, five beachside homes, and the real cost after food.",
+    url: "/proposals/jackson-barbados-5m8k2",
+    siteName: "Carta",
+    type: "website",
+    images: [
+      {
+        url: "/proposals/jackson-barbados/social-preview.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Jackson's month in Barbados, a private Carta proposal",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jackson's Month in Barbados",
+    description:
+      "Three all-inclusive resorts, five beachside homes, and the real cost after food.",
+    images: ["/proposals/jackson-barbados/social-preview.jpg"],
+  },
 };
 
 const formatMoney = (value: number) =>
