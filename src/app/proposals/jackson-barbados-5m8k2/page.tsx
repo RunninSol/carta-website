@@ -24,6 +24,10 @@ const allInclusives = [
     rate: "$259 per night planning floor",
     beach: "Two-minute walk to calm, clear Pebbles Beach",
     fit: "Best all-inclusive value",
+    image: "/proposals/jackson-barbados/island-inn.webp",
+    imageAlt: "White courtyard pool with loungers and umbrellas at Island Inn Hotel in Barbados",
+    imageSource: "https://www.islandinnbarbados.com/",
+    imageCredit: "Official Island Inn photo",
     description:
       "A small, historic hotel where meals and drinks are handled, with one of the easiest swimming beaches in Barbados just outside the property.",
     pros: [
@@ -45,6 +49,10 @@ const allInclusives = [
     rate: "$425 per night third-party planning floor",
     beach: "Direct beachfront, pretty but relatively compact",
     fit: "Best full resort experience",
+    image: "/proposals/jackson-barbados/sugar-bay.webp",
+    imageAlt: "Aerial view of Sugar Bay Barbados and its turquoise beachfront",
+    imageSource: "https://www.sugarbaybarbados.com/gallery",
+    imageCredit: "Official Sugar Bay photo",
     description:
       "The most polished all-inclusive in this comparison, with six restaurants and bars, two pools, a spa, and the beach directly in front.",
     pros: [
@@ -65,6 +73,10 @@ const allInclusives = [
     rate: "$466 per night planning display",
     beach: "Directly on broad Maxwell Beach",
     fit: "Beachfront, but weaker value",
+    image: "/proposals/jackson-barbados/barbados-beach-club.webp",
+    imageAlt: "Aerial view of Barbados Beach Club directly beside Maxwell Beach",
+    imageSource: "https://www.barbadosbeachclub.com/",
+    imageCredit: "Official Barbados Beach Club photo",
     description:
       "A traditional, more basic all-inclusive set directly on Maxwell Beach. The sand is lovely, though swimming conditions can vary with the surf.",
     pros: [
@@ -90,6 +102,10 @@ const rentals = [
     mixedTotal: 5342,
     beach: "Near the beach",
     fit: "Lowest total",
+    image: "/proposals/jackson-barbados/fitts-village-apartment.webp",
+    imageAlt: "White two-story Fitts Village apartment with a wraparound balcony and tropical garden",
+    imageSource: "https://www.airbnb.com/rooms/14179425",
+    imageCredit: "Listing photo · Airbnb",
     pros: ["Lowest accommodation price", "Two bedrooms", "West Coast sunsets and calmer water"],
     cons: ["Not confirmed directly on the sand", "Groceries and dining are separate", "A car or buses help for broader exploring"],
   },
@@ -102,6 +118,10 @@ const rentals = [
     mixedTotal: 5840,
     beach: "Ocean views, close to south-coast beaches",
     fit: "Best space for the price",
+    image: "/proposals/jackson-barbados/oistins-rooftop-condo.webp",
+    imageAlt: "Orange sunset over the sea from the private rooftop terrace of the Oistins condo",
+    imageSource: "https://www.airbnb.com/rooms/51805522",
+    imageCredit: "Listing photo · Airbnb",
     pros: ["Private rooftop", "Two bedrooms", "Close to Oistins food and south-coast energy"],
     cons: ["Ocean view does not necessarily mean beachfront", "Self-catering responsibility", "South Coast can feel busier"],
   },
@@ -114,6 +134,10 @@ const rentals = [
     mixedTotal: 6111,
     beach: "Directly across from the beach",
     fit: "Carta's overall pick",
+    image: "/proposals/jackson-barbados/oistins-chattel-cottage.webp",
+    imageAlt: "Front exterior of the pale blue traditional coastal cottage in Oistins",
+    imageSource: "https://www.airbnb.com/rooms/449630",
+    imageCredit: "Listing photo · Airbnb",
     pros: ["Clear, useful beach position", "Excellent review history", "Walkable access to Oistins and casual dining"],
     cons: ["One bedroom", "No resort pool or daily service", "Food, drinks, and housekeeping are separate"],
     accent: true,
@@ -127,6 +151,10 @@ const rentals = [
     mixedTotal: 6209,
     beach: "Beach apartment near the reef",
     fit: "Best for snorkeling",
+    image: "/proposals/jackson-barbados/beau-beau-reef-apartment.webp",
+    imageAlt: "Palm-shaded beach access and stone steps at Beau Beau Reef Beach Apartment",
+    imageSource: "https://www.airbnb.com/rooms/40509297",
+    imageCredit: "Listing photo · Airbnb",
     pros: ["West Coast setting", "Reef access nearby", "Still well below the resorts after food"],
     cons: ["One bedroom", "Reef shoreline may not be the easiest pure swimming beach", "Less nightlife than the South Coast"],
   },
@@ -139,6 +167,10 @@ const rentals = [
     mixedTotal: 7135,
     beach: "Seaside with snorkeling out front",
     fit: "Best independent setting",
+    image: "/proposals/jackson-barbados/holetown-seaside-cottage.webp",
+    imageAlt: "Turquoise Caribbean Sea viewed through tropical foliage from the Holetown seaside cottage",
+    imageSource: "https://www.airbnb.com/rooms/32084792",
+    imageCredit: "Listing photo · Airbnb",
     pros: ["Two bedrooms", "Immediate seaside character", "Strong restaurant and shopping access around Holetown"],
     cons: ["Highest rental total", "Only $635 below Island Inn after the mixed food allowance", "Restaurants on the West Coast can be expensive"],
   },
@@ -327,32 +359,40 @@ export default function JacksonBarbadosProposal() {
           </div>
           <div className="mt-12 grid gap-6 lg:grid-cols-3">
             {allInclusives.map((hotel) => (
-              <article key={hotel.name} className={`flex h-full flex-col border bg-warm-bg p-6 sm:p-8 ${hotel.accent ? "border-gold shadow-card" : "border-navy/10"}`}>
-                <div className="flex items-start justify-between gap-4">
-                  <span className="text-[10px] font-bold uppercase tracking-[0.18em] text-gold-deep">{hotel.fit}</span>
-                  {hotel.accent && <span className="bg-gold px-2 py-1 text-[9px] font-bold uppercase tracking-[0.14em] text-navy">Best AI value</span>}
-                </div>
-                <h3 className="mt-5 font-display text-[36px] leading-none text-navy">{hotel.name}</h3>
-                <p className="mt-3 text-[12px] font-semibold uppercase tracking-[0.13em] text-mid-gray">{hotel.location}</p>
-                <p className="mt-6 font-display text-[42px] text-navy">{formatMoney(hotel.stay)}</p>
-                <p className="text-[12px] text-mid-gray">30-night calculated total · {hotel.rate}</p>
-                <p className="mt-6 text-[16px] leading-7 text-charcoal/75">{hotel.description}</p>
-                <div className="mt-6 border-l-2 border-gold pl-4">
-                  <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-gold-deep">Beach note</p>
-                  <p className="mt-1 text-[14px] leading-6 text-charcoal/75">{hotel.beach}</p>
-                </div>
-                <div className="mt-7 grid gap-6 border-t border-navy/10 pt-6">
-                  <div>
-                    <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-navy">Reasons to choose it</p>
-                    <ul className="mt-3 space-y-2">
-                      {hotel.pros.map((pro) => <li key={pro} className="flex gap-2 text-[14px] leading-5 text-charcoal/75"><CheckIcon />{pro}</li>)}
-                    </ul>
+              <article key={hotel.name} className={`flex h-full flex-col overflow-hidden border bg-warm-bg ${hotel.accent ? "border-gold shadow-card" : "border-navy/10"}`}>
+                <figure className="relative aspect-[4/3] overflow-hidden bg-navy/5">
+                  <Image src={hotel.image} alt={hotel.imageAlt} fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover transition duration-500 hover:scale-[1.02]" />
+                  <a href={hotel.imageSource} target="_blank" rel="noreferrer" className="absolute bottom-0 right-0 bg-navy/85 px-3 py-2 text-[9px] uppercase tracking-[0.12em] text-ivory/80 hover:text-ivory">
+                    {hotel.imageCredit}
+                  </a>
+                </figure>
+                <div className="flex flex-1 flex-col p-6 sm:p-8">
+                  <div className="flex items-start justify-between gap-4">
+                    <span className="text-[10px] font-bold uppercase tracking-[0.18em] text-gold-deep">{hotel.fit}</span>
+                    {hotel.accent && <span className="bg-gold px-2 py-1 text-[9px] font-bold uppercase tracking-[0.14em] text-navy">Best AI value</span>}
                   </div>
-                  <div>
-                    <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-mid-gray">Trade-offs</p>
-                    <ul className="mt-3 space-y-2">
-                      {hotel.cons.map((con) => <li key={con} className="flex gap-2 text-[14px] leading-5 text-charcoal/65"><MinusIcon />{con}</li>)}
-                    </ul>
+                  <h3 className="mt-5 font-display text-[36px] leading-none text-navy">{hotel.name}</h3>
+                  <p className="mt-3 text-[12px] font-semibold uppercase tracking-[0.13em] text-mid-gray">{hotel.location}</p>
+                  <p className="mt-6 font-display text-[42px] text-navy">{formatMoney(hotel.stay)}</p>
+                  <p className="text-[12px] text-mid-gray">30-night calculated total · {hotel.rate}</p>
+                  <p className="mt-6 text-[16px] leading-7 text-charcoal/75">{hotel.description}</p>
+                  <div className="mt-6 border-l-2 border-gold pl-4">
+                    <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-gold-deep">Beach note</p>
+                    <p className="mt-1 text-[14px] leading-6 text-charcoal/75">{hotel.beach}</p>
+                  </div>
+                  <div className="mt-7 grid gap-6 border-t border-navy/10 pt-6">
+                    <div>
+                      <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-navy">Reasons to choose it</p>
+                      <ul className="mt-3 space-y-2">
+                        {hotel.pros.map((pro) => <li key={pro} className="flex gap-2 text-[14px] leading-5 text-charcoal/75"><CheckIcon />{pro}</li>)}
+                      </ul>
+                    </div>
+                    <div>
+                      <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-mid-gray">Trade-offs</p>
+                      <ul className="mt-3 space-y-2">
+                        {hotel.cons.map((con) => <li key={con} className="flex gap-2 text-[14px] leading-5 text-charcoal/65"><MinusIcon />{con}</li>)}
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </article>
@@ -372,7 +412,13 @@ export default function JacksonBarbadosProposal() {
           </div>
           <div className="mt-12 space-y-5">
             {rentals.map((rental, index) => (
-              <article key={rental.name} className={`grid gap-7 border p-6 sm:p-8 lg:grid-cols-[50px_1.1fr_0.65fr_1fr] lg:items-start ${rental.accent ? "border-gold bg-ivory/[0.08]" : "border-ivory/15 bg-ivory/[0.035]"}`}>
+              <article key={rental.name} className={`grid gap-7 border p-6 sm:p-8 lg:grid-cols-[220px_50px_1fr_0.65fr_1fr] lg:items-start ${rental.accent ? "border-gold bg-ivory/[0.08]" : "border-ivory/15 bg-ivory/[0.035]"}`}>
+                <figure className="relative aspect-[4/3] overflow-hidden bg-ivory/5 lg:aspect-auto lg:min-h-[220px] lg:self-stretch">
+                  <Image src={rental.image} alt={rental.imageAlt} fill sizes="(min-width: 1024px) 220px, 100vw" className="object-cover transition duration-500 hover:scale-[1.02]" />
+                  <a href={rental.imageSource} target="_blank" rel="noreferrer" className="absolute bottom-0 right-0 bg-navy/85 px-3 py-2 text-[9px] uppercase tracking-[0.12em] text-ivory/75 hover:text-ivory">
+                    {rental.imageCredit}
+                  </a>
+                </figure>
                 <p className="font-display text-[38px] text-gold-soft">0{index + 1}</p>
                 <div>
                   <div className="flex flex-wrap items-center gap-3">
