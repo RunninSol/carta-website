@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 const CALENDLY_URL =
   process.env.NEXT_PUBLIC_CALENDLY_URL ||
-  "https://calendly.com/travelbycarta/discovery-call";
+  "https://calendly.com/gabe-travelbycarta/new-meeting";
 
 const DEMO_TRIP_URL =
   process.env.NEXT_PUBLIC_DEMO_TRIP_URL ||

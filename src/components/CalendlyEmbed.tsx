@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 
 interface CalendlyEmbedProps {
-  /** Full Calendly scheduling URL, e.g. https://calendly.com/travelbycarta/discovery-call */
+  /** Full public Calendly scheduling URL. */
   url: string;
   className?: string;
 }
