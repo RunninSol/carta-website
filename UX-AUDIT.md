@@ -1,5 +1,7 @@
 # Carta Website: UI/UX Audit
 
+> **Historical audit, not a current task list.** This was written July 3, 2026, and individual findings may have since changed. The Calendly 404 in item 1 was fixed and verified live on July 21, 2026; the remaining items must be re-tested before acting. Use the Obsidian `Carta/Operating TODO.md` for current priorities.
+
 Reviewed July 3, 2026, against the production build at 1440px. Covers every page, plus code review of all components. Ordered by priority: fix, improve, then the excitement layer (Framer Motion and Three.js).
 
 ---
