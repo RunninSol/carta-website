@@ -1333,6 +1333,111 @@ export const destinationPages: SeoContentPage[] = [
     related: ["amalfi-coast", "paris", "bordeaux"],
   },
 
+
+  {
+    slug: "geneva",
+    kind: "destination",
+    eyebrow: "Geneva travel advisor",
+    title: "Geneva becomes interesting when the lake stops being scenery.",
+    seoTitle: "Geneva Travel Advisor",
+    description:
+      "Geneva travel advisor guidance for lakefront hotels, Bains des Pâquis, Carouge, watchmaking, wine country, restaurants, and trip hub planning.",
+    intro:
+      "Geneva is easy to underestimate. The city is not only banks, watches, and international institutions. It is a public lake ritual at Bains des Pâquis, maker streets in Carouge, neighborhood restaurants in Eaux-Vives and Plainpalais, Geneva wine country, and museums that turn global ideas into human stories. The better trip lets those layers meet.",
+    bestFor: [
+      "Couples who want a low-friction lake-and-city break with strong food and hotel choices",
+      "Watch, design, science, and history travelers who want specialist access instead of retail alone",
+      "Switzerland trips that need an elegant opening, closing, or five-night city-and-vineyard chapter",
+    ],
+    timing:
+      "May through June and September are the strongest all-around windows for lake life, walking, vineyards, and culture. July and August bring swimming and boats, but independent restaurant holidays need careful checks. Winter works for fondue, watchmaking, museums, performances, and a quieter city, with shorter daylight built into the plan.",
+    hotelLogic:
+      "The Woodward is the small, all-suite design choice. Four Seasons des Bergues, Beau-Rivage, and d'Angleterre solve the classic grand-hotel stay. La Réserve is the spa and resort reset outside the center. Old Town properties such as Les Armures trade larger facilities for historic intimacy. In every lakefront hotel, the exact floor and view category matter more than the word lakefront.",
+    foodLogic:
+      "Geneva's food plan should connect the local and international city. Bains des Pâquis is the essential communal ritual. Bistrot des Halles gives a specific route into longeole and atriaux, La Belotte is a candidate for lake perch with provenance checked on the live menu, and Du Rhône makes Pavés de Genève. Bombar, Matière, Mi Food Mi Raisin, and Susuru add the natural-wine layer, while Brasserie Lipp is a useful late-hours fallback to reconfirm by day.",
+    avoid:
+      "I would not build a day around the Jet d'Eau or Flower Clock, choose a Pâquis hotel without checking the exact block and room exposure, or spend a two-night stay on an Annecy border day. Geneva gets better when the famous lake view becomes movement, the Old Town is paired with a lived-in neighborhood, and the extra time goes to Carouge or Satigny.",
+    cartaTake:
+      "I would use Geneva for contrast. Start with a polished lakefront room, then swim or eat fondue at Bains des Pâquis, take a Mouette across the harbor, and give Carouge or the vineyards a real half-day. That mix of precision and ordinary local ritual is what makes the city feel worth the stop.",
+    highlights: [
+      {
+        title: "Make the lake part of the day",
+        body: "Bains des Pâquis, the Mouettes, Eaux-Vives, and a private boat all use the same water differently. The lake should shape movement and rhythm, not sit outside the hotel window.",
+      },
+      {
+        title: "Choose a base by the evening you want",
+        body: "Old Town and Rive give first-visit ease. Eaux-Vives balances the lake with residential restaurants. Pâquis gives grand hotels and global food with block-by-block noise questions. Plainpalais and Carouge feel younger, more local, and less ceremonial.",
+      },
+      {
+        title: "Treat watchmaking as craft",
+        body: "The Patek Philippe Museum is the collection anchor. A private assembly or enameling workshop can make the subject participatory, which is more revealing than a string of retail appointments.",
+      },
+      {
+        title: "Give Geneva wine country real time",
+        body: "Satigny and Dardagny add vineyards, estates, and a long-lunch rhythm within the canton. Use a driver for tastings and choose two stops with a purpose rather than turning the day into an inventory exercise.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use one central base, one Old Town and lake day, one institution or watchmaking block, Bains des Pâquis, and a Carouge meal. Keep the Jet d'Eau inside the walk rather than making it the plan.",
+      },
+      {
+        title: "5 nights",
+        body: "Add a Satigny and Dardagny wine day, more time in Eaux-Vives or Plainpalais, and one unstructured lake window. This is the trip length that lets Geneva stop feeling like a stopover.",
+      },
+      {
+        title: "7 nights",
+        body: "Keep five slow Geneva days, then choose one weather-led extension such as Yvoire, Salève, or Annecy and one flexible museum, spa, vineyard, or boat day. Seven days of central sightseeing would be padding.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/geneva/lake-and-city.webp",
+        alt: "Lake Geneva harbor with clear water, a passenger boat, and mountains beyond the city",
+        caption: "Geneva works best when the lake becomes transport, swimming, and daily ritual rather than a view alone.",
+        credit: "Karlheinz Klingbeil, CC BY 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Geneva,_Switzerland,_2026.jpg",
+      },
+      {
+        src: "/photos/destinations/geneva/bains-des-paquis.webp",
+        alt: "Bains des Pâquis lighthouse and swimming area at twilight on Lake Geneva",
+        caption: "Bains des Pâquis is the city's democratic lake ritual, from swimming and sauna to communal meals and winter fondue.",
+        credit: "Alain Zuin, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Nature,_cr%C3%A9puscule_aux_bains_des_P%C3%A2quis,_1000pix.jpg",
+      },
+      {
+        src: "/photos/destinations/geneva/carouge-market-square.webp",
+        alt: "Tree-lined Place du Marché in Carouge with Sainte-Croix church at the end of the street",
+        caption: "Carouge deserves time for its market streets, makers, cafés, and neighborhood restaurants rather than a quick photo stop.",
+        credit: "HJPD, CC BY 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Carouge_Place_du_March%C3%A9.jpg",
+      },
+      {
+        src: "/photos/destinations/geneva/palais-des-nations.webp",
+        alt: "Pale stone façades and formal grounds at the Palais des Nations in Geneva",
+        caption: "A guided Palais des Nations visit works best when it is paired with the people and ideas behind the institution.",
+        credit: "Vassil, CC0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Palace_of_Nations_Geneva_20102014_02.jpg",
+      },
+      {
+        src: "/photos/destinations/geneva/bourdigny-vineyards.webp",
+        alt: "Autumn vineyards and a small field shelter in Bourdigny in the canton of Geneva",
+        caption: "Bourdigny, Satigny, and Dardagny make Geneva wine country a genuine regional day, not a generic Swiss-wine add-on.",
+        credit: "Sdnegel, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Bourdigny_in_autumn.jpg",
+      },
+      {
+        src: "/photos/destinations/geneva/saint-pierre-cathedral.webp",
+        alt: "Illuminated neoclassical façade of Saint Pierre Cathedral in Geneva's Old Town at night",
+        caption: "Saint Pierre and its archaeology give the Old Town depth before the itinerary moves toward the lake and neighborhoods.",
+        credit: "Fenliokao, CC BY-SA 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Cathedral_Saint_Pierre_in_Geneva,_Switzerland.jpg",
+      },
+    ],
+    related: ["paris", "copenhagen", "florence"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
