@@ -67,7 +67,9 @@ export default function HotelFitGuidePage() {
                   </li>
                 ))}
               </ol>
-              <p className="mt-8 text-sm text-mid-gray">Five pages. Built to save, print, or keep open beside a hotel shortlist.</p>
+              <p className="mt-8 text-sm text-mid-gray">
+                Five pages, with destination photography matched to your answer when an edition is available. Built to save, print, or keep open beside a hotel shortlist.
+              </p>
             </FadeIn>
             <FadeIn>
               <HotelFitGuideForm />

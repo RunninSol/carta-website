@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { checkBotId } from "botid/server";
 import { mailEnvironmentReady, sendCartaMail } from "@/lib/sendMail";
+import { guideForDestination } from "@/lib/hotelFitGuides";
 
 export const runtime = "nodejs";
 
@@ -17,7 +18,7 @@ interface GuidePayload {
   company?: string;
 }
 
-const GUIDE_URL = "https://www.travelbycarta.com/guides/carta-hotel-fit-guide.pdf";
+const GUIDE_BASE_URL = "https://www.travelbycarta.com";
 const CONTACT_URL = "https://www.travelbycarta.com/contact";
 function requestAllowed(request: Request): boolean {
   const origin = request.headers.get("origin") || "";
@@ -217,6 +218,8 @@ export async function POST(request: Request) {
   const utmSource = clean(body.utmSource, 120);
   const utmMedium = clean(body.utmMedium, 120);
   const utmCampaign = clean(body.utmCampaign, 160);
+  const selectedGuide = guideForDestination(destination);
+  const guideUrl = `${GUIDE_BASE_URL}${selectedGuide.path}`;
 
   if (!firstName || !validEmail(email) || body.consent !== true) {
     return NextResponse.json(
@@ -272,8 +275,8 @@ export async function POST(request: Request) {
         to: email,
         replyTo: gabe,
         subject: "Your Carta Hotel Fit Guide",
-        text: `Hi ${firstName},\n\nHere is the Hotel Fit Guide: ${GUIDE_URL}\n\nThe expensive mistake is rarely choosing a bad hotel. It is choosing a very good hotel that is wrong for the way you travel. These are the seven questions I use before I recommend one.\n\nIf you already have a destination or a shortlist, reply and send it to me. I read every note myself.\n\nGabe\nCarta\n${CONTACT_URL}\n\nYou asked for this guide at travelbycarta.com. Reply with unsubscribe if you do not want the two short follow-ups you requested.`,
-        html: `<div style="max-width:600px;font-family:Arial,sans-serif;color:#2C2C2C;line-height:1.7"><p style="font-size:11px;letter-spacing:.2em;color:#C9A84C;text-transform:uppercase">Carta · Hotel Fit Guide</p><h1 style="font-family:Georgia,serif;font-weight:400;color:#0F1E3C">Hi ${escapeHtml(firstName)},</h1><p>Here is the guide you requested.</p><p><a href="${GUIDE_URL}" style="display:inline-block;background:#0F1E3C;color:#F5F0E8;padding:13px 18px;text-decoration:none">Open the Hotel Fit Guide</a></p><p>The expensive mistake is rarely choosing a bad hotel. It is choosing a very good hotel that is wrong for the way you travel. These are the seven questions I use before I recommend one.</p><p>If you already have a destination or a shortlist, reply and send it to me. I read every note myself.</p><p>Gabe<br/>Carta</p><hr style="border:0;border-top:1px solid #ddd;margin:28px 0"/><p style="font-size:12px;color:#666">You asked for this guide at travelbycarta.com. Reply with “unsubscribe” if you do not want the two short follow-ups you requested.</p></div>`,
+        text: `Hi ${firstName},\n\nHere is the Hotel Fit Guide: ${guideUrl}\n\nThe expensive mistake is rarely choosing a bad hotel. It is choosing a very good hotel that is wrong for the way you travel. These are the seven questions I use before I recommend one.\n\nIf you already have a destination or a shortlist, reply and send it to me. I read every note myself.\n\nGabe\nCarta\n${CONTACT_URL}\n\nYou asked for this guide at travelbycarta.com. Reply with unsubscribe if you do not want the two short follow-ups you requested.`,
+        html: `<div style="max-width:600px;font-family:Arial,sans-serif;color:#2C2C2C;line-height:1.7"><p style="font-size:11px;letter-spacing:.2em;color:#C9A84C;text-transform:uppercase">Carta · Hotel Fit Guide</p><h1 style="font-family:Georgia,serif;font-weight:400;color:#0F1E3C">Hi ${escapeHtml(firstName)},</h1><p>Here is the guide you requested.</p><p><a href="${guideUrl}" style="display:inline-block;background:#0F1E3C;color:#F5F0E8;padding:13px 18px;text-decoration:none">Open the Hotel Fit Guide</a></p><p>The expensive mistake is rarely choosing a bad hotel. It is choosing a very good hotel that is wrong for the way you travel. These are the seven questions I use before I recommend one.</p><p>If you already have a destination or a shortlist, reply and send it to me. I read every note myself.</p><p>Gabe<br/>Carta</p><hr style="border:0;border-top:1px solid #ddd;margin:28px 0"/><p style="font-size:12px;color:#666">You asked for this guide at travelbycarta.com. Reply with “unsubscribe” if you do not want the two short follow-ups you requested.</p></div>`,
       }),
       sendCartaMail({
         to: gabe,
@@ -295,7 +298,8 @@ export async function POST(request: Request) {
       ok: true,
       deliveredByEmail,
       followUpTasksReady: leadResult.taskAutomationReady,
-      guideUrl: "/guides/carta-hotel-fit-guide.pdf",
+      guideUrl: selectedGuide.path,
+      guideEdition: selectedGuide.label,
     });
   } catch (error) {
     console.error("Hotel Fit Guide lead delivery failed.", error);

@@ -8,6 +8,7 @@ export function HotelFitGuideForm() {
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState("");
   const [deliveredByEmail, setDeliveredByEmail] = useState(false);
+  const [guideUrl, setGuideUrl] = useState("/guides/carta-hotel-fit-guide.pdf");
   const [utm, setUtm] = useState({ source: "", medium: "", campaign: "" });
   const [form, setForm] = useState({
     firstName: "",
@@ -46,6 +47,7 @@ export function HotelFitGuideForm() {
       const data = await response.json().catch(() => ({}));
       if (!response.ok) throw new Error(data.error || "The guide could not be delivered.");
       setDeliveredByEmail(Boolean(data.deliveredByEmail));
+      setGuideUrl(typeof data.guideUrl === "string" ? data.guideUrl : "/guides/carta-hotel-fit-guide.pdf");
       setStatus("sent");
     } catch (caught) {
       setError(caught instanceof Error ? caught.message : "The guide could not be delivered.");
@@ -66,7 +68,7 @@ export function HotelFitGuideForm() {
             : "Your request is saved. The email copy was delayed, so use the direct link now."}
         </p>
         <a
-          href="/guides/carta-hotel-fit-guide.pdf"
+          href={guideUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="btn-secondary mt-8 inline-block"
