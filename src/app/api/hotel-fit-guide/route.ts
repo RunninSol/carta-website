@@ -33,6 +33,19 @@ function requestAllowed(request: Request): boolean {
   return allowedOrigins.has(origin);
 }
 
+function referralSource(source: string): string {
+  const labels: Record<string, string> = {
+    threads: "Threads",
+    instagram: "Instagram",
+    reddit: "Reddit",
+    pinterest: "Pinterest",
+    google: "Google",
+    referral: "Referral",
+    partner: "Partner",
+  };
+  return labels[source.toLowerCase()] || "Website";
+}
+
 function clean(value: unknown, max = 500): string {
   return typeof value === "string" ? value.trim().slice(0, max) : "";
 }
@@ -245,7 +258,7 @@ export async function POST(request: Request) {
       "Client Name": firstName,
       Email: email,
       Stage: "Lead",
-      "Referral Source": source.toLowerCase() === "threads" ? "Threads" : source.toLowerCase() === "instagram" ? "Instagram" : source.toLowerCase() === "referral" ? "Referral" : "Website",
+      "Referral Source": referralSource(source),
       "Preferred Contact Method": "Email",
       "Last Contact Date": new Date().toISOString().slice(0, 10),
       "Next Action": "Send the Hotel Fit Guide follow-up and qualify whether a real trip is in view.",
