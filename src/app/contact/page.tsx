@@ -70,6 +70,16 @@ export default function ContactPage() {
               </a>
             </div>
             <p className="mt-7 text-xs text-mid-gray">
+              Not ready for a call?{" "}
+              <a
+                href="/hotel-fit-guide?utm_source=contact-page&utm_medium=onsite&utm_campaign=hotel-fit-guide"
+                className="text-navy underline decoration-gold/60 underline-offset-4 transition-colors hover:text-gold-deep"
+              >
+                Get the Hotel Fit Guide
+              </a>
+              .
+            </p>
+            <p className="mt-3 text-xs text-mid-gray">
               Already working with me?{" "}
               <a
                 href="/intake"

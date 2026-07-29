@@ -9,6 +9,8 @@ const footerLinks = [
   { href: "/services", label: "Services" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
+  { href: "/hotel-fit-guide", label: "Hotel Fit Guide" },
+  { href: "/privacy", label: "Privacy" },
   { href: "/intake", label: "Client Intake" },
   { href: "/destinations", label: "Destinations" },
   { href: "/itineraries/honeymoon-itinerary", label: "Honeymoons" },

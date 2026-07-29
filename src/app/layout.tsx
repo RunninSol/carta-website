@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { EB_Garamond, Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import { BotIdClient } from "botid/client";
 import "./globals.css";
 
 const ebgaramond = EB_Garamond({
@@ -99,6 +100,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${ebgaramond.variable} ${inter.variable}`}>
+      <head>
+        <BotIdClient protect={[{ path: "/api/hotel-fit-guide", method: "POST" }]} />
+      </head>
       <body className="font-body">
         <script
           dangerouslySetInnerHTML={{

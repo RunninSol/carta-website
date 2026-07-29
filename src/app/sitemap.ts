@@ -23,5 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...guideRoutes,
     { url: `${BASE}/about`, lastModified, changeFrequency: "yearly", priority: 0.7 },
     { url: `${BASE}/contact`, lastModified, changeFrequency: "yearly", priority: 0.8 },
+    { url: `${BASE}/hotel-fit-guide`, lastModified, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE}/privacy`, lastModified, changeFrequency: "yearly", priority: 0.3 },
   ];
 }

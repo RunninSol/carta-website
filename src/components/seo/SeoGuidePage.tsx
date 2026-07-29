@@ -177,6 +177,31 @@ export function SeoGuidePage({ page }: { page: SeoContentPage }) {
           </div>
         </section>
 
+        <section className="px-6 pb-2xl lg:px-10 lg:pb-3xl">
+          <div className="mx-auto grid max-w-6xl gap-lg border border-gold/35 bg-ivory p-lg shadow-card md:grid-cols-[1fr_auto] md:items-center md:p-xl">
+            <div>
+              <p className="eyebrow">Before you choose the hotel</p>
+              <h2 className="font-display text-3xl leading-tight text-navy md:text-4xl">
+                Use fit, not just stars.
+              </h2>
+              <p className="mt-sm max-w-2xl text-base leading-relaxed text-charcoal/70">
+                The free Hotel Fit Guide shows how to compare location, room category, service style, and the rhythm you actually want.
+              </p>
+            </div>
+            <div className="flex flex-col items-start gap-3 sm:flex-row md:flex-col md:items-stretch">
+              <Link
+                href={`/hotel-fit-guide?utm_source=destination-guide&utm_medium=onsite&utm_campaign=hotel-fit-${page.slug}`}
+                className="btn-primary text-center"
+              >
+                Get the free guide
+              </Link>
+              <Link href="/contact" className="btn-secondary text-center">
+                Discuss this trip
+              </Link>
+            </div>
+          </div>
+        </section>
+
         <section className="bg-navy px-6 py-2xl text-ivory lg:px-10 lg:py-3xl">
           <div className="mx-auto max-w-6xl">
             <div className="grid gap-xl lg:grid-cols-[0.75fr_1.25fr]">
