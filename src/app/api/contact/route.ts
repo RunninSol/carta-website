@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import nodemailer from "nodemailer";
+import { mailEnvironmentReady, sendCartaMail } from "@/lib/sendMail";
 
 export const runtime = "nodejs";
 
@@ -16,6 +16,7 @@ interface InquiryPayload {
 const SOURCE_LABELS: Record<string, string> = {
   referral: "A friend or colleague",
   instagram: "Instagram",
+  threads: "Threads",
   google: "Google search",
   worldvia: "WorldVia",
   press: "Press or media",
@@ -67,17 +68,10 @@ export async function POST(request: Request) {
     );
   }
 
-  const {
-    SMTP_HOST,
-    SMTP_PORT,
-    SMTP_USER,
-    SMTP_PASS,
-    CONTACT_TO,
-    CONTACT_FROM,
-  } = process.env;
+  const { CONTACT_TO } = process.env;
 
-  if (!SMTP_USER || !SMTP_PASS) {
-    console.error("Contact form: SMTP credentials are not configured.");
+  if (!mailEnvironmentReady()) {
+    console.error("Contact form: Gmail OAuth credentials are not configured.");
     return NextResponse.json(
       {
         error:
@@ -87,16 +81,8 @@ export async function POST(request: Request) {
     );
   }
 
-  const transporter = nodemailer.createTransport({
-    host: SMTP_HOST || "smtp.gmail.com",
-    port: Number(SMTP_PORT) || 465,
-    secure: (Number(SMTP_PORT) || 465) === 465,
-    auth: { user: SMTP_USER, pass: SMTP_PASS },
-  });
-
   const sourceLabel = source ? SOURCE_LABELS[source] || source : "Not provided";
   const to = CONTACT_TO || "gabe@travelbycarta.com";
-  const from = CONTACT_FROM || `Carta Website <${SMTP_USER}>`;
 
   const text = [
     `New discovery call inquiry from travelbycarta.com`,
@@ -132,10 +118,9 @@ export async function POST(request: Request) {
   `;
 
   try {
-    await transporter.sendMail({
-      from,
+    await sendCartaMail({
       to,
-      replyTo: `${name} <${email}>`,
+      replyTo: email,
       subject: `Discovery Call Request: ${name}`,
       text,
       html,
