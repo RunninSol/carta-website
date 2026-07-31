@@ -1438,6 +1438,111 @@ export const destinationPages: SeoContentPage[] = [
     related: ["paris", "copenhagen", "florence"],
   },
 
+
+  {
+    slug: "cebu",
+    kind: "destination",
+    eyebrow: "Cebu travel advisor",
+    title: "Cebu works when you stop treating it like one beach.",
+    seoTitle: "Cebu Travel Advisor",
+    description:
+      "Cebu travel advisor guidance for city and coast bases, Moalboal sardines, Malapascua diving, Cebuano food, season, and trip hub planning.",
+    intro:
+      "Cebu is an island system, not a single resort stop. Cebu City brings heritage and one of the Philippines' most specific regional food cultures. Mactan brings airport and resort ease. Moalboal, Badian, Malapascua, and Bantayan each ask for a different route, energy level, and relationship with the water. The better trip chooses one marine system and gives it enough time.",
+    bestFor: [
+      "Food and culture travelers who want Cebuano cooking beside serious marine days",
+      "Divers and snorkelers choosing between Moalboal, Pescador, and a longer Malapascua stay",
+      "Couples and families who want a resort base without pretending traffic, ferries, and sea state do not matter",
+    ],
+    timing:
+      "December through May is the drier default for a trip built around boats and the coast. June through November needs typhoon and sea-state buffers. January can bring Sinulog, which can be culturally exceptional while also changing roads, crowds, hotel prices, and the rhythm of Cebu City.",
+    hotelLogic:
+      "Mactan properties such as Shangri-La, Crimson, Dusit Thani, Sheraton, The Reef, and Mövenpick solve airport and resort ease. NUSTAR and Fili serve a contemporary city stay, while Kandaya can anchor a north-coast chapter. I would confirm the exact room condition, beach and reef condition, construction, transfer time, and storm policy before treating any of them as interchangeable luxury choices.",
+    foodLogic:
+      "Cebuano food is much broader than lechon. The plan should leave room for sutukil, larang, ngohiong, tuslob buwa, pungko-pungko, humba, and Chinese-Cebuano bakery traditions. A1 Tinola and Sinugba, La Fortuna, Esmen, Pungko-Pungko sa Fuente, and Cebu Lumpia House give that story more range. Lechon is best treated as a fresh-batch comparison, not a permanent chain ranking.",
+    avoid:
+      "I would not sell Oslob, Kawasan, and Moalboal as one heroic day, treat Malapascua as a day trip, or promise Moalboal as polished beach luxury. I would also keep the provisioned Oslob whale-shark encounter out of a default itinerary. Traffic, ferries, weather, and marine ethics belong in the first planning conversation, not the fine print.",
+    cartaTake:
+      "For a first Cebu trip, I would use Cebu City or Mactan for food, heritage, and arrival ease, then commit to one coast. Moalboal and Badian make sense together. Malapascua needs its own three-night dive stay. Bantayan is the slower beach answer. Choosing one is what gives the island room to feel generous instead of exhausting.",
+    highlights: [
+      {
+        title: "Choose one marine system",
+        body: "Moalboal gives the sardine run and Pescador. Badian gives a canyoneering base. Malapascua is the serious thresher-shark choice and needs a weather buffer. Bantayan is slower and less dive-led. They should not become a collection of day trips.",
+      },
+      {
+        title: "Give Cebuano food its full range",
+        body: "Lechon belongs in the trip, but so do sutukil, ngohiong, larang, tuslob buwa, pungko-pungko, heritage bakeries, local beer, and a current contemporary restaurant choice. That range is a better introduction to Cebu than one famous plate.",
+      },
+      {
+        title: "Use the city for context",
+        body: "An Old Cebu historian walk, Casa Gorordo, the National Museum, Carbon or Pasil with the right guide, and the Basilica area give the island a cultural beginning before the route moves to the water.",
+      },
+      {
+        title: "Let weather control the order",
+        body: "Boats, ferries, diving, and canyoneering all have operational gates. I keep one water day movable, reconfirm 24 to 48 hours before, and make sure the fallback still feels specific to the chosen base.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Keep it to Cebu City and Mactan. Use one food and heritage day, one resort or marine day, and protect the airport transfer from bridge traffic.",
+      },
+      {
+        title: "5 nights",
+        body: "Pair Cebu City or Mactan with Moalboal and Badian. The split gives the city, sardines, and canyons enough space without turning the southwest into a punishing day trip.",
+      },
+      {
+        title: "7 nights",
+        body: "Add either the southwest or the north, not both. Choose Moalboal and Badian for marine access and canyoneering, or choose Malapascua or Bantayan for a slower northern chapter.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/cebu/cebu-island-aerial.webp",
+        alt: "Aerial view across Cebu Island's coastline, reefs, and blue channels in the Philippines",
+        caption: "Cebu is a long island system where the city, reef, and coast ask for different bases rather than one hotel and a string of day trips.",
+        credit: "Vyacheslav Argenberg, CC BY 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Cebu,_Aerial_photography,_Philippines.jpg",
+      },
+      {
+        src: "/photos/destinations/cebu/magellans-cross.webp",
+        alt: "Stone pavilion housing Magellan's Cross in the historic center of Cebu City",
+        caption: "The Magellan's Cross and Basilica area belongs inside a guided Old Cebu story, not as an isolated photo stop.",
+        credit: "Elmer B. Domingo, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Magellan%27s_Cross_Cebu_City.jpg",
+      },
+      {
+        src: "/photos/destinations/cebu/moalboal-sardines.webp",
+        alt: "A dense school of silver sardines moving through blue water off Moalboal, Cebu",
+        caption: "Moalboal is marine-first. Its sardine run and access to Pescador matter more than selling the base as polished beach luxury.",
+        credit: "Jhe098, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Moalboal_sardine_run_%26_sea_turtle_05.jpg",
+      },
+      {
+        src: "/photos/destinations/cebu/kawasan-falls.webp",
+        alt: "Turquoise pools, waterfalls, and a bamboo raft at Kawasan Falls in Badian, Cebu",
+        caption: "Kawasan works best from a Badian or southwest base with a private team and realistic safety and weather checks.",
+        credit: "Shemlongakit, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Badian_Kawasan_Falls_Cebu.jpg",
+      },
+      {
+        src: "/photos/destinations/cebu/malapascua-bounty-beach.webp",
+        alt: "Palm trees and white sand along Bounty Beach on Malapascua Island, Cebu",
+        caption: "Malapascua is a road-and-boat commitment that makes sense as a three-night dive stay, not a hurried day trip.",
+        credit: "Vyacheslav Argenberg, CC BY 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Malapascua_(island),_Bounty_Beach,_Philippines.jpg",
+      },
+      {
+        src: "/photos/destinations/cebu/cebu-lechon.webp",
+        alt: "Whole roasted Cebu lechon with crisp skin displayed for serving",
+        caption: "Lechon is one chapter of Cebuano food. Compare an early fresh batch, then keep going into sutukil, ngohiong, larang, and the island's bakery traditions.",
+        credit: "Ralff Nestor Nacor, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Lechon_Cebu_(whole)_in_MCIA,_Cebu.jpg",
+      },
+    ],
+    related: ["bali", "bangkok", "maldives"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
