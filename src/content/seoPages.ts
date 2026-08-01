@@ -1543,6 +1543,110 @@ export const destinationPages: SeoContentPage[] = [
     related: ["bali", "bangkok", "maldives"],
   },
 
+  {
+    slug: "alexandria",
+    kind: "destination",
+    eyebrow: "Alexandria travel advisor",
+    title: "Alexandria works when you plan for the city that is there now.",
+    seoTitle: "Alexandria Travel Advisor",
+    description:
+      "Alexandria travel advisor guidance for a two-night Cairo extension, Four Seasons San Stefano, archaeology, seafood, Corniche timing, and trip hub planning.",
+    intro:
+      "Alexandria is a living Mediterranean port, not a preserved classical theme park. Its strongest trip moves between a noisy breakfast room, layered Greek and Roman archaeology, the modern Bibliotheca, a working harbor, and fish chosen before it reaches the kitchen. The city rewards curiosity, but it needs honest expectations and careful choreography.",
+    bestFor: [
+      "History travelers who want Greek, Roman, Egyptian, and cosmopolitan Alexandria explained together",
+      "Food-focused travelers who care about foul, taameya, kebda Eskandarani, quail, and fresh Mediterranean fish",
+      "Cairo trips that can give Alexandria two nights instead of turning it into a rushed day trip",
+    ],
+    timing:
+      "October through April is the cleanest window, with milder walking weather and a real chance of winter wind or rain. July through September is hot, humid, and busy with domestic coastal travel. I build the outdoor archaeology and Qaitbay windows around the weather, then keep the museums ready as a useful fallback.",
+    hotelLogic:
+      "Four Seasons Alexandria at San Stefano is the only currently supportable ultra-luxury base, with sea views, suites, security, and resort infrastructure, but it sits east of the historic center and its seasonal beach closes from November through April. Steigenberger Cecil, Le Metropole, and Windsor Palace offer more central heritage atmosphere with greater room, noise, and maintenance variability. The exact base should solve either controlled luxury or downtown immersion, not pretend to deliver both.",
+    foodLogic:
+      "Mohamed Ahmed is the breakfast starting point for foul, taameya, eggs, and pickles. Farag Abo Khaled is the more specific lead for Alexandrian liver, while Malak El Saman gives the quail tradition. For seafood, I care less about the most famous view than clear weighing, current fish turnover, an agreed price, and the right grill or singari preparation.",
+    avoid:
+      "I would not attempt Qaitbay, the Bibliotheca, Kom el-Dikka, the catacombs, Montazah, and a long seafood lunch in one Cairo day trip. I also would not sell the Corniche as a pristine Riviera, the modern library as the surviving ancient library, or a heritage hotel as flawless contemporary luxury. Alexandria becomes much better when the expectations are as carefully planned as the route.",
+    cartaTake:
+      "I would give Alexandria two nights and let the contrast do the work. Four Seasons can be the controlled base, then the day moves through Mohamed Ahmed, Kom el-Dikka, the Bibliotheca, Qaitbay, and a fish lunch where the weight and cooking method are settled first. That version feels specific to the city instead of like Cairo sightseeing carried north.",
+    highlights: [
+      {
+        title: "Give the layered archaeology a guide",
+        body: "Kom el-Dikka, the Greco-Roman Museum, the catacombs, and the harbor story are stronger together than as isolated ruins. The city needs interpretation because so much of ancient Alexandria is submerged, erased, or beneath the modern streets.",
+      },
+      {
+        title: "Use food to read the city",
+        body: "Foul and taameya at Mohamed Ahmed, kebda Eskandarani, grilled quail, historic cafés, and fish selected before cooking reveal Alexandria's Egyptian, Greek, Italian, and Levantine memory better than a generic luxury lunch.",
+      },
+      {
+        title: "Treat the Corniche as lived-in waterfront",
+        body: "The Corniche is noisy, social, traffic-heavy, and part of daily Alexandria. Qaitbay at opening, a residential Gleem or Roushdy evening, and a controlled pickup work better than a long sequence of seafront drive-bys.",
+      },
+      {
+        title: "Keep a weather-ready second plan",
+        body: "Alexandria National Museum, the Royal Jewelry Museum, and the Bibliotheca can protect the day when wind or rain makes Qaitbay and the waterfront unpleasant. The fallback should still feel like Alexandria, not like lost time.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "2 nights",
+        body: "Arrive from Cairo, use one downtown food and history block, give the next day to archaeology and the Bibliotheca, then see Qaitbay and have a deliberate fish lunch before leaving.",
+      },
+      {
+        title: "3 nights",
+        body: "Add the Royal Jewelry Museum, a slower café and architecture circuit, or Montazah with current access confirmed. This is the most spacious standalone Alexandria shape I would usually recommend.",
+      },
+      {
+        title: "Inside a 7-day Egypt trip",
+        body: "Use Alexandria as a two-night Mediterranean counterpoint to Cairo rather than asking it to carry a full week. Keep generous road or rail buffers on both sides.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/alexandria/qaitbay-citadel.webp",
+        alt: "Citadel of Qaitbay beside the Mediterranean harbor in Alexandria, Egypt",
+        caption: "Qaitbay is strongest near opening or late light, with maritime context and less pressure from the midday crowds.",
+        credit: "Summering2018, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D9%82%D9%84%D8%B9%D8%A9_%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9.jpg",
+      },
+      {
+        src: "/photos/destinations/alexandria/bibliotheca-alexandrina.webp",
+        alt: "Circular stone and glass exterior of the Bibliotheca Alexandrina by the Mediterranean",
+        caption: "The Bibliotheca is a modern cultural institution, not the surviving ancient library, and that expectation makes the visit better.",
+        credit: "Vyacheslav Argenberg, CC BY 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Egypt,_Alexandria,_Bibliotheca_Alexandrina.jpg",
+      },
+      {
+        src: "/photos/destinations/alexandria/corniche.webp",
+        alt: "Alexandria Corniche curving along the Mediterranean with dense city buildings",
+        caption: "The Corniche is a lived-in waterfront whose traffic, crossings, cafés, and evening crowds shape every east-west plan.",
+        credit: "Vyacheslav Argenberg, CC BY 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Egypt,_Alexandria,_The_Corniche_of_Alexandria.jpg",
+      },
+      {
+        src: "/photos/destinations/alexandria/kom-el-dikka.webp",
+        alt: "Excavated Roman-era ruins and marble seating at Kom el-Dikka in Alexandria",
+        caption: "Kom el-Dikka begins the archaeology story that continues through the Greco-Roman Museum and catacombs.",
+        credit: "Cmroueche, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Alexandria,_Kom_el-Dikka,_Theatre.JPG",
+      },
+      {
+        src: "/photos/destinations/alexandria/montaza-palace.webp",
+        alt: "Montaza Palace and gardens above the Mediterranean coast in eastern Alexandria",
+        caption: "Montazah is a garden and royal-history half-day only after current access zones are confirmed.",
+        credit: "Murat Özsoy, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Montaza_Palace,_Alexandria,_Egypt_-_Murat_%C3%96zsoy_2018.jpg",
+      },
+      {
+        src: "/photos/destinations/alexandria/alexandria-tram.webp",
+        alt: "Blue Alexandria tram moving through a busy city street lined with shops",
+        caption: "The tram and crowded streets show the working city behind Alexandria's classical and cosmopolitan memory.",
+        credit: "Mark Fischer, CC BY-SA 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Alexandria_Tram_218.jpg",
+      },
+    ],
+    related: ["egypt", "florence", "dubai"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
