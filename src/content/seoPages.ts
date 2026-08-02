@@ -1647,6 +1647,111 @@ export const destinationPages: SeoContentPage[] = [
     related: ["egypt", "florence", "dubai"],
   },
 
+
+  {
+    slug: "adelaide",
+    kind: "destination",
+    eyebrow: "Adelaide travel advisor",
+    title: "Adelaide is the rare city where the pantry sits within an hour of the table.",
+    seoTitle: "Adelaide Travel Advisor",
+    description:
+      "Adelaide travel advisor guidance for city hotels, Central Market, restaurant planning, Barossa and McLaren Vale wine days, the Hills, coast, and festivals.",
+    intro:
+      "Adelaide brings serious restaurants, Kaurna culture, gardens, Gulf beaches, and three distinct wine regions unusually close together. That access is the advantage, but it can also tempt travelers to overfill the days. The better trip stays central, chooses one wine region with care, and gives the city enough time to explain the landscape around it.",
+    bestFor: [
+      "Food and wine travelers who want the city and one regional chapter planned as one trip",
+      "Couples choosing between a North Terrace base, an East End stay, and a Hills retreat",
+      "Repeat Australia travelers who want festivals, contemporary art, gardens, and coast without big-city intensity",
+    ],
+    timing:
+      "Spring and autumn give the broadest fit for the city, Hills, coast, and wine regions. February and March can be exceptional when the festival calendar is the reason for the trip, but event tickets, restaurant tables, hotel rates, and street closures all need earlier decisions. Summer heat and fire conditions require flexible touring, while winter suits interiors and a slower Hills stay.",
+    hotelLogic:
+      "The base should solve the trip. Eos is the contemporary Festival Plaza choice. Sofitel, Mayfair, InterContinental, The Playford, and Oval Hotel each create a different city geography and atmosphere. Hotel Indigo makes sense for a market-led stay, while Sequoia Lodge and Mount Lofty House turn the Adelaide Hills into a retreat rather than a nightly commute. I would confirm the exact room, view, event noise, works, and transfers before treating any of them as interchangeable.",
+    foodLogic:
+      "Restaurant Botanic can anchor the destination tasting, Africola brings fire and energy, Osteria Oggi handles pasta, Arkhé works around wood fire, and Parwana tells a specific Afghan family story through dishes such as its eggplant. Fino Vino and Herringbone bring a warmer ingredient-led rhythm. Central Market should be a guided grazing morning, not a rushed stop between attractions, and its Tuesday through Saturday pattern needs to shape the itinerary.",
+    avoid:
+      "I would not stack Barossa, McLaren Vale, and the Adelaide Hills into a race, use Glenelg as the automatic base, or attempt Kangaroo Island as a day trip. Hahndorf works better as a short history and producer chapter than a theme-only bus loop. During Mad March, improvising the important hotel, restaurant, and ticket decisions is the fastest way to spend the premium without getting the festival trip you wanted.",
+    cartaTake:
+      "For most first Adelaide trips, I would choose five nights: two real city days, one coast or Hills chapter, one deep wine-region day, and one flexible day. That gives the market, Kaurna context, gardens, restaurants, and old-vine landscape room to connect. Proximity is the gift here. Restraint is what lets you feel it.",
+    highlights: [
+      {
+        title: "Choose one wine region deeply",
+        body: "Barossa and McLaren Vale should not become interchangeable tasting stops. Pick the landscape and producers that fit the traveler, use a driver, and leave enough room for lunch and conversation rather than counting cellar doors.",
+      },
+      {
+        title: "Let the market set the city rhythm",
+        body: "Adelaide Central Market is a working pantry shaped by produce and migration. Build it into a Tuesday through Saturday morning with a food historian, then let the next meal come from what the market explained.",
+      },
+      {
+        title: "Use the Hills for a different trip job",
+        body: "A Stirling and producer day can reset the city itinerary. A stay at Sequoia Lodge or Mount Lofty House goes further and turns the Hills into a retreat, which is different from commuting back to Adelaide every night.",
+      },
+      {
+        title: "Keep Kangaroo Island overnight",
+        body: "Kangaroo Island earns its place as a two-night extension. Compressing it into one long day spends too much of the experience on movement and removes the slower wildlife and landscape rhythm that makes the island worthwhile.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use one central base, one food and culture day, one coast chapter, and one Adelaide Hills or wine-region day. Keep the regional choice singular.",
+      },
+      {
+        title: "5 nights",
+        body: "The best default: two city days, one coast or Hills chapter, one deep wine-region day, and one flexible day for weather, art, gardens, or a meal that deserves more room.",
+      },
+      {
+        title: "7 nights",
+        body: "Add a second regional trip job or a two-night Kangaroo Island extension. Do not use the extra time to turn three wine regions into three shallow tours.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/adelaide/adelaide-skyline.webp",
+        alt: "Adelaide skyline, River Torrens, and parklands seen from above in South Australia",
+        caption: "Adelaide's compact center sits between the River Torrens and parklands, with the coast, Hills, and wine regions close enough to shape the same trip.",
+        credit: "Ardash Muradian, CC BY-SA 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Adelaide_skyline,_December_2022.jpg",
+      },
+      {
+        src: "/photos/destinations/adelaide/central-market.webp",
+        alt: "Shoppers and produce stalls inside Adelaide Central Market",
+        caption: "Adelaide Central Market is a working pantry and migration story, best used as a guided Tuesday through Saturday morning.",
+        credit: "Pangalau, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Interior_of_Central_Market,_Adelaide_03.jpg",
+      },
+      {
+        src: "/photos/destinations/adelaide/botanic-conservatory.webp",
+        alt: "Tall palms and tropical foliage inside the Bicentennial Conservatory at Adelaide Botanic Garden",
+        caption: "The Botanic Garden gives a city day both a quiet interval and a natural bridge into Restaurant Botanic.",
+        credit: "Ashton 29, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Interior_of_Bicentennial_Conservatory,_Adelaide_Botanic_Garden.jpg",
+      },
+      {
+        src: "/photos/destinations/adelaide/barossa-vineyards.webp",
+        alt: "Vineyard rows and farmland seen from above in South Australia's Barossa Valley",
+        caption: "Barossa should be one deliberate regional chapter, not one stop in a three-region tasting race.",
+        credit: "Tam, CC BY-SA 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Vineyards_in_Barossa_Valley.jpg",
+      },
+      {
+        src: "/photos/destinations/adelaide/glenelg-coast.webp",
+        alt: "Golden sunset over the Gulf St Vincent coast near Glenelg, Adelaide",
+        caption: "Glenelg can hold a coast and sunset chapter without needing to become the automatic base for the whole trip.",
+        credit: "Ikhwan Zailani Yuslim, CC BY 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Coastal_Sunset_HDR_(8233171831).jpg",
+      },
+      {
+        src: "/photos/destinations/adelaide/stirling-autumn.webp",
+        alt: "Red autumn trees lining the main street of Stirling in the Adelaide Hills",
+        caption: "Stirling and the Hills offer a cooler, quieter counterpoint to the city and wine-region days.",
+        credit: "Charlie Ma, CC BY-SA 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Stirling-Main-Street-2012.jpg",
+      },
+    ],
+    related: ["cape-town", "florence", "bordeaux"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
