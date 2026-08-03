@@ -1752,6 +1752,110 @@ export const destinationPages: SeoContentPage[] = [
     related: ["cape-town", "florence", "bordeaux"],
   },
 
+  {
+    slug: "amazon",
+    kind: "destination",
+    eyebrow: "Amazon travel advisor",
+    title: "The Amazon is not one destination. The river system is the first decision.",
+    seoTitle: "Amazon Travel Advisor",
+    description:
+      "Amazon travel advisor guidance for choosing Brazil, Peru, Ecuador, or Colombia, with cruise and lodge planning, wildlife expectations, food gateways, and seasonal strategy.",
+    intro:
+      "The Amazon is a network of rivers, reserves, gateways, lodges, and vessels spread across several countries. Pacaya Samiria, Tambopata, Yasuní, Rio Negro, Belém, Leticia, and Cristalino each solve a different trip. The useful question is not simply where to stay. It is what you want the forest to reveal, and how you want to move through it.",
+    bestFor: [
+      "Naturalists and photographers who value skilled guides more than wildlife promises",
+      "Families comfortable with boats, heat, rain, scheduled power, and early starts",
+      "Food travelers who want Belém or Manaus to give the forest a cultural and culinary frame",
+    ],
+    timing:
+      "High water opens deeper canoe routes through flooded forest, while low water creates more walking and exposed beaches. Neither season removes rain, and drought, smoke, river levels, and dock access can change the practical answer. I would confirm the exact river system, recent conditions, and operator route close to departure rather than sell one fixed best month for the entire basin.",
+    hotelLogic:
+      "The guide, habitat, transfer plan, and operating resilience matter before the suite. Aqua Nera, Aria Amazon, and Delfin I solve high-service cruising in Peru. Napo Wildlife Center brings Kichwa ownership and Yasuní access. Cristalino Lodge is the serious birding and reserve-depth choice. Anavilhanas, Juma, Sacha, La Selva, Inkaterra Reserva, and Tambopata Research Center each create a different balance of access, comfort, and immersion. Exact power, hot water, guide ratio, boat safety, and medical plans need written confirmation.",
+    foodLogic:
+      "Belém is the basin's strongest food gateway. Remanso do Bosque, Remanso do Peixe, Iacitatá, Point do Açaí, and Ver-o-Peso can explain jambu, tucupi, manioc, freshwater fish, and savory açaí before the forest chapter begins. In Manaus, Banzeiro, Moquém do Banzeiro, and Caxiri give Amazonian ingredients a chef-led frame. Lodge and vessel food should be judged separately from the gateway city.",
+    avoid:
+      "I would avoid any operator that guarantees jaguars, turns wildlife into an animal-selfie stop, or sells a public hammock boat as private expedition comfort. Two nights are usually too short for the transfer effort and natural rhythm. A generic Manaus jungle day is not the same thing as a multi-night Rio Negro or Anavilhanas program, and one Amazon recommendation cannot represent the whole basin.",
+    cartaTake:
+      "I would choose the trip job first: flooded-forest cruising, clay licks and otters, Kichwa-led Yasuní, Rio Negro scale, Belém food, tri-border culture, or specialist birding. Then I would protect four or five nights in that ecosystem. One extra dawn with the right naturalist is usually worth more than another airport and another lodge logo.",
+    highlights: [
+      {
+        title: "Choose the river system before the room",
+        body: "Pacaya Samiria is the high-end cruise and flooded-forest answer. Tambopata fits a Peru wildlife extension. Yasuní connects naturally with Ecuador. Rio Negro and Anavilhanas give Brazilian scale. Cristalino is for reserve depth and birding.",
+      },
+      {
+        title: "Pay for interpretation",
+        body: "The strongest Amazon guide can read bird calls, water levels, animal behavior, forest succession, and community history. That skill changes every skiff ride and walk, even when the flagship wildlife stays hidden.",
+      },
+      {
+        title: "Use Belém when food is part of the trip",
+        body: "Ver-o-Peso, savory açaí, tucupi, jambu, manioc, and the kitchens of Thiago Castanho give the basin a culinary language that a remote lodge buffet cannot explain on its own.",
+      },
+      {
+        title: "Keep wildlife expectations honest",
+        body: "The Amazon rewards repetition: several dawns, several dusk skiffs, and time with one habitat. A good plan improves the odds without pretending nature can be scheduled.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "A fragile gateway sample that only works when transfers are short and expectations are narrow. I would not use it as the default.",
+      },
+      {
+        title: "5 nights",
+        body: "The cleanest first shape: one lodge or vessel, four nights, several dawn and dusk windows, and one community, food, or conservation layer.",
+      },
+      {
+        title: "7 nights",
+        body: "Use the full week for a cruise or for a gateway-food chapter followed by one deep reserve. Do not turn it into a multi-country airport collection.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/amazon/amazon-river-aerial.webp",
+        alt: "Aerial view of the Solimões River curving through dense Amazon rainforest in Brazil",
+        caption: "The Amazon is a system of rivers and forests, and the first planning choice is which part of that system fits the trip.",
+        credit: "lubasi, CC BY-SA 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Amazon_Rainforest.jpg",
+      },
+      {
+        src: "/photos/destinations/amazon/flooded-forest.webp",
+        alt: "Flooded Amazon forest reflected in still blackwater near Manaus, Brazil",
+        caption: "High water opens canoe routes through flooded forest, while lower water shifts more of the day onto trails and exposed banks.",
+        credit: "James Martins, CC BY 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:AMAZON_RAINFOREST_FLOODED_%C3%81REA_-_panoramio.jpg",
+      },
+      {
+        src: "/photos/destinations/amazon/tambopata-clay-lick.webp",
+        alt: "Blue-and-yellow and scarlet macaws gathered at a clay lick in Tambopata National Reserve, Peru",
+        caption: "Tambopata's clay licks are one reason to choose this river system, but wildlife remains an informed possibility rather than a guarantee.",
+        credit: "Brian Ralphs, CC BY 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Parrots_at_a_clay_lick_-Tambopata_National_Reserve,_Peru-8b.jpg",
+      },
+      {
+        src: "/photos/destinations/amazon/meeting-of-waters.webp",
+        alt: "Dark Rio Negro water meeting the sandy-colored Solimões near Manaus, Brazil",
+        caption: "Manaus gives access to the Meeting of the Waters, but a city excursion should not be confused with a multi-night forest program.",
+        credit: "Ana Claudia Jatahy, MTUR, CC0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Meeting_of_Waters_(Manaus).jpg",
+      },
+      {
+        src: "/photos/destinations/amazon/ver-o-peso.webp",
+        alt: "Aerial view of Ver-o-Peso market and the waterfront in Belém, Brazil",
+        caption: "Belém and Ver-o-Peso make the basin legible through fish, fruit, manioc, tucupi, jambu, and the region's savory açaí tradition.",
+        credit: "Donatas Dabravolskas, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Mercado_Ver-o-Peso_-_Mercado_Ver-o-Peso_-_20231223164208.jpg",
+      },
+      {
+        src: "/photos/destinations/amazon/pacaya-samiria.webp",
+        alt: "Calm river and rainforest beneath a wide sky in Pacaya Samiria National Reserve, Peru",
+        caption: "Pacaya Samiria is the basin's clearest high-service cruise chapter, with the river itself setting the pace of the days.",
+        credit: "Techylm, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Paisaje_en_Pacaya_Samiria.jpg",
+      },
+    ],
+    related: ["belize", "cape-town", "bali"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
