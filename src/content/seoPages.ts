@@ -1856,6 +1856,110 @@ export const destinationPages: SeoContentPage[] = [
     related: ["belize", "cape-town", "bali"],
   },
 
+  {
+    slug: "anguilla",
+    kind: "destination",
+    eyebrow: "Anguilla travel advisor",
+    title: "Anguilla works when the beach, food, and transfer all have a job.",
+    seoTitle: "Anguilla Travel Advisor",
+    description:
+      "Anguilla travel advisor guidance for the right beach and hotel base, local restaurants, boat days, SXM transfers, season, and trip hub planning.",
+    intro:
+      "Anguilla is a barefoot Caribbean island with public white-sand beaches, independent restaurants, live music, and no need to turn every day into a scene. The better trip chooses a beach for the way the traveler wants to live, leaves the resort for local food, and treats the arrival from St. Maarten as a real border-and-boat transfer.",
+    bestFor: [
+      "Beach-first couples and honeymooners who want quiet without feeling sealed inside a resort",
+      "Families and villa groups who want clear water, flexible space, and a strong independent dining scene",
+      "Repeat Caribbean travelers choosing between Anguilla's softer rhythm and St. Barts energy",
+    ],
+    timing:
+      "December through April is the cleanest window for beach weather, open restaurants, and the widest hotel choice, with holiday scarcity and higher rates. May and June can bring useful value with more closure checks. September and October are the most fragile months because storms and seasonal shutdowns can narrow the trip quickly.",
+    hotelLogic:
+      "Cap Juluca gives romance and Maundays Bay beach theater. Four Seasons brings facilities and multi-generation flexibility. Malliouhana adds cliffside character above Meads Bay, while Zemi Beach House is the east-end answer on Shoal Bay. Aurora suits families and golfers, and ÀNI, Altamer, Nevaeh, and Kishti shift the conversation toward whole-property privacy. Exact room location, bedroom parity, staffing, and recovery systems still need to be confirmed.",
+    foodLogic:
+      "Anguilla's food is strongest as a sequence rather than a single famous plate. I would mix a Johnny-cake stop at Nat's Palm Grove, roti at Roti Hut, fresh fish at Falcon Nest, one roadside barbecue, and local kitchens such as E's Oven or Tasty's with a polished night at Veya or Blanchards. Meads Bay makes lunch easy on foot, while an east-end food day gives the island more texture than another resort dinner.",
+    avoid:
+      "I would not chase all 33 beaches, book a trophy dinner every night, or split a short trip with St. Barts just because the islands look close. The other mistake is treating SXM as the arrival. Immigration, bags, taxi time, sea conditions, and the last ferry or private-boat departure all belong in the first version of the plan.",
+    cartaTake:
+      "For a first Anguilla trip, I would choose five nights and five beach jobs rather than 33 beach names. Keep one private boat day flexible, give the east end a real chapter, and protect a local food night and a music night. The island feels generous when the plan is quiet but not empty.",
+    highlights: [
+      {
+        title: "Choose the beach by trip job",
+        body: "Meads Bay combines calm water with walkable lunches. Maundays Bay is the romance setting. Rendezvous is long and family-friendly. Shoal Bay East gives the iconic water and a reason to build an east-end day. Sandy Ground is the boat and music hinge.",
+      },
+      {
+        title: "Leave the resort for the meals that explain the island",
+        body: "E's Oven, Tasty's, Nat's Palm Grove, Roti Hut, Falcon Nest, and roadside barbecue add local rhythm, while Veya, Blanchards, Straw Hat, and Jacala solve different versions of the polished night.",
+      },
+      {
+        title: "Use one boat day, not a marine checklist",
+        body: "Little Bay, Prickly Pear, and Sandy Island can each shape a water day. I would choose the route by sea state, snorkeling ability, shade, and appetite, then keep the timing movable rather than forcing every offshore stop.",
+      },
+      {
+        title: "Let heritage and music break the beach loop",
+        body: "Wallblake House, National Trust ecology, salt ponds, boat-racing culture, and an Omari Banks or Bankie Banx music night give the trip a sense of place that a resort-only week misses.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use one west-end base, one east-side day, one marine window, and one local food or music night. It can work, but weather and transfer changes leave very little slack.",
+      },
+      {
+        title: "5 nights",
+        body: "The best first shape: three distinct beach days, one private boat window, one east-end food chapter, one heritage or music layer, and enough room to move something when the sea changes.",
+      },
+      {
+        title: "7 nights",
+        body: "Add villa stillness, a second flexible water window, deeper local dining, and a National Trust route. I would not use the extra nights as a reason to force another island.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/anguilla/western-anguilla-aerial.webp",
+        alt: "Aerial view of western Anguilla showing Rendezvous Bay, Cove Bay, and Maundays Bay",
+        caption: "Western Anguilla makes the base decision visible, with several distinct bays close together but built for different trip rhythms.",
+        credit: "Roy Googin, CC BY 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Anguilla-aerial_view_western_portion.jpg",
+      },
+      {
+        src: "/photos/destinations/anguilla/shoal-bay-east.webp",
+        alt: "White sand and clear turquoise water along Shoal Bay East in Anguilla",
+        caption: "Shoal Bay East is the iconic east-side beach and the natural anchor for an Island Harbour food day.",
+        credit: "onj, CC BY 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Anguilla_Shoal_Bay_is_the_BEST_beach_in_the_Caribbean._-_panoramio.jpg",
+      },
+      {
+        src: "/photos/destinations/anguilla/maundays-bay.webp",
+        alt: "Curving white-sand beach and turquoise water at Maundays Bay in Anguilla",
+        caption: "Maundays Bay is the romance and beach-theater choice, with Cap Juluca setting the tone of the stay.",
+        credit: "tiarescott, CC BY 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Cap_Juluca_-_Anguilla.jpg",
+      },
+      {
+        src: "/photos/destinations/anguilla/sandy-ground-bay.webp",
+        alt: "Boats anchored in the blue water of Sandy Ground Bay in Anguilla",
+        caption: "Sandy Ground is the island's boat and music hinge, useful for charters, sunset, and an evening beyond the hotel.",
+        credit: "Tony Bates / UK Foreign and Commonwealth Office, OGL v1.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Sandy_Ground_Bay,_Anguilla_(7413025344).jpg",
+      },
+      {
+        src: "/photos/destinations/anguilla/wallblake-house.webp",
+        alt: "Historic stone outbuildings and the main house at Wallblake House in The Valley, Anguilla",
+        caption: "Wallblake House adds a heritage chapter to an island itinerary that can otherwise stay entirely on the sand.",
+        credit: "Josveek Huligar, CC BY-SA 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Wallblake_House,_The_Valley.jpg",
+      },
+      {
+        src: "/photos/destinations/anguilla/rendezvous-bay-salt-pond.webp",
+        alt: "Rendezvous Bay Salt Pond beneath large clouds in Anguilla",
+        caption: "Anguilla's salt ponds and National Trust landscape explain the low coral island beyond its resort bays.",
+        credit: "LittleT889, CC BY 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Rendezvous_Bay_Salt_Pond.jpg",
+      },
+    ],
+    related: ["british-virgin-islands", "belize", "maldives"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
