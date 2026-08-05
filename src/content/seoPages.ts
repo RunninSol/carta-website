@@ -20,6 +20,7 @@ export type SeoContentPage = {
     caption: string;
     credit: string;
     creditUrl: string;
+    sizes?: string;
   }>;
   related?: string[];
 };
@@ -1958,6 +1959,111 @@ export const destinationPages: SeoContentPage[] = [
       },
     ],
     related: ["british-virgin-islands", "belize", "maldives"],
+  },
+
+  {
+    slug: "antigua",
+    kind: "destination",
+    eyebrow: "Antigua travel advisor",
+    title: "Antigua works when the beach, harbour, and local table share the trip.",
+    seoTitle: "Antigua Travel Advisor",
+    description:
+      "Antigua travel advisor guidance for resort and island bases, Nelson's Dockyard, private sailing, St John's food, season, and a five-night plan.",
+    intro:
+      "Antigua is the beach-and-sailing Caribbean: many coves, a working Georgian dockyard, a serious private-island ceiling, and a food culture that becomes visible once you leave the resort. The better trip chooses the coast by how you want to live, then deliberately adds English Harbour history and a St John's food day.",
+    bestFor: [
+      "Beach-led couples and families who want resort ease with real island texture",
+      "Sailing travelers who want English Harbour, Nelson's Dockyard, and one private day on the water",
+      "Honeymoons or private-island stays deciding between Jumby Bay and mainland Antigua",
+    ],
+    timing:
+      "December through April is the cleanest window for beach weather and sailing, with peak demand. May can be useful for culinary programming. June through August is wetter and brings Carnival, while September through November needs a written storm, closure, and reopening check before the lower rate means anything.",
+    hotelLogic:
+      "Jumby Bay is the clearest private-island choice for seclusion, staffed estates, and family privacy, but every mainland plan adds a boat. Curtain Bluff gives the classic mainland resort with two-coast character. Hermitage Bay is the intimate nature-and-couples answer, while Carlisle Bay gives families and mixed generations more activity range. The base should solve the trip before the room solves the view.",
+    foodLogic:
+      "Roti King is the everyday St John's lunch, with chicken roti, macaroni pie, and stew chicken in the research. Zelma's Kitchen adds charcoal meats, locally landed fish, rice and peas, and house drinks by the water. Annette's, Cutie's, and One Stone help explain traditional breakfast, fungi, and Ital cooking, while one polished beach meal can carry the view without pretending resort dining is the whole island.",
+    avoid:
+      "I would not turn 365 beaches into a checklist, use Shirley Heights as the island's best meal, or stay inside the resort for a full week unless the reset is the point. Nelson's Dockyard also needs a historian and labor context. Without that, a globally important working harbor can shrink into yacht scenery.",
+    cartaTake:
+      "For a first Antigua trip, I would choose five nights and build it in three movements: beach, dockyard, and the local table. One base, one private sailing day, one St John's food and culture day, and enough weather room to move the water plan. That is when Antigua starts to feel like an island rather than a resort address.",
+    highlights: [
+      {
+        title: "Choose the coast by trip job",
+        body: "English and Falmouth Harbour solve sailing, history, and walkable dinners. The southwest solves quieter resort beaches. Jolly Harbour solves villas and west-coast access. Jumby Bay solves privacy, with a boat attached to every mainland impulse.",
+      },
+      {
+        title: "Give the Dockyard its full story",
+        body: "Nelson's Dockyard, its museum, Fort Berkeley, Dow's Hill, and Shirley Heights make more sense as one defensive and working harbor system. A social historian keeps the visit from becoming colonial scenery without context.",
+      },
+      {
+        title: "Leave the resort for the food that explains Antigua",
+        body: "Roti King, Zelma's Kitchen, Annette's, Cutie's, One Stone, and a current fungi-and-pepperpot or ducana-and-saltfish lead give the trip a local table. Traditional counters are daytime plans, not safe late-night assumptions.",
+      },
+      {
+        title: "Keep the water day movable",
+        body: "Private sailing, Cades Reef, Barbuda, and offshore transfers all depend on weather, sea state, and timing. I protect one flexible window rather than forcing the boat day into conditions that do not deserve it.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use one base, one beach or sailing day, Nelson's Dockyard with context, and one local-food layer. Leave Barbuda for a trip with more slack.",
+      },
+      {
+        title: "5 nights",
+        body: "The cleanest first shape: two reset blocks, English Harbour, one private water day, one St John's food and culture day, and a weather buffer.",
+      },
+      {
+        title: "7 nights",
+        body: "Add Barbuda or a deeper offshore chapter, plus a second heritage or food day. The extra nights should create range, not daily cross-island commuting.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/antigua/english-harbour-panorama.webp",
+        alt: "Panoramic view from Shirley Heights over English Harbour and Falmouth Harbour in Antigua",
+        caption: "English Harbour is the sailing and history base, with Falmouth Harbour and the island's southern coastline opening beyond it.",
+        credit: "Balou46, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:AG-shirley-heights-blick-02.jpg",
+        sizes: "(max-width: 640px) 500vw, 100vw",
+      },
+      {
+        src: "/photos/destinations/antigua/nelsons-dockyard.webp",
+        alt: "Historic stone building and palm trees at Nelson's Dockyard in English Harbour, Antigua",
+        caption: "Nelson's Dockyard remains a working Georgian harbor, and it deserves more context than a quick yacht-season walk.",
+        credit: "Dr. Thomas Liptak, CC BY 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Antigua_English_Harbour_Nelson%27s_Dockyard_1.jpg",
+      },
+      {
+        src: "/photos/destinations/antigua/half-moon-bay.webp",
+        alt: "Aerial view of Half Moon Bay and Exchange Bay on Antigua's Atlantic coast",
+        caption: "Half Moon Bay shows why beach choice should follow live conditions and the kind of day the traveler actually wants.",
+        credit: "Андрей Бобровский, CC BY 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Half_Moon_bay_and_Exchange_Bay,_Antigua_and_Barbuda_-_panoramio.jpg",
+      },
+      {
+        src: "/photos/destinations/antigua/bettys-hope.webp",
+        alt: "Restored stone sugar mill with sails and a second mill tower at Betty's Hope in Antigua",
+        caption: "Betty's Hope belongs in the island's labor and plantation-history story, not as an isolated photo stop.",
+        credit: "Paul Harrison, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Bettys_Hope_Sugart_Plantation_Antigua_9124.jpg",
+      },
+      {
+        src: "/photos/destinations/antigua/st-johns-cathedral.webp",
+        alt: "White twin towers and front steps of St John's Cathedral in Antigua",
+        caption: "St John's is the food and culture day that keeps an Antigua trip connected to island life beyond the resort.",
+        credit: "D'Arcy Norman, CC BY 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Exploring_st-_john%27s_antigua_-_5.jpg",
+      },
+      {
+        src: "/photos/destinations/antigua/devils-bridge.webp",
+        alt: "Sea spray breaking across the limestone coast at Devil's Bridge National Park in Antigua",
+        caption: "Devil's Bridge works best with geology and history, plus enough distance from the surf when the Atlantic is active.",
+        credit: "Dr. Thomas Liptak, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Antigua_Willikies_Devil%27s_Bridge_National_Park.jpg",
+      },
+    ],
+    related: ["anguilla", "british-virgin-islands", "belize"],
   },
 
 ];

@@ -28,7 +28,7 @@ export function SeoGuidePage({ page }: { page: SeoContentPage }) {
               alt={page.photos[0].alt}
               fill
               priority
-              sizes="100vw"
+              sizes={page.photos[0].sizes ?? "100vw"}
               className="object-cover"
             />
             <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(15,30,60,0.96)_0%,rgba(15,30,60,0.82)_42%,rgba(15,30,60,0.24)_78%,rgba(15,30,60,0.38)_100%)]" />
@@ -141,7 +141,7 @@ export function SeoGuidePage({ page }: { page: SeoContentPage }) {
                       sizes={
                         index === 0
                           ? "(min-width: 1024px) 66vw, 100vw"
-                          : "(min-width: 1024px) 33vw, 50vw"
+                          : "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                       }
                       className="object-cover transition duration-700 group-hover:scale-[1.02]"
                     />
