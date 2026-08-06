@@ -2066,6 +2066,116 @@ export const destinationPages: SeoContentPage[] = [
     related: ["anguilla", "british-virgin-islands", "belize"],
   },
 
+  {
+    slug: "aruba",
+    kind: "destination",
+    eyebrow: "Aruba travel advisor",
+    title: "Aruba is easy to love, and better when the beach is only the beginning.",
+    seoTitle: "Aruba Travel Advisor",
+    description:
+      "Aruba travel advisor guidance for Eagle Beach versus Palm Beach, hotel fit, Arikok, San Nicolas, local food, season, and a five-night plan.",
+    intro:
+      "Aruba is the reliable-beach Caribbean choice with a sharper second act: a dry cactus interior, light-filled caves, San Nicolas murals, Savaneta food, and an unusually broad dining scene. The better trip keeps the easy beach rhythm, then leaves the hotel belt long enough to understand the island around it.",
+    bestFor: [
+      "Couples and families who want broad beaches, straightforward resort options, and repeatable weather",
+      "Travelers who want beach ease with food, art, history, and a dry interior worth exploring",
+      "Mixed-energy groups that need slow days alongside private guiding, snorkeling, or diving",
+    ],
+    timing:
+      "January through April is the driest and busiest window, with peak demand. May through August is hotter, with the trade winds shaping beach and water plans. September through November brings more rain and tropical-system uncertainty, while December improves into the holiday peak. I keep the important sea day movable in every season.",
+    hotelLogic:
+      "Palm Beach solves resort scale, nightlife, and walkability. Eagle Beach and Manchebo solve wider sand, quieter pacing, and romance. St. Regis and Ritz-Carlton bring full-service Palm Beach stays, Bucuti & Tara is the adults-only calm choice on Eagle Beach, Boardwalk gives casita privacy near Palm Beach, and Manchebo keeps the scale lower. The right base depends on how much energy you want outside the room.",
+    foodLogic:
+      "I would start one morning with pastechi at Huchada or Welcome Snack, then use the island's migration story to shape the meals: Old Cunucu House for goat or oxtail, Ora's for weekend barbecue, and a southbound route through Savaneta and San Nicolas. Zeerovers is a real pier ritual, but the research is split on queues and food value. Marina Pirata is the repeated food-first alternative.",
+    avoid:
+      "I would not make Palm Beach the whole island, join a UTV convoy by default, or treat the Natural Pool and Flamingo Island as automatic must-dos. Aruba gets better with a private naturalist in Arikok, an artist-led San Nicolas route, and famous stops chosen for a reason rather than collected because they are famous.",
+    cartaTake:
+      "For a first Aruba trip, I would use five nights and one beach base, then make two deliberate turns away from the hotel belt: an early Arikok and San Nicolas day, followed by a Savaneta and Mangel Halto food-and-snorkel day. The rest can stay slow and movable around the sea.",
+    highlights: [
+      {
+        title: "Choose Eagle or Palm for a reason",
+        body: "Palm Beach makes restaurants, nightlife, and resort facilities easy. Eagle and Manchebo give more space and a calmer beach rhythm. The hotel decision should begin with the evenings you want, not a universal ranking.",
+      },
+      {
+        title: "Leave the hotel belt twice",
+        body: "Arikok, Guadirikiri Cave, and San Nicolas can form one early guided day. Savaneta and Mangel Halto can form another around local food and the water. Those two turns change the whole reading of Aruba.",
+      },
+      {
+        title: "Let food explain the island",
+        body: "Pastechi, goat and oxtail, pan bati, funchi, barbecue, seafood, and Colombian, Venezuelan, Peruvian, Trinidadian, and Dutch influences make a stronger route than a week of resort dining rooms.",
+      },
+      {
+        title: "Use the famous stops selectively",
+        body: "Zeerovers works when the pier and communal format are the point. The Natural Pool works in calm early conditions. Flamingo Island works when the photograph is explicit. None of them needs to be automatic.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use one Eagle or Palm base, one real beach day, and one early Arikok and San Nicolas route. Keep the sea plan movable and avoid spending the short trip changing hotels.",
+      },
+      {
+        title: "5 nights",
+        body: "The cleanest first trip: two beach blocks, Arikok and the north coast, San Nicolas and Savaneta, then one Oranjestad or water day that can move with conditions.",
+      },
+      {
+        title: "7 nights",
+        body: "Add diving, a deeper food route, art and industrial history, and a weather buffer. Aruba is compact enough that the extra nights do not require a hotel split.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/aruba/eagle-beach.webp",
+        alt: "Calm turquoise water and white sand curving along Eagle Beach in Aruba",
+        caption: "Eagle Beach is the wide-sand, slower-paced base for travelers who want more room and quieter evenings than Palm Beach.",
+        credit: "DDJJ, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Eagle_Beach,_Aruba_1.jpg",
+      },
+      {
+        src: "/photos/destinations/aruba/guadirikiri-cave.webp",
+        alt: "Sunlight entering the limestone chambers of Guadirikiri Cave in Aruba",
+        caption: "Guadirikiri Cave belongs inside a guided Arikok day, where geology and cultural context matter more than speed.",
+        credit: "madmack66, CC BY 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Guadirikiri_Cave.jpg",
+      },
+      {
+        src: "/photos/destinations/aruba/san-nicolas-mural.webp",
+        alt: "Large portrait mural painted across a colorful wall in San Nicolas, Aruba",
+        caption: "San Nicolas deserves an artist-led route and lunch, not a quick mural photograph on the way to Baby Beach.",
+        credit: "Caribiana, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:San_Nicolas_murals_(Aruba)_23_01_24_866000.jpeg",
+      },
+      {
+        src: "/photos/destinations/aruba/mangel-halto.webp",
+        alt: "Shallow clear water and mangroves along Mangel Halto Beach in Savaneta, Aruba",
+        caption: "Mangel Halto and Savaneta connect a snorkel window with the southbound food route, with conditions and transport planned in advance.",
+        credit: "Caribiana, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Beach_view_Mangel_Halto_11_36_51_486000.jpeg",
+      },
+      {
+        src: "/photos/destinations/aruba/pastechi.webp",
+        alt: "Golden fried Aruban pastechi pastry on a white plate",
+        caption: "Pastechi is a morning mission at Huchada or Welcome Snack, before the day becomes a beach itinerary.",
+        credit: "DanielleJWiki, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Pastechi-5.jpg",
+      },
+      {
+        src: "/photos/destinations/aruba/oranjestad-color.webp",
+        alt: "Colorful harborfront buildings and marina in Oranjestad, Aruba",
+        caption: "Oranjestad works best as a breakfast, architecture, museum, and dinner layer rather than the automatic beach base.",
+        credit: "Navigator334, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:View_from_above_of_colorful_buildings_in_Oranjestad_on_the_island_of_Aruba_in_the_morning_sun.jpg",
+      },
+      {
+        src: "/photos/destinations/aruba/ayo-rocks.webp",
+        alt: "Rounded granite boulders rising above green scrub at Ayo Rock Formations in Aruba",
+        caption: "Ayo is more useful with cultural interpretation, connecting Aruba's granite landscape to the island's Indigenous history.",
+        credit: "Bgabel, CC BY-SA 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:ARUBA-ayo-rocks.jpg",
+      },
+    ],
+    related: ["anguilla", "antigua", "belize"],
+  },
 ];
 
 export const itineraryPages: SeoContentPage[] = [
