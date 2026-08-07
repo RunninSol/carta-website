@@ -2176,6 +2176,117 @@ export const destinationPages: SeoContentPage[] = [
     ],
     related: ["anguilla", "antigua", "belize"],
   },
+  {
+    slug: "aspen",
+    kind: "destination",
+    eyebrow: "Aspen travel advisor",
+    title: "Aspen is four mountains, a cultural valley, and more than a ski trip.",
+    seoTitle: "Aspen Travel Advisor | Ski, Summer & Hotel Guide",
+    description:
+      "Aspen travel advisor guidance for choosing Aspen or Snowmass, ski and summer timing, hotels, restaurants, Maroon Bells, and a five-night plan.",
+    intro:
+      "Aspen is best read as a four-mountain cultural valley. Aspen Mountain puts town and skiing on the same doorstep, Highlands asks more of strong skiers, Snowmass gives mixed groups room to spread out, and Buttermilk lets beginners settle in. Summer adds Maroon Bells, music, ideas, cycling, and fly-fishing. The work is choosing the right base and leaving enough space for altitude, weather, and recovery.",
+    bestFor: [
+      "Ski groups that need different terrain without turning every day into a transport debate",
+      "Couples and friends who want walkable dining, art, and performance alongside serious mountain time",
+      "Summer travelers who want hiking, cycling, fly-fishing, music, and ideas in one compact valley",
+    ],
+    timing:
+      "January through March is the core ski window, with storm plans built around Aspen airport. Late June through August is the cultural and outdoors season, while mid to late September can bring strong color without a guaranteed peak week. April, May, and November only work after an exact hotel, restaurant, road, and activity check because shoulder closures can reshape the trip.",
+    hotelLogic:
+      "The Little Nell is the ski-in and ski-out service benchmark for Aspen Mountain. Hotel Jerome brings history and social energy, while St. Regis fits travelers who want fuller resort amenities. In Snowmass, Viceroy and Cirque Viceroy make more sense for families and mixed abilities who want the mountain to organize the day. I choose between Aspen and Snowmass before comparing room categories, because the wrong base creates a transfer problem every morning and night.",
+    foodLogic:
+      "Bosq is the destination dinner, with Element 47 when wine and service carry more weight. Then I would keep the rest of the table honest: the chicken sandwich or French dip at White House Tavern, Big Wrap when speed matters, Paradise Bakery, and Mawa's for a more distinctive breakfast or lunch. Matsuhisa is the institution, Kenichi is the livelier sushi alternative, and late kitchens need a current check rather than an assumption.",
+    avoid:
+      "I would not book Cloud Nine as a quiet lunch, improvise Maroon Bells in the middle of the day, or add a rental car to a downtown stay by default. I also would not leave an Aspen airport arrival without an Eagle or Denver backup, or put a Snowmass family on a nightly Aspen dinner commute. Aspen gets complicated quickly when the geography is treated as decoration.",
+    cartaTake:
+      "For a first trip, I would use five nights. Keep arrival light for the altitude, choose the primary mountain by ability, add one culture or recovery day, and protect one flexible day for weather. That rhythm leaves room for the part Aspen does unusually well: a hard morning outside followed by a museum, a performance, or a dinner worth changing clothes for.",
+    highlights: [
+      {
+        title: "Give each mountain one job",
+        body: "Aspen Mountain is the walkable town pairing, Highlands is the expert and celebratory day, Snowmass is the long mixed-group mountain, and Buttermilk is the calm beginner answer. The group gets a better trip when those differences are used instead of flattened.",
+      },
+      {
+        title: "Protect the first 24 hours",
+        body: "Aspen sits near 8,000 feet, and the convenient airport is weather-sensitive. I keep arrival day light, moderate the first night, and hold an Eagle or Denver plan so one diversion does not unravel the stay.",
+      },
+      {
+        title: "Build a high-low table",
+        body: "Bosq or Element 47 can anchor the polished night, while White House Tavern, Big Wrap, Paradise Bakery, and Mawa's keep the trip connected to the places people actually repeat. The contrast is part of Aspen, not a compromise.",
+      },
+      {
+        title: "Treat summer as its own trip",
+        body: "Maroon Bells, the Aspen Institute, music, art, fly-fishing, and the Rio Grande Trail can fill five days without pretending summer is winter with the snow removed. The pacing is softer, but the planning still matters.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use one base and one primary mountain or outdoor day. Add a second mountain or Maroon Bells and culture by season, but do not spend the short stay commuting between every part of the valley.",
+      },
+      {
+        title: "5 nights",
+        body: "The strongest first shape: three active days, one culture and recovery day, and one flexible day for weather, a second mountain, or a summer route that needs better conditions.",
+      },
+      {
+        title: "7 nights",
+        body: "Divide Aspen and Snowmass intentionally, then add Basalt or Glenwood as a real valley chapter. The extra nights should create range and recovery, not a longer version of the same daily commute.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/aspen/aspen-autumn-overlook.webp",
+        alt: "Aspen, Colorado, surrounded by golden fall foliage below Aspen Mountain",
+        caption: "From the Hunter Creek Trail, autumn makes the town-to-mountain relationship clear. Foliage timing still needs a live check.",
+        credit: "Jeffrey Beall, CC BY 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Aspen,_Colorado_in_autumn.JPG",
+      },
+      {
+        src: "/photos/destinations/aspen/aspen-mountain-skiing.webp",
+        alt: "Skiers descending Aspen Mountain toward the town of Aspen, Colorado",
+        caption: "Aspen Mountain drops straight toward town, which is why downtown works so well for ski-led first visits.",
+        credit: "Wolfgang Moroder, CC BY-SA 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Aspen_Mountain_spring_skiing_over_Aspen.jpg",
+      },
+      {
+        src: "/photos/destinations/aspen/maroon-bells-sunrise.webp",
+        alt: "Sunrise lighting the Maroon Bells above their reflection in Maroon Lake near Aspen",
+        caption: "Maroon Bells is the iconic morning, with reservation-controlled access and first-shuttle timing planned before arrival.",
+        credit: "Lorie Shaull, CC BY-SA 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Maroon_Bells_at_sunrise,_Aspen_Colorado.jpg",
+      },
+      {
+        src: "/photos/destinations/aspen/snowmass-gondola.webp",
+        alt: "Snowmass gondola above snowy ski runs and the Elk Mountains in Colorado",
+        caption: "Snowmass gives families and mixed-ability groups longer mountain days without making downtown Aspen organize every evening.",
+        credit: "Wolfgang Moroder, CC BY-SA 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Snowmass_gondola_and_Ski_area.jpg",
+      },
+      {
+        src: "/photos/destinations/aspen/aspen-art-museum.webp",
+        alt: "Illuminated woven facade of the Aspen Art Museum at dusk",
+        caption: "Aspen Art Museum is part of the cultural layer that turns a recovery afternoon into something more than time off the mountain.",
+        credit: "Bkthomson16, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Aspen_Art_Museum.jpg",
+      },
+      {
+        src: "/photos/destinations/aspen/wheeler-opera-house.webp",
+        alt: "Historic red-brick Wheeler Opera House in downtown Aspen, Colorado",
+        caption: "The Wheeler gives the evening a cultural anchor when the performance calendar is checked against the exact trip dates.",
+        credit: "Daniel Case, CC BY-SA 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Wheeler_Opera_House,_Aspen,_CO.jpg",
+      },
+      {
+        src: "/photos/destinations/aspen/john-denver-sanctuary.webp",
+        alt: "Flowering gardens, rocks, and a stream at the John Denver Sanctuary in Aspen",
+        caption: "John Denver Sanctuary is the quiet dawn walk, before the center of town and the trail become part of the day's movement.",
+        credit: "Rhododendrites, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:John_Denver_Nature_Sanctuary_(91152).jpg",
+      },
+    ],
+    related: ["geneva", "cape-town", "adelaide"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
