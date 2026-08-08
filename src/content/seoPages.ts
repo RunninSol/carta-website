@@ -2287,6 +2287,117 @@ export const destinationPages: SeoContentPage[] = [
     related: ["geneva", "cape-town", "adelaide"],
   },
 
+  {
+    slug: "atacama-desert",
+    kind: "destination",
+    eyebrow: "Atacama Desert travel advisor",
+    title: "The Atacama Desert works best when altitude sets the order.",
+    seoTitle: "Atacama Desert Travel Advisor | Hotels, Sky & 5 Nights",
+    description:
+      "Atacama Desert travel advisor guidance for San Pedro hotels, Moon Valley, El Tatio, high lagoons, astronomy, altitude, and a five-night plan.",
+    intro:
+      "Atacama is not one desert view. It moves from San Pedro's oasis at roughly 2,400 meters to salt flats, flamingo habitat, geothermal fields, and routes above 4,000 meters. The better trip follows that climb deliberately, then leaves one night flexible enough for the sky.",
+    bestFor: [
+      "Active couples who want landscape, astronomy, geology, and photography in the same trip",
+      "Expedition-lodge travelers who value a strong guide and private vehicle more than a busier resort program",
+      "Travelers who can embrace dust, dry air, cold dawns, long drives, and protected paths",
+    ],
+    timing:
+      "January through March carries altiplanic storm risk. April and May are useful shoulder months, June through August brings very cold dawns and highland conditions, and September through November needs a wind and UV plan. Moon phase matters in every season, because a bright full moon can change the astronomy program completely.",
+    hotelLogic:
+      "The strict top-market set is Awasi, Explora, Tierra, and Nayara Alto Atacama. Awasi's advantage is private guiding. Explora is exploration-first, Tierra balances design, views, and spa, and Nayara offers canyon seclusion. I would confirm the exact guide and vehicle model in writing before booking, because that changes the trip more than a generic room upgrade.",
+    foodLogic:
+      "Emporio Andino works for an empanada between tours. Residencial Chiloé and La Sazón del Pueblo bring the home-style lunch layer, while Baltinache, Ckunna, and Antai are polished regional candidates. Adobe and La Casona are atmospheric classics, not local secrets. I would also look for rica-rica, chañar, quinoa, and goat cheese, then recheck every opening hour around the tour schedule.",
+    avoid:
+      "I would not put El Tatio or the high lagoons on arrival day, promise a deep-sky tour around the full moon, or use a rental car as the default answer for every high route. I also would not send every dinner to Caracoles or join the same sunset crowd without first checking a quieter legal viewpoint.",
+    cartaTake:
+      "I would use five nights for a first Atacama trip. Start low, move south through the salar and culture layer, add the high lagoons after acclimatization, keep El Tatio as its own dawn route, and protect two possible nights for astronomy. That sequence gives the body time to catch up with the landscape instead of asking it to perform on day one.",
+    highlights: [
+      {
+        title: "Let altitude write the order",
+        body: "San Pedro and Moon Valley belong first. The salar and village route can follow, with Piedras Rojas and the high lagoons later. El Tatio is a separate pre-dawn chapter, not an arrival-day achievement.",
+      },
+      {
+        title: "Plan the sky before the flights",
+        body: "A clear forecast is only one control. Moon phase, cloud, wind, and a second possible astronomy night matter, because a single cancellation can remove one of Atacama's defining experiences.",
+      },
+      {
+        title: "Put the spend into guiding",
+        body: "A private 4WD and the right guide improve pacing, context, safety, and route flexibility. I would secure that combination before paying for the next room category.",
+      },
+      {
+        title: "Keep one quieter route",
+        body: "Rainbow Valley, Yerbas Buenas, or Guatín can add a different scale and texture after the famous circuit. Current access still needs to be confirmed with the guide.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Arrival and a low-altitude opening, one salar day, one high route, and one astronomy chance. It is workable, but weather, moon, altitude, or one closure can remove a core chapter.",
+      },
+      {
+        title: "5 nights",
+        body: "The strongest first shape: low-altitude arrival, salar and culture, high lagoons, El Tatio, plus recovery and a second astronomy window.",
+      },
+      {
+        title: "7 nights",
+        body: "Add geology, craft, an acclimatized hike, or a deliberately buffered Uyuni extension. The extra time should create recovery and depth, not repeat the same long vehicle day.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/atacama-desert/piedras-rojas-traveler.webp",
+        alt: "A traveler crossing red volcanic rock beside pale water and high Andes at Piedras Rojas in Chile's Atacama Desert",
+        caption: "Piedras Rojas belongs later in the trip, after the body has adjusted to San Pedro's elevation.",
+        credit: "Diego Jimenez, CC0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Walking_Through_The_Desert_(Unsplash).jpg",
+      },
+      {
+        src: "/photos/destinations/atacama-desert/valle-de-la-luna-amphitheater.webp",
+        alt: "Golden light across the eroded Amphitheater formation in Moon Valley near San Pedro de Atacama",
+        caption: "Moon Valley is the low-altitude opening, close enough to San Pedro to let the first day stay measured.",
+        credit: "Diego Delso, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Anfiteatro,_Valle_de_la_Luna,_San_Pedro_de_Atacama,_Chile,_2016-02-01,_DD_149.JPG",
+      },
+      {
+        src: "/photos/destinations/atacama-desert/el-tatio-dawn.webp",
+        alt: "Steam rising across the El Tatio geyser field before dawn in the high Chilean Andes",
+        caption: "El Tatio is a separate pre-dawn northern route. I would schedule it after acclimatization and pair it with recovery.",
+        credit: "Diego Delso, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:G%C3%A9iseres_del_Tatio,_Atacama,_Chile,_2016-02-01,_DD_03-05_HDR.JPG",
+      },
+      {
+        src: "/photos/destinations/atacama-desert/laguna-chaxa-flamingo.webp",
+        alt: "A pink flamingo feeding in blue water at Laguna Chaxa in the Salar de Atacama",
+        caption: "Laguna Chaxa adds protected flamingo habitat to the southbound salar day, with current path and ticket rules checked before departure.",
+        credit: "Walter Roger Klein, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:FLAMINGO_LAGUNA_CHAXA_SAN_PEDRO_DE_ATACAMA.jpg",
+      },
+      {
+        src: "/photos/destinations/atacama-desert/san-pedro-church-dusk.webp",
+        alt: "The white adobe Church of San Pedro de Atacama illuminated at dusk beneath a deep blue sky",
+        caption: "San Pedro is the hub between long desert routes, and its church gives the arrival day a human-scale center.",
+        credit: "Eduardo Banderas G., CC BY-SA 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Pedro_de_Atacama_al_atardecer,_Regi%C3%B3n_de_Antofagasta_-_Chile.jpg",
+      },
+      {
+        src: "/photos/destinations/atacama-desert/atacama-milky-way.webp",
+        alt: "The Milky Way rising above the dark Atacama Desert horizon with a desert shrub in the foreground",
+        caption: "A clear night is not enough. Moon phase, cloud, wind, and a fallback night all belong in the astronomy plan.",
+        credit: "ESO/J. Girard, CC BY 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:The_Milky_Way_above_the_Atacama_Desert_(img_6634-cc).jpg",
+      },
+      {
+        src: "/photos/destinations/atacama-desert/los-flamencos-lagoon.webp",
+        alt: "Clouds reflected in a still lagoon in Los Flamencos National Reserve at the Salar de Atacama",
+        caption: "The salar is protected habitat, so strict paths and timed access are part of the experience rather than an obstacle to it.",
+        credit: "Dan Lundberg, CC BY-SA 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:20120618_Chile_3448_Atacama_(7704049584).jpg",
+      },
+    ],
+    related: ["amazon", "cape-town", "aspen"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [

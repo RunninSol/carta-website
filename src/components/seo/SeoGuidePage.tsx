@@ -56,8 +56,8 @@ export function SeoGuidePage({ page }: { page: SeoContentPage }) {
                 </div>
               </div>
             </div>
-            <p className="absolute bottom-5 right-6 z-10 max-w-sm text-right text-xs leading-relaxed text-ivory/65 lg:right-10">
-              {page.photos[0].caption}{" "}
+            <p className="absolute right-6 top-20 z-10 max-w-sm rounded-sm bg-navy/65 px-3 py-2 text-right text-xs leading-relaxed text-ivory/80 backdrop-blur-[2px] lg:right-10">
+              <span className="hidden lg:inline">{page.photos[0].caption}{" "}</span>
               <a href={page.photos[0].creditUrl} className="underline underline-offset-2">
                 Photo: {page.photos[0].credit}
               </a>
@@ -145,9 +145,9 @@ export function SeoGuidePage({ page }: { page: SeoContentPage }) {
                       }
                       className="object-cover transition duration-700 group-hover:scale-[1.02]"
                     />
-                    <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/90 to-transparent px-5 pb-5 pt-16 text-sm text-ivory/90">
-                      <span>{photo.caption}</span>
-                      <span className="ml-2 text-ivory/55">
+                    <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/95 via-navy/80 to-transparent px-5 pb-5 pt-20 text-sm text-ivory/90">
+                      <span className="block">{photo.caption}</span>
+                      <span className="mt-2 block text-xs text-ivory/70">
                         Photo:{" "}
                         <a href={photo.creditUrl} className="underline underline-offset-2">
                           {photo.credit}
