@@ -2398,6 +2398,110 @@ export const destinationPages: SeoContentPage[] = [
     related: ["amazon", "cape-town", "aspen"],
   },
 
+  {
+    slug: "athens",
+    kind: "destination",
+    eyebrow: "Athens travel advisor",
+    title: "Athens is better when the Acropolis is only the beginning.",
+    seoTitle: "Athens Travel Advisor | Acropolis, Food & Riviera",
+    description:
+      "Athens travel advisor guidance for Acropolis timing, hotel bases, chef-led food, Pangrati, Riviera splits, Delphi, and a private trip hub.",
+    intro:
+      "I do not plan Athens as an Acropolis transfer before the islands. The city gives you ancient topography, postwar neighborhoods, a chef-driven food scene, and a coast that behaves like a separate trip. The work is booking the Acropolis intelligently, then spending the saved energy in the neighborhoods and meals that make Athens feel alive.",
+    bestFor: [
+      "History, food, design, contemporary art, and urban-energy travelers",
+      "First visits that want the Acropolis without letting the monument circuit consume the trip",
+      "City-and-sea trips that can give Athens three nights before a Riviera or Delphi chapter",
+    ],
+    timing:
+      "April through May and late September through October are the strongest windows for Athens, with a better balance of walking weather, food, and archaeological time. July and August can bring severe heat, so I protect dawn sites, shade, recovery, and the coast. Winter works for museums and food when the traveler is comfortable planning around rain.",
+    hotelLogic:
+      "Syntagma and Kolonaki solve grand hotels, museums, and central movement. Grande Bretagne and King George bring service and history. The Dolli is the intimate Acropolis-view design choice, Athens Capital is contemporary full service, and Xenodocheio Milos makes a food-led boutique base. On the coast, Four Seasons Astir Palace and One&Only Aesthesis are the resort anchors. I always contract the exact room, floor, and outlook, because view, light, crowding, and service variance matter more than the hotel name alone.",
+    foodLogic:
+      "Athens rewards a food plan with range. Hoocut and Giorgos Manos give different souvlaki routes. Mavros Gatos and To Steki tou Ilia handle lamb in different settings. Mikres Cyclades, Psarokastella, and Papadakis move the plan toward seafood. Varvakios with a food specialist, Epirus Tavern for soups and beans, Mavili Canteen for the chef-named late hot dog, Tanini Agapi Mou for lower-intervention wine, and The Clumsies or Baba au Rum for cocktails keep the meals connected to the city rather than to a view.",
+    avoid:
+      "I would avoid a midday Acropolis without shade and water, a Plaka-only itinerary, and rooftop meals chosen only for the photograph. I would not build around a tout-led Monastiraki terrace, squeeze Delphi into a half-day, or commute from a Riviera resort to the ruins every day. Athens gets better when the base, heat, reservation geography, and recovery time are planned together.",
+    cartaTake:
+      "When I plan Athens, I book the ancient site first, then I make sure the rest of the trip feels like a living city. A market morning, a Pangrati art-and-food day, one serious dinner, and a coast or Piraeus chapter can do more than another rooftop view. That is the version of Athens I want clients to remember.",
+    highlights: [
+      {
+        title: "Give the Acropolis the right hour",
+        body: "First entry with an archaeologist protects the essential site from the worst heat and crowd pressure. I would place the Acropolis Museum later when energy allows, rather than stacking every ancient sight into the same morning.",
+      },
+      {
+        title: "Let chefs pull you into the neighborhoods",
+        body: "The strongest research came from named working chefs, with leads stretching from Seychelles, Fita, Hoocut, and Tanpopo to Mikres Cyclades, Mavros Gatos, Rakor, and Mavili Canteen. The route should have a reason beyond collecting names.",
+      },
+      {
+        title: "Treat the coast as a separate chapter",
+        body: "Piraeus and the Riviera are not convenient add-ons to a historic-center base. A five-night trip can pair three city nights with the coast, while a longer stay can make the split explicit and protect the transfer time.",
+      },
+      {
+        title: "Leave space for Athens after the postcard",
+        body: "Pangrati, Keramikos, Exarchia, First Cemetery, Eleusis, Hymettus, and a working Piraeus food route show the city that sits around the monuments. That texture is why I would not spend every day inside the visitor core.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Acropolis and Agora first, museums and Pangrati next, then choose Piraeus, the coast, or a deeper neighborhood day. Keep one flexible window for heat and demonstrations.",
+      },
+      {
+        title: "5 nights",
+        body: "Add a Riviera or Sounion route, a Varvakios market morning, modern art, and enough recovery that the archaeology still feels generous rather than repetitive.",
+      },
+      {
+        title: "7 nights",
+        body: "Split city and Riviera, or use Delphi as a protected full day or overnight. I would not use seven nights for seven central days of ruins and rooftops.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/athens/acropolis-from-lycabettus.webp",
+        alt: "The Acropolis of Athens seen from Lycabettus Hill in evening light",
+        caption: "The Acropolis is essential. Timing it well protects the rest of the Athens trip.",
+        credit: "Jakub Hałun, CC BY 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:View_of_the_Acropolis_of_Athens_from_Lycabettus,_20240531_1922_9902.jpg",
+      },
+      {
+        src: "/photos/destinations/athens/varvakios-market.webp",
+        alt: "Market stalls and hanging meats inside Varvakios Central Market in Athens",
+        caption: "A Varvakios morning gives the food story a working center before the restaurant reservations begin.",
+        credit: "Rc1959, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Ath%C3%A8nes.March%C3%A9_Varvakios.20230403_171159.jpg",
+      },
+      {
+        src: "/photos/destinations/athens/pangrati-square.webp",
+        alt: "St. Spyridon Square and its church in Athens' Pangrati neighborhood",
+        caption: "Pangrati is the residential food-and-art chapter that keeps Athens from becoming a monument loop.",
+        credit: "Tolisr, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:St._Spyridon_Square_in_Pangrati,_Athens.jpg",
+      },
+      {
+        src: "/photos/destinations/athens/piraeus-harbor.webp",
+        alt: "Boats gathered in the harbor at Piraeus, the working port of Athens",
+        caption: "Piraeus deserves a place as a working food and port chapter, not only as the ferry terminal.",
+        credit: "Sharon Mollerus, CC BY 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Boats_in_Piraeus_Harbor,_Greece_(10046276584).jpg",
+      },
+      {
+        src: "/photos/destinations/athens/sounion-temple.webp",
+        alt: "The Temple of Poseidon above the sea at Cape Sounion in Attica",
+        caption: "Sounion works when it is part of a protected coast route rather than a rushed add-on from Athens.",
+        credit: "A.Savin, CC BY-SA 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Attica_06-13_Sounion_14_Temple_of_Poseidon.jpg",
+      },
+      {
+        src: "/photos/destinations/athens/goulandris-museum.webp",
+        alt: "The Basil and Elise Goulandris Foundation museum building in Athens",
+        caption: "The Goulandris gives Pangrati an art chapter before the evening turns toward food and wine.",
+        credit: "Rlbberlin, CC0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Building_of_the_Basil_%26_Elise_Goulandris_Foundation.jpg",
+      },
+    ],
+    related: ["florence", "geneva", "alexandria"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
