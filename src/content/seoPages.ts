@@ -2502,6 +2502,103 @@ export const destinationPages: SeoContentPage[] = [
     related: ["florence", "geneva", "alexandria"],
   },
 
+  {
+    slug: "auckland",
+    kind: "destination",
+    eyebrow: "Auckland travel advisor",
+    title: "Auckland is worth more than an airport night.",
+    seoTitle: "Auckland Travel Advisor",
+    description:
+      "Auckland travel advisor guidance for harbour days, Waiheke, Māori and Pacific food, west-coast timing, hotel fit, and a private trip hub.",
+    intro:
+      "Auckland is New Zealand's best urban prologue: a Pacific city built on volcanic cones and two harbours, with Māori and Pasifika culture, serious Asian food, Hauraki Gulf islands, and the black-sand west coast within reach. The trip works when the city, water, and neighborhoods share the schedule.",
+    bestFor: [
+      "Food travelers who want modern Aotearoa cooking alongside Malaysian, Indian, Pacific, Korean, and Chinese neighborhoods",
+      "Couples and families who want a city base with islands, sailing, volcanic landscapes, and a flexible outdoor day",
+      "First-time New Zealand travelers who want a useful arrival before moving on to the South Island or North Island interior",
+    ],
+    timing:
+      "Late November through March brings longer light and the cleanest odds for water days, but Auckland weather changes quickly and summer does not guarantee a dry ferry or beach day. March and April are especially useful for food, wine, walking, and softer demand. I keep one flexible half-day in every version of the plan.",
+    hotelLogic:
+      "Park Hyatt is the waterfront full-service lead, while The Hotel Britomart's Landing Suites give the strongest design-led central base. Delamore Lodge and The Boatshed make Waiheke feel like a deliberate stay rather than a rushed tasting loop. Te Arai Lodge is a regional extension north of the city, not a substitute for a CBD hotel. The right room and arrival plan matter more than a generic star comparison.",
+    foodLogic:
+      "Auckland's food story runs from Ahi, Sidart, The French Cafe, Paris Butter, Onslow, Tala, and Metita to the places that explain the city's migration and Pacific life. I would build one ambitious Aotearoa dinner around Coffee Pen, Bunga Raya, Gemmayze Street, Mumbai Chaat, FishSmith, Blue Rose, or a serious Dominion Road and Sandringham route. K Road has the strongest late concentration, but kitchen close is earlier than in many global capitals, so I confirm it separately from bar hours.",
+    avoid:
+      "I would not use Queen Street, Sky Tower, and a tour bus as the whole city, or sell Piha as a casual swim stop. I also avoid a loose three-estate Waiheke coach crawl when a private driver, two contrasting estates, and a beach stop would fit better. Rangitoto needs a real return-ferry plan, and every west-coast or track day needs current surf and closure checks.",
+    cartaTake:
+      "I would give every Auckland day three layers: one cultural anchor, one neighborhood meal, and one contact with the water. That keeps the city from becoming a list of viewpoints and lets the Māori, Pasifika, food, volcanic, and harbour stories sit beside each other. Auckland earns its place when the itinerary is edited that way.",
+    highlights: [
+      {
+        title: "Plan the city in three layers",
+        body: "Auckland becomes more legible when a museum or mana-whenua-led orientation leads to a neighborhood meal and then to a ferry, sail, maunga, or harbour edge. The sequence gives the city a shape beyond Queen Street.",
+      },
+      {
+        title: "Let Waiheke earn the transfer",
+        body: "Use a private driver for two contrasting estates and a beach, or stay at Delamore Lodge or The Boatshed so the island has room to breathe. A loose bus-dependent crawl is rarely the best use of a day.",
+      },
+      {
+        title: "Keep the west coast honest",
+        body: "Piha and Karekare are dramatic landscape days, not guaranteed swimming days. Allow 45 to 75 minutes or more, check tracks and surf, and choose the coast for the right traveler rather than the postcard alone.",
+      },
+      {
+        title: "Use food to read Auckland",
+        body: "Coffee Pen, Bunga Raya, Gemmayze Street, Mumbai Chaat, FishSmith, Blue Rose, and the Dominion Road and Sandringham food route show a city shaped by migration as much as by modern New Zealand tasting menus.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use Britomart or the waterfront as a base, then choose a museum and maunga day, a K Road or Ponsonby food night, and one of Waiheke, Rangitoto, or the west coast. Do not force all three.",
+      },
+      {
+        title: "5 nights",
+        body: "Add a private Waiheke day, one west-coast or conservation day, and a slower Ponsonby or Parnell afternoon. Keep the ferry and weather-dependent plans movable.",
+      },
+      {
+        title: "7 nights",
+        body: "Use four city and harbour nights with two or three nights on Waiheke or at Te Arai. The extra time should create a real second base, not seven nights of compressed CBD day trips.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/auckland/auckland-skyline.webp",
+        alt: "Auckland skyline and harbour viewed across the Waitematā Harbour",
+        caption: "Auckland works best as a harbour city with neighborhoods behind the waterfront, not as an airport stop with one tower view.",
+        credit: "WBPchur, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Auckland_skyline_from_harbour.png",
+      },
+      {
+        src: "/photos/destinations/auckland/rangitoto-and-auckland.webp",
+        alt: "Aerial view of Auckland and Rangitoto across the Tāmaki River area",
+        caption: "Rangitoto gives Auckland its volcanic geography and makes the harbour feel like a landscape rather than a backdrop.",
+        credit: "Mark in New Zealand, CC BY-SA 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Rangitoto_and_Auckland_31-03-2012_14-03-10.jpg",
+      },
+      {
+        src: "/photos/destinations/auckland/maori-sculpture.webp",
+        alt: "Māori carved sculpture displayed in Auckland, New Zealand",
+        caption: "Auckland's Māori story deserves context from a specialist, not a decorative stop detached from the place.",
+        credit: "Stefano Vigorelli, CC0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Maori_sculpture,_Auckland_NZ.jpg",
+      },
+      {
+        src: "/photos/destinations/auckland/waiheke-vineyards.webp",
+        alt: "Rows of grapevines on a hillside vineyard on Waiheke Island",
+        caption: "Waiheke is strongest when the ferry becomes part of a deliberate island day or an overnight rather than a rushed coach loop.",
+        credit: "Lim Ashley, CC BY 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Auckland_vineyards_on_Waiheke.jpg",
+      },
+      {
+        src: "/photos/destinations/auckland/piha-beach.webp",
+        alt: "Piha Beach on Auckland's west coast with black sand, surf, and rocky headlands",
+        caption: "Piha is a powerful landscape day, but the Tasman coast needs surf discipline and a current conditions check.",
+        credit: "O2, CC BY 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Piha_beach.jpg",
+      },
+    ],
+    related: ["adelaide", "cape-town", "bali"],
+  },
+
 ];
 
 export const itineraryPages: SeoContentPage[] = [
