@@ -2599,6 +2599,109 @@ export const destinationPages: SeoContentPage[] = [
     related: ["adelaide", "cape-town", "bali"],
   },
 
+  {
+    slug: "bahamas",
+    kind: "destination",
+    eyebrow: "Bahamas travel advisor",
+    title: "The Bahamas is six trips, not one.",
+    seoTitle: "Bahamas Travel Advisor | Islands, Boating & Food",
+    description:
+      "Bahamas travel advisor guidance for choosing the right island, hotel, boating days, conch, timing, and a private trip hub.",
+    intro:
+      "I do not plan the Bahamas as a single beach destination. Nassau is an airlift-rich resort and culture city, Exuma is a boating trip, Eleuthera and Harbour Island have a small-hotel beach rhythm, and Andros asks for a lodge-led nature plan. The work is choosing the island before the hotel.",
+    bestFor: [
+      "Travelers who want luminous water, private boating, fishing, diving, or a multi-generational resort",
+      "Couples who care about exact room fit, local food, and a slower island rhythm",
+      "Short trips from the United States that need a protected gateway and one clear island job",
+    ],
+    timing:
+      "December through April gives the broadest fit, with drier weather balanced against festive pricing and winter fronts. May and June can work well when I have room for heat and rain. July through October carries hurricane and closure risk, so I only build it for travelers with flexible plans, insurance, and a real interruption strategy.",
+    hotelLogic:
+      "Near easy airlift, Ocean Club and Rosewood Baha Mar solve a different trip than the scale of Atlantis or Baha Mar. For Out Island character, I would compare The Other Side, Kamalame Cay, Caerula Mar, The Cove Eleuthera, The Dunmore, and Coral Sands by exact room, current condition, service, and transfer. A villa or private island is not automatically a staffed private retreat, so I confirm staffing, security, generator, water, storm, and evacuation terms in writing.",
+    foodLogic:
+      "The food plan starts with a real Potters Cay session, where Kenneth McKenzie's direct account points to made-to-order conch salad, conch rice, and fried snapper. Willy D's and the exact stalls at Arawak Cay solve different Nassau meals, while Bon Vivants and The Dilly Club give the city a more intentional cocktail chapter. I never promise late food from a generic island list. I confirm the exact kitchen, service day, and fallback on the island where the trip is actually based.",
+    avoid:
+      "I would not use NAS as shorthand for every island, chain disconnected airports into a five-night trip, or sell swimming pigs as a wildlife plan without naming the tradeoff. Atlantis can be exactly right when waterpark scale and family density are the job, but it is not an automatic luxury fit. I also avoid cruise-port drift, Arawak Cay roulette, and hurricane bargains that leave no room for a weather change.",
+    cartaTake:
+      "When I plan the Bahamas, I start with the island's job. A Nassau food and culture trip, an Exuma boat week, and an Andros blue-hole stay may all use the same country name, but they ask for different hotels, transfers, weather buffers, and expectations. Choosing that correctly is the part I love.",
+    highlights: [
+      {
+        title: "Choose the island before the hotel",
+        body: "Nassau and Paradise Island solve access, food, and resort density. Exuma solves private water days. Eleuthera and Harbour Island solve beach and small-hotel rhythm. Abaco is sailing, while Andros is diving, blue holes, and bonefishing. I would not ask one base to do all of those jobs.",
+      },
+      {
+        title: "Build around a weather-flex boat day",
+        body: "Every marine plan needs a weather minimum, a movable window, and a land-based fallback. That is especially important in the Exumas, where the vessel, sea state, conservation rules, and return timing shape the day as much as the sandbar does.",
+      },
+      {
+        title: "Let food explain Nassau",
+        body: "Potters Cay, a specific Arawak Cay stall, Junkanoo context, the National Art Gallery of The Bahamas, and Clifton Heritage National Park create a better city day than another resort lunch. The exact dish and timing matter more than a countrywide restaurant list.",
+      },
+      {
+        title: "Protect the handoffs",
+        body: "I confirm the exact airport, ferry or boat, baggage plan, wet landing, dock, golf cart, room route, medical backup, and weather policy before I call an Out Island trip seamless. The transfer is part of the hotel decision.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Choose one island and one primary job. Nassau can hold food, culture, and one marine day. An Out Island stay should be even simpler, with one protected water or nature window and no airport collection.",
+      },
+      {
+        title: "5 nights",
+        body: "This is the strongest default: one base or compatible cluster, two marine windows, one culture and food day, and one flex day. I would protect the plan before I add a second island.",
+      },
+      {
+        title: "7 nights",
+        body: "Deepen one region or add one compatible second base with a protected transfer. Seven nights should create more breathing room, not more airport codes.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/bahamas/nassau-harbor.webp",
+        alt: "Nassau Harbor in Nassau, Bahamas, with boats and the waterfront viewed from the water",
+        caption: "Nassau is the easiest first chapter, with food and culture behind the harbor rather than only a resort shoreline.",
+        credit: "Larry D. Moore, CC BY 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Nassau_Harbor_2024.jpg",
+      },
+      {
+        src: "/photos/destinations/bahamas/great-exuma.webp",
+        alt: "Aerial view of turquoise water, sandbars, and cays around Great Exuma Island in the Bahamas",
+        caption: "Exuma is a boating trip. I plan the vessel, weather window, and conservation rules before I add another island.",
+        credit: "NASA, CC0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Great_Exuma_Island,_The_Bahamas_(Unsplash).jpg",
+      },
+      {
+        src: "/photos/destinations/bahamas/conch-salad.webp",
+        alt: "Fresh conch salad being prepared in the Bahamas with chopped vegetables on a counter",
+        caption: "The best version of conch salad is made to order, in front of you, with the exact island and stall chosen first.",
+        credit: "Hannah On The Go, CC BY 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Conch_salad_2022_2.jpg",
+      },
+      {
+        src: "/photos/destinations/bahamas/junkanoo.webp",
+        alt: "Colorful Junkanoo costumes during a Nassau cultural festival in the Bahamas",
+        caption: "Junkanoo belongs in the culture plan, not as decoration after the resort has already filled the calendar.",
+        credit: "Jon Worth, CC BY-SA 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Junkanoo_Festival,_Nassau.jpg",
+      },
+      {
+        src: "/photos/destinations/bahamas/pink-sands.webp",
+        alt: "Pink Sands Beach on Harbour Island, Bahamas, with pale sand and turquoise water",
+        caption: "Harbour Island has its own small-hotel rhythm. I would not flatten it into a day trip unless the transfer actually fits.",
+        credit: "Mike's Birds, CC BY-SA 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Pink_Sands_Beach,_Harbour_Island,_Bahamas_(5279465868).jpg",
+      },
+      {
+        src: "/photos/destinations/bahamas/andros-blue-hole.webp",
+        alt: "Guardian Blue Hole on Andros Island in the Bahamas, ringed by low vegetation and limestone",
+        caption: "Andros is a lodge-led nature trip, not a casual add-on from Nassau.",
+        credit: "R Pollack, public domain",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:GuardianBlueHole.jpg",
+      },
+    ],
+    related: ["anguilla", "aruba", "belize"],
+  },
 ];
 
 export const itineraryPages: SeoContentPage[] = [
