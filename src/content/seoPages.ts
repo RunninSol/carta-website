@@ -2702,6 +2702,102 @@ export const destinationPages: SeoContentPage[] = [
     ],
     related: ["anguilla", "aruba", "belize"],
   },
+  {
+    slug: "barbados",
+    kind: "destination",
+    eyebrow: "Barbados travel advisor",
+    title: "Barbados is better when the beach is not the whole plan.",
+    seoTitle: "Barbados Travel Advisor | Beaches, Rum & Food",
+    description:
+      "Barbados travel advisor guidance for choosing the right coast, west-coast hotels, Bajan food, rum, Bridgetown, Bathsheba, and a private trip hub.",
+    intro:
+      "Barbados can give you calm west-coast water, Oistins food, Bridgetown history, serious rum, cricket, and an Atlantic coast that feels like another island. I plan it by trip job, because resort-only Barbados leaves out the part that makes the island worth returning to.",
+    bestFor: [
+      "Repeat Caribbean travelers who want beach, food, rum, history, and a little more texture",
+      "Couples and families who want calm-water days without giving up local meals and island context",
+      "Five- to seven-night trips that can hold a west or south base plus two deliberate island days",
+    ],
+    timing:
+      "December through May is the cleaner beach window, with March through May often giving the best balance between weather and demand. June through November needs storm flexibility, heat planning, and a real plan for closures, swell, and sargassum. I would not treat a lower rate as a reason to ignore those controls.",
+    hotelLogic:
+      "The west coast is the classic luxury answer, but the hotels solve different trip problems. Sandy Lane is the full-service trophy resort. Cobblers Cove is intimate, food-led, and easier for clients who dislike a large resort. Coral Reef Club and The Sandpiper bring family-run west-coast character. O2, Colony Club, The House, and Fairmont Royal Pavilion each change the equation through scale, inclusions, adults-only positioning, or beachfront convenience. I confirm the exact room, location, condition, and atmosphere rather than booking by star label alone.",
+    foodLogic:
+      "Chef Damian Leach points to Fred's at Oistins for cou-cou and flying fish, Sand Dunes for pudding and souse, Local & Co. for breadfruit gnocchi with blackbelly sheep ragù, and Animal Flower Cave for lamb stew. Local comments add Cuz's for a fish cutter, Cherwin's for a ham cutter, Yelluh Meat for breadfruit bowls, IV Play for roti, Fisherman's Pub for stew, and Pat's Place for fish. I would pair one named local stop with a proper dinner, then confirm hours because the best cutter and bakery windows are not late-night insurance.",
+    avoid:
+      "I would not build a week around Friday Oistins without choosing the stall and deciding whether energy or food quality is the point. I would not make St Nicholas Abbey an automatic must when Foursquare or the Barbados Museum better solves the client's reason for going. And I would not promise calm swimming on every coast. The west is one trip job. Bathsheba and the Atlantic are another.",
+    cartaTake:
+      "When I plan Barbados, I start with the coast. The west solves calm water and hotel service, the south gives you Oistins and easier movement, Bridgetown carries the history, and Bathsheba changes the scale of the island. Then I leave the beach twice, once for food and rum, and once for the Atlantic. That is the version I would want to come home with.",
+    highlights: [
+      {
+        title: "Choose the coast before the hotel",
+        body: "Holetown and the west coast are strongest for calm water and classic resort service. Hastings, Rockley, and St Lawrence make the south more walkable. Bridgetown and the Garrison add history and Carlisle Bay access. Bathsheba needs its own weather and mobility logic.",
+      },
+      {
+        title: "Eat the island in layers",
+        body: "Start with a fish cutter at Cuz's or Caboose, make time for cou-cou and flying fish at Fred's, and use pudding and souse as a Saturday food stop rather than a generic tasting-list item.",
+      },
+      {
+        title: "Give rum a reason",
+        body: "Foursquare, Mount Gay, and St Nicholas Abbey answer different questions: working distillery, brand history, and heritage estate. I would not send every client to the same one.",
+      },
+      {
+        title: "Keep the Atlantic honest",
+        body: "Bathsheba, Hunte's Gardens, and the east-coast road show the island beyond the resort, but surf, road time, and access matter. I plan that day with a driver and do not sell it as a casual swim outing.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use one west or south base, one protected sea day, and one Bridgetown, food, or rum day. Leave Bathsheba for a future trip unless the Atlantic landscape is the main reason for going.",
+      },
+      {
+        title: "5 nights",
+        body: "The strongest first shape: two beach blocks, Bridgetown and the Garrison, one named food route, one rum or garden day, and enough flexibility for weather and traffic.",
+      },
+      {
+        title: "7 nights",
+        body: "Add Speightstown, a second food layer, cricket or a marine day, and a proper east-coast buffer. I would deepen one base before adding daily cross-island commuting.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/barbados/bathsheba-coast.webp",
+        alt: "Atlantic coast and rock formations at Bathsheba in Saint Joseph, Barbados",
+        caption: "Bathsheba is the Atlantic chapter, with surf and landscape taking priority over a promise of calm swimming.",
+        credit: "Postdlf, CC BY-SA 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Bathsheba,_Barbados_08.jpg",
+      },
+      {
+        src: "/photos/destinations/barbados/carlisle-bay.webp",
+        alt: "Palm-lined Carlisle Bay Beach near Bridgetown, Barbados",
+        caption: "Carlisle Bay gives a Bridgetown or Garrison stay a calm-water and marine layer without leaving the southwest.",
+        credit: "JZimmerman (WMF), CC BY-SA 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Carlisle_Bay_Beach.jpeg",
+      },
+      {
+        src: "/photos/destinations/barbados/oistins-coast.webp",
+        alt: "Coastline near Oistins on the south coast of Barbados",
+        caption: "Oistins works best as a named-stall food stop with the arrival time chosen in advance, not as a blanket quality guarantee.",
+        credit: "Berit, CC BY 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Coastline_of_Oistins,_Barbados.jpg",
+      },
+      {
+        src: "/photos/destinations/barbados/bridgetown-garrison.webp",
+        alt: "Historic Bridgetown and its Garrison in Barbados",
+        caption: "Historic Bridgetown and the Garrison give the island a serious history day beyond the resort shoreline.",
+        credit: "Sachiko Haraguchi, UNESCO, CC BY-SA 3.0 IGO",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Historic_Bridgetown_and_its_Garrison-115163.jpg",
+      },
+      {
+        src: "/photos/destinations/barbados/huntes-gardens.webp",
+        alt: "Dense tropical planting inside Hunte's Gardens in Barbados",
+        caption: "Hunte's Gardens is one of the quieter inland counterpoints to the beach and the east-coast road.",
+        credit: "Alex Dixon, CC BY-SA 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Hunte%27s_Gardens.jpg",
+      },
+    ],
+    related: ["bahamas", "anguilla", "aruba"],
+  },
 ];
 
 export const itineraryPages: SeoContentPage[] = [
