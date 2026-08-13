@@ -2798,6 +2798,109 @@ export const destinationPages: SeoContentPage[] = [
     ],
     related: ["bahamas", "anguilla", "aruba"],
   },
+  {
+    slug: "bariloche",
+    kind: "destination",
+    eyebrow: "Bariloche travel advisor",
+    title: "Bariloche rewards the traveler who chooses the right corridor.",
+    seoTitle: "Bariloche Travel Advisor | Lakes, Mountains & Food",
+    description:
+      "Bariloche travel advisor guidance for choosing the right lake corridor, mountain days, hotels, Patagonian food, chocolate, beer, and a private trip hub.",
+    intro:
+      "Bariloche is Argentina's most usable lake-and-mountain city. It gives you Nahuel Huapi, serious hiking and skiing, refuge culture, chocolate, craft beer, and enough dining depth to make a weather day worthwhile. The work is choosing the base and then editing the famous loop.",
+    bestFor: [
+      "Active couples who want hiking, lake time, and a hotel that still feels like a retreat",
+      "Families who need outdoor days with weather pivots, comfortable bases, and food that works beyond the resort",
+      "Food-led Patagonia travelers who want parrilla, trout, chocolate, craft beer, and mountain scenery in one stay",
+    ],
+    timing:
+      "January through March is the strongest window for hiking, lake days, and longer roads. Late July through September is the ski season around Catedral. April, May, October, and November can be beautiful, but closures, thaw, snow, wind, ash, and fire conditions mean I build those trips with more flexibility.",
+    hotelLogic:
+      "Llao Llao is the grand full-resort answer, while Villa Beluno gives the lakefront stay a smaller, more intimate scale. Charming works for private-spa suites on the Bustillo corridor. Peuma Hue is the nature-and-estancia choice, El Casco brings art-led lakefront intimacy, and Arelauquen Lodge is the golf and gated-base option. These hotels are not interchangeable. The corridor, room category, and amount of driving change the trip.",
+    foodLogic:
+      "Quiven, Cassis, Ánima, and Almazen de Sabores form the serious destination-dinner lane. Alto El Fuego is the steak signal I would start with, especially for the ojo de bife. El Boliche de Alberto is a portion-and-value institution, but its queue is not automatically worth building a night around. Compare Mamuschka and Rapa Nui for chocolate, then make room for lamb, trout, smoked meat, and a proper beer comparison between Manush, Berlina, Blest, and La Cruz.",
+    avoid:
+      "I would not spend the whole trip on a coach version of Circuito Chico, treat Campanario at peak arrival time as the only view, or call Patagonia Brewery the best beer simply because the scenery is good. Seven Lakes is better with an overnight than a return sprint, and every mountain or boat day needs a live road, weather, and operating check.",
+    cartaTake:
+      "When I plan Bariloche, I choose the corridor before I choose the hotel. Centro solves dinner. Llao Llao solves forest and resort time. Catedral solves a ski trip. Arelauquen solves privacy but needs a car. Once that decision is right, the lakes, steak, chocolate, and mountain days start to feel like one trip instead of a collection of pins.",
+    highlights: [
+      {
+        title: "The base decides the rhythm",
+        body: "Centro, the Bustillo corridor, Llao Llao, Catedral, Arelauquen, and Dina Huapi each solve a different planning problem. A beautiful room on the wrong side of the lake can create an exhausting itinerary.",
+      },
+      {
+        title: "Make the famous loop earn its place",
+        body: "Circuito Chico works better with a driver, a naturalist, first-chair Campanario, and a real walk. The point is not to collect viewpoints. It is to give the landscape enough time to register.",
+      },
+      {
+        title: "The food is more than chocolate",
+        body: "Alto El Fuego, Quiven, Cassis, Almazen, regional lamb and trout, and the local beer cluster give Bariloche a food identity that can carry a weather day.",
+      },
+      {
+        title: "Keep the mountain days flexible",
+        body: "Frey, Tronador, Catedral, navigation, trails, lifts, and roads all depend on conditions. I would rather protect one good window than pretend every day can run exactly as printed.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Use a western base, one edited Circuito Chico and Campanario day, one lake or mountain day, and one focused dinner with time for chocolate in town.",
+      },
+      {
+        title: "5 nights",
+        body: "Add a private navigation day, Catedral or Frey, and one local food or culture chapter. Keep a weather buffer instead of filling every afternoon.",
+      },
+      {
+        title: "7 nights",
+        body: "Add Tronador or Seven Lakes with an overnight in Villa La Angostura or San Martín. The extra time should deepen the landscape, not create more backtracking.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/bariloche/llao-llao-golf-course.webp",
+        alt: "Lake Nahuel Huapi and the Andes viewed from the golf course at Llao Llao in Bariloche",
+        caption: "Llao Llao is a base for forest, water, and resort time, not just a hotel address outside town.",
+        credit: "David, CC BY 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:View_from_the_Golf_course_at_Llao_Llao.jpg",
+      },
+      {
+        src: "/photos/destinations/bariloche/bariloche-lake-city.webp",
+        alt: "Lake and mountain landscape around San Carlos de Bariloche in Patagonia, Argentina",
+        caption: "Bariloche is a working city beside a large landscape, which is why the trip can hold both dinner and serious outdoor days.",
+        credit: "Chipppy, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Bariloche-_Argentina2.jpg",
+      },
+      {
+        src: "/photos/destinations/bariloche/cerro-catedral.webp",
+        alt: "Snow-covered Cerro Catedral in Nahuel Huapi National Park near Bariloche",
+        caption: "Catedral is the winter job. I plan it around lift conditions, road access, and the exact level of ski support the traveler needs.",
+        credit: "Matiasmehdi, public domain",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Cerro_Catedral,_Argentina.jpg",
+      },
+      {
+        src: "/photos/destinations/bariloche/nahuel-huapi-cerro-otto.webp",
+        alt: "Islands and deep blue water on Lake Nahuel Huapi viewed from Cerro Otto",
+        caption: "The lake is not background scenery. Its scale determines the route, the transfer time, and which base makes sense.",
+        credit: "Wernerluis, CC BY-SA 4.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Nahuel_huapi_bariloche_15.JPG",
+      },
+      {
+        src: "/photos/destinations/bariloche/lake-llao-llao.webp",
+        alt: "Lake Llao Llao and forested shoreline near Bariloche, Argentina",
+        caption: "A Llao Llao stay works when the client wants the lake and forest to be part of the hotel day itself.",
+        credit: "Pierre Pericard, CC BY-SA 3.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Lake_Llao_Llao_(246655119).jpeg",
+      },
+      {
+        src: "/photos/destinations/bariloche/frey-lake-trek.webp",
+        alt: "Hikers beside Frey Lake and the mountain refuge landscape near Bariloche",
+        caption: "Frey adds the refuge culture that makes Bariloche more than a scenic drive, but the trail has to fit the traveler.",
+        credit: "McKay Savage, CC BY 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Argentina_-_Bariloche_trekking_062_-_enjoying_the_view_over_Frey_lake_(6797879713).jpg",
+      },
+    ],
+    related: ["aspen", "atacama-desert", "belize"],
+  },
 ];
 
 export const itineraryPages: SeoContentPage[] = [
@@ -2856,6 +2959,8 @@ export const itineraryPages: SeoContentPage[] = [
     ],
     related: ["maldives", "amalfi-coast", "paris"],
   },
+
+
 ];
 
 export const allSeoPages = [...destinationPages, ...itineraryPages];
