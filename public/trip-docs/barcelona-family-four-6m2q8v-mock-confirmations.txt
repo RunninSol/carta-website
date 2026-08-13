@@ -1,0 +1,30 @@
+CARTA MOCK CONFIRMATION PACKET
+
+Trip: Barcelona Family of Four
+Dates: October 14 to 20, 2026
+Party: Two adults, children aged 5 and 9
+
+STATUS: PROTOTYPE ONLY
+Every code in this packet is fabricated. No flight, hotel, transfer, restaurant, or activity is booked. Do not present these codes to a provider.
+
+MOCK FLIGHTS
+- MOCK-AF7Q2 | Mock Air France 1648 | JFK to BCN | October 13 to 14, 2026
+- MOCK-AF8R3 | Mock Air France 1649 | BCN to JFK | October 20, 2026
+
+MOCK LODGING
+- MOCK-HX-4F21 | The Hoxton, Poblenou | Family room | October 14 to 20, 2026
+- MOCK-HX-OUT20 | Mock checkout marker | October 20, 2026
+
+MOCK TRANSFERS
+- MOCK-TR-1014 | BCN Terminal 1 to The Hoxton, Poblenou | Two child restraints requested
+- MOCK-TR-1020 | The Hoxton, Poblenou to BCN Terminal 1 | Two child restraints requested
+
+MOCK ACTIVITIES
+- MOCK-ACT-SF15 | Sagrada Familia | October 15, 10:00 AM
+- MOCK-ACT-PG16 | Park Guell | October 16, 9:30 AM
+- MOCK-ACT-CX17 | CosmoCaixa Barcelona | October 17, 10:00 AM
+- MOCK-ACT-BE18 | Barceloneta Beach morning | October 18, 10:00 AM
+- MOCK-ACT-TB19 | Tibidabo | October 19, 10:00 AM
+
+MOCK DINING
+All dining codes in the Carta are placeholders for early family tables. Manager confirmation, ingredients, and cross-contact handling would need to be checked for any real dietary restriction.

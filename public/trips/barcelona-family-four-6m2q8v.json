@@ -1,0 +1,1025 @@
+{
+  "config": {
+    "clientName": "Barcelona Family of Four",
+    "title": "Barcelona",
+    "destination": "Barcelona, Spain",
+    "dates": "October 14 to 20, 2026",
+    "startDate": "2026-10-14",
+    "endDate": "2026-10-20",
+    "timezone": "Europe/Madrid",
+    "coverNote": "I built this as a complete Barcelona week for two adults and children aged 5 and 9. I used JFK as the placeholder home airport, a family base in Poblenou, one principal outing each day, early dinners, and real room for a swim, a nap, or a change of mind. Every flight, table, transfer, activity, and confirmation number below is mocked for the prototype. Nothing is booked. If a plan needs to move, I move it.",
+    "coverImageUrl": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?auto=format&fit=crop&w=1400&q=80",
+    "contact": {
+      "whatsapp": "13238541678",
+      "email": "gabe@travelbycarta.com",
+      "phoneLabel": "Gabe"
+    },
+    "mapProvider": "google",
+    "driverPhrase": "Llévenos aquí, por favor.",
+    "map": {
+      "center": [
+        41.3974,
+        2.1901
+      ],
+      "zoom": 12.8
+    },
+    "categories": [
+      {
+        "id": "restaurant",
+        "label": "Food",
+        "color": "#B5654A"
+      },
+      {
+        "id": "sight",
+        "label": "Sights",
+        "color": "#5F7A8C"
+      },
+      {
+        "id": "family",
+        "label": "Family",
+        "color": "#7A9A6A"
+      },
+      {
+        "id": "cafe",
+        "label": "Cafes",
+        "color": "#C28B57"
+      },
+      {
+        "id": "shop",
+        "label": "Shops",
+        "color": "#9B6B9E"
+      }
+    ]
+  },
+  "days": [
+    {
+      "date": "2026-10-14",
+      "title": "Arrive gently",
+      "summary": "Overnight flight, a private car, bags at the hotel, and an early dinner close to base."
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Gaudí, then a quiet afternoon",
+      "summary": "The Sagrada Família in the morning, a proper reset after lunch, and dinner early enough for everyone."
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Park Güell and Gràcia",
+      "summary": "One big visual morning, then the neighborhood and the hotel pool do the rest."
+    },
+    {
+      "date": "2026-10-17",
+      "title": "The science day",
+      "summary": "CosmoCaixa gives the children something to touch and ask questions about, with no second major attraction attached."
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Sand, harbor, and tapas",
+      "summary": "A low-pressure beach morning and a long lunch. The afternoon is deliberately blank."
+    },
+    {
+      "date": "2026-10-19",
+      "title": "A little bit of magic",
+      "summary": "Tibidabo as the one bigger family day, with the final dinner kept easy."
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Home",
+      "summary": "Breakfast, a pre-arranged car, and one last look at the city before the flight home."
+    }
+  ],
+  "itinerary": [
+    {
+      "id": "d1-flight-in",
+      "dayDate": "2026-10-14",
+      "type": "flight",
+      "status": "pending",
+      "title": "Mock overnight flight, JFK to Barcelona",
+      "subtitle": "Mock Air France 1648, seats 12A, 12B, 12C, 12D",
+      "startTime": "2026-10-13T19:35:00-04:00",
+      "endTime": "2026-10-14T09:15:00+02:00",
+      "locationName": "Barcelona-El Prat Airport (BCN)",
+      "address": "08820 El Prat de Llobregat, Barcelona",
+      "lat": 41.2974,
+      "lng": 2.0833,
+      "confirmationCode": "MOCK-AF7Q2",
+      "personalNote": "This is the placeholder flight I used to give the week a real spine. The code is fabricated and the flight is not booked.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Airline": "Mock Air France",
+        "Route": "JFK to BCN",
+        "Departure": "JFK Terminal 1, 7:35 PM",
+        "Arrival": "BCN Terminal 1, 9:15 AM",
+        "Bags": "2 checked bags plus carry-ons"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 0,
+      "leadTimeMinutes": 150,
+      "flightNumber": "MOCK1648"
+    },
+    {
+      "id": "d1-transfer-in",
+      "dayDate": "2026-10-14",
+      "type": "transfer",
+      "status": "pending",
+      "title": "Mock airport car to Poblenou",
+      "subtitle": "Private vehicle with two child restraints requested",
+      "startTime": "2026-10-14T09:50:00+02:00",
+      "endTime": "2026-10-14T10:40:00+02:00",
+      "locationName": "BCN Terminal 1 arrivals",
+      "address": "08820 El Prat de Llobregat, Barcelona",
+      "lat": 41.2974,
+      "lng": 2.0833,
+      "confirmationCode": "MOCK-TR-1014",
+      "personalNote": "I have written the two child restraints into the transfer request. Before a real booking, I would confirm that both seats fit the children by age, height, and weight with the provider.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Pickup": "BCN Terminal 1 arrivals",
+        "Dropoff": "The Hoxton, Poblenou",
+        "Vehicle": "Private van",
+        "Child restraints": "Two requested in writing"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 1,
+      "leadTimeMinutes": 20
+    },
+    {
+      "id": "d1-hotel",
+      "dayDate": "2026-10-14",
+      "type": "lodging",
+      "status": "pending",
+      "title": "Mock stay, The Hoxton, Poblenou",
+      "subtitle": "Family room, six nights",
+      "startTime": "2026-10-14T15:00:00+02:00",
+      "endTime": "2026-10-20T11:00:00+02:00",
+      "locationName": "The Hoxton, Poblenou",
+      "address": "Avinguda Diagonal 205, 08018 Barcelona",
+      "lat": 41.4032,
+      "lng": 2.194,
+      "confirmationCode": "MOCK-HX-4F21",
+      "contactName": "Mock front desk",
+      "contactPhone": "+34 000 000 000",
+      "personalNote": "I put you in Poblenou so the children have space to come down after the city days, and the beach is close enough that a morning does not need a plan. The room and rate are mock placeholders.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Room": "Family room",
+        "Nights": "6",
+        "Check-in": "October 14 at 3:00 PM",
+        "Check-out": "October 20 at 11:00 AM"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 2
+    },
+    {
+      "id": "d1-dinner",
+      "dayDate": "2026-10-14",
+      "type": "dining",
+      "status": "pending",
+      "title": "Mock dinner, Bodega Joan",
+      "subtitle": "Early tapas and a short first walk",
+      "startTime": "2026-10-14T18:30:00+02:00",
+      "locationName": "Bodega Joan",
+      "address": "Carrer del Rosselló 164, 08036 Barcelona",
+      "lat": 41.3921,
+      "lng": 2.1537,
+      "confirmationCode": "MOCK-DIN-1014",
+      "personalNote": "I kept the first dinner familiar and early. Order a few things for the table, let the children eat what looks good, and call the night when everyone is ready.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Party": "4",
+        "Requested time": "6:30 PM",
+        "Dining note": "Mock reservation only"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 3,
+      "leadTimeMinutes": 25
+    },
+    {
+      "id": "d2-breakfast",
+      "dayDate": "2026-10-15",
+      "type": "dining",
+      "status": "pending",
+      "title": "Mock breakfast, Granja M. Viader",
+      "subtitle": "Chocolate, churros, and a slow start",
+      "startTime": "2026-10-15T08:15:00+02:00",
+      "locationName": "Granja M. Viader",
+      "address": "Carrer d’en Xuclà 4-6, 08001 Barcelona",
+      "lat": 41.3834,
+      "lng": 2.1701,
+      "confirmationCode": "MOCK-DIN-1015A",
+      "personalNote": "This is the kind of breakfast that makes an early museum slot feel like part of the day rather than an obligation. The table is mock, not reserved.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Party": "4",
+        "Requested time": "8:15 AM"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 0,
+      "leadTimeMinutes": 25
+    },
+    {
+      "id": "d2-sagrada",
+      "dayDate": "2026-10-15",
+      "type": "activity",
+      "status": "pending",
+      "title": "Mock timed entry, Sagrada Família",
+      "subtitle": "Morning entry with a family-friendly pace",
+      "startTime": "2026-10-15T10:00:00+02:00",
+      "endTime": "2026-10-15T12:00:00+02:00",
+      "locationName": "Sagrada Família",
+      "address": "Carrer de Mallorca 401, 08013 Barcelona",
+      "lat": 41.4036,
+      "lng": 2.1744,
+      "confirmationCode": "MOCK-ACT-SF15",
+      "personalNote": "I would keep the visit to two hours, not because the building is short on things to see, but because the five-year-old should leave curious rather than finished. This timed entry is fabricated for the mock.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Entry": "10:00 AM",
+        "Party": "4",
+        "Plan": "Basilica, one tower view if energy is good"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 1,
+      "leadTimeMinutes": 25
+    },
+    {
+      "id": "d2-lunch",
+      "dayDate": "2026-10-15",
+      "type": "dining",
+      "status": "pending",
+      "title": "Mock lunch, La Paradeta Sagrada Família",
+      "subtitle": "Casual seafood, no ceremony",
+      "startTime": "2026-10-15T12:20:00+02:00",
+      "locationName": "La Paradeta Sagrada Família",
+      "address": "Passatge de Simó 18, 08025 Barcelona",
+      "lat": 41.4048,
+      "lng": 2.1746,
+      "confirmationCode": "MOCK-DIN-1015B",
+      "personalNote": "After the basilica, I want lunch to be quick, informal, and easy to leave. This is a mock dining hold, not a live reservation.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Party": "4",
+        "Requested time": "12:20 PM"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 2,
+      "leadTimeMinutes": 15
+    },
+    {
+      "id": "d2-rest",
+      "dayDate": "2026-10-15",
+      "type": "note",
+      "status": "pending",
+      "title": "Hotel reset",
+      "subtitle": "Pool, nap, or cartoons. All are correct.",
+      "startTime": "2026-10-15T14:00:00+02:00",
+      "endTime": "2026-10-15T16:30:00+02:00",
+      "personalNote": "The afternoon is protected on purpose. Barcelona is still here after a swim and a rest.",
+      "details": {
+        "Purpose": "Protected family downtime"
+      },
+      "documentRefs": [],
+      "sortIndex": 3
+    },
+    {
+      "id": "d2-dinner",
+      "dayDate": "2026-10-15",
+      "type": "dining",
+      "status": "pending",
+      "title": "Mock dinner, El Nacional",
+      "subtitle": "A big room with enough choice for everyone",
+      "startTime": "2026-10-15T18:45:00+02:00",
+      "locationName": "El Nacional Barcelona",
+      "address": "Passeig de Gràcia 24 bis, 08007 Barcelona",
+      "lat": 41.3914,
+      "lng": 2.1648,
+      "confirmationCode": "MOCK-DIN-1015C",
+      "personalNote": "I chose this for the range of food rather than the theater. The children can choose one thing, the adults can choose another, and nobody has to negotiate a tasting menu after a full day.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Party": "4",
+        "Requested time": "6:45 PM"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 4,
+      "leadTimeMinutes": 25
+    },
+    {
+      "id": "d3-park",
+      "dayDate": "2026-10-16",
+      "type": "activity",
+      "status": "pending",
+      "title": "Mock timed entry, Park Güell",
+      "subtitle": "The early slot, before the heat and the crowds",
+      "startTime": "2026-10-16T09:30:00+02:00",
+      "endTime": "2026-10-16T11:45:00+02:00",
+      "locationName": "Park Güell",
+      "address": "Carrer d’Olot 5, 08024 Barcelona",
+      "lat": 41.4145,
+      "lng": 2.1527,
+      "confirmationCode": "MOCK-ACT-PG16",
+      "personalNote": "The point is to arrive early, see the tiled terrace, and leave before the children turn the paths into a negotiation. This timed entry is a prototype placeholder.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Entry": "9:30 AM",
+        "Party": "4",
+        "Plan": "Monumental Zone, then leave"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 0,
+      "leadTimeMinutes": 30
+    },
+    {
+      "id": "d3-lunch",
+      "dayDate": "2026-10-16",
+      "type": "dining",
+      "status": "pending",
+      "title": "Mock lunch, Con Gràcia",
+      "subtitle": "A neighborhood table after Park Güell",
+      "startTime": "2026-10-16T12:30:00+02:00",
+      "locationName": "Con Gràcia",
+      "address": "Carrer de Sant Domènec 4, 08012 Barcelona",
+      "lat": 41.4018,
+      "lng": 2.1577,
+      "confirmationCode": "MOCK-DIN-1016A",
+      "personalNote": "Lunch is the anchor here. If everyone is tired, skip the second walk and go straight back to Poblenou. The restaurant hold is mock only.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Party": "4",
+        "Requested time": "12:30 PM"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 1,
+      "leadTimeMinutes": 20
+    },
+    {
+      "id": "d3-rest",
+      "dayDate": "2026-10-16",
+      "type": "note",
+      "status": "pending",
+      "title": "Poblenou afternoon",
+      "subtitle": "Nothing else to prove today",
+      "startTime": "2026-10-16T14:30:00+02:00",
+      "endTime": "2026-10-16T17:00:00+02:00",
+      "personalNote": "A quiet room, a swim, or a walk for ice cream. The itinerary is better if this stays removable.",
+      "details": {
+        "Purpose": "Protected family downtime"
+      },
+      "documentRefs": [],
+      "sortIndex": 2
+    },
+    {
+      "id": "d3-dinner",
+      "dayDate": "2026-10-16",
+      "type": "dining",
+      "status": "pending",
+      "title": "Mock dinner, Can Culleretes",
+      "subtitle": "A classic room, early table",
+      "startTime": "2026-10-16T18:45:00+02:00",
+      "locationName": "Can Culleretes",
+      "address": "Carrer d’en Quintana 5, 08002 Barcelona",
+      "lat": 41.3806,
+      "lng": 2.1753,
+      "confirmationCode": "MOCK-DIN-1016B",
+      "personalNote": "This is the old Barcelona dinner. I would order a few traditional plates for the table and keep dessert in reserve for the walk back.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Party": "4",
+        "Requested time": "6:45 PM"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 3,
+      "leadTimeMinutes": 30
+    },
+    {
+      "id": "d4-breakfast",
+      "dayDate": "2026-10-17",
+      "type": "dining",
+      "status": "pending",
+      "title": "Mock breakfast, Hofmann Pastisseria",
+      "subtitle": "Pastries before the science museum",
+      "startTime": "2026-10-17T08:30:00+02:00",
+      "locationName": "Hofmann Pastisseria",
+      "address": "Carrer dels Flassaders 44, 08003 Barcelona",
+      "lat": 41.3853,
+      "lng": 2.1821,
+      "confirmationCode": "MOCK-DIN-1017A",
+      "personalNote": "A pastry stop makes the morning feel like its own event. This is a mock hold and not a live table.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Party": "4"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 0,
+      "leadTimeMinutes": 20
+    },
+    {
+      "id": "d4-cosmo",
+      "dayDate": "2026-10-17",
+      "type": "activity",
+      "status": "pending",
+      "title": "Mock entry, CosmoCaixa Barcelona",
+      "subtitle": "Hands-on science for the 5 and 9-year-old",
+      "startTime": "2026-10-17T10:00:00+02:00",
+      "endTime": "2026-10-17T12:30:00+02:00",
+      "locationName": "CosmoCaixa Barcelona",
+      "address": "Carrer d’Isaac Newton 26, 08022 Barcelona",
+      "lat": 41.4125,
+      "lng": 2.1293,
+      "confirmationCode": "MOCK-ACT-CX17",
+      "personalNote": "This is the day I would use to give the children something they can touch, test, and talk about at lunch. The entry code is fabricated for the demo.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Entry": "10:00 AM",
+        "Party": "4",
+        "Plan": "Main galleries and one snack break"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 1,
+      "leadTimeMinutes": 30
+    },
+    {
+      "id": "d4-lunch",
+      "dayDate": "2026-10-17",
+      "type": "dining",
+      "status": "pending",
+      "title": "Mock lunch, La Flauta",
+      "subtitle": "A relaxed table after CosmoCaixa",
+      "startTime": "2026-10-17T13:00:00+02:00",
+      "locationName": "La Flauta",
+      "address": "Carrer d’Aribau 23, 08011 Barcelona",
+      "lat": 41.3898,
+      "lng": 2.1562,
+      "confirmationCode": "MOCK-DIN-1017B",
+      "personalNote": "Simple food, quick service, and enough room for a child to be done before the adults are. Mock reservation only.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Party": "4",
+        "Requested time": "1:00 PM"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 2,
+      "leadTimeMinutes": 20
+    },
+    {
+      "id": "d4-rest",
+      "dayDate": "2026-10-17",
+      "type": "note",
+      "status": "pending",
+      "title": "A full afternoon off",
+      "subtitle": "Pool, books, and no second ticket",
+      "startTime": "2026-10-17T15:00:00+02:00",
+      "endTime": "2026-10-17T17:30:00+02:00",
+      "personalNote": "I left the second half of the day intentionally quiet. Children remember the space between the plans too.",
+      "details": {
+        "Purpose": "Protected family downtime"
+      },
+      "documentRefs": [],
+      "sortIndex": 3
+    },
+    {
+      "id": "d4-dinner",
+      "dayDate": "2026-10-17",
+      "type": "dining",
+      "status": "pending",
+      "title": "Mock dinner, Bodega Joan",
+      "subtitle": "Return to a familiar table",
+      "startTime": "2026-10-17T18:45:00+02:00",
+      "locationName": "Bodega Joan",
+      "address": "Carrer del Rosselló 164, 08036 Barcelona",
+      "lat": 41.3921,
+      "lng": 2.1537,
+      "confirmationCode": "MOCK-DIN-1017C",
+      "personalNote": "A repeat restaurant is useful on a family trip. By the second visit, everyone knows what they want, and that is a small luxury.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Party": "4",
+        "Requested time": "6:45 PM"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 4,
+      "leadTimeMinutes": 25
+    },
+    {
+      "id": "d5-beach",
+      "dayDate": "2026-10-18",
+      "type": "activity",
+      "status": "pending",
+      "title": "Mock beach morning, Barceloneta",
+      "subtitle": "Sand, harbor light, and no timed ticket",
+      "startTime": "2026-10-18T10:00:00+02:00",
+      "endTime": "2026-10-18T12:00:00+02:00",
+      "locationName": "Barceloneta Beach",
+      "address": "Passeig Marítim de la Barceloneta, 08003 Barcelona",
+      "lat": 41.3784,
+      "lng": 2.1903,
+      "confirmationCode": "MOCK-ACT-BE18",
+      "personalNote": "This is a placeholder activity confirmation, not a lifeguard or beach-service booking. Check conditions locally and keep the sea optional.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Plan": "Beach and harbor walk",
+        "Family note": "Bring sealed snacks, hats, and a change of clothes"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 0,
+      "leadTimeMinutes": 20
+    },
+    {
+      "id": "d5-lunch",
+      "dayDate": "2026-10-18",
+      "type": "dining",
+      "status": "pending",
+      "title": "Mock lunch, La Mar Salada",
+      "subtitle": "A long seafood lunch by the water",
+      "startTime": "2026-10-18T12:30:00+02:00",
+      "locationName": "La Mar Salada",
+      "address": "Passeig de Joan de Borbó 58-59, 08003 Barcelona",
+      "lat": 41.3767,
+      "lng": 2.1886,
+      "confirmationCode": "MOCK-DIN-1018A",
+      "personalNote": "This is the one day I would let lunch run long. The afternoon is blank, so nobody has to hurry away from the table.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Party": "4",
+        "Requested time": "12:30 PM"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 1,
+      "leadTimeMinutes": 20
+    },
+    {
+      "id": "d5-free",
+      "dayDate": "2026-10-18",
+      "type": "note",
+      "status": "pending",
+      "title": "Unscheduled afternoon",
+      "subtitle": "The plan is to have no plan",
+      "startTime": "2026-10-18T14:30:00+02:00",
+      "endTime": "2026-10-18T17:30:00+02:00",
+      "personalNote": "Go back to the hotel, stay by the beach, or follow whatever the children noticed on the walk. This space is part of the itinerary.",
+      "details": {
+        "Purpose": "Unstructured family time"
+      },
+      "documentRefs": [],
+      "sortIndex": 2
+    },
+    {
+      "id": "d5-dinner",
+      "dayDate": "2026-10-18",
+      "type": "dining",
+      "status": "pending",
+      "title": "Mock dinner, Cuines Santa Caterina",
+      "subtitle": "Bright, easy food for the last full weekend night",
+      "startTime": "2026-10-18T18:45:00+02:00",
+      "locationName": "Cuines Santa Caterina",
+      "address": "Mercat de Santa Caterina, Avinguda de Francesc Cambó 16, 08003 Barcelona",
+      "lat": 41.3866,
+      "lng": 2.1778,
+      "confirmationCode": "MOCK-DIN-1018B",
+      "personalNote": "A market setting gives everyone choices without making dinner feel like another production. The table is a mock reservation.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Party": "4",
+        "Requested time": "6:45 PM"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 3,
+      "leadTimeMinutes": 25
+    },
+    {
+      "id": "d6-tibidabo",
+      "dayDate": "2026-10-19",
+      "type": "activity",
+      "status": "pending",
+      "title": "Mock family day, Tibidabo",
+      "subtitle": "Rides, views, and one bigger day before home",
+      "startTime": "2026-10-19T10:00:00+02:00",
+      "endTime": "2026-10-19T14:00:00+02:00",
+      "locationName": "Tibidabo Amusement Park",
+      "address": "Plaça del Tibidabo 3-4, 08035 Barcelona",
+      "lat": 41.4225,
+      "lng": 2.1191,
+      "confirmationCode": "MOCK-ACT-TB19",
+      "personalNote": "This is the one day with a little more energy in it. Before a real booking, I would check the operating calendar, height requirements, weather, and the children’s appetite for rides.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Entry": "10:00 AM",
+        "Party": "4",
+        "Family checks": "Height rules, weather, transport, and opening calendar"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 0,
+      "leadTimeMinutes": 45
+    },
+    {
+      "id": "d6-lunch",
+      "dayDate": "2026-10-19",
+      "type": "dining",
+      "status": "pending",
+      "title": "Mock lunch, Tibidabo picnic",
+      "subtitle": "Packed sandwiches and sealed snacks",
+      "startTime": "2026-10-19T12:15:00+02:00",
+      "locationName": "Tibidabo picnic area",
+      "address": "Plaça del Tibidabo 3-4, 08035 Barcelona",
+      "lat": 41.4225,
+      "lng": 2.1191,
+      "confirmationCode": "MOCK-DIN-1019A",
+      "personalNote": "I prefer a packed lunch on the highest-friction day. It removes the need to negotiate a restaurant when everyone is hungry, and it gives the children a known option.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Party": "4",
+        "Plan": "Packed meal and sealed snacks"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 1
+    },
+    {
+      "id": "d6-dinner",
+      "dayDate": "2026-10-19",
+      "type": "dining",
+      "status": "pending",
+      "title": "Mock dinner, La Fonda",
+      "subtitle": "Easy final-night plates in the Gothic Quarter",
+      "startTime": "2026-10-19T18:30:00+02:00",
+      "locationName": "La Fonda",
+      "address": "Carrer dels Escudellers 10, 08002 Barcelona",
+      "lat": 41.3794,
+      "lng": 2.1765,
+      "confirmationCode": "MOCK-DIN-1019B",
+      "personalNote": "The last dinner should feel easy. I would keep the order simple, walk a little afterward, and leave the suitcase conversation for the hotel.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Party": "4",
+        "Requested time": "6:30 PM"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 2,
+      "leadTimeMinutes": 30
+    },
+    {
+      "id": "d7-checkout",
+      "dayDate": "2026-10-20",
+      "type": "lodging",
+      "status": "pending",
+      "title": "Mock hotel checkout",
+      "subtitle": "Front desk and bags ready",
+      "startTime": "2026-10-20T07:15:00+02:00",
+      "locationName": "The Hoxton, Poblenou",
+      "address": "Avinguda Diagonal 205, 08018 Barcelona",
+      "lat": 41.4032,
+      "lng": 2.194,
+      "confirmationCode": "MOCK-HX-OUT20",
+      "personalNote": "I would ask the front desk to settle the mock folio the night before and leave the morning for breakfast, bags, and a calm exit.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Checkout": "7:15 AM",
+        "Bags": "Ready in lobby"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 0
+    },
+    {
+      "id": "d7-transfer-out",
+      "dayDate": "2026-10-20",
+      "type": "transfer",
+      "status": "pending",
+      "title": "Mock airport car to BCN",
+      "subtitle": "Private vehicle with two child restraints requested",
+      "startTime": "2026-10-20T07:30:00+02:00",
+      "endTime": "2026-10-20T08:15:00+02:00",
+      "locationName": "The Hoxton, Poblenou",
+      "address": "Avinguda Diagonal 205, 08018 Barcelona",
+      "lat": 41.4032,
+      "lng": 2.194,
+      "confirmationCode": "MOCK-TR-1020",
+      "personalNote": "The car is timed for the placeholder flight, not a real reservation. I kept the child-restraint request attached to the return transfer too.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Pickup": "Hotel lobby",
+        "Dropoff": "BCN Terminal 1",
+        "Child restraints": "Two requested in writing"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 1
+    },
+    {
+      "id": "d7-flight-out",
+      "dayDate": "2026-10-20",
+      "type": "flight",
+      "status": "pending",
+      "title": "Mock flight, Barcelona to JFK",
+      "subtitle": "Mock Air France 1649, same family seats",
+      "startTime": "2026-10-20T11:45:00+02:00",
+      "endTime": "2026-10-20T14:40:00-04:00",
+      "locationName": "Barcelona-El Prat Airport (BCN)",
+      "address": "08820 El Prat de Llobregat, Barcelona",
+      "lat": 41.2974,
+      "lng": 2.0833,
+      "confirmationCode": "MOCK-AF8R3",
+      "personalNote": "The return flight closes the sample itinerary. The airline, flight number, seats, and code are all placeholders for the prototype.",
+      "details": {
+        "Booking status": "MOCK ONLY. No reservation has been made. This code is for the prototype.",
+        "Airline": "Mock Air France",
+        "Route": "BCN to JFK",
+        "Departure": "BCN Terminal 1, 11:45 AM",
+        "Arrival": "JFK Terminal 1, 2:40 PM",
+        "Bags": "2 checked bags plus carry-ons"
+      },
+      "documentRefs": [
+        "doc-mock-confirmations"
+      ],
+      "sortIndex": 2,
+      "leadTimeMinutes": 150,
+      "flightNumber": "MOCK1649"
+    }
+  ],
+  "picks": [
+    {
+      "id": "pick-sagrada",
+      "name": "Sagrada Família",
+      "category": "sight",
+      "address": "Carrer de Mallorca 401, 08013 Barcelona",
+      "lat": 41.4036,
+      "lng": 2.1744,
+      "description": "The Gaudí landmark I would keep for the first full morning.",
+      "note": "The children do not need a lecture about the architecture. Let them look up, find animals in the stone, and choose one detail to remember. In this mock trip, I used the 10:00 AM entry.",
+      "hours": "Timed entry in itinerary",
+      "priceLevel": 3,
+      "rating": 4.8
+    },
+    {
+      "id": "pick-park-guell",
+      "name": "Park Güell",
+      "category": "sight",
+      "address": "Carrer d’Olot 5, 08024 Barcelona",
+      "lat": 41.4145,
+      "lng": 2.1527,
+      "description": "A short, visual morning rather than an all-day march.",
+      "note": "Use the early slot and leave while it still feels fun. The mosaic dragon is the hook, but the real win is giving the children room to notice things on their own.",
+      "hours": "Timed entry in itinerary",
+      "priceLevel": 2,
+      "rating": 4.6
+    },
+    {
+      "id": "pick-cosmocaixa",
+      "name": "CosmoCaixa Barcelona",
+      "category": "family",
+      "address": "Carrer d’Isaac Newton 26, 08022 Barcelona",
+      "lat": 41.4125,
+      "lng": 2.1293,
+      "description": "A hands-on science museum for a lower-pressure family day.",
+      "note": "This is a good counterweight to churches and plazas. The five-year-old can touch and watch things happen, while the nine-year-old gets enough explanation to stay with it.",
+      "hours": "Timed entry in itinerary",
+      "priceLevel": 2,
+      "rating": 4.7
+    },
+    {
+      "id": "pick-tibidabo",
+      "name": "Tibidabo",
+      "category": "family",
+      "address": "Plaça del Tibidabo 3-4, 08035 Barcelona",
+      "lat": 41.4225,
+      "lng": 2.1191,
+      "description": "The bigger family day, held for the end of the trip.",
+      "note": "Before a real booking I would check height rules and the operating calendar. For this mock, it is the one day where the adults can be children too.",
+      "hours": "Check operating calendar before booking",
+      "priceLevel": 3,
+      "rating": 4.4
+    },
+    {
+      "id": "pick-barceloneta",
+      "name": "Barceloneta Beach",
+      "category": "family",
+      "address": "Passeig Marítim de la Barceloneta, 08003 Barcelona",
+      "lat": 41.3784,
+      "lng": 2.1903,
+      "description": "An easy weather-dependent morning with no ticket attached.",
+      "note": "Bring hats, a change of clothes, and sealed snacks. Keep the water optional and let the morning stay small.",
+      "hours": "Weather-dependent",
+      "priceLevel": 1
+    },
+    {
+      "id": "pick-la-mar-salada",
+      "name": "La Mar Salada",
+      "category": "restaurant",
+      "address": "Passeig de Joan de Borbó 58-59, 08003 Barcelona",
+      "lat": 41.3767,
+      "lng": 2.1886,
+      "description": "Seafood near the water, used here as the long lunch anchor.",
+      "note": "This is where I would let lunch stretch. The afternoon is intentionally blank, so there is no reason to rush the last plate.",
+      "hours": "Mock table in itinerary",
+      "priceLevel": 3,
+      "rating": 4.4
+    },
+    {
+      "id": "pick-bodega-joan",
+      "name": "Bodega Joan",
+      "category": "restaurant",
+      "address": "Carrer del Rosselló 164, 08036 Barcelona",
+      "lat": 41.3921,
+      "lng": 2.1537,
+      "description": "A straightforward tapas table that works well early.",
+      "note": "I used this twice in the mock because repetition is useful with children. Familiar menus are not a failure of imagination. They are how everyone gets to dinner in a good mood.",
+      "hours": "Mock table in itinerary",
+      "priceLevel": 2,
+      "rating": 4.3
+    },
+    {
+      "id": "pick-cuines",
+      "name": "Cuines Santa Caterina",
+      "category": "restaurant",
+      "address": "Mercat de Santa Caterina, Avinguda de Francesc Cambó 16, 08003 Barcelona",
+      "lat": 41.3866,
+      "lng": 2.1778,
+      "description": "Market-hall flexibility for a family that wants different things.",
+      "note": "This is the useful kind of restaurant on a family trip. Everyone can find something, nobody has to pretend to like the same thing, and the room still feels like Barcelona.",
+      "hours": "Mock table in itinerary",
+      "priceLevel": 2,
+      "rating": 4.3
+    },
+    {
+      "id": "pick-el-nacional",
+      "name": "El Nacional",
+      "category": "restaurant",
+      "address": "Passeig de Gràcia 24 bis, 08007 Barcelona",
+      "lat": 41.3914,
+      "lng": 2.1648,
+      "description": "A large room with several food counters and an early family table.",
+      "note": "I like this when the group has different appetites. It gives the adults a proper setting without turning dinner into a negotiation.",
+      "hours": "Mock table in itinerary",
+      "priceLevel": 3,
+      "rating": 4.3
+    },
+    {
+      "id": "pick-granja",
+      "name": "Granja M. Viader",
+      "category": "cafe",
+      "address": "Carrer d’en Xuclà 4-6, 08001 Barcelona",
+      "lat": 41.3834,
+      "lng": 2.1701,
+      "description": "A classic breakfast stop for hot chocolate and pastries.",
+      "note": "I would go early, order for the table, and let this be the first story the children tell about the city.",
+      "hours": "Mock breakfast in itinerary",
+      "priceLevel": 1,
+      "rating": 4.5
+    },
+    {
+      "id": "pick-hofmann",
+      "name": "Hofmann Pastisseria",
+      "category": "cafe",
+      "address": "Carrer dels Flassaders 44, 08003 Barcelona",
+      "lat": 41.3853,
+      "lng": 2.1821,
+      "description": "A pastry stop before the science museum morning.",
+      "note": "One good pastry is enough. I would keep it simple and make the walk afterward part of the morning.",
+      "hours": "Mock breakfast in itinerary",
+      "priceLevel": 2,
+      "rating": 4.4
+    },
+    {
+      "id": "pick-aquarium",
+      "name": "Barcelona Aquarium",
+      "category": "family",
+      "address": "Moll d’Espanya del Port Vell, 08039 Barcelona",
+      "lat": 41.3752,
+      "lng": 2.1844,
+      "description": "A practical rainy-day alternative to the beach.",
+      "note": "I kept this as the weather backup rather than adding it to the main week. A good family trip needs an escape hatch, not more commitments.",
+      "hours": "Use only if weather changes",
+      "priceLevel": 3,
+      "rating": 4.3
+    },
+    {
+      "id": "pick-laie",
+      "name": "Laie bookstore at CaixaForum",
+      "category": "shop",
+      "address": "Av. Francesc Ferrer i Guàrdia 6-8, 08038 Barcelona",
+      "lat": 41.3683,
+      "lng": 2.1488,
+      "description": "A small book stop to keep in reserve near Montjuïc.",
+      "note": "If the children want a souvenir, I would choose a book before another plastic object. It travels home better.",
+      "hours": "Optional stop",
+      "priceLevel": 2
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-gabe",
+      "name": "Gabe",
+      "role": "Your travel advisor",
+      "phone": "+1 323 854 1678",
+      "note": "Text me first. Every reservation in this version is mock, but the real trip should still feel this cared for."
+    },
+    {
+      "id": "contact-transfer",
+      "name": "Mock transfer desk",
+      "role": "Airport cars",
+      "phone": "+34 000 000 000",
+      "note": "Placeholder contact only. Confirm the provider and both child restraints before a real booking."
+    }
+  ],
+  "guideBlocks": [
+    {
+      "heading": "Prototype status",
+      "body": "This is a complete mocked Carta for a family of four. The flight numbers, confirmation codes, hotel stay, restaurant tables, activity entries, and provider contacts are placeholders. No money has moved, no inventory has been checked, and no reservation exists."
+    },
+    {
+      "heading": "How I shaped the week",
+      "body": "The five and nine-year-old get one principal outing each day, protected rest windows after lunch, and early dinners. The optional places stay in Picks so the family can add them only when everyone still has energy."
+    },
+    {
+      "heading": "Working assumptions",
+      "body": "I used October 14 to 20, 2026, JFK as the placeholder home airport, Poblenou as the base, and two child restraints requested for every private transfer. Before this becomes a real trip, I would confirm names, passport details, children’s heights and weights, room configuration, flight origin, operating calendars, and the actual restaurant availability."
+    },
+    {
+      "heading": "Moving around with children",
+      "body": "Use walking for the neighborhood days and a private car for the airport and Tibidabo. For every real transfer, confirm the correct restraint for each child in writing. If the children are done, remove the next optional stop. The schedule is designed to survive that decision."
+    },
+    {
+      "heading": "Food and dinner timing",
+      "body": "No allergy or dietary restriction was provided, so the mock uses flexible restaurants and early tables. If there is an allergy, tell me before booking. I would attach it to every reservation and confirm ingredients, sauces, oils, preparation surfaces, and cross-contact handling with a manager."
+    },
+    {
+      "heading": "Power and plug compatibility",
+      "body": "Spain uses Type C and Type F outlets at 230V and 50Hz. Pack one compact European adapter in the carry-on. Most modern phone, laptop, and camera chargers accept 100 to 240V, but hair tools and specialty devices often do not, so check their labels before bringing them."
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-mock-confirmations",
+      "label": "Mock confirmation packet",
+      "fileUrl": "trip-docs/barcelona-family-four-6m2q8v-mock-confirmations.txt",
+      "mime": "text/plain"
+    }
+  ],
+  "essentials": [
+    {
+      "id": "essential-emergency",
+      "label": "Emergency",
+      "value": "112",
+      "phone": "112",
+      "note": "European emergency number. In a real trip, I would save the hotel address in the phone before departure."
+    },
+    {
+      "id": "essential-hospital",
+      "label": "Hospital reference",
+      "value": "Hospital del Mar",
+      "address": "Passeig Marítim de la Barceloneta 25, 08003 Barcelona",
+      "lat": 41.3851,
+      "lng": 2.1932,
+      "note": "Reference point for the mock. Confirm the appropriate pediatric service before travel."
+    },
+    {
+      "id": "essential-hotel",
+      "label": "Your hotel, for a taxi driver",
+      "value": "The Hoxton, Poblenou",
+      "address": "Avinguda Diagonal 205, 08018 Barcelona"
+    }
+  ]
+}
