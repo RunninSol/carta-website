@@ -2901,6 +2901,117 @@ export const destinationPages: SeoContentPage[] = [
     ],
     related: ["aspen", "atacama-desert", "belize"],
   },
+  {
+    slug: "beijing",
+    kind: "destination",
+    eyebrow: "Beijing travel planning",
+    title: "Beijing gets better when the scale changes.",
+    seoTitle: "Beijing Travel Planning | Great Wall, Food & 5 Nights",
+    description:
+      "Beijing travel planning for the Forbidden City, Great Wall, hutongs, Peking duck, hotel bases, timing, and a private trip hub.",
+    intro:
+      "Beijing is an imperial axis, a hutong breakfast, a northern Chinese table, a contemporary art district, and a mountain wall beyond the city. I would not try to cover it in one heroic sweep. The better trip changes scale on purpose, then leaves enough room for the city to feel lived in.",
+    bestFor: [
+      "History and architecture travelers who want the imperial city explained, not just photographed",
+      "Food-focused travelers who want Peking duck, lamb hotpot, Niujie, breakfast counters, and serious contemporary cooking",
+      "Families and couples who can trade frictionless spontaneity for a well-run, carefully timed route",
+    ],
+    timing:
+      "Late April through May and mid-September through October are the broad sweet spots outside public holidays. Winter can be clear and dramatic but genuinely cold. June through August means heat, humidity, thunderstorms, and earlier starts. I protect the Great Wall and open-air monuments with a forecast-led order rather than promising one perfect month.",
+    hotelLogic:
+      "Mandarin Oriental Qianmen is the courtyard-scale choice near the imperial core. Aman Summer Palace is compelling when the garden itself deserves time, but it is not the most efficient base for central Beijing dinners. Rosewood, Bulgari, Peninsula, Four Seasons, Regent, and Waldorf offer more conventional luxury operations in CBD and Wangfujing geography. The PuXuan, CHAO, and Hotel Éclat trade scale for design identity. The base should solve the route before the room solves the view.",
+    foodLogic:
+      "Beijing food is much bigger than roast duck. For a lively, local-leaning duck night, Siji Minfu is a useful lead, while Sheng Yong Xing and Bianyifang solve more specific versions of the dinner. Quanjude is history and ceremony, not an automatic best. Add Jubaoyuan on Niujie for copper-pot lamb, a zhajiangmian comparison at Hai Wan Ju or Fang Zhuan Chang No. 69, and one breakfast route. Exact branch, queue, and same-week opening checks still matter.",
+    avoid:
+      "Do not combine the Forbidden City, Summer Palace, and Great Wall in one day. I would avoid peak Nanluoguxiang, Wangfujing snack-street expectations, generic rickshaw circuits, and treating Badaling at midday as the only wall option. A named historian, early access, and one deliberate food route usually add more than another famous pin.",
+    cartaTake:
+      "Beijing is a city of changes in scale. I would open with the imperial axis, move into a bowl of noodles in a residential lane, then spend a whole day on the wall with enough time to hear the wind. That is when the city stops feeling like a checklist and starts to feel like a place.",
+    highlights: [
+      {
+        title: "The imperial axis needs a pace",
+        body: "Use first admission at the Forbidden City, then Jingshan for the view. Temple of Heaven and Summer Palace deserve separate windows. Stacking every major monument together spends the best part of the city on transfers and fatigue.",
+      },
+      {
+        title: "The Great Wall is a route decision",
+        body: "Mutianyu can work for mixed mobility when it is early and weekday. Jinshanling is the stronger hiking assignment for the right client. The section, weather, operator, and return plan matter more than simply saying Great Wall.",
+      },
+      {
+        title: "Hutongs are living neighborhoods",
+        body: "Gulou, White Stupa, Fayuan Temple, and the lanes around the Drum Tower are better with a named historian or resident specialist. I would not turn them into a shopping circuit or a generic rickshaw ride.",
+      },
+      {
+        title: "Duck is the beginning of the food plan",
+        body: "Compare Siji Minfu, Sheng Yong Xing, or Bianyifang by the kind of night you want, then keep going into Niujie, zhajiangmian, douzhi, breakfast pastries, lamb hotpot, and the restaurants shaping contemporary Beijing.",
+      },
+    ],
+    tripShapes: [
+      {
+        title: "3 nights",
+        body: "Forbidden City and Jingshan with a hutong evening, one full Great Wall day, then Temple of Heaven, Niujie, and one deliberate contemporary dinner. Save Summer Palace for a longer stay.",
+      },
+      {
+        title: "5 nights",
+        body: "Add Summer Palace or Old Summer Palace, a 798 or museum block, a deeper food assignment, and one open afternoon. Keep the wall isolated from city sightseeing.",
+      },
+      {
+        title: "7 nights",
+        body: "Add contemporary art or craft, a slower Haidian day, and an overnight wall or retreat option. Use the extra time for recovery, not a rushed Xi'an day trip.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/destinations/beijing/forbidden-city-scenic.webp",
+        alt: "Red and gold roofs of the Forbidden City seen across Beijing's historic center",
+        caption: "The imperial axis is the opening chapter, not a reason to stack every major monument into one day.",
+        credit: "Gang Hao, Unsplash License",
+        creditUrl: "https://unsplash.com/photos/a-scenic-view-of-the-forbidden-city-in-china-Vn4YSw-figM",
+        sizes: "100vw",
+      },
+      {
+        src: "/photos/destinations/beijing/forbidden-city-meridian-gate.webp",
+        alt: "Visitors approaching the Meridian Gate of the Forbidden City in Beijing",
+        caption: "First admission is worth protecting, but the Forbidden City needs a focused route and an exit plan.",
+        credit: "Nancy Pelosi, CC BY 2.0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:At_the_Forbidden_City_in_Beijing_(3576180434).jpg",
+      },
+      {
+        src: "/photos/destinations/beijing/mutianyu-great-wall.webp",
+        alt: "Stone walkway and watchtower on the Mutianyu section of the Great Wall near Beijing",
+        caption: "Mutianyu works for mixed mobility when it is early and weekday. Jinshanling is a different hiking assignment.",
+        credit: "CTLiotta, CC0",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Great_Wall_of_China_at_Mutianyu.JPG",
+      },
+      {
+        src: "/photos/destinations/beijing/temple-of-heaven.webp",
+        alt: "The Hall of Prayer for Good Harvests at Beijing's Temple of Heaven",
+        caption: "Temple of Heaven is strongest at opening, when local exercise and imperial ritual share the same park.",
+        credit: "Macarena Ollarzú, Unsplash License",
+        creditUrl: "https://unsplash.com/photos/the-temple-of-heaven-in-beijing-with-many-visitors-ZZgVtMff1Gk",
+      },
+      {
+        src: "/photos/destinations/beijing/hutong-lane.webp",
+        alt: "Green-lined hutong lane with scooters and low-rise courtyard homes in Beijing",
+        caption: "A hutong is a living neighborhood, not a staged rickshaw circuit.",
+        credit: "Howen, Unsplash License",
+        creditUrl: "https://unsplash.com/photos/a-narrow-alley-way-with-lots-of-greenery-6Te1KtNhp6o",
+      },
+      {
+        src: "/photos/destinations/beijing/summer-palace.webp",
+        alt: "Aerial view of the Summer Palace roofs, gardens, and lake in Beijing",
+        caption: "Summer Palace deserves its own half or full day. It is not the third imperial stop to squeeze into a morning.",
+        credit: "Bing HAO, Unsplash License",
+        creditUrl: "https://unsplash.com/photos/an-aerial-view-of-an-ancient-chinese-palace-4P1fL_lxY28",
+      },
+      {
+        src: "/photos/destinations/beijing/peking-duck.webp",
+        alt: "Sliced roasted Peking duck arranged on a plate",
+        caption: "Peking duck is one meal, not the whole Beijing food story. Choose the room, branch, and style of dinner deliberately.",
+        credit: "Wenhao Wang, Unsplash License",
+        creditUrl: "https://unsplash.com/photos/crispy-peking-duck-with-mint-leaves-on-white-plate-tm4Y0NAUA48",
+      },
+    ],
+    related: ["tokyo", "bangkok", "egypt"],
+  },
 ];
 
 export const itineraryPages: SeoContentPage[] = [
